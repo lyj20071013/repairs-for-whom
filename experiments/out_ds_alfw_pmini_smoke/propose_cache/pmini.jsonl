@@ -1,0 +1,9 @@
+{"key": "p000|t8", "hash": "609613d0ce92bd8a", "out": {"text": "Action 1: examine coffeetable 1\nAction 2: go to dresser 1", "finish_reason": "stop", "error": null}}
+{"key": "p000|t24", "hash": "f45d1dbdc1544826", "out": {"text": "Action 1: examine sidetable 2\nAction 2: go to coffeetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p000|t35", "hash": "d125f9b3ac35b0f0", "out": {"text": "Action 1: go to diningtable 1\nAction 2: examine coffeetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p001|t10", "hash": "2948bb14172f1344", "out": {"text": "Action 1: examine cd 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p001|t22", "hash": "8a1214537080f2db", "out": {"text": "Action 1: examine desk 1\nAction 2: take cd 1 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p001|t39", "hash": "33285deb116e6a42", "out": {"text": "Action 1: examine desk 1\nAction 2: take cd 1 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p004|t10", "hash": "1ba8f1a81f260ea8", "out": {"text": "Action 1: examine sidetable 1\nAction 2: examine book 1", "finish_reason": "stop", "error": null}}
+{"key": "p004|t28", "hash": "83d1f5ffc0844d8e", "out": {"text": "Action 1: examine sidetable 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p004|t30", "hash": "0d03d871ed2fd5c2", "out": {"text": "Action 1: examine sidetable 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}

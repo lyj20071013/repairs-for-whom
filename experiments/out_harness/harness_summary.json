@@ -1,0 +1,47 @@
+{
+  "deployed": {
+    "n": 1200,
+    "optimal": 0.7541666666666667,
+    "reading_error": 0.06916666666666667,
+    "trap": 0.009166666666666667,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "mean_tokens": 34.026666666666664,
+    "by_stage_optimal": {
+      "->key": 0.7766666666666666,
+      "door_open->gem": 0.8766666666666667,
+      "gem->home": 0.8566666666666667,
+      "key->door": 0.5066666666666667
+    }
+  },
+  "deployed_greedy": {
+    "n": 300,
+    "optimal": 0.76,
+    "reading_error": 0.09333333333333334,
+    "trap": 0.01,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "mean_tokens": 34.48,
+    "by_stage_optimal": {
+      "->key": 0.76,
+      "door_open->gem": 0.92,
+      "gem->home": 0.84,
+      "key->door": 0.52
+    }
+  },
+  "reasoned": {
+    "n": 1200,
+    "optimal": 0.7066666666666667,
+    "reading_error": 0.04833333333333333,
+    "trap": 0.004166666666666667,
+    "malformed": 0.0,
+    "truncated": 0.0,
+    "mean_tokens": 83.28583333333333,
+    "by_stage_optimal": {
+      "->key": 0.73,
+      "door_open->gem": 0.6166666666666667,
+      "gem->home": 0.8566666666666667,
+      "key->door": 0.6233333333333333
+    }
+  }
+}
