@@ -1,0 +1,36 @@
+{
+ "runs": [
+  {
+   "cond": "q14_T07/WS1",
+   "wall": 26223.264658410102,
+   "policy_steps": 273636,
+   "rollouts": 43760,
+   "gen_s": 23115.8491511615,
+   "env_s": 1329.5168029842898,
+   "max_prompt_tokens": 7428,
+   "gpu": {
+    "names": [
+     "NVIDIA A800 80GB PCIe"
+    ],
+    "visible": null
+   },
+   "time": "2026-10-28 00:28"
+  },
+  {
+   "cond": "q14_greedy/WS1",
+   "wall": 2534.0236024735495,
+   "policy_steps": 14429,
+   "rollouts": 2188,
+   "gen_s": 2377.00595377665,
+   "env_s": 63.3764099041,
+   "max_prompt_tokens": 5710,
+   "gpu": {
+    "names": [
+     "NVIDIA A800 80GB PCIe"
+    ],
+    "visible": null
+   },
+   "time": "2026-10-28 01:11"
+  }
+ ]
+}

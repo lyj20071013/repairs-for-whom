@@ -43,26 +43,21 @@
       "branches": 2251,
       "executors": [
         "q7",
-        "l8"
+        "l8",
+        "q14"
       ],
-      "pending": [
-        {
-          "executor": "q14",
-          "status": "missing",
-          "expected_samples": 20
-        }
-      ]
+      "pending": []
     }
   ],
   "tests_passed": true,
-  "test_output": "test_bootstrap_pairs_and_finite (test_framework.FrameworkTests.test_bootstrap_pairs_and_finite) ... ok\ntest_explicit_abstain (test_framework.FrameworkTests.test_explicit_abstain) ... ok\ntest_hash_tamper (test_framework.FrameworkTests.test_hash_tamper) ... ok\ntest_holm_pending_family (test_framework.FrameworkTests.test_holm_pending_family) ... ok\ntest_incomplete_replay_not_attached (test_framework.FrameworkTests.test_incomplete_replay_not_attached) ... ok\ntest_incomplete_rollouts_fail_even_with_new_hash (test_framework.FrameworkTests.test_incomplete_rollouts_fail_even_with_new_hash) ... ok\ntest_invalid_choice (test_framework.FrameworkTests.test_invalid_choice) ... ok\ntest_known_crossfit_prevents_winners_curse (test_framework.FrameworkTests.test_known_crossfit_prevents_winners_curse) ... ok\ntest_label_free_called_once (test_framework.FrameworkTests.test_label_free_called_once) ... ok\ntest_manifest_tamper (test_framework.FrameworkTests.test_manifest_tamper) ... ok\ntest_plugin_gets_no_evaluation_outcomes (test_framework.FrameworkTests.test_plugin_gets_no_evaluation_outcomes) ... ok\ntest_predictions_missing_is_error (test_framework.FrameworkTests.test_predictions_missing_is_error) ... ok\ntest_predictions_wrong_version_is_error (test_framework.FrameworkTests.test_predictions_wrong_version_is_error) ... ok\ntest_replay_plan_tamper (test_framework.FrameworkTests.test_replay_plan_tamper) ... ok\ntest_replay_resume_and_attach (test_framework.FrameworkTests.test_replay_resume_and_attach) ... ok\ntest_strict_json (test_framework.FrameworkTests.test_strict_json) ... ok\ntest_alfworld_adapter_flow (test_runtime_adapter.RuntimeTests.test_alfworld_adapter_flow) ... ok\ntest_replay_mismatch_stops_before_scoring (test_runtime_adapter.RuntimeTests.test_replay_mismatch_stops_before_scoring) ... ok\ntest_webshop_adapter_flow (test_runtime_adapter.RuntimeTests.test_webshop_adapter_flow) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 0.931s\n\nOK\n",
+  "test_output": "test_bootstrap_pairs_and_finite (test_framework.FrameworkTests.test_bootstrap_pairs_and_finite) ... ok\ntest_explicit_abstain (test_framework.FrameworkTests.test_explicit_abstain) ... ok\ntest_hash_tamper (test_framework.FrameworkTests.test_hash_tamper) ... ok\ntest_holm_pending_family (test_framework.FrameworkTests.test_holm_pending_family) ... ok\ntest_incomplete_replay_not_attached (test_framework.FrameworkTests.test_incomplete_replay_not_attached) ... ok\ntest_incomplete_rollouts_fail_even_with_new_hash (test_framework.FrameworkTests.test_incomplete_rollouts_fail_even_with_new_hash) ... ok\ntest_invalid_choice (test_framework.FrameworkTests.test_invalid_choice) ... ok\ntest_known_crossfit_prevents_winners_curse (test_framework.FrameworkTests.test_known_crossfit_prevents_winners_curse) ... ok\ntest_label_free_called_once (test_framework.FrameworkTests.test_label_free_called_once) ... ok\ntest_manifest_tamper (test_framework.FrameworkTests.test_manifest_tamper) ... ok\ntest_plugin_gets_no_evaluation_outcomes (test_framework.FrameworkTests.test_plugin_gets_no_evaluation_outcomes) ... ok\ntest_predictions_missing_is_error (test_framework.FrameworkTests.test_predictions_missing_is_error) ... ok\ntest_predictions_wrong_version_is_error (test_framework.FrameworkTests.test_predictions_wrong_version_is_error) ... ok\ntest_replay_plan_tamper (test_framework.FrameworkTests.test_replay_plan_tamper) ... ok\ntest_replay_resume_and_attach (test_framework.FrameworkTests.test_replay_resume_and_attach) ... ok\ntest_strict_json (test_framework.FrameworkTests.test_strict_json) ... ok\ntest_alfworld_adapter_flow (test_runtime_adapter.RuntimeTests.test_alfworld_adapter_flow) ... ok\ntest_replay_mismatch_stops_before_scoring (test_runtime_adapter.RuntimeTests.test_replay_mismatch_stops_before_scoring) ... ok\ntest_webshop_adapter_flow (test_runtime_adapter.RuntimeTests.test_webshop_adapter_flow) ... ok\n\n----------------------------------------------------------------------\nRan 19 tests in 0.887s\n\nOK\n",
   "example_matched_loss": 0.0,
   "example_uniform_identity_error": 0.0,
   "real_gpu_tested": false,
   "source_project_modified": false,
   "paper_reproduction": {
     "passed": true,
-    "report_sha256": "790f10098c8e22ffb5a1d9fb6eb5d6275aae3b4fb32ba9520845d54e72088e61",
+    "report_sha256": "a822fe2cb76c2d6e63a58edb615cde4d7b20dddc2f350c425e1a901e69ce0b11",
     "comparisons": [
       {
         "pool": "alfworld-q7",
@@ -106,6 +101,11 @@
       },
       {
         "test": "H1w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "P2w",
         "max_abs_stat_error": 0.0,
         "pass": true
       },

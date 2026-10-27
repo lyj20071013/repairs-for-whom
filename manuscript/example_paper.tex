@@ -19,8 +19,16 @@
 % Attempt to make hyperref and algorithmic work together better:
 \newcommand{\theHalgorithm}{\arabic{algorithm}}
 
-% Use the following line for the initial blind version submitted for review:
-\usepackage{icml2026}
+% Public arXiv preprint with named authors.
+\usepackage[preprint]{icml2026}
+% Keep author affiliations, but omit the preprint/date notice.
+\makeatletter
+\renewcommand{\Notice@String}{}
+\makeatother
+\hypersetup{
+  pdftitle={Repairs for Whom? Evaluator--Executor Mismatch in Selecting Repairs for Failed LLM Agents},
+  pdfsubject={Research preprint}
+}
 
 % For preprint, use
 % \usepackage[preprint]{icml2026}
@@ -55,8 +63,6 @@
 %    and comment out the line below the next line to turn off comments
 %\usepackage[disable,textsize=tiny]{todonotes}
 \usepackage[textsize=tiny]{todonotes}
-% Red placeholders for results that are still running (WS-B, P2w); remove before submission.
-\newcommand{\pending}[1]{{\color{red}#1}}
 
 % The \icmltitle you define below is probably too long as a header.
 % Therefore, a short form for the running title is supplied here:
@@ -67,41 +73,14 @@
 \twocolumn[
   \icmltitle{Repairs for Whom? Evaluator--Executor Mismatch\\in Selecting Repairs for Failed LLM Agents}
 
-  % It is OKAY to include author information, even for blind submissions: the
-  % style file will automatically remove it for you unless you've provided
-  % the [accepted] option to the icml2026 package.
-
-  % List of affiliations: The first argument should be a (short) identifier you
-  % will use later to specify author affiliations Academic affiliations
-  % should list Department, University, City, Region, Country Industry
-  % affiliations should list Company, City, Region, Country
-
-  % You can specify symbols, otherwise they are numbered in order. Ideally, you
-  % should not use this facility. Affiliations will be numbered in order of
-  % appearance and this is the preferred way.
-  \icmlsetsymbol{equal}{*}
-
   \begin{icmlauthorlist}
-    \icmlauthor{Firstname1 Lastname1}{equal,yyy}
-    \icmlauthor{Firstname2 Lastname2}{equal,yyy,comp}
-    \icmlauthor{Firstname3 Lastname3}{comp}
-    \icmlauthor{Firstname4 Lastname4}{sch}
-    \icmlauthor{Firstname5 Lastname5}{yyy}
-    \icmlauthor{Firstname6 Lastname6}{sch,yyy,comp}
-    \icmlauthor{Firstname7 Lastname7}{comp}
-    %\icmlauthor{}{sch}
-    \icmlauthor{Firstname8 Lastname8}{sch}
-    \icmlauthor{Firstname8 Lastname8}{yyy,comp}
-    %\icmlauthor{}{sch}
-    %\icmlauthor{}{sch}
+    \icmlauthor{Yijun Liao}{independent}
+    \icmlauthor{Fanwei Liang}{scut}
   \end{icmlauthorlist}
 
-  \icmlaffiliation{yyy}{Department of XXX, University of YYY, Location, Country}
-  \icmlaffiliation{comp}{Company Name, Location, Country}
-  \icmlaffiliation{sch}{School of ZZZ, Institute of WWW, Location, Country}
-
-  \icmlcorrespondingauthor{Firstname1 Lastname1}{first1.last1@xxx.edu}
-  \icmlcorrespondingauthor{Firstname2 Lastname2}{first2.last2@www.uk}
+  \icmlaffiliation{independent}{Independent Researcher}
+  \icmlaffiliation{scut}{South China University of Technology}
+  % No corresponding author is designated for this preprint.
 
   % You may provide any keywords that you find helpful for describing your
   % paper; these are used to populate the "keywords" metadata in the PDF but
@@ -127,7 +106,7 @@
 
 
 \begin{abstract}
-  When an LLM agent fails, repair methods choose which action to replace and what to put in its place. They often score candidate repairs with greedy replay, a stronger model, an environment oracle, or a judge that reads the failed log. We ask whether these evaluators pick repairs that help the agent that will actually execute them. Holding failed trajectories and candidate single-step repairs fixed, we label every candidate with independent rollouts of the deployed policy and measure how much deployment value each evaluator's choice loses. On failures not screened for repair value, pre-specified tests show that greedy replay loses 0.13 in expected net success gain in ALFWorld and 0.06 in net reward in WebShop, relative to selection with the deployed agent's own rollouts. At an equal rollout budget, selecting repairs for Qwen2.5-7B with Qwen2.5-14B rollouts loses 0.25, twenty 14B rollouts per candidate are worth about as much as one 7B rollout, and fresh rollouts confirm that the two models prefer opposite repairs on selected disagreement cases. Between similar-sized models from different families, the losses appear in both directions in both environments (0.07--0.17). The scoring executor also changes repair-location labels and method rankings. Repairs should be verified with the executor that will run them, and repair labels should name their executor.
+  When an LLM agent fails, repair methods choose which action to replace and what to put in its place. They often score candidate repairs with greedy replay, a stronger model, an environment oracle, or a judge that reads the failed log. We ask whether these evaluators pick repairs that help the agent that will actually execute them. Holding failed trajectories and candidate single-step repairs fixed, we label every candidate with independent rollouts of the deployed policy and measure how much deployment value each evaluator's choice loses. On failures not screened for repair value, pre-specified tests show that greedy replay loses 0.13 in expected net success gain in ALFWorld and 0.06 in net reward in WebShop, relative to selection with the deployed agent's own rollouts. At an equal rollout budget, selecting repairs for Qwen2.5-7B with Qwen2.5-14B rollouts loses 0.25 in ALFWorld and 0.07 in WebShop, twenty 14B rollouts per candidate are worth no more than two of the 7B agent's own, and fresh rollouts confirm that the two models prefer opposite repairs on selected disagreement cases. Between similar-sized models from different families, the losses appear in both directions in both environments (0.07--0.17). The scoring executor also changes repair-location labels and method rankings. Repairs should be verified with the executor that will run them, and repair labels should name their executor.
 \end{abstract}
 
 \section{Introduction}
@@ -148,13 +127,13 @@ That a repair's value depends on the executing policy is unsurprising in princip
 
 We measure this regret directly. Our protocol holds fixed the failed trajectories of a deployed agent and a set of candidate single-step repairs, estimates every candidate's net gain for the deployed agent from rollouts that no selection uses, and compares each evaluator's choice with \emph{matched selection}, which uses the deployed agent's own rollouts. We apply it to a gridworld, ALFWorld \citep{shridhar2021alfworld}, and WebShop \citep{yao2022webshop}, with two deployed agents whose failures we repair (Qwen2.5-7B-Instruct and Llama-3.1-8B-Instruct) and failure pools that were not screened for repair value, under tests pre-specified in a timestamped analysis plan; stronger models such as Qwen2.5-14B-Instruct serve only as substitute executors. We ask three questions.
 
-\emph{How much do substitute evaluators lose?} On the unscreened pools, greedy replay of the deployed agent loses 0.13 in success probability in ALFWorld and 0.06 in reward in WebShop, and choosing with five rollouts per candidate from Qwen2.5-14B instead of the deployed 7B agent loses 0.25; between Qwen2.5-7B and Llama-3.1-8B the loss is smaller but present in both directions in both environments, with each model selecting repairs for the other on the other's own failures. Screened pools, in which we compare many more evaluators, show the same pattern for environment oracles, published verification rules, and LLM judges (\cref{sec:main}).
+\emph{How much do substitute evaluators lose?} On the unscreened pools, greedy replay of the deployed agent loses 0.13 in success probability in ALFWorld and 0.06 in reward in WebShop, and choosing with five rollouts per candidate from Qwen2.5-14B instead of the deployed 7B agent loses 0.25 in ALFWorld and 0.07 in WebShop; between Qwen2.5-7B and Llama-3.1-8B the loss is smaller but present in both directions in both environments, with each model selecting repairs for the other on the other's own failures. Screened pools, in which we compare many more evaluators, show the same pattern for environment oracles, published verification rules, and LLM judges (\cref{sec:main}).
 
-\emph{Is the loss only estimation noise?} No. More rollouts of a substitute executor close the gap slowly: twenty 14B rollouts per candidate select repairs worth about as much to the 7B agent as one of its own. Fresh rollouts confirm that the 7B and 14B models prefer opposite repairs on selected disagreement cases, whereas Llama mainly fails to separate the repairs the 7B agent needs (\cref{sec:why}).
+\emph{Is the loss only estimation noise?} No. More rollouts of a substitute executor close the gap slowly: twenty 14B rollouts per candidate select repairs worth about as much to the 7B agent as one of its own in ALFWorld, and less than two in WebShop. Fresh rollouts confirm that the 7B and 14B models prefer opposite repairs on selected disagreement cases, whereas Llama mainly fails to separate the repairs the 7B agent needs (\cref{sec:why}).
 
 \emph{What does the executor change downstream?} The executor that scores the counterfactuals changes where a repair-location label points and which selection method a benchmark ranks first (\cref{sec:consequences}).
 
-A few rollouts of the deployed agent per candidate recover most of the loss; we delineate when this verification is cheap and when the bottleneck is the candidate set instead (\cref{sec:method}). Our contributions are a measurement protocol for repair selection under evaluator--executor mismatch (fixed candidates, independent deployed-policy labels, cross-fitted selection loss, pre-specified tests); evidence across three environments and two deployed agents, including fresh-rollout evidence of genuine preference reversals; and the consequences for repair labels, benchmarks, and low-cost verification. We release code, trajectories, all rollout outcomes, and the analysis plan.
+A few rollouts of the deployed agent per candidate recover most of the loss; we delineate when this verification is cheap and when the bottleneck is the candidate set instead (\cref{sec:method}). Our contributions are a measurement protocol for repair selection under evaluator--executor mismatch (fixed candidates, independent deployed-policy labels, cross-fitted selection loss, pre-specified tests); evidence across three environments and two deployed agents, including fresh-rollout evidence of genuine preference reversals; and the consequences for repair labels, benchmarks, and low-cost verification. We release code, trajectories, all rollout outcomes, and the analysis plan.\footnote{\url{https://github.com/lyj20071013/repairs-for-whom}}
 
 \section{Problem Setup}
 \label{sec:problem}
@@ -226,7 +205,7 @@ The deployed agents, whose failures we repair and whose success defines deployme
     \multicolumn{4}{@{}l}{\emph{Unscreened (primary)}} \\
     ALFWorld, 7B & 60/82 & L, P, R (6.1) & 7B 10, 14B 20, Llama 10 \\
     ALFWorld, Llama & 60/109 & L, P, R (6.0) & Llama 10, 7B 10 \\
-    WebShop, 7B & 60/72 & C, L, P, R (11.5) & 7B 10, Llama 10\pending{, 14B} \\
+    WebShop, 7B & 60/72 & C, L, P, R (11.5) & 7B 10, 14B 20, Llama 10 \\
     WebShop, Llama & 60/86 & C, L, P, R (10.1) & Llama 10, 7B 10 \\
     \midrule
     \multicolumn{4}{@{}l}{\emph{Screened (controlled comparisons)}} \\
@@ -251,14 +230,14 @@ The unit of analysis is the trajectory. Matched selection is cross-fitted: candi
 \begin{figure}[t]
   \centering
   \includegraphics[width=\columnwidth]{figures/fig2_forest.pdf}
-  \caption{\textbf{Deployment value lost by substitute evaluators.} Each row is a paired difference: the deployed agent's value of repairs selected with its own rollouts minus that of the substitute's, both scored on its held-out rollouts. Unscreened pools (every pre-specified primary test, all Holm-confirmed): own selection with five rollouts per candidate versus greedy replay (diamonds) or five rollouts of another model (circles); nonparametric 90\% intervals. Screened pools: ten rollouts per candidate on both sides; bias-corrected 90\% intervals. ALFWorld and gridworld values are success probabilities, WebShop values rewards.\pending{ P2w (14B on the WebShop 7B pool) is added when it finishes.}}
+  \caption{\textbf{Deployment value lost by substitute evaluators.} Each row is a paired difference: the deployed agent's value of repairs selected with its own rollouts minus that of the substitute's, both scored on its held-out rollouts. Unscreened pools (every pre-specified primary test, all Holm-confirmed): own selection with five rollouts per candidate versus greedy replay (diamonds) or five rollouts of another model (circles); nonparametric 90\% intervals. Screened pools: ten rollouts per candidate on both sides; bias-corrected 90\% intervals. ALFWorld and gridworld values are success probabilities, WebShop values rewards.}
   \label{fig:forest}
 \end{figure}
 
 \paragraph{Unscreened failures.}
-\Cref{fig:forest} shows every primary test on the unscreened pools. The positive control passes in every pool, and all nine pre-specified tests reported so far are confirmed after Holm correction (\cref{tab:registered}). Greedy replay of the deployed agent loses 0.08--0.13 in ALFWorld and 0.06--0.13 in WebShop. The largest loss comes from a stronger model: selecting with Qwen2.5-14B's rollouts instead of the 7B agent's own, five per candidate on both sides, loses 0.25 [0.19, 0.32]. Between the similar-sized Qwen and Llama models the loss is present in both directions in both environments: 0.07--0.10 in ALFWorld, and in WebShop 0.08 when Llama selects for the 7B agent and 0.17 when the 7B model selects for Llama.\pending{ P2w (14B on WebShop) still running.} WebShop's losses look small only in absolute terms: matched selection gains 0.15 and 0.31 in reward on the two WebShop pools, against 0.82--0.87 in success probability in ALFWorld, so the substitutes forgo 41--55\% of the attainable gain.
+\Cref{fig:forest} shows every primary test on the unscreened pools. The positive control passes in every pool, and all ten pre-specified primary tests are confirmed after Holm correction (\cref{tab:registered}). Greedy replay of the deployed agent loses 0.08--0.13 in ALFWorld and 0.06--0.13 in WebShop. The largest loss comes from a stronger model: selecting with Qwen2.5-14B's rollouts instead of the 7B agent's own, five per candidate on both sides, loses 0.25 [0.19, 0.32] in ALFWorld, but 0.07 [0.05, 0.10] in WebShop, no more than Llama's selections lose there. Between the similar-sized Qwen and Llama models the loss is present in both directions in both environments: 0.07--0.10 in ALFWorld, and in WebShop 0.08 when Llama selects for the 7B agent and 0.17 when the 7B model selects for Llama. WebShop's losses look small only in absolute terms: matched selection gains 0.15 and 0.31 in reward on the two WebShop pools, against 0.82--0.87 in success probability in ALFWorld, so the substitutes forgo 41--55\% of the attainable gain.
 
-The losses do not come from the privileged candidates: restricted to candidates proposed by at least one LLM (exploratory), greedy replay loses 0.11 [0.07, 0.16] and 14B selection 0.20 [0.14, 0.27] in ALFWorld, and the WebShop losses are 0.04--0.13. The qualitative conclusions persist under the post-repair success objective in ALFWorld (greedy 0.10, 14B 0.29) and under WebShop's secondary success readout, which is weaker (0.04--0.09; \cref{app:post,app:webshop}). On 100 unscreened gridworld failures the losses are smaller (greedy replay 0.05, solvability oracle 0.07), because many such failures admit no useful single-step repair (\cref{app:gridpool}).
+The losses do not come from the privileged candidates: restricted to candidates proposed by at least one LLM (exploratory), greedy replay loses 0.11 [0.07, 0.16] and 14B selection 0.20 [0.14, 0.27] in ALFWorld, and the WebShop losses are 0.04--0.13. The qualitative conclusions persist under the post-repair success objective in ALFWorld (greedy 0.10, 14B 0.29) and under WebShop's secondary success readout, which is weaker (0.03--0.09; \cref{app:post,app:webshop}). On 100 unscreened gridworld failures the losses are smaller (greedy replay 0.05, solvability oracle 0.07), because many such failures admit no useful single-step repair (\cref{app:gridpool}).
 
 \begin{table}[t]
   \caption{Selection loss on the screened pools, relative to matched selection with all of the deployed agent's rollouts (20 per fold in the gridworld, 15 in ALFWorld; deployment net gain 0.662 and 0.851). Larger is worse; bias-corrected 90\% intervals. The first block keeps the target and changes the budget or the decision rule; the published rules use the deployed agent's own rollouts, so their losses come from the rule, not from mismatch. The second block changes the target. Other executors are compared at equal budget in \cref{fig:forest}.}
@@ -296,7 +275,7 @@ The losses do not come from the privileged candidates: restricted to candidates 
 \end{table}
 
 \paragraph{Screened failures: many evaluators.}
-\Cref{tab:screened} compares a wider range of evaluators on the screened pools. With the target held fixed, a few rollouts suffice: three per candidate lose 0.11 in the gridworld and 0.07 in ALFWorld, ten are within noise of matched selection, and the same model at temperature 0.3 stays within our 0.10 margin, so not every deviation from the deployed executor hurts. The substantial losses come from evaluators that estimate something other than the deployed agent's success. At equal budgets of ten rollouts per candidate, other executors lose 0.29 [0.19, 0.40] (14B) and 0.63 [0.55, 0.70] (Qwen3.8-flash) in ALFWorld and 0.06 [0.02, 0.11] and 0.16 [0.10, 0.23] in the gridworld (\cref{fig:forest}); among the executors we tested, the most capable one lost the most.
+\Cref{tab:screened} compares a wider range of evaluators on the screened pools. With the target held fixed, a few rollouts suffice: three per candidate lose 0.11 in the gridworld and 0.07 in ALFWorld, ten are within noise of matched selection, and the same model at temperature 0.3 stays within our 0.10 margin, so not every deviation from the deployed executor hurts. The substantial losses come from evaluators that estimate something other than the deployed agent's success. At equal budgets of ten rollouts per candidate, other executors lose 0.29 [0.19, 0.40] (14B) and 0.63 [0.55, 0.70] (Qwen3.8-flash) in ALFWorld and 0.06 [0.02, 0.11] and 0.16 [0.10, 0.23] in the gridworld (\cref{fig:forest}); on these pools the most capable executor lost the most, although in WebShop the 14B model loses no more than Llama.
 
 \paragraph{Greedy replay.}
 Deterministic replay loses 0.23 in the gridworld and 0.18 in ALFWorld. Part of the reason is that greedy decoding repeats its own mistakes (after bumping into a wall or a closed door it repeats the action 39\% of the time, against 33\% under sampling); in a pre-specified follow-up, switching to sampling whenever the greedy agent revisits a state recovers 0.10 of the 0.23 gridworld loss. The remainder reflects which branches the deterministic policy happens to solve, which differs from the stochastic policy that will actually run.
@@ -323,7 +302,7 @@ A substitute executor's choices could be worse merely because they are noisy est
 \end{figure}
 
 \paragraph{More substitute rollouts help slowly.}
-\Cref{fig:curves}a shows, on the unscreened 7B ALFWorld pool, the deployment value of repairs selected with $k$ rollouts per candidate. The 14B model's selections improve from 0.38 with one rollout to 0.63 [0.56, 0.71] with twenty, about the value of selecting with a single deployed-agent rollout per candidate (0.63), and below the deployed agent's greedy replay (0.69) or five of its rollouts (0.82). On the same A800 GPU, twenty 14B rollouts per candidate cost 31--39 times the GPU time of that one-rollout selection and six to eight times that of the five-rollout one. Llama's selections come closer but need ten rollouts per candidate to match two of the 7B agent's own (0.78 versus 0.77). In WebShop, ten Llama rollouts per candidate select repairs worth 0.080 in reward to the 7B agent, about the value of one 7B rollout (0.072) at the GPU time of about 21, and ten 7B rollouts select repairs for Llama worth about two of Llama's own (0.20 versus 0.21; \cref{app:budget}). More rollouts of the wrong executor are a poor substitute for a few of the right one.
+\Cref{fig:curves}a shows, on the unscreened 7B ALFWorld pool, the deployment value of repairs selected with $k$ rollouts per candidate. The 14B model's selections improve from 0.38 with one rollout to 0.63 [0.56, 0.71] with twenty, about the value of selecting with a single deployed-agent rollout per candidate (0.63), and below the deployed agent's greedy replay (0.69) or five of its rollouts (0.82). On the same A800 GPU, twenty 14B rollouts per candidate cost 31--39 times the GPU time of that one-rollout selection and six to eight times that of the five-rollout one. Llama's selections come closer but need ten rollouts per candidate to match two of the 7B agent's own (0.78 versus 0.77). In WebShop, twenty 14B rollouts and ten Llama rollouts per candidate select repairs worth 0.091 and 0.080 in reward to the 7B agent, between one and two of its own (0.072 and 0.106), each at the GPU time of about 21 7B rollouts; ten 7B rollouts select repairs for Llama worth about two of Llama's own (0.20 versus 0.21; \cref{app:budget}). More rollouts of the wrong executor are a poor substitute for a few of the right one.
 
 \paragraph{Saturation does not explain all of the loss.}
 A capable executor may already succeed where the deployed agent needs help, leaving its net gains near zero exactly where they matter. In screened ALFWorld, Qwen3.8-flash succeeds without any repair at the position of the 7B agent's best repair in 77\% of trajectories, so its rankings carry little information there (a post-hoc description). For the 14B model we pre-specified a stratified check on the unscreened pool: in the 41 of 60 trajectories in which the 14B model, keeping the original action at the position of the 7B agent's best repair, succeeds less than half the time, the equal-budget loss is still 0.17 [0.11, 0.24] (0.54 in the 10 trajectories where it succeeds at least 90\% of the time). Saturation increases the loss but is not sufficient to explain it. Llama falls in the unsaturated stratum in 55 of 60 trajectories, with a loss of 0.06 [0.03, 0.10].
@@ -373,9 +352,9 @@ Monte-Carlo step values depend on the completing policy, a fact used to train pr
 \section{Limitations and Conclusion}
 \label{sec:conclusion}
 
-Our study covers two deployed agents, three text environments, and single-step repairs within fixed candidate sets.\pending{ The Qwen2.5-14B executor on WebShop (P2w) is still running; update when it finishes.} The screened pools condition on failures in which some single-step repair helps, and the unscreened pools still restrict task types and repair positions. The label and ranking analyses and the human study are exploratory. Without privileged information, the candidate set rather than verification limits what a repair pipeline gains.
+Our study covers two deployed agents, three text environments, and single-step repairs within fixed candidate sets. The screened pools condition on failures in which some single-step repair helps, and the unscreened pools still restrict task types and repair positions. The label and ranking analyses and the human study are exploratory. Without privileged information, the candidate set rather than verification limits what a repair pipeline gains.
 
-Which repair is best depends on who executes it. Evaluators that substitute for the deployed executor---greedy replay, environment oracles, LLM judges, and stronger models---choose repairs that cost the deployed agent real value. More rollouts of a substitute do not close the gap: twenty per candidate from Qwen2.5-14B are worth about one of the 7B agent's own, and on contested cases the two models prefer opposite repairs. A few rollouts of the deployed agent recover most of the loss. Repairs should be verified with the executor that will run them, and repair labels and benchmarks should state which executor defines them.
+Which repair is best depends on who executes it. Evaluators that substitute for the deployed executor---greedy replay, environment oracles, LLM judges, and stronger models---choose repairs that cost the deployed agent real value. More rollouts of a substitute do not close the gap: twenty per candidate from Qwen2.5-14B are worth no more than two of the 7B agent's own, and on contested cases the two models prefer opposite repairs. A few rollouts of the deployed agent recover most of the loss. Repairs should be verified with the executor that will run them, and repair labels and benchmarks should state which executor defines them.
 
 \section*{Impact Statement}
 
@@ -415,7 +394,7 @@ All designs, tests, thresholds, and predictions were written into a timestamped 
     Saturation strata; cross-pool transfers & unscreened ALFWorld & yes, before computing & --- & pre-specified descriptive \\
     Reversal checks D$_{14}$, D$_{8}$ & unscreened ALFWorld (7B) & yes (D$_8$ by trigger) & R & secondary; cases chosen with earlier rollouts \\
     LLM-located pipeline & unscreened ALFWorld (7B) & yes, before running & R & exploratory follow-up \\
-    P1w, H1w, H2w, H3w (P2w pending) & unscreened WebShop & yes, before any formal run & F & confirmatory (Holm, 5) \\
+    P1w, P2w, H1w, H2w, H3w & unscreened WebShop & yes, before any formal run & F & confirmatory (Holm, 5) \\
     Human reader & unscreened ALFWorld (7B) & readouts drafted; protocol not frozen & --- & exploratory \\
     Unscreened gridworld & 100 gridworld failures & yes & F & secondary \\
     Shared-repair cost $G$ (\cref{app:share}) & both screened & yes & --- & inconclusive; not used \\
@@ -432,7 +411,7 @@ For every evaluator and trajectory we compute the deployment net gain of the sel
 
 \paragraph{Screened pools.} Each bootstrap replicate resamples trajectories with replacement and, for every stochastic branch, redraws its success count from a binomial distribution with success probability $(k+0.5)/(n+1)$, where $k$ of $n$ rollouts succeeded; all selections and evaluations are recomputed in every replicate. The shrinkage keeps resampled probabilities away from 0 and 1, but it also makes the true values of the bootstrap world systematically lower than the point estimates when many branches have extreme success rates, which shifts the whole bootstrap distribution downward (by 0.01--0.03 in the gridworld and 0.03--0.07 in ALFWorld). Because cross-fitted estimates are unbiased within the bootstrap world, we re-center the bootstrap distribution on the point estimate. This correction was added after the pre-specified analyses had been run; the uncentered percentile intervals lead to the same decisions for every pre-specified test (\cref{tab:registered}).
 
-\paragraph{Decision rules.} Primary tests are Holm-corrected within the families of \cref{tab:audit}; tests that have not finished enter their family with $p=1$, which can only make the others more conservative. Three secondary tests use a pre-specified pair of rules against the margin $\delta=0.10$: a loss is \emph{detected} if the lower bound exceeds 0, and \emph{within margin} if the upper bound is below $\delta$. The two are not mutually exclusive, so we report them separately; no test in the paper met both.
+\paragraph{Decision rules.} Primary tests are Holm-corrected within the families of \cref{tab:audit}. Three secondary tests use a pre-specified pair of rules against the margin $\delta=0.10$: a loss is \emph{detected} if the lower bound exceeds 0, and \emph{within margin} if the upper bound is below $\delta$. The two are not mutually exclusive, so we report them separately; no test in the paper met both.
 
 \begin{table*}[p]
   \caption{All pre-specified tests. Estimates are differences in deployment net gain (first minus second; reward in WebShop). Screened pools: pre-specified (uncentered) and bias-corrected 90\% intervals. Unscreened pools: nonparametric 90\% intervals. Holm: primary test, Holm-corrected within its family at one-sided $\alpha=0.05$ (screened pools: largest $p$-value 0.050 for B4 under the pre-specified bootstrap, 0.004 after correction; unscreened: P1--P2, H1--H3, and the five WebShop tests form three families, largest $p$-value 0.0005). Detected: lower bound $>0$; within margin: upper bound $<\delta=0.10$. Every decision is the same under both intervals.}
@@ -493,7 +472,7 @@ For every evaluator and trajectory we compute the deployment net gain of the sel
     PC & matched $-$ random & 0.163 & [0.128, 0.200] & --- & lower $>0.10$ & pass \\
     P1w & matched $-$ greedy replay & 0.061 & [0.036, 0.086] & --- & Holm & confirmed \\
     H1w & deployed (5) $-$ Llama-3.1-8B (5) & 0.081 & [0.046, 0.114] & --- & Holm & confirmed \\
-    P2w & deployed (5) $-$ 14B (5) & \multicolumn{5}{l}{\pending{running}} \\
+    P2w & deployed (5) $-$ 14B (5) & 0.073 & [0.046, 0.101] & --- & Holm & confirmed \\
     S1w & matched $-$ privileged action (earliest position) & 0.144 & [0.100, 0.190] & --- & lower $>0$ & detected \\
     \midrule
     \multicolumn{7}{@{}l}{\emph{Unscreened WebShop, deployed Llama-3.1-8B (60 trajectories; reward)}} \\
@@ -565,26 +544,27 @@ Two differences from the net-gain results deserve mention. In ALFWorld, environm
   \end{tabular}
 
   \vspace{6pt}
-  \begin{tabular}{@{}lcc|cc@{}}
+  \begin{tabular}{@{}lccc|cc@{}}
     \toprule
-    & \multicolumn{2}{c|}{WebShop, 7B pool} & \multicolumn{2}{c}{WebShop, Llama pool} \\
-    $k$ & 7B & Llama & Llama & 7B \\
+    & \multicolumn{3}{c|}{WebShop, 7B pool} & \multicolumn{2}{c}{WebShop, Llama pool} \\
+    $k$ & 7B & 14B & Llama & Llama & 7B \\
     \midrule
-    1 & 0.072 & 0.026 & 0.095 & 0.021 \\
-    2 & 0.106 & 0.047 & 0.209 & 0.063 \\
-    3 & 0.125 & 0.059 & 0.263 & 0.091 \\
-    5 & 0.146 & 0.066 & 0.310 & 0.144 \\
-    10 & --- & 0.080 & --- & 0.201 \\
-    G & 0.086 & 0.076 & 0.179 & 0.031 \\
+    1 & 0.072 & 0.042 & 0.026 & 0.095 & 0.021 \\
+    2 & 0.106 & 0.052 & 0.047 & 0.209 & 0.063 \\
+    3 & 0.125 & 0.066 & 0.059 & 0.263 & 0.091 \\
+    5 & 0.146 & 0.073 & 0.066 & 0.310 & 0.144 \\
+    10 & --- & 0.081 & 0.080 & --- & 0.201 \\
+    20 & --- & 0.091 & --- & --- & --- \\
+    G & 0.086 & 0.053 & 0.076 & 0.179 & 0.031 \\
     \bottomrule
   \end{tabular}
 
   \vspace{2pt}
-  {\footnotesize 90\% intervals (nonparametric): ALFWorld 7B pool, 7B $k=5$ [0.76, 0.88], 14B $k=20$ [0.56, 0.71]; WebShop 7B pool, 7B $k=5$ [0.109, 0.187], Llama $k=10$ [0.038, 0.123]; WebShop Llama pool, Llama $k=5$ [0.248, 0.373], 7B $k=10$ [0.133, 0.272].}
+  {\footnotesize 90\% intervals (nonparametric): ALFWorld 7B pool, 7B $k=5$ [0.76, 0.88], 14B $k=20$ [0.56, 0.71]; WebShop 7B pool, 7B $k=5$ [0.109, 0.187], 14B $k=20$ [0.046, 0.138], Llama $k=10$ [0.038, 0.123]; WebShop Llama pool, Llama $k=5$ [0.248, 0.373], 7B $k=10$ [0.133, 0.272].}
 \end{table}
 
 \paragraph{Budget curves.}
-\Cref{tab:budgetcurve} lists the full curves. On the 7B ALFWorld pool, the 14B model's selections improve from 0.38 with one rollout per candidate to 0.63 with twenty, the value of a single deployed-agent rollout per candidate; per rollout, the 14B model costs 1.6--2.0 times the GPU time of the 7B model on the same A800 GPU. On the Llama pool, ten 7B rollouts per candidate select worse repairs for Llama (0.79) than two of Llama's own (0.82), and about as well as Llama's greedy replay. In WebShop, a Llama rollout costs about twice a 7B rollout on the same GPU (1.18 versus 0.56 seconds on the 7B pool, 1.00 versus 0.51 on the Llama pool). On the WebShop Llama pool, the 7B model's greedy replay selects almost no value for Llama (0.031), against 0.179 for Llama's own. The ALFWorld 7B-pool curves come from the analysis that also computes the saturation strata; they differ from the primary analysis by at most 0.005 because the two analyses use different random streams for cross-fitting.
+\Cref{tab:budgetcurve} lists the full curves. On the 7B ALFWorld pool, the 14B model's selections improve from 0.38 with one rollout per candidate to 0.63 with twenty, the value of a single deployed-agent rollout per candidate; per rollout, the 14B model costs 1.6--2.0 times the GPU time of the 7B model on the same A800 GPU. On the Llama pool, ten 7B rollouts per candidate select worse repairs for Llama (0.79) than two of Llama's own (0.82), and about as well as Llama's greedy replay. In WebShop, a Llama rollout costs about twice a 7B rollout on the same GPU (1.18 versus 0.56 seconds on the 7B pool, 1.00 versus 0.51 on the Llama pool), whereas a 14B rollout costs about the same (0.60 seconds), because the 14B model ends its episodes sooner; twenty 14B rollouts per candidate select repairs for the 7B agent worth about its own greedy replay (0.091 versus 0.086). On the WebShop Llama pool, the 7B model's greedy replay selects almost no value for Llama (0.031), against 0.179 for Llama's own. The ALFWorld 7B-pool curves come from the analysis that also computes the saturation strata; they differ from the primary analysis by at most 0.005 because the two analyses use different random streams for cross-fitting.
 
 \begin{table}[!htbp]
   \caption{Reversal checks on the unscreened 7B pool (only fresh rollouts; 30 per branch and executor). $\Delta_e=R_e(r_a)-R_e(r_b)$ with $R_e$ the net gain of \cref{eq:netgain}, where $r_a$ is the deployed 7B agent's best candidate and $r_b$ the other executor's in the earlier rollouts; difference $=\Delta_{\mathrm{7B}}-\Delta_{\mathrm{other}}$. Control: trajectories where both executors' best candidate was $r_a$, with $r_b$ the 7B agent's second best. Sig.\ opposite / aligned: both $\Delta$s have 90\% intervals excluding 0, with opposite / equal signs.}
@@ -615,7 +595,7 @@ Two differences from the net-gain results deserve mention. In ALFWorld, environm
   \label{tab:webshop}
   \centering
   \footnotesize
-  \setlength{\tabcolsep}{4pt}
+  \setlength{\tabcolsep}{3.4pt}
   \begin{tabular}{@{}lcc|cc@{}}
     \toprule
     & \multicolumn{2}{c|}{Deployed Qwen2.5-7B} & \multicolumn{2}{c}{Deployed Llama-3.1-8B} \\
@@ -631,7 +611,9 @@ Two differences from the net-gain results deserve mention. In ALFWorld, environm
     LLM-proposed: matched $-$ greedy & 0.051 [0.025, 0.078] & 0.034 [0.005, 0.070] & 0.070 [0.040, 0.102] & 0.052 [0.026, 0.081] \\
     LLM-proposed: other model & 0.045 [0.017, 0.073] & 0.050 [0.015, 0.094] & 0.125 [0.081, 0.171] & 0.053 [0.019, 0.090] \\
     \midrule
-    P2w: deployed (5) $-$ 14B (5) & \multicolumn{2}{c|}{\pending{running}} & \multicolumn{2}{c}{---} \\
+    14B, same budget (P2w) & 0.073 [0.046, 0.101] & 0.030 [0.003, 0.058] & --- & --- \\
+    ALFWorld-style: 14B & 0.069 [0.042, 0.098] & 0.028 [0.003, 0.056] & --- & --- \\
+    LLM-proposed: 14B & 0.053 [0.030, 0.078] & 0.013 [$-$0.006, 0.033] & --- & --- \\
     \bottomrule
   \end{tabular}
 \end{table*}
@@ -689,7 +671,7 @@ The value of a branch is the mean reward of its rollouts; a purchase branch take
 
 
 \paragraph{Results.}
-\Cref{tab:webshop} lists the readouts. All four primary tests reported so far are confirmed (Holm with $m=5$, the unfinished P2w entering with $p=1$), and the success readouts are weaker and wider, as predicted. Matched selection gains 0.146 [0.109, 0.187] in reward on the 7B pool and 0.310 [0.248, 0.373] on the Llama pool; 85\% and 90\% of trajectories have a candidate whose estimated net reward gain exceeds 0.10 (50\% under success in both pools). Exploratory descriptions: the mean net reward gain of candidates from each source is close to zero or negative for both executors (for the 7B agent, from $-$0.04 for Llama's proposals to $+$0.03 for the privileged action), and candidates proposed by an executor are not better for that executor than for the other (interaction 0.01 [$-$0.01, 0.03]). The best candidate for the 7B agent comes from Qwen3.8-flash's proposals in 34\% of trajectories, the privileged action in 29\%, the 7B model's proposals in 24\%, Llama's in 14\%, and the random action in 9\% (sources overlap); for Llama, from the 7B model's and Qwen3.8-flash's proposals in 46\% each, the privileged action in 20\%, and Llama's own in 7\%. On the Llama pool, too, an executor's own proposals are not better for it (interaction $-$0.025 [$-$0.048, $-$0.003]). Both privileged and flash screens lose more than greedy replay on the Llama pool (0.26 and 0.17 at five rollouts, against 0.13).\pending{ P2w (14B executor on the 7B pool) still running.}
+\Cref{tab:webshop} lists the readouts. All five primary tests are confirmed (Holm with $m=5$), and the success readouts are weaker and wider, as predicted. Matched selection gains 0.146 [0.109, 0.187] in reward on the 7B pool and 0.310 [0.248, 0.373] on the Llama pool; 85\% and 90\% of trajectories have a candidate whose estimated net reward gain exceeds 0.10 (50\% under success in both pools). Exploratory descriptions: the mean net reward gain of candidates from each source is close to zero or negative for both executors (for the 7B agent, from $-$0.04 for Llama's proposals to $+$0.03 for the privileged action), and candidates proposed by an executor are not better for that executor than for the other (interaction 0.01 [$-$0.01, 0.03]). The best candidate for the 7B agent comes from Qwen3.8-flash's proposals in 34\% of trajectories, the privileged action in 29\%, the 7B model's proposals in 24\%, Llama's in 14\%, and the random action in 9\% (sources overlap); for Llama, from the 7B model's and Qwen3.8-flash's proposals in 46\% each, the privileged action in 20\%, and Llama's own in 7\%. On the Llama pool, too, an executor's own proposals are not better for it (interaction $-$0.025 [$-$0.048, $-$0.003]). Both privileged and flash screens lose more than greedy replay on the Llama pool (0.26 and 0.17 at five rollouts, against 0.13). The 14B executor ran on a second server whose environment matched the first in every registered check (instruction list, products and prices, search fingerprint, data hashes; only the spaCy patch version differed, 3.8.18 versus 3.8.16); on the 7B pool's branches it reaches full reward in 20\% of rollouts (mean reward 0.52), and candidates from every source have non-negative mean net gain for it.
 
 \section{A Human Reader (Exploratory)}
 \label{app:human}

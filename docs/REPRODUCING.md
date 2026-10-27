@@ -33,17 +33,14 @@ For the original experiment workflow, see `experiments/LEGACY_USAGE.md`. Linux e
 - Default WebShop search is Pyserini/BM25. Do not substitute the optional pure-Python shim and claim identical paper conditions without validating its behavior.
 - Models: Qwen2.5-7B-Instruct, Qwen2.5-14B-Instruct and Llama-3.1-8B-Instruct are downloaded separately under their providers' terms. Configure the paths in the original config modules / documented environment variables. API calls use `QWEN_API_KEY`, provided by the user; no key is included.
 
-## P2w update
+## Completed P2w snapshot
 
-After the registered WebShop 14B run finishes and its complete output has been validated, import a fresh version from `experiments/` (from `framework/`):
+The canonical `framework/data/webshop-q7/` bundle includes the original registered Qwen2.5-14B batch: 2,188 stochastic branches, each with 20 sampled continuations and one greedy continuation (45,948 continuations total). The 63 terminal branches use their known outcomes. No new inference was run during packaging.
 
-```bash
-python -m repair_eval import --source ../experiments --pool webshop-q7 --out data_updates/webshop-q7-with-p2w
-python -m repair_eval validate data_updates/webshop-q7-with-p2w
-```
+Raw outcomes and timings are in `experiments/out_ws_A/evals_q14.jsonl` and `timing_q14.json`. Joint tests are in `experiments/out_ws_summary/tests_ws.json`. Run the CPU reproduction command above to check P2w and its budget curve against the updated reference. The old bundle and references remain in Git history; pre-Q14 raw analyses are retained alongside the new results.
 
-Do not overwrite the existing snapshot or claim a new framework replay is the original registered run. Publishing a new canonical bundle also requires updating reference statistics, release status and hashes.
+For future additions, import into a fresh output directory, validate complete branch coverage, then update references, documentation and release hashes together. Do not represent a new replay batch as the original registered experiment.
 
 ## Manuscript
 
-`manuscript/example_paper.tex` and `.bib` are the current source snapshot. The manuscript still marks P2w pending. Use a compatible TeX installation to build it; this packaging run does not claim a successful LaTeX build. Existing figure PDFs are included. arXiv and conference-submission versions should be prepared separately when ready.
+`manuscript/example_paper.tex` and `.bib` are the current source snapshot. The manuscript includes completed P2w results and the named-author arXiv source. Use a compatible TeX installation to build it; this packaging run does not claim a successful LaTeX build. Existing figure PDFs are included. The arXiv identifier will be added after publication.

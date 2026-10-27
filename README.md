@@ -6,7 +6,7 @@
 
 A repair can be valuable for one executor and ineffective for another. This repository contains the experiment code, failed trajectories, fixed candidate repairs, individual continuation outcomes, analysis records, and a reusable evaluation framework for studying that mismatch.
 
-**Snapshot: 2026-10-27.** The WebShop 14B evaluation (P2w) is pending in this snapshot. Missing results are not treated as failures or zeros. The arXiv identifier will be added after the first preprint release.
+**Snapshot: 2026-10-28.** Includes the completed WebShop 14B evaluation (P2w), its individual continuation outcomes, and updated analyses. At five rollouts per candidate, selecting with 14B instead of the deployed 7B agent loses **0.073** in net reward (90% CI **[0.046, 0.101]**). The arXiv identifier will be added after the first preprint release.
 
 ## Start here — reproduce without a GPU
 
@@ -30,7 +30,7 @@ The standardized framework contains four unscreened failure pools:
 |---|---|---:|---:|---|
 | ALFWorld | Qwen2.5-7B-Instruct | 60 | 1,106 | Qwen 7B, Qwen 14B, Llama 8B |
 | ALFWorld | Llama-3.1-8B-Instruct | 60 | 1,075 | Llama 8B, Qwen 7B |
-| WebShop | Qwen2.5-7B-Instruct | 60 | 2,071 | Qwen 7B, Llama 8B; 14B pending |
+| WebShop | Qwen2.5-7B-Instruct | 60 | 2,071 | Qwen 7B, Llama 8B, Qwen 14B |
 | WebShop | Llama-3.1-8B-Instruct | 60 | 1,819 | Llama 8B, Qwen 7B |
 
 Total: **240 failures, 6,071 candidate repairs and 6,791 branches including original actions**. These standardized records duplicate the corresponding raw records for ease of use; they are not additional independent samples.
@@ -74,7 +74,7 @@ tools/             Release integrity checker
 
 See [REPRODUCING.md](docs/REPRODUCING.md) and [the replay guide](framework/docs/REPLAY.md). Live continuations require the external environment data, model weights and a suitable Linux/GPU environment. No inference is launched by the CPU quickstart.
 
-Model weights, the WebShop product corpus/index, ALFWorld installation data, API keys, SSH transfer settings and process logs are not included. The environment setup code and data fingerprints are retained. P2w should be imported as a new version after the registered run completes; the current snapshot remains identifiable.
+Model weights, the WebShop product corpus/index, ALFWorld installation data, API keys, SSH transfer settings and process logs are not included. The environment setup code and data fingerprints are retained. The previous snapshot remains in Git history; `provenance/p2w_update.json` records the new source hashes and version change.
 
 ## Tests
 

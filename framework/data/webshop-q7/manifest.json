@@ -9,7 +9,8 @@
     "positions.json": "a8697c87c7833879b7bcb2b62b0db69e536295b27bf2058f47abed99e5220bce",
     "episodes.jsonl": "8215e41bb0714efc23b31483dbff2219d60cf5f53b448056936aee8b0d0dabb4",
     "evals_q7.jsonl": "94c444c0cccc9776fba11a3ec03665efdff52bd5978e8343eec9742ce81c2684",
-    "evals_l8.jsonl": "73195451e694a261e5b522f280976335f4715772438273b78417616619dc7c51"
+    "evals_l8.jsonl": "73195451e694a261e5b522f280976335f4715772438273b78417616619dc7c51",
+    "evals_q14.jsonl": "837f350bf4da55eff670e3691a6f4449991ceeae2465e8791279d16f2e913512"
   },
   "deployer": "q7",
   "primary_metric": "reward",
@@ -37,15 +38,19 @@
       "max_invalid_retries": 2,
       "history": "actions and observations; no earlier thoughts",
       "seed_provenance": "reconstructed from original SHA256(condition|batch|branch|index), not observed RNG state"
+    },
+    "q14": {
+      "model": "Qwen2.5-14B-Instruct",
+      "samples": 20,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "greedy_temperature": 0.0,
+      "max_invalid_retries": 2,
+      "history": "actions and observations; no earlier thoughts",
+      "seed_provenance": "reconstructed from original SHA256(condition|batch|branch|index), not observed RNG state"
     }
   },
-  "pending_executors": [
-    {
-      "executor": "q14",
-      "status": "missing",
-      "expected_samples": 20
-    }
-  ],
+  "pending_executors": [],
   "max_steps": 25,
   "screening": "first failures, not screened by repair value",
   "restrictions": "ALFWorld excludes two-object tasks and requires >=5 planner slack; WebShop requires >=5 remaining steps",
@@ -79,8 +84,9 @@
   "files": {
     "design.json": "d4177c7a70367b95418c50eaf89fca3b7229741e75c1d019a8a9388e214df25e",
     "outcomes/l8.jsonl": "f0467e1da67fea2cc5f2293e934140178defd230ad18a455ed93398a3d92038e",
+    "outcomes/q14.jsonl": "484ebcd9f2b16e9a72a7396a3a4df78d0f63d5e5aeef7341e34a6f1857e5baf2",
     "outcomes/q7.jsonl": "41859cc76ce39141e9f8dd7ef57292b969858ddfaadd33db773f3bce8cbf7762",
     "tasks.jsonl": "ce96ff537a5324cc456abb0dc99b4339b41b85dff2e82b7ab76f79d84654ee44"
   },
-  "bundle_id": "1e6f4c9f2ea401f8d3a3c658089b36db0587dc0deb5373e745214d7d8e377827"
+  "bundle_id": "9ef48600c3d4485f79dd887ca893404b04d8ecf8a037d5090fdea0b651d337fa"
 }

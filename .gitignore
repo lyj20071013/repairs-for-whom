@@ -1,0 +1,45 @@
+# Python / local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+# Credentials and operational state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+*.pid
+*.lock
+_sync/
+logs/
+# Do not commit downloaded environments, corpora or weights
+models/
+webshop_data/
+alfworld_data/
+wheels/
+*.safetensors
+*.ckpt
+*.pt
+*.whl
+# Generated verification reports
+framework/outputs/
+framework/data_updates/
+outputs/
+# LaTeX build products (figure PDFs remain included)
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+manuscript/example_paper.pdf
+# Pre-existing private working notes in this local folder; preserved on disk
+/main.tex
+/论文发展建议.md
+/repairs_for_whom_20261027.pdf

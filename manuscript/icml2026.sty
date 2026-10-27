@@ -529,7 +529,10 @@ the offending package(s), or layout-changing commands and try again.
       \ifdefined\icmlcorrespondingauthor@text
          { }Correspondence to: \icmlcorrespondingauthor@text.
       \else
-        {\bf AUTHORERR: Missing \textbackslash{}icmlcorrespondingauthor.}
+        % Correspondence is optional in this public preprint.
+        \ifdefined\ispreprint\else
+          {\bf AUTHORERR: Missing \textbackslash{}icmlcorrespondingauthor.}
+        \fi
       \fi
 
       \ \\

@@ -1,4 +1,4 @@
-> Repository snapshot: 2026-10-27. Original project code is Apache-2.0; see [repository notices](../THIRD_PARTY_NOTICES.md). Current release scope and pending P2w are authoritative in [release status](../docs/RELEASE_STATUS.md).
+> Repository snapshot: 2026-10-28. Original project code is Apache-2.0; see [repository notices](../THIRD_PARTY_NOTICES.md). Current release scope and completed P2w are documented in [release status](../docs/RELEASE_STATUS.md).
 
 # RepairEval
 
@@ -43,7 +43,7 @@ Selection loss compares the held-out value of finite-sample matched selection wi
 
 ## Versioned protocols
 
-`standard` uses separate random streams per trajectory/executor; `legacy69` preserves the early ALFWorld Q7 P1/P2 numerical stream. H1 is compared with the source project's existing rerun (0.071217305); the earlier recorded value (0.074470916) remains in provenance. The current WebShop Q7 snapshot has no P2w/14B outcomes yet; missing data are never interpreted as failures.
+`standard` uses separate random streams per trajectory/executor; `legacy69` preserves the early ALFWorld Q7 P1/P2 numerical stream. H1 is compared with the source project's existing rerun (0.071217305); the earlier recorded value (0.074470916) remains in provenance. The WebShop Q7 snapshot includes the original P2w batch: 20 sampled continuations and one greedy continuation per stochastic branch from Qwen2.5-14B. All ten primary tests are included in CPU reproduction.
 
 ## Replay and extension
 

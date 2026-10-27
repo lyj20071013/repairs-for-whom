@@ -18,9 +18,9 @@ Paths below are relative to `experiments/`. Raw code and records retain their ex
 | Low-budget method | `out_method/` | method reports and JSON summaries |
 | Label/ranking consequences | `out_consequence/` | gridworld/ALFWorld summaries |
 | Shared-repair analysis | `out_share/` | exploratory results; follow the documented limitations |
-| WebShop, Qwen7B deployer (A) | `out_ws_A/` | failed episodes, fixed design, proposals, Qwen7B/Llama8B outcomes; P2w absent |
+| WebShop, Qwen7B deployer (A) | `out_ws_A/` | failed episodes, fixed design, proposals, Qwen7B/Llama8B/14B outcomes; completed P2w, timing, and pre-Q14 analysis snapshots |
 | WebShop, Llama8B deployer (B) | `out_ws_B/` | failed episodes, design and Llama8B/Qwen7B outcomes |
-| WebShop joint primary analysis | `out_ws_summary/` | `tests_ws.json`, `report_ws.md`; unfinished P2w remains pending in its Holm family |
+| WebShop joint primary analysis | `out_ws_summary/` | `tests_ws.json`, `report_ws.md`; all five registered WebShop tests, including P2w, with the complete Holm family |
 | Feasibility/smoke records | names containing `smoke`, `out_ws_S/`, `out_harness/` | engineering checks; do not pool with formal experiments |
 
 Individual raw records may include original machine-local paths or model cache names. They identify the historical configuration, not required installation locations. Some rollout files store compact success/reward/step outcomes rather than a full textual trace for every continuation. Full failed source trajectories and recorded proposal logs are included; this release does not invent missing continuation transcripts.

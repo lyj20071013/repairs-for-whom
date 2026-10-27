@@ -1,0 +1,4 @@
+# Preserve byte hashes of frozen records and historical code on every platform.
+* -text
+*.pdf binary
+*.gz binary

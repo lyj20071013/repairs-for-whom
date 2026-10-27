@@ -51,6 +51,11 @@
         "pass": true
       },
       {
+        "test": "P2w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
         "pool": "webshop-l8",
         "max_abs_row_error": 0.0,
         "pass": true
@@ -71,10 +76,29 @@
         "pass": true
       }
     ],
-    "pending_tests": [
-      "P2w"
-    ]
+    "pending_tests": []
   },
   "localization_audit": "english_localization.json",
-  "prior_packaging_checks": "release_validation_before_english.json"
+  "prior_packaging_checks": "release_validation_before_english.json",
+  "data_snapshot": "2026-10-28",
+  "p2w": {
+    "mean": 0.07324695652132147,
+    "ci": [
+      0.046297412018287264,
+      0.10125093704879694
+    ],
+    "p": 0.0004997501249375312,
+    "n": 60,
+    "confidence": 0.9,
+    "replicates": 2000,
+    "seed": 0,
+    "p_method": "paper one-sided bootstrap tail; alternative mean > 0",
+    "pool": "webshop-q7",
+    "positive_control_pass": true,
+    "p_holm": 0.002498750624687656,
+    "holm_reject": true,
+    "family_size": 5,
+    "family": "WebShop"
+  },
+  "update_record": "p2w_update.json"
 }

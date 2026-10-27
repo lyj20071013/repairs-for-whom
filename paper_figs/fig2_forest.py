@@ -1,15 +1,4 @@
-"""figure 2：Main inspection and controlled supplementation——Repairs based on alternative evaluators，How much was lost to deployed personnel（Matching differences and their 90% interval）。
-
-Each line is a pair：You can use them yourself k Well continue with the selection（Crossing）− Selected by alternative assessor，Both are deployed、Selecting a useless follow-on evaluation。
-  - Non-filtered Pools（Main Results）：k = 5；Intersection is a non-parametric trajectory bootstrap Percent Zone。rows = All Master Tests（P1、P2、H1、H2、H3、P1w、H1w，
-    Add automatically when the result comes H2w、H3w、P2w）。
-  - Filtered Pools（Controlled Supplement）：Same thing 10 Follow-up executioner comparison；Intersections are deviation correction areas（Same as the text）。
-Data Read From repair_transfer：
-    out_ds_alfw/analysis.json（P1、P2）、out_ds_alfw_l8/tests_610.json（H1、H2、H3，The analysis at the time of registration）、
-    out_ws_summary/tests_ws.json（WebShop）、out_ladder_alfw/ladder_report.md、out_ladder_gw/ladder_report.md
-
-    python fig2_forest.py --rt D:/Paper/repair_transfer --out D:/Paper/overleaf/figures/fig2_forest.pdf
-"""
+"""Plot paired selection losses from the original archived reports and primary tests."""
 import argparse
 import json
 import re
@@ -33,15 +22,15 @@ def ladder(rt):
     g = (Path(rt) / "out_ladder_gw" / "ladder_report.md").read_text(encoding="utf-8")
     out = {}
     for ex in ("q14", "qflash"):
-        m = re.search(rf"\| 7B 10 runs − {ex} 10 runs \| {NUM} \| \[{NUM}, {NUM}\] \| \[{NUM}, {NUM}\] \|", a)
+        m = re.search(rf"\| 7B 10 次 − {ex} 10 次 \| {NUM} \| \[{NUM}, {NUM}\] \| \[{NUM}, {NUM}\] \|", a)
         out[("alfw", ex)] = (float(m.group(1)), float(m.group(4)), float(m.group(5)))
-        m = re.search(rf"\| 7B 10 runs − {ex} 10 runs \| {NUM} \[{NUM}, {NUM}\]（Correct \[{NUM}, {NUM}\]）", g)
+        m = re.search(rf"\| 7B 10 次 − {ex} 10 次 \| {NUM} \[{NUM}, {NUM}\]（校正 \[{NUM}, {NUM}\]）", g)
         out[("gw", ex)] = (float(m.group(1)), float(m.group(4)), float(m.group(5)))
     return out
 
 
 def rows(rt):
-    """Back [(Group, Row Label, estimate, lower bound, upper bound, Is it true? WebShop)]；The order of the group is the order of the drawings。"""
+    """Return grouped estimates and confidence intervals in plotting order."""
     rt = Path(rt)
     a7 = jl(rt / "out_ds_alfw" / "analysis.json")["tests"]
     t10 = jl(rt / "out_ds_alfw_l8" / "tests_610.json")
@@ -56,10 +45,10 @@ def rows(rt):
     R += [(g, "greedy replay", *mc(t10["H3"]), False),
           (g, "Qwen2.5-7B rollouts", *mc(t10["H2"]), False)]
     g = "Unscreened WebShop (60), deployed Qwen2.5-7B; reward"
-    R += [(g, "greedy replay", *mc(ws["P1w"]), True),
-          (g, "Llama-3.1-8B rollouts", *mc(ws["H1w"]), True)]
-    if ws.get("P2w"):
+    R.append((g, "greedy replay", *mc(ws["P1w"]), True))
+    if ws.get("P2w"):                       # Preserve group ordering and reserve a separate row for each group heading.
         R.append((g, "Qwen2.5-14B rollouts", *mc(ws["P2w"]), True))
+    R.append((g, "Llama-3.1-8B rollouts", *mc(ws["H1w"]), True))
     if ws.get("H3w") or ws.get("H2w"):
         g = "Unscreened WebShop (60), deployed Llama-3.1-8B; reward"
         if ws.get("H3w"):
@@ -85,7 +74,7 @@ def plot(R, out, png=False):
     for r in R:
         if r[0] not in groups:
             groups.append(r[0])
-    # y Layout：Single row of group titles（Write from the left edge of the map，may extend into the plotting area：no data for that row），One in each row of the group
+    # Preserve group ordering and reserve a separate row for each group heading.
     y, heads, yv = {}, [], 0.0
     for gi, gname in enumerate(groups):
         if gi and gname.startswith("Screened") and not groups[gi - 1].startswith("Screened"):
