@@ -1,0 +1,2 @@
+class ElementNotInteractableException(Exception):
+    pass

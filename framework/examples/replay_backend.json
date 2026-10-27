@@ -1,0 +1,12 @@
+{
+  "runtime_root": "/path/to/repair_eval/runtime",
+  "model_path": "/path/to/Qwen2.5-14B-Instruct",
+  "model_name": "Qwen2.5-14B-Instruct",
+  "alfworld_data": "/path/to/alfworld_data",
+  "webshop_python": "/path/to/webshop-env/bin/python",
+  "webshop_dir": "/path/to/WebShop",
+  "workers": 2,
+  "max_active": 32,
+  "tensor_parallel_size": 1,
+  "llama_stop_tokens": false
+}

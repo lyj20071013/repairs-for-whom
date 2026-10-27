@@ -1,0 +1,27 @@
+{
+  "legacy69": {
+    "source": "archive/rt_before_merge/ds_alfw_1240.py",
+    "source_sha256": "955e0d33156c875ea8614043fe799e2fc09b1c1fd462808527ab6f396f2ef8ef",
+    "functions": [
+      "_full",
+      "_gain",
+      "_val",
+      "_best",
+      "analyze_core"
+    ],
+    "extracted_sha256": "86ee10da5a4dece2307fc95e474294c441c47108c2b613adea63b68615b52cc8"
+  },
+  "current": {
+    "source": "ds_alfw.py",
+    "source_sha256": "adf085a598ebd2f3edc4d709e47acb157b0835935ed30caa99105a8c6ff24553",
+    "functions": [
+      "_full",
+      "_gain",
+      "_val",
+      "_best",
+      "_has",
+      "analyze_core"
+    ],
+    "extracted_sha256": "967c110a55cbb1c3965697f1d31e7b7bba10ce8248cbfc6f351828f65cd39028"
+  }
+}
