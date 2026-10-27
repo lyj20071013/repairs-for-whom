@@ -1,0 +1,180 @@
+{"key": "p000|t8", "hash": "44bdbdaa76d7972f", "out": {"text": "Action 1: examine drawer 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p000|t24", "hash": "82802531239e1720", "out": {"text": "Action 1: examine shelf 1\nAction 2: examine shelf 2", "finish_reason": "stop", "error": null}}
+{"key": "p000|t35", "hash": "cfb18d474ec4d5dd", "out": {"text": "Action 1: examine desk 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p001|t10", "hash": "4b15c96849b6163f", "out": {"text": "Action 1: examine cellphone 3\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p001|t21", "hash": "c9cb26f80a8dafdc", "out": {"text": "Action 1: examine bed 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p001|t38", "hash": "9e512d33a883b43c", "out": {"text": "Action 1: examine bed 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p002|t8", "hash": "39537dc63ce3e04b", "out": {"text": "Action 1: examine alarmclock 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p002|t18", "hash": "af09d0ef6efdd44f", "out": {"text": "Action 1: take alarmclock 1 from desk 1\nAction 2: examine drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p002|t35", "hash": "86b135fabb6be10d", "out": {"text": "Action 1: examine alarmclock 1\nAction 2: move alarmclock 1 to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p003|t7", "hash": "4ff4770604932deb", "out": {"text": "Action 1: examine bed 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p003|t28", "hash": "74fc544ffdae54a9", "out": {"text": "Action 1: examine shelf 1\nAction 2: take alarmclock 2 from shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p003|t32", "hash": "ac5a55b88092cbed", "out": {"text": "Action 1: go to bed 1\nAction 2: move alarmclock 1 to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p004|t10", "hash": "4a81de5f279b7900", "out": {"text": "Action 1: examine desk 1\nAction 2: take alarmclock 1 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p004|t28", "hash": "768d4cf5623782a5", "out": {"text": "Action 1: examine alarmclock 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p004|t31", "hash": "6118ab4f3d069f24", "out": {"text": "Action 1: examine desk 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p006|t4", "hash": "47a04ddfe6a16c08", "out": {"text": "Action 1: examine desk 1\nAction 2: examine pen 1", "finish_reason": "stop", "error": null}}
+{"key": "p006|t15", "hash": "8a0cb259e213760b", "out": {"text": "Action 1: examine desk 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p006|t36", "hash": "3707edacc62b4e14", "out": {"text": "Action 1: examine creditcard 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p008|t2", "hash": "6aaa51de24f00c71", "out": {"text": "Action 1: examine desk 1\nAction 2: go to desk 2", "finish_reason": "stop", "error": null}}
+{"key": "p008|t21", "hash": "bafddc2c54737823", "out": {"text": "Action 1: examine alarmclock 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p008|t30", "hash": "a6d8224f00584fd1", "out": {"text": "Action 1: examine desk 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p009|t8", "hash": "1c90d43ce8fd11ba", "out": {"text": "Action 1: take book 1 from desk 1\nAction 2: take laptop 1 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p009|t19", "hash": "acb500cf3659b534", "out": {"text": "Action 1: examine bed 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p009|t35", "hash": "39ddee6781a03874", "out": {"text": "Action 1: examine desk 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p012|t11", "hash": "57fa597b602ed74b", "out": {"text": "Action 1: examine bowl 1\nAction 2: examine drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p012|t18", "hash": "900f9a0d246a0ed1", "out": {"text": "Action 1: go to drawer 2\nAction 2: examine drawer 2", "finish_reason": "stop", "error": null}}
+{"key": "p012|t40", "hash": "969fbcc09694b09d", "out": {"text": "Action 1: examine bowl 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p013|t8", "hash": "b4cdda9edd42e3c2", "out": {"text": "Action 1: examine bowl 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p013|t27", "hash": "eb18f1238b66d020", "out": {"text": "Action 1: examine desk 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p013|t38", "hash": "cc1f6c8a4c06f793", "out": {"text": "Action 1: examine desk 1\nAction 2: take alarmclock 1 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p014|t6", "hash": "c5c6af0cb47db3be", "out": {"text": "Action 1: examine desk 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p014|t18", "hash": "349085cfaae66a2c", "out": {"text": "Action 1: examine bowl 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p014|t32", "hash": "6d70b32aedf78860", "out": {"text": "Action 1: examine bowl 1\nAction 2: examine shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p016|t8", "hash": "1b5d2914121dd48d", "out": {"text": "Action 1: go to shelf 1\nAction 2: examine drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p016|t19", "hash": "61bc335d57a1734c", "out": {"text": "Action 1: examine bed 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p016|t33", "hash": "32a7f155aea03764", "out": {"text": "Action 1: close drawer 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p017|t7", "hash": "c48fa8ac78eaabea", "out": {"text": "Action 1: examine coffeetable 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p017|t28", "hash": "d7ea760fa9f1db2a", "out": {"text": "Action 1: examine diningtable 1\nAction 2: go to dresser 1", "finish_reason": "stop", "error": null}}
+{"key": "p017|t40", "hash": "3b0cd0d0d43cf188", "out": {"text": "Action 1: examine diningtable 1\nAction 2: go to dresser 1", "finish_reason": "stop", "error": null}}
+{"key": "p019|t1", "hash": "9513105b2dd9f1b3", "out": {"text": "Action 1: examine shelf 1\nAction 2: go to coffeetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p019|t19", "hash": "ac9814d4023a2a65", "out": {"text": "Action 1: examine box 2\nAction 2: move box 2 to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p019|t41", "hash": "a0a4b3d74916f034", "out": {"text": "Action 1: examine box 2\nAction 2: go to coffeetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p020|t8", "hash": "034aeccd4931287d", "out": {"text": "Action 1: examine desk 1\nAction 2: go to sidetable 2", "finish_reason": "stop", "error": null}}
+{"key": "p020|t15", "hash": "656f6f96849bb568", "out": {"text": "Action 1: examine book 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p020|t32", "hash": "a78d90e7d616db60", "out": {"text": "Action 1: examine book 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p022|t10", "hash": "e06115a7d6e079ee", "out": {"text": "Action 1: examine drawer 1\nAction 2: go to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p022|t24", "hash": "f83266ae056ad70d", "out": {"text": "Action 1: examine desk 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p022|t39", "hash": "af256792bc7abda8", "out": {"text": "Action 1: examine desk 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p023|t1", "hash": "9060e40282bd89cb", "out": {"text": "Action 1: examine desk 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p023|t23", "hash": "bd6fd2b29da75345", "out": {"text": "Action 1: examine desk 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p023|t41", "hash": "a6a21ab4f8ab9e96", "out": {"text": "Action 1: examine desk 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p024|t2", "hash": "a9cc3bd281e67872", "out": {"text": "Action 1: examine desk 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p024|t21", "hash": "aef19d46b8d667ea", "out": {"text": "Action 1: go to bed 1\nAction 2: take cd 1 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p024|t42", "hash": "680c95ae98671acf", "out": {"text": "Action 1: examine desk 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p026|t8", "hash": "958fb46e29a1132b", "out": {"text": "Action 1: examine sidetable 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p026|t22", "hash": "4d2e99ff061b3b86", "out": {"text": "Action 1: examine sidetable 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p026|t36", "hash": "b5a56b73f4bad144", "out": {"text": "Action 1: examine drawer 1\nAction 2: close drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p027|t3", "hash": "fc1472c3dcc043f1", "out": {"text": "Action 1: examine desk 2\nAction 2: go to shelf 2", "finish_reason": "stop", "error": null}}
+{"key": "p027|t28", "hash": "7d12fdaf68c673fe", "out": {"text": "Action 1: take cd 1 from desk 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p027|t39", "hash": "a281029291996691", "out": {"text": "Action 1: examine desk 2\nAction 2: take laptop 1 from desk 2", "finish_reason": "stop", "error": null}}
+{"key": "p029|t10", "hash": "8b5fa621983eafe4", "out": {"text": "Action 1: examine shelf 5\nAction 2: go to shelf 5", "finish_reason": "stop", "error": null}}
+{"key": "p029|t19", "hash": "9002887740a2fc5c", "out": {"text": "Action 1: take book 1 from bed 1\nAction 2: take cellphone 3 from bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p029|t30", "hash": "f5397f7c0695f561", "out": {"text": "Action 1: examine cd 3\nAction 2: move cd 3 to shelf 5", "finish_reason": "stop", "error": null}}
+{"key": "p030|t4", "hash": "b579bc36280ef37e", "out": {"text": "Action 1: examine pencil 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p030|t20", "hash": "d9ea6c9f57f9bf29", "out": {"text": "Action 1: examine keychain 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p030|t39", "hash": "f4f3bf5ac68d6992", "out": {"text": "Action 1: examine bed 1\nAction 2: take book 1 from bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p034|t10", "hash": "0d0276bfa0ea4fce", "out": {"text": "Action 1: examine desk 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p034|t23", "hash": "c55184a374b3c53f", "out": {"text": "Action 1: examine desk 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p034|t36", "hash": "b5542b4e71a0a69f", "out": {"text": "Action 1: examine book 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p036|t0", "hash": "d2b40436f4f302ea", "out": {"text": "Action 1: go to sidetable 1\nAction 2: go to dresser 1", "finish_reason": "stop", "error": null}}
+{"key": "p036|t16", "hash": "a202cf2ee83a4f91", "out": {"text": "Action 1: close drawer 1\nAction 2: examine drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p036|t35", "hash": "7cf615b899630962", "out": {"text": "Action 1: examine pen 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p037|t0", "hash": "dafc6bfeb32da959", "out": {"text": "Action 1: go to bed 1\nAction 2: go to bed 2", "finish_reason": "stop", "error": null}}
+{"key": "p037|t16", "hash": "1e3c4abc1c2f223c", "out": {"text": "Action 1: examine desk 1\nAction 2: take alarmclock 1 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p037|t34", "hash": "fd3c060000f8795c", "out": {"text": "Action 1: examine alarmclock 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p040|t0", "hash": "8356eeb11ac80c7a", "out": {"text": "Action 1: go to diningtable 1\nAction 2: go to sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p040|t26", "hash": "a87a821453d5549e", "out": {"text": "Action 1: examine sidetable 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p040|t29", "hash": "acc0aeccdf421688", "out": {"text": "Action 1: examine diningtable 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p041|t11", "hash": "54706ae167853c37", "out": {"text": "Action 1: examine armchair 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p041|t16", "hash": "fa874023af4c6abc", "out": {"text": "Action 1: examine keychain 1\nAction 2: examine sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p041|t31", "hash": "4c2035d22f31913a", "out": {"text": "Action 1: examine armchair 1\nAction 2: move creditcard 1 to armchair 1", "finish_reason": "stop", "error": null}}
+{"key": "p042|t1", "hash": "58577e960afbe162", "out": {"text": "Action 1: examine desk 1\nAction 2: take pencil 2 from drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p042|t27", "hash": "e31f7aac2a4f711f", "out": {"text": "Action 1: examine drawer 1\nAction 2: close drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p042|t39", "hash": "2ecf53c0df07f5b3", "out": {"text": "Action 1: examine desk 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p043|t6", "hash": "133476256842d536", "out": {"text": "Action 1: go to bed 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p043|t19", "hash": "3d3b2c2ec7ed2382", "out": {"text": "Action 1: go to drawer 1\nAction 2: examine bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p043|t29", "hash": "20d8aede63a590e5", "out": {"text": "Action 1: examine bed 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p044|t5", "hash": "ad66f4d4daa4b658", "out": {"text": "Action 1: examine desk 1\nAction 2: examine pen 1", "finish_reason": "stop", "error": null}}
+{"key": "p044|t18", "hash": "be9be2249cb41045", "out": {"text": "Action 1: examine desk 1\nAction 2: examine pen 1", "finish_reason": "stop", "error": null}}
+{"key": "p044|t42", "hash": "c492607645a23d1d", "out": {"text": "Action 1: examine pen 1\nAction 2: examine desk 2", "finish_reason": "stop", "error": null}}
+{"key": "p045|t4", "hash": "f6047993e75e1d4d", "out": {"text": "Action 1: examine pencil 1\nAction 2: examine shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p045|t17", "hash": "2ca17c18c32c0acd", "out": {"text": "Action 1: examine pencil 1\nAction 2: examine shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p045|t40", "hash": "31885140f520e568", "out": {"text": "Action 1: examine pencil 1\nAction 2: examine shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p046|t14", "hash": "630474d7e90216d5", "out": {"text": "Action 1: examine desk 1\nAction 2: move pencil 1 to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p046|t23", "hash": "96d1f5fabf52199a", "out": {"text": "Action 1: examine desk 1\nAction 2: take pen 1 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p046|t31", "hash": "ed47488a2b198fcb", "out": {"text": "Action 1: examine pencil 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p047|t13", "hash": "e86b413c2aa6ea8b", "out": {"text": "Action 1: examine desk 2\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p047|t21", "hash": "339d256dece54a48", "out": {"text": "Action 1: examine pencil 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p047|t37", "hash": "36692e43d25f3f44", "out": {"text": "Action 1: examine desk 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p048|t1", "hash": "8f1adf32c6dae9e9", "out": {"text": "Action 1: examine desk 1\nAction 2: take book 1 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p048|t27", "hash": "1777df67556a7887", "out": {"text": "Action 1: examine pen 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "p048|t36", "hash": "f7834a5eb02612e1", "out": {"text": "Action 1: examine pen 1\nAction 2: go to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p050|t14", "hash": "8abe62a56843f5ce", "out": {"text": "Action 1: examine pillow 1\nAction 2: examine bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p050|t22", "hash": "bef069046e63db08", "out": {"text": "Action 1: examine desk 1\nAction 2: examine pillow 1", "finish_reason": "stop", "error": null}}
+{"key": "p050|t34", "hash": "e196b160f581dccc", "out": {"text": "Action 1: examine pillow 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p051|t12", "hash": "4afef88d92aa34f8", "out": {"text": "Action 1: examine desk 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p051|t18", "hash": "461b5d2f4656ee23", "out": {"text": "Action 1: examine desk 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p051|t38", "hash": "7bda29c153c58d04", "out": {"text": "Action 1: examine pillow 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p052|t9", "hash": "18427754f77febc2", "out": {"text": "Action 1: examine pillow 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p052|t19", "hash": "9119073847ebe386", "out": {"text": "Action 1: examine pillow 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p052|t43", "hash": "e54570a67f388900", "out": {"text": "Action 1: go to bed 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p055|t7", "hash": "fa5c64f446a5023f", "out": {"text": "Action 1: examine desk 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p055|t27", "hash": "b4aa03f1e77d2de0", "out": {"text": "Action 1: examine desk 1\nAction 2: examine pillow 1", "finish_reason": "stop", "error": null}}
+{"key": "p055|t41", "hash": "41ca834b95832dfe", "out": {"text": "Action 1: examine desk 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p058|t14", "hash": "a9cefdeee43688f2", "out": {"text": "Action 1: examine bed 1\nAction 2: go to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p058|t15", "hash": "7cbc49f74ba4be66", "out": {"text": "Action 1: examine bed 1\nAction 2: take pillow 1 from bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p058|t33", "hash": "34393ec15178f571", "out": {"text": "Action 1: examine desk 2\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p059|t10", "hash": "3f606197258640d8", "out": {"text": "Action 1: examine drawer 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p059|t16", "hash": "2fd08fc75c9a278e", "out": {"text": "Action 1: examine bed 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p059|t40", "hash": "d0a5aca7220f5a37", "out": {"text": "Action 1: examine pillow 1\nAction 2: examine shelf 3", "finish_reason": "stop", "error": null}}
+{"key": "p066|t4", "hash": "492136aeecbf2b14", "out": {"text": "Action 1: examine drawer 1\nAction 2: close drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p066|t27", "hash": "eba8d3e8626831a5", "out": {"text": "Action 1: examine drawer 2\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p066|t30", "hash": "739735bda72cddb1", "out": {"text": "Action 1: examine drawer 1\nAction 2: move pencil 2 to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p067|t3", "hash": "eb16b0385dc0326f", "out": {"text": "Action 1: go to cabinet 3\nAction 2: go to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p067|t16", "hash": "815695171ae731f8", "out": {"text": "Action 1: go to desk 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p067|t37", "hash": "49ce61ce566649b8", "out": {"text": "Action 1: go to cabinet 3\nAction 2: examine cabinet 3", "finish_reason": "stop", "error": null}}
+{"key": "p068|t13", "hash": "edd09a61189db70a", "out": {"text": "Action 1: go to desk 1\nAction 2: close cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "p068|t17", "hash": "05f3d72e286623c0", "out": {"text": "Action 1: examine cabinet 4\nAction 2: go to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p068|t39", "hash": "0745257e73115c6b", "out": {"text": "Action 1: examine desk 1\nAction 2: go to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p069|t10", "hash": "8eab0d152351a79c", "out": {"text": "Action 1: take creditcard 3 from drawer 10\nAction 2: examine drawer 10", "finish_reason": "stop", "error": null}}
+{"key": "p069|t23", "hash": "ab8ca6fde1b6a3f0", "out": {"text": "Action 1: go to desk 1\nAction 2: close drawer 2", "finish_reason": "stop", "error": null}}
+{"key": "p069|t38", "hash": "316a6150981c2cf7", "out": {"text": "Action 1: go to desk 2\nAction 2: examine drawer 2", "finish_reason": "stop", "error": null}}
+{"key": "p073|t8", "hash": "d2ca9bd865b274ab", "out": {"text": "Action 1: examine cabinet 4\nAction 2: go to cabinet 3", "finish_reason": "stop", "error": null}}
+{"key": "p073|t23", "hash": "aeafb08ccb80f3fa", "out": {"text": "Action 1: examine desk 1\nAction 2: take alarmclock 1 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p073|t34", "hash": "3c915d20788925ba", "out": {"text": "Action 1: examine alarmclock 1\nAction 2: go to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p074|t4", "hash": "43281867c0ef160e", "out": {"text": "Action 1: close drawer 1\nAction 2: examine drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p074|t16", "hash": "087184148c2c1720", "out": {"text": "Action 1: close drawer 1\nAction 2: examine drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "p074|t37", "hash": "7f00aee2a08cef06", "out": {"text": "Action 1: close drawer 1\nAction 2: examine creditcard 2", "finish_reason": "stop", "error": null}}
+{"key": "p075|t3", "hash": "c9ccb5e1b4cc9c52", "out": {"text": "Action 1: examine cd 3\nAction 2: move cd 3 to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p075|t26", "hash": "78ea8230264413f6", "out": {"text": "Action 1: examine drawer 8\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p075|t28", "hash": "b26d0730ddc3d9a9", "out": {"text": "Action 1: examine drawer 7\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p080|t2", "hash": "00a410bb46aede54", "out": {"text": "Action 1: go to armchair 1\nAction 2: examine cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "p080|t15", "hash": "0cc596aa60350275", "out": {"text": "Action 1: go to armchair 1\nAction 2: examine drawer 2", "finish_reason": "stop", "error": null}}
+{"key": "p080|t37", "hash": "ef711f794988b0c2", "out": {"text": "Action 1: go to armchair 1\nAction 2: examine cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "p081|t5", "hash": "527a8979f7e49d09", "out": {"text": "Action 1: go to drawer 2\nAction 2: go to drawer 4", "finish_reason": "stop", "error": null}}
+{"key": "p081|t14", "hash": "f278b9cbc782fe5d", "out": {"text": "Action 1: examine drawer 8\nAction 2: go to dresser 1", "finish_reason": "stop", "error": null}}
+{"key": "p081|t38", "hash": "1b741cb4f87b0cc4", "out": {"text": "Action 1: go to dresser 1\nAction 2: go to drawer 3", "finish_reason": "stop", "error": null}}
+{"key": "p082|t13", "hash": "4a3c4b820786850a", "out": {"text": "Action 1: examine drawer 3\nAction 2: go to armchair 1", "finish_reason": "stop", "error": null}}
+{"key": "p082|t23", "hash": "2fb58a681fb36868", "out": {"text": "Action 1: go to sofa 1\nAction 2: examine drawer 4", "finish_reason": "stop", "error": null}}
+{"key": "p082|t32", "hash": "5e121d9a0931b66a", "out": {"text": "Action 1: examine drawer 3\nAction 2: go to sofa 1", "finish_reason": "stop", "error": null}}
+{"key": "p083|t6", "hash": "e9c8e3ebffb093ff", "out": {"text": "Action 1: go to drawer 1\nAction 2: go to drawer 2", "finish_reason": "stop", "error": null}}
+{"key": "p083|t14", "hash": "7788effcd4a596c2", "out": {"text": "Action 1: examine laptop 1\nAction 2: go to sofa 1", "finish_reason": "stop", "error": null}}
+{"key": "p083|t34", "hash": "f3e3125fcfab7a96", "out": {"text": "Action 1: examine sofa 1\nAction 2: go to sofa 1", "finish_reason": "stop", "error": null}}
+{"key": "p085|t7", "hash": "63b27ff653661955", "out": {"text": "Action 1: examine cabinet 2\nAction 2: go to cabinet 3", "finish_reason": "stop", "error": null}}
+{"key": "p085|t17", "hash": "251a73673e539617", "out": {"text": "Action 1: go to sidetable 1\nAction 2: close cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "p085|t30", "hash": "0beff3ee3d41b9ab", "out": {"text": "Action 1: go to drawer 1\nAction 2: examine sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p086|t3", "hash": "9f1faba88ef481f2", "out": {"text": "Action 1: examine sidetable 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "p086|t19", "hash": "01fb8290e64e6eb1", "out": {"text": "Action 1: go to sidetable 1\nAction 2: examine sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p086|t39", "hash": "61cddd8c5a222b2d", "out": {"text": "Action 1: examine cabinet 2\nAction 2: go to cabinet 3", "finish_reason": "stop", "error": null}}
+{"key": "p088|t8", "hash": "f5073b14389f060c", "out": {"text": "Action 1: go to dresser 1\nAction 2: go to safe 1", "finish_reason": "stop", "error": null}}
+{"key": "p088|t25", "hash": "3996b6ef83b98317", "out": {"text": "Action 1: go to dresser 1\nAction 2: close drawer 4", "finish_reason": "stop", "error": null}}
+{"key": "p088|t36", "hash": "92f022ca3c40e5cd", "out": {"text": "Action 1: go to dresser 1\nAction 2: go to safe 1", "finish_reason": "stop", "error": null}}
+{"key": "p089|t8", "hash": "2482bd2de260feb4", "out": {"text": "Action 1: go to drawer 11\nAction 2: go to safe 1", "finish_reason": "stop", "error": null}}
+{"key": "p089|t16", "hash": "0080ffc476d6367a", "out": {"text": "Action 1: take alarmclock 1 from desk 1\nAction 2: take book 1 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p089|t35", "hash": "c5cddca4f9a96d07", "out": {"text": "Action 1: go to safe 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "p091|t9", "hash": "2154b811c661321e", "out": {"text": "Action 1: examine drawer 3\nAction 2: go to drawer 7", "finish_reason": "stop", "error": null}}
+{"key": "p091|t17", "hash": "c9e856ed7e207a1d", "out": {"text": "Action 1: take alarmclock 2 from shelf 1\nAction 2: take pen 2 from shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p091|t31", "hash": "bc4baa0e2bafb1e9", "out": {"text": "Action 1: go to drawer 7\nAction 2: examine pen 2", "finish_reason": "stop", "error": null}}
+{"key": "p093|t9", "hash": "66a61221d5f22e32", "out": {"text": "Action 1: go to shelf 1\nAction 2: go to sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p093|t18", "hash": "a5300dd6f6783171", "out": {"text": "Action 1: go to shelf 1\nAction 2: examine shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p093|t28", "hash": "8d8d544a6b591a97", "out": {"text": "Action 1: go to shelf 1\nAction 2: examine shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "p095|t1", "hash": "6e4b3996b6f8c3ba", "out": {"text": "Action 1: examine drawer 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "p095|t20", "hash": "da89726b84a32536", "out": {"text": "Action 1: go to sidetable 1\nAction 2: examine sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p095|t36", "hash": "69fb9c95e6038445", "out": {"text": "Action 1: go to bed 1\nAction 2: examine alarmclock 1", "finish_reason": "stop", "error": null}}
+{"key": "p096|t10", "hash": "62fffea633424a29", "out": {"text": "Action 1: close cabinet 3\nAction 2: examine cabinet 3", "finish_reason": "stop", "error": null}}
+{"key": "p096|t25", "hash": "790f0325f824b71b", "out": {"text": "Action 1: take cloth 1 from countertop 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "p096|t29", "hash": "0b009a9c6ac79593", "out": {"text": "Action 1: close cabinet 1\nAction 2: move cloth 2 to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "p101|t12", "hash": "ecdfa05fbcb0de17", "out": {"text": "Action 1: take soapbottle 2 from sidetable 1\nAction 2: examine sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p101|t17", "hash": "a8896f77c9322a06", "out": {"text": "Action 1: take soapbar 1 from sidetable 1\nAction 2: examine sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "p101|t35", "hash": "2538a59377fd8ff3", "out": {"text": "Action 1: close drawer 1\nAction 2: examine sidetable 1", "finish_reason": "stop", "error": null}}

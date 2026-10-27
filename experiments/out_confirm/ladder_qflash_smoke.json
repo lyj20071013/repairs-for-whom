@@ -1,0 +1,22 @@
+{
+ "name": "qflash",
+ "policy": "99bd9e3fff299d36300632c314c9723da3ffed74d568e2c25d31cc49044725ad",
+ "n_rollouts": 60,
+ "errors": 0,
+ "wall_s": 152.29205513000488,
+ "success_eval": 0.9333333333333333,
+ "success_7b_same_branches": 0.3516666666666667,
+ "usage": {
+  "calls": 876,
+  "prompt_tokens": 1853617,
+  "cached_tokens": 1190144,
+  "completion_tokens": 35789,
+  "retries": 11,
+  "errors": 0,
+  "length_cut": 2,
+  "seconds_in_calls": 2103.1825103759766
+ },
+ "cost_yuan": 0.8178317400000001,
+ "projected_cost_yuan": 114.25109407800002,
+ "projected_hours": 5.909777806017135
+}

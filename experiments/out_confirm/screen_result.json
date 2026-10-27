@@ -1,0 +1,63 @@
+{
+  "n_collected": 200,
+  "n_success": 35,
+  "fail_reason_counts": {
+    "trap_step": 57,
+    "timeout_before_door": 44,
+    "timeout_return": 50,
+    "timeout_before_gem": 14
+  },
+  "n_screen": 107,
+  "fail_types": [
+    "trap_step",
+    "timeout_return"
+  ],
+  "n_informative": 34,
+  "by_type": {
+    "trap_step": {
+      "candidates": 57,
+      "informative": 12
+    },
+    "timeout_return": {
+      "candidates": 50,
+      "informative": 22
+    }
+  },
+  "informative": [
+    "cf01001",
+    "cf01009",
+    "cf01018",
+    "cf01022",
+    "cf01023",
+    "cf01024",
+    "cf01025",
+    "cf01034",
+    "cf01035",
+    "cf01037",
+    "cf01043",
+    "cf01052",
+    "cf01067",
+    "cf01068",
+    "cf01069",
+    "cf01090",
+    "cf01103",
+    "cf01104",
+    "cf01105",
+    "cf01106",
+    "cf01116",
+    "cf01123",
+    "cf01131",
+    "cf01138",
+    "cf01162",
+    "cf01167",
+    "cf01169",
+    "cf01172",
+    "cf01185",
+    "cf01186",
+    "cf01187",
+    "cf01194",
+    "cf01196",
+    "cf01198"
+  ],
+  "will_run_main": 30
+}

@@ -1,0 +1,180 @@
+{"key": "n000|t7", "hash": "202b570dd6611eae", "out": {"text": "Action 1: examine alarmclock 1\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "n000|t14", "hash": "a1f43cc9f61d3c81", "out": {"text": "Action 1: examine alarmclock 1\nAction 2: examine shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n000|t31", "hash": "f838cdb22e4a974a", "out": {"text": "Action 1: examine alarmclock 1\nAction 2: examine shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n001|t8", "hash": "bbbffe8dcf00e322", "out": {"text": "Action 1: examine sidetable 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n001|t21", "hash": "30a3bb6eadc0a7fe", "out": {"text": "Action 1: examine desk 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "n001|t42", "hash": "8f6b7882ac45a5d4", "out": {"text": "Action 1: examine sidetable 1\nAction 2: take cellphone 2 from sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "n005|t6", "hash": "76ace9c5cd066da4", "out": {"text": "Action 1: examine alarmclock 2\nAction 2: examine desk 2", "finish_reason": "stop", "error": null}}
+{"key": "n005|t27", "hash": "e88d33abef8cf2c1", "out": {"text": "Action 1: examine alarmclock 2\nAction 2: examine desk 1", "finish_reason": "stop", "error": null}}
+{"key": "n005|t32", "hash": "02122f7d8ccd9d45", "out": {"text": "Action 1: examine desk 2\nAction 2: go to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "n010|t10", "hash": "9e8a92f943fcd5a8", "out": {"text": "Action 1: examine bowl 4\nAction 2: examine sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "n010|t28", "hash": "a000e53c3d85a736", "out": {"text": "Action 1: examine bowl 4\nAction 2: examine sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "n010|t42", "hash": "4d8c8cde23bdd59c", "out": {"text": "Action 1: examine bowl 4\nAction 2: examine sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "n011|t11", "hash": "db41d347ea302725", "out": {"text": "Action 1: examine desk 1\nAction 2: go to sidetable 2", "finish_reason": "stop", "error": null}}
+{"key": "n011|t16", "hash": "71f2b39e21100b57", "out": {"text": "Action 1: examine desk 1\nAction 2: go to sidetable 2", "finish_reason": "stop", "error": null}}
+{"key": "n011|t30", "hash": "cfcde1ffb5cfb689", "out": {"text": "Action 1: examine sidetable 2\nAction 2: take pen 2 from sidetable 2", "finish_reason": "stop", "error": null}}
+{"key": "n012|t4", "hash": "6f3f77eecf77ab2f", "out": {"text": "Action 1: examine shelf 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "n012|t23", "hash": "26835b398a72f75c", "out": {"text": "Action 1: examine desk 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "n012|t40", "hash": "a599c8ab57a05b1a", "out": {"text": "Action 1: examine shelf 1\nAction 2: go to bed 1", "finish_reason": "stop", "error": null}}
+{"key": "n017|t4", "hash": "69ae9a5ba21b4419", "out": {"text": "Action 1: examine desk 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n017|t23", "hash": "49d9f12deea48fc1", "out": {"text": "Action 1: examine shelf 1\nAction 2: take pencil 1 from shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n017|t39", "hash": "9dabd953b986f921", "out": {"text": "Action 1: take book 1 from desk 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n024|t10", "hash": "25afddd18f890c2b", "out": {"text": "Action 1: examine pen 2\nAction 2: go to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "n024|t19", "hash": "42a51979bbb990da", "out": {"text": "Action 1: examine shelf 1\nAction 2: go to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "n024|t30", "hash": "8a39e830c8d711e1", "out": {"text": "Action 1: examine shelf 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n026|t0", "hash": "2bd646c33f9a5503", "out": {"text": "Action 1: go to desk 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n026|t23", "hash": "d36fa882a4a35c76", "out": {"text": "Action 1: examine desk 1\nAction 2: examine pencil 3", "finish_reason": "stop", "error": null}}
+{"key": "n026|t38", "hash": "c113a9f5f71653c9", "out": {"text": "Action 1: examine desk 1\nAction 2: examine pencil 3", "finish_reason": "stop", "error": null}}
+{"key": "n028|t0", "hash": "82b21046150ba10f", "out": {"text": "Action 1: go to desk 1\nAction 2: go to desk 2", "finish_reason": "stop", "error": null}}
+{"key": "n028|t19", "hash": "8b86e657cedbbd9b", "out": {"text": "Action 1: examine pillow 1\nAction 2: go to desk 2", "finish_reason": "stop", "error": null}}
+{"key": "n028|t31", "hash": "97570e94f1ee7ad4", "out": {"text": "Action 1: examine desk 2\nAction 2: examine pillow 1", "finish_reason": "stop", "error": null}}
+{"key": "n030|t2", "hash": "fc655550c020a038", "out": {"text": "Action 1: examine desk 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n030|t22", "hash": "02e2856ab45bfb7f", "out": {"text": "Action 1: examine shelf 1\nAction 2: examine shelf 2", "finish_reason": "stop", "error": null}}
+{"key": "n030|t43", "hash": "99d63a742b6cfd42", "out": {"text": "Action 1: examine desk 1\nAction 2: examine tissuebox 1", "finish_reason": "stop", "error": null}}
+{"key": "n031|t7", "hash": "7b434651deeae5c5", "out": {"text": "Action 1: examine desk 1\nAction 2: go to dresser 1", "finish_reason": "stop", "error": null}}
+{"key": "n031|t15", "hash": "69b219a512e8676e", "out": {"text": "Action 1: examine dresser 1\nAction 2: take cellphone 2 from dresser 1", "finish_reason": "stop", "error": null}}
+{"key": "n031|t38", "hash": "1c47af420dce36fa", "out": {"text": "Action 1: go to dresser 1\nAction 2: use desklamp 1", "finish_reason": "stop", "error": null}}
+{"key": "n033|t4", "hash": "c7afe101dcc3cf00", "out": {"text": "Action 1: go to drawer 1\nAction 2: go to dresser 1", "finish_reason": "stop", "error": null}}
+{"key": "n033|t19", "hash": "3ae1831d43e8c5b7", "out": {"text": "Action 1: examine sidetable 1\nAction 2: go to safe 1", "finish_reason": "stop", "error": null}}
+{"key": "n033|t31", "hash": "b02fe1bf662d2e57", "out": {"text": "Action 1: examine safe 1\nAction 2: go to dresser 1", "finish_reason": "stop", "error": null}}
+{"key": "n035|t13", "hash": "753af8a02bc91a49", "out": {"text": "Action 1: go to shelf 1\nAction 2: go to shelf 2", "finish_reason": "stop", "error": null}}
+{"key": "n035|t20", "hash": "b0b2faa59773bb2b", "out": {"text": "Action 1: examine shelf 4\nAction 2: go to bathtubbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n035|t38", "hash": "148acd03dfa03754", "out": {"text": "Action 1: take cloth 2 from bathtubbasin 1\nAction 2: go to cart 1", "finish_reason": "stop", "error": null}}
+{"key": "n037|t0", "hash": "7006a32d389a458d", "out": {"text": "Action 1: go to bathtubbasin 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "n037|t17", "hash": "6640889959f1a3be", "out": {"text": "Action 1: take cloth 1 from bathtubbasin 1\nAction 2: examine bathtubbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n037|t28", "hash": "4b55e2885f9c9a17", "out": {"text": "Action 1: go to sidetable 1\nAction 2: take cloth 1 from bathtubbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n046|t2", "hash": "ca83bf5f5e02436e", "out": {"text": "Action 1: take bread 1 from fridge 1\nAction 2: take cup 2 from fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n046|t17", "hash": "3c084a93e99a212b", "out": {"text": "Action 1: take bread 1 from fridge 1\nAction 2: take cup 2 from fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n046|t35", "hash": "e16fe0ac1359ae81", "out": {"text": "Action 1: close cabinet 1\nAction 2: examine cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n050|t11", "hash": "09dde63ed545db09", "out": {"text": "Action 1: go to shelf 1\nAction 2: go to shelf 2", "finish_reason": "stop", "error": null}}
+{"key": "n050|t23", "hash": "8c3aa50ca01583e1", "out": {"text": "Action 1: go to countertop 1\nAction 2: examine countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n050|t40", "hash": "db536028fa90b0ee", "out": {"text": "Action 1: take tomato 2 from fridge 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n052|t7", "hash": "21c8bb2c6d6114a2", "out": {"text": "Action 1: go to shelf 2\nAction 2: examine shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n052|t26", "hash": "d6412a9d12e6ebcd", "out": {"text": "Action 1: examine box 1\nAction 2: go to shelf 2", "finish_reason": "stop", "error": null}}
+{"key": "n052|t34", "hash": "3ffa59993025a0c8", "out": {"text": "Action 1: examine desk 1\nAction 2: go to shelf 2", "finish_reason": "stop", "error": null}}
+{"key": "n053|t9", "hash": "e2f56b0bab46bedf", "out": {"text": "Action 1: examine book 1\nAction 2: go to ottoman 1", "finish_reason": "stop", "error": null}}
+{"key": "n053|t20", "hash": "160edf93961c6c17", "out": {"text": "Action 1: examine drawer 1\nAction 2: move book 1 to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "n053|t37", "hash": "6417e39cede40d1a", "out": {"text": "Action 1: examine ottoman 1\nAction 2: take book 1 from ottoman 1", "finish_reason": "stop", "error": null}}
+{"key": "n058|t7", "hash": "a47f981da84cfe1c", "out": {"text": "Action 1: go to desk 1\nAction 2: open drawer 3", "finish_reason": "stop", "error": null}}
+{"key": "n058|t22", "hash": "a683164ffb7e65c2", "out": {"text": "Action 1: examine desk 1\nAction 2: move book 1 to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "n058|t34", "hash": "318139cf5cf00ebd", "out": {"text": "Action 1: go to drawer 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n059|t2", "hash": "785761c712e8d056", "out": {"text": "Action 1: examine drawer 1\nAction 2: go to desk 1", "finish_reason": "stop", "error": null}}
+{"key": "n059|t18", "hash": "e4276daffdd615f8", "out": {"text": "Action 1: take cd 3 from desk 1\nAction 2: take pen 3 from desk 1", "finish_reason": "stop", "error": null}}
+{"key": "n059|t34", "hash": "0fc6cdba78a2b3ce", "out": {"text": "Action 1: close drawer 1\nAction 2: examine cd 1", "finish_reason": "stop", "error": null}}
+{"key": "n060|t10", "hash": "a72b3929b661162c", "out": {"text": "Action 1: go to cabinet 1\nAction 2: go to cabinet 12", "finish_reason": "stop", "error": null}}
+{"key": "n060|t17", "hash": "d2f50527381008d8", "out": {"text": "Action 1: go to shelf 1\nAction 2: go to cabinet 12", "finish_reason": "stop", "error": null}}
+{"key": "n060|t37", "hash": "4e2a7ad60b821927", "out": {"text": "Action 1: go to shelf 1\nAction 2: go to shelf 2", "finish_reason": "stop", "error": null}}
+{"key": "n063|t9", "hash": "03aea7fa121f931e", "out": {"text": "Action 1: go to drawer 1\nAction 2: examine drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "n063|t24", "hash": "3fed889fdf9788ec", "out": {"text": "Action 1: examine drawer 1\nAction 2: go to sofa 1", "finish_reason": "stop", "error": null}}
+{"key": "n063|t36", "hash": "b2e0f26fc7d51201", "out": {"text": "Action 1: go to sofa 1\nAction 2: examine sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "n066|t9", "hash": "09df4f18efef1f46", "out": {"text": "Action 1: go to garbagecan 1\nAction 2: go to bathtubbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n066|t20", "hash": "c0308738cdcf87bf", "out": {"text": "Action 1: examine bathtubbasin 1\nAction 2: go to sinkbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n066|t38", "hash": "68159bdc7713b93b", "out": {"text": "Action 1: examine drawer 1\nAction 2: go to sinkbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n067|t0", "hash": "2d987a692c89548e", "out": {"text": "Action 1: go to sidetable 1\nAction 2: go to sinkbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n067|t19", "hash": "ac205f0c900d3fcd", "out": {"text": "Action 1: clean soapbar 2 with sinkbasin 1\nAction 2: move soapbar 2 to sinkbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n067|t28", "hash": "1f8f5d52d5289829", "out": {"text": "Action 1: examine bathtubbasin 1\nAction 2: take cloth 1 from bathtubbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n068|t2", "hash": "7672e179bac9e11f", "out": {"text": "Action 1: take soapbar 1 from cabinet 1\nAction 2: examine cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n068|t26", "hash": "c1a36a991b993730", "out": {"text": "Action 1: take soapbar 1 from cabinet 1\nAction 2: examine cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n068|t39", "hash": "b1b6206dd34ad417", "out": {"text": "Action 1: go to cabinet 1\nAction 2: go to cabinet 2", "finish_reason": "stop", "error": null}}
+{"key": "n070|t10", "hash": "0c71f90ec7a8dcbe", "out": {"text": "Action 1: go to countertop 1\nAction 2: examine drawer 3", "finish_reason": "stop", "error": null}}
+{"key": "n070|t14", "hash": "763dbb977c628cf4", "out": {"text": "Action 1: go to countertop 1\nAction 2: open drawer 3", "finish_reason": "stop", "error": null}}
+{"key": "n070|t31", "hash": "a91db99b02b794e6", "out": {"text": "Action 1: go to countertop 1\nAction 2: examine drawer 3", "finish_reason": "stop", "error": null}}
+{"key": "n077|t9", "hash": "8db9bdc11931852b", "out": {"text": "Action 1: examine shelf 1\nAction 2: go to garbagecan 1", "finish_reason": "stop", "error": null}}
+{"key": "n077|t26", "hash": "10ecc28676403c47", "out": {"text": "Action 1: examine garbagecan 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n077|t34", "hash": "395e5b66c7b305a2", "out": {"text": "Action 1: examine garbagecan 1\nAction 2: go to toiletpaperhanger 1", "finish_reason": "stop", "error": null}}
+{"key": "n086|t1", "hash": "81a88dad85e83753", "out": {"text": "Action 1: examine countertop 1\nAction 2: go to cabinet 10", "finish_reason": "stop", "error": null}}
+{"key": "n086|t16", "hash": "3ec37e45c5bdd3e8", "out": {"text": "Action 1: go to cabinet 1\nAction 2: go to cabinet 10", "finish_reason": "stop", "error": null}}
+{"key": "n086|t36", "hash": "d5d8d89be7b29550", "out": {"text": "Action 1: go to cabinet 1\nAction 2: go to cabinet 10", "finish_reason": "stop", "error": null}}
+{"key": "n091|t1", "hash": "d74317c2087ff031", "out": {"text": "Action 1: examine towelholder 1\nAction 2: go to sinkbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n091|t25", "hash": "2c69b41fdf6d5cbb", "out": {"text": "Action 1: examine towelholder 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n091|t28", "hash": "29e671781d3263bb", "out": {"text": "Action 1: examine sinkbasin 1\nAction 2: clean towel 1 with sinkbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n092|t12", "hash": "bb73d21533af47a4", "out": {"text": "Action 1: go to cabinet 1\nAction 2: open cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n092|t21", "hash": "6db52a3a2d449b6f", "out": {"text": "Action 1: go to cabinet 1\nAction 2: examine cabinet 2", "finish_reason": "stop", "error": null}}
+{"key": "n092|t33", "hash": "8f57cb7bd763c28f", "out": {"text": "Action 1: go to cabinet 1\nAction 2: examine cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n093|t10", "hash": "3f708b19dd673b78", "out": {"text": "Action 1: go to cabinet 4\nAction 2: examine cabinet 4", "finish_reason": "stop", "error": null}}
+{"key": "n093|t20", "hash": "2a01dd5ab091b61c", "out": {"text": "Action 1: go to cabinet 8\nAction 2: examine cabinet 8", "finish_reason": "stop", "error": null}}
+{"key": "n093|t22", "hash": "817793cc971243e7", "out": {"text": "Action 1: go to cabinet 9\nAction 2: examine cabinet 9", "finish_reason": "stop", "error": null}}
+{"key": "n095|t7", "hash": "7498959c79271a5c", "out": {"text": "Action 1: examine sinkbasin 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n095|t22", "hash": "cf5f635208ba58ab", "out": {"text": "Action 1: go to shelf 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n095|t26", "hash": "30f25b424867aa83", "out": {"text": "Action 1: clean bowl 2 with sinkbasin 1\nAction 2: examine sinkbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n098|t1", "hash": "631f9f5a3462c363", "out": {"text": "Action 1: take apple 3 from countertop 1\nAction 2: take bowl 1 from countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n098|t17", "hash": "66fbefee483cca3f", "out": {"text": "Action 1: go to cabinet 1\nAction 2: examine coffeemachine 1", "finish_reason": "stop", "error": null}}
+{"key": "n098|t29", "hash": "c6a3e13522c65e65", "out": {"text": "Action 1: examine countertop 1\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "n103|t0", "hash": "8737530a8dca1f6b", "out": {"text": "Action 1: go to countertop 1\nAction 2: go to diningtable 1", "finish_reason": "stop", "error": null}}
+{"key": "n103|t23", "hash": "3b58207d3f0c4c27", "out": {"text": "Action 1: go to cabinet 4\nAction 2: examine cabinet 4", "finish_reason": "stop", "error": null}}
+{"key": "n103|t33", "hash": "8bfe4eefc8fbf332", "out": {"text": "Action 1: examine diningtable 1\nAction 2: examine butterknife 2", "finish_reason": "stop", "error": null}}
+{"key": "n104|t9", "hash": "1b6fcd07dedfbb05", "out": {"text": "Action 1: go to cabinet 1\nAction 2: go to countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n104|t13", "hash": "c209f3743b6802dc", "out": {"text": "Action 1: go to countertop 1\nAction 2: examine countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n104|t35", "hash": "cc9855f815501707", "out": {"text": "Action 1: examine cabinet 1\nAction 2: go to cabinet 10", "finish_reason": "stop", "error": null}}
+{"key": "n106|t12", "hash": "e2f3eb6e9082e0d0", "out": {"text": "Action 1: examine drawer 2\nAction 2: go to cabinet 10", "finish_reason": "stop", "error": null}}
+{"key": "n106|t23", "hash": "74969ee928c56c1d", "out": {"text": "Action 1: go to cabinet 10\nAction 2: go to countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n106|t38", "hash": "3a5ecf47eb7e9331", "out": {"text": "Action 1: go to cabinet 10\nAction 2: examine cabinet 10", "finish_reason": "stop", "error": null}}
+{"key": "n109|t8", "hash": "1988a106d1c9eba1", "out": {"text": "Action 1: close fridge 1\nAction 2: go to countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n109|t19", "hash": "f7a1917634d5f00c", "out": {"text": "Action 1: close fridge 1\nAction 2: take bowl 1 from fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n109|t31", "hash": "634ee2b9768c5f76", "out": {"text": "Action 1: close fridge 1\nAction 2: cool bowl 1 with fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n112|t0", "hash": "11dd46bf3a872d91", "out": {"text": "Action 1: go to cabinet 10\nAction 2: go to countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n112|t21", "hash": "37ee57b9ded3fe39", "out": {"text": "Action 1: go to cabinet 10\nAction 2: examine cabinet 10", "finish_reason": "stop", "error": null}}
+{"key": "n112|t32", "hash": "31aaf09b09b9c61f", "out": {"text": "Action 1: examine countertop 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n113|t6", "hash": "efc21b33e1093478", "out": {"text": "Action 1: examine countertop 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n113|t18", "hash": "a1ef707651bcf26b", "out": {"text": "Action 1: examine bowl 1\nAction 2: examine shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n113|t38", "hash": "4d297fc6b0b199e5", "out": {"text": "Action 1: examine countertop 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n114|t6", "hash": "d117a8bd355a731a", "out": {"text": "Action 1: examine cabinet 1\nAction 2: go to cabinet 10", "finish_reason": "stop", "error": null}}
+{"key": "n114|t14", "hash": "bd8ba0ec578cfa0a", "out": {"text": "Action 1: examine countertop 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n114|t31", "hash": "f505d26f962b90ff", "out": {"text": "Action 1: examine countertop 1\nAction 2: go to stoveburner 1", "finish_reason": "stop", "error": null}}
+{"key": "n119|t2", "hash": "7f10085090a5aca7", "out": {"text": "Action 1: examine cabinet 1\nAction 2: go to bathtubbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n119|t22", "hash": "cbfc645630106a26", "out": {"text": "Action 1: examine soapbottle 1\nAction 2: go to bathtubbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n119|t30", "hash": "48c6304fb9c5439d", "out": {"text": "Action 1: examine soapbottle 1\nAction 2: go to sinkbasin 1", "finish_reason": "stop", "error": null}}
+{"key": "n126|t1", "hash": "84d840faa41841e6", "out": {"text": "Action 1: take kettle 1 from countertop 1\nAction 2: take lettuce 1 from countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n126|t13", "hash": "837176dcf49bd056", "out": {"text": "Action 1: examine countertop 3\nAction 2: go to drawer 1", "finish_reason": "stop", "error": null}}
+{"key": "n126|t38", "hash": "0e2deb1074ca3b1c", "out": {"text": "Action 1: examine countertop 3\nAction 2: go to drawer 3", "finish_reason": "stop", "error": null}}
+{"key": "n132|t1", "hash": "41a5089d9981d76c", "out": {"text": "Action 1: take bowl 1 from countertop 1\nAction 2: take potato 3 from countertop 1 (This is the original action, but considering the context, taking the bowl might be more useful for later steps.)", "finish_reason": "stop", "error": null}}
+{"key": "n132|t19", "hash": "93de9b390900f703", "out": {"text": "Action 1: examine countertop 1\nAction 2: go to shelf 1", "finish_reason": "stop", "error": null}}
+{"key": "n132|t37", "hash": "c2d1619efffb56e9", "out": {"text": "Action 1: take potato 3 from fridge 1\nAction 2: close fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n135|t2", "hash": "7a61fb57c9d064f2", "out": {"text": "Action 1: go to fridge 1\nAction 2: examine countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n135|t22", "hash": "4902b99ee517381b", "out": {"text": "Action 1: close fridge 1\nAction 2: go to garbagecan 1", "finish_reason": "stop", "error": null}}
+{"key": "n135|t31", "hash": "6eebab09b4f43d5b", "out": {"text": "Action 1: go to countertop 1\nAction 2: cool potato 1 with fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n136|t11", "hash": "d9bf81fed4afe219", "out": {"text": "Action 1: examine countertop 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n136|t23", "hash": "ca82e9b685f1063e", "out": {"text": "Action 1: close fridge 1\nAction 2: examine fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n136|t33", "hash": "116445e8e1ec48f0", "out": {"text": "Action 1: go to cabinet 1\nAction 2: examine cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n138|t2", "hash": "d73f8dbaf4ec7ac8", "out": {"text": "Action 1: examine cabinet 1\nAction 2: go to cabinet 10", "finish_reason": "stop", "error": null}}
+{"key": "n138|t5", "hash": "7b02d1aa269ab46a", "out": {"text": "Action 1: go to fridge 1\nAction 2: take potato 3 from fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n138|t37", "hash": "282d783745cd03f0", "out": {"text": "Action 1: close fridge 1\nAction 2: go to microwave 1", "finish_reason": "stop", "error": null}}
+{"key": "n140|t12", "hash": "623327cf4533fa2f", "out": {"text": "Action 1: go to countertop 2\nAction 2: cool apple 1 with fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n140|t21", "hash": "aa99dc277cae3ad2", "out": {"text": "Action 1: go to countertop 2\nAction 2: examine countertop 2", "finish_reason": "stop", "error": null}}
+{"key": "n140|t33", "hash": "44df701ebee5cce4", "out": {"text": "Action 1: go to countertop 2\nAction 2: move apple 1 to countertop 2", "finish_reason": "stop", "error": null}}
+{"key": "n142|t10", "hash": "ec88e4fbccf640fc", "out": {"text": "Action 1: go to cabinet 1\nAction 2: go to cabinet 2", "finish_reason": "stop", "error": null}}
+{"key": "n142|t24", "hash": "4251d1d39f75dd8e", "out": {"text": "Action 1: close fridge 1\nAction 2: cool apple 1 with fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n142|t37", "hash": "7be50ae9ade5f1d3", "out": {"text": "Action 1: close fridge 1\nAction 2: cool apple 1 with fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n147|t9", "hash": "4d1a6ac664aeaec4", "out": {"text": "Action 1: examine cabinet 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n147|t10", "hash": "01daa9996770748e", "out": {"text": "Action 1: close fridge 1\nAction 2: examine fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n147|t27", "hash": "1c5ce84cfd90317f", "out": {"text": "Action 1: close fridge 1\nAction 2: cool apple 1 with fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n148|t0", "hash": "8e61e33ab915710a", "out": {"text": "Action 1: go to cabinet 1\nAction 2: go to countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n148|t16", "hash": "2ffa8241288a8e89", "out": {"text": "Action 1: take apple 1 from countertop 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n148|t38", "hash": "06990630df403380", "out": {"text": "Action 1: close fridge 1\nAction 2: cool bowl 1 with fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n149|t11", "hash": "f57fd025986a3443", "out": {"text": "Action 1: take lettuce 2 from fridge 1\nAction 2: take tomato 1 from fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n149|t18", "hash": "1b3374eccf49c466", "out": {"text": "Action 1: examine countertop 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n149|t37", "hash": "0e48a52639a5c8d4", "out": {"text": "Action 1: take lettuce 2 from fridge 1\nAction 2: take tomato 1 from fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n160|t5", "hash": "a94a24f7f2a00657", "out": {"text": "Action 1: examine cabinet 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n160|t23", "hash": "6fbef8953e6a7278", "out": {"text": "Action 1: examine fridge 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n160|t30", "hash": "982ad05d4c1bdd61", "out": {"text": "Action 1: take potato 3 from countertop 2\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n162|t4", "hash": "e29f9a70a96c8bd4", "out": {"text": "Action 1: go to cabinet 2\nAction 2: go to cabinet 3", "finish_reason": "stop", "error": null}}
+{"key": "n162|t22", "hash": "fecc2ac8e3dd8a9d", "out": {"text": "Action 1: go to cabinet 2\nAction 2: examine cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n162|t38", "hash": "8aa705a6f489850f", "out": {"text": "Action 1: examine fridge 1\nAction 2: go to countertop 3", "finish_reason": "stop", "error": null}}
+{"key": "n163|t10", "hash": "4a7db73798c466e5", "out": {"text": "Action 1: go to cabinet 3\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n163|t22", "hash": "516a0ebc226caaac", "out": {"text": "Action 1: open cabinet 6\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n163|t33", "hash": "fb13e00119451649", "out": {"text": "Action 1: close cabinet 8\nAction 2: go to countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n164|t5", "hash": "fadc6f894c1737a4", "out": {"text": "Action 1: go to cabinet 13\nAction 2: go to cabinet 15", "finish_reason": "stop", "error": null}}
+{"key": "n164|t23", "hash": "998f55f299b64c72", "out": {"text": "Action 1: go to cabinet 12\nAction 2: go to cabinet 13", "finish_reason": "stop", "error": null}}
+{"key": "n164|t37", "hash": "b588436dbe777335", "out": {"text": "Action 1: cool bowl 1 with fridge 1\nAction 2: go to fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n165|t10", "hash": "09bb44b186cb8490", "out": {"text": "Action 1: examine cabinet 1\nAction 2: go to countertop 2", "finish_reason": "stop", "error": null}}
+{"key": "n165|t18", "hash": "5a81dc318214c68c", "out": {"text": "Action 1: examine cabinet 2\nAction 2: go to countertop 2", "finish_reason": "stop", "error": null}}
+{"key": "n165|t35", "hash": "bfde1aa49a1dc2a2", "out": {"text": "Action 1: examine countertop 1\nAction 2: go to cabinet 1", "finish_reason": "stop", "error": null}}
+{"key": "n167|t12", "hash": "a6f670147bb7b0f4", "out": {"text": "Action 1: go to cabinet 13\nAction 2: go to cabinet 15", "finish_reason": "stop", "error": null}}
+{"key": "n167|t17", "hash": "ce58d86dcd355863", "out": {"text": "Action 1: take mug 1 from countertop 1\nAction 2: go to stoveburner 1", "finish_reason": "stop", "error": null}}
+{"key": "n167|t37", "hash": "ebc36c848da49a95", "out": {"text": "Action 1: examine cabinet 1\nAction 2: go to cabinet 10", "finish_reason": "stop", "error": null}}
+{"key": "n171|t9", "hash": "f00d5c0c7b497dc6", "out": {"text": "Action 1: go to countertop 1\nAction 2: take potato 2 from sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "n171|t18", "hash": "6b840a1661bcc7e8", "out": {"text": "Action 1: go to countertop 1\nAction 2: examine countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n171|t36", "hash": "e69cd19e6d49be73", "out": {"text": "Action 1: examine lettuce 1\nAction 2: go to sidetable 1", "finish_reason": "stop", "error": null}}
+{"key": "n173|t6", "hash": "82d3753a52cc8836", "out": {"text": "Action 1: take pan 1 from countertop 1\nAction 2: go to fridge 1", "finish_reason": "stop", "error": null}}
+{"key": "n173|t25", "hash": "8e3702fdc4bc8344", "out": {"text": "Action 1: go to cabinet 1\nAction 2: go to countertop 1", "finish_reason": "stop", "error": null}}
+{"key": "n173|t36", "hash": "6480e24701056111", "out": {"text": "Action 1: examine cabinet 1\nAction 2: go to countertop 1", "finish_reason": "stop", "error": null}}
