@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-28",
+  "edition": "English",
+  "framework_tests_passed": 19,
+  "cpu_reproduction": {
+    "passed": true,
+    "comparisons": [
+      {
+        "pool": "alfworld-q7",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "P1",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "P2",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "pool": "alfworld-l8",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H2",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H3",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "pool": "webshop-q7",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "P1w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H1w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "pool": "webshop-l8",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H2w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H3w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H1",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      }
+    ],
+    "pending_tests": [
+      "P2w"
+    ]
+  },
+  "localization_audit": "english_localization.json",
+  "prior_packaging_checks": "release_validation_before_english.json"
+}

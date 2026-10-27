@@ -1,0 +1,187 @@
+{
+  "data_snapshot": "2026-10-27",
+  "packaging_date": "2026-10-28",
+  "framework_unit_tests": {
+    "passed": 19,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "bundle_validation": [
+    {
+      "pool": "alfworld-l8",
+      "trajectories": 60,
+      "candidates": 1075,
+      "branches": 1255,
+      "executors": [
+        "l8",
+        "q7"
+      ],
+      "pending": []
+    },
+    {
+      "pool": "alfworld-q7",
+      "trajectories": 60,
+      "candidates": 1106,
+      "branches": 1286,
+      "executors": [
+        "q7",
+        "q14",
+        "l8"
+      ],
+      "pending": []
+    },
+    {
+      "pool": "webshop-l8",
+      "trajectories": 60,
+      "candidates": 1819,
+      "branches": 1999,
+      "executors": [
+        "l8",
+        "q7"
+      ],
+      "pending": []
+    },
+    {
+      "pool": "webshop-q7",
+      "trajectories": 60,
+      "candidates": 2071,
+      "branches": 2251,
+      "executors": [
+        "q7",
+        "l8"
+      ],
+      "pending": [
+        {
+          "executor": "q14",
+          "status": "missing",
+          "expected_samples": 20
+        }
+      ]
+    }
+  ],
+  "cpu_reproduction": {
+    "passed": true,
+    "comparisons": [
+      {
+        "pool": "alfworld-q7",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "P1",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "P2",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "pool": "alfworld-l8",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H2",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H3",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "pool": "webshop-q7",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "P1w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H1w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "pool": "webshop-l8",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H2w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H3w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H1",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      }
+    ],
+    "pending_tests": [
+      "P2w"
+    ]
+  },
+  "figure_generation": [
+    {
+      "script": "fig1_example",
+      "exit_code": 0
+    },
+    {
+      "script": "fig2_forest",
+      "exit_code": 0
+    },
+    {
+      "script": "fig3_curves",
+      "exit_code": 0
+    },
+    {
+      "script": "fig3_budget",
+      "exit_code": 0
+    }
+  ],
+  "source_copy_audit": {
+    "source_files": 483,
+    "modified_release_documentation_only": [
+      "framework/docs/RELEASE_STATUS.md",
+      "framework/pyproject.toml",
+      "framework/README.en.md",
+      "framework/README.md",
+      "framework/THIRD_PARTY_NOTICES.md"
+    ],
+    "other_copies_byte_identical": true
+  },
+  "legacy_manifest": {
+    "checked": 43,
+    "errors": []
+  },
+  "parsing": {
+    "json_files": 139,
+    "jsonl_files": 123,
+    "jsonl_records": 92576,
+    "python_files": 157
+  },
+  "pattern_scan": {
+    "patterns": [
+      "token",
+      "private_key",
+      "cloud_host",
+      "literal_secret"
+    ],
+    "findings": [],
+    "scope": "Packaged text files; this is a pattern scan, not a guarantee of absence of all sensitive information."
+  },
+  "not_run": [
+    "Fresh live GPU/environment integration",
+    "LaTeX compilation"
+  ]
+}

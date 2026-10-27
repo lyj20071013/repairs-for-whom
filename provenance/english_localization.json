@@ -1,0 +1,848 @@
+{
+  "edition": "English",
+  "date": "2026-10-28",
+  "code_files_localized": [
+    {
+      "path": "experiments/alfw/__init__.py",
+      "original_sha256": "66429db6482e2bafde9291ad4a64bcfb0518a95aa6027f222150b2e2f69df45d",
+      "english_sha256": "32593f4cf1c1ebfe97e58dc7b1652b660d17a7304ca4785c52c3aeef6a4b862c"
+    },
+    {
+      "path": "experiments/alfw/acfg.py",
+      "original_sha256": "10d17f4f8f2f3e43883dfcac019457a63b91a0fb2de344f59ea0a206224594b1",
+      "english_sha256": "e3ede24b21498342543a1860c426f50f526cd1fc0e7898976f4116148ba746d5"
+    },
+    {
+      "path": "experiments/alfw/agent.py",
+      "original_sha256": "654351300312c0e96d06a8c71d44f34cfd39c6ac5808864027c031773c238fc7",
+      "english_sha256": "0afef938f7e66334cc1d62569b7d014b8c521756dc4b46093604be404d178b47"
+    },
+    {
+      "path": "experiments/alfw/apibackend.py",
+      "original_sha256": "e72b7a9474c54b2e98d231395d05012bbc55c3ec4a47f9e7d02efc174cd24052",
+      "english_sha256": "6e882055590c6847b21ce5d41e704a0dbd26f9d72ea87a6d006415028cf9722a"
+    },
+    {
+      "path": "experiments/alfw/games.py",
+      "original_sha256": "3de5da518a1e60ae4bf80af512e251bfe1358ddf9050fff16e38528ab997e7b6",
+      "english_sha256": "e8612f29bc14a063296f802a3cadd363187271705007b35b6caa185054707d3f"
+    },
+    {
+      "path": "experiments/alfw/mockenv.py",
+      "original_sha256": "3c16342edd6f922549ed211a567116c500759ba2952a2793761da5107a3ba622",
+      "english_sha256": "ede49ec62dcaf90b3ea9099b9a65d3350189db24e9069adddb889e6693afcf69"
+    },
+    {
+      "path": "experiments/alfw/pool.py",
+      "original_sha256": "b0b39383d491a26f3f5a1e5a7e19da02e2d79138d0c777e28c008e41f2d45eb6",
+      "english_sha256": "e20cf3b6e63aefa81f19a1dc07a588b28ac2ef363fb5ec863dcc1b03f341e9c4"
+    },
+    {
+      "path": "experiments/alfw/rollout.py",
+      "original_sha256": "e58d0d6e4021e0940fe8b9b02fc209022410a791f84ed7e6e3274316a0befdb6",
+      "english_sha256": "54b650ba815bc1e376faf7793b27e5fc59685ed0d057dd854428952bcf04cd26"
+    },
+    {
+      "path": "experiments/alfw/twenv.py",
+      "original_sha256": "1bdd1581a8b75257b48a7449f88d9441d080a0cf6f3c51eebe1f8c00f5233f30",
+      "english_sha256": "2a4a933b569e1b973db9d7d8cc0ea68b1709963b977d2a4e229e0e3a5741ecb2"
+    },
+    {
+      "path": "experiments/alfw_selftest_b.py",
+      "original_sha256": "7b4deac762a63055221a24ac0001d56061fb128dfec5055a350d17045f3d931b",
+      "english_sha256": "7d46d10333570b37a9d6a40cd67e1419a228041aa891aefc42d8f8eb625f776b"
+    },
+    {
+      "path": "experiments/alfw_setup.sh",
+      "original_sha256": "3415ba16f874579c3d7fa00c704fc00112c92ced61de28e51a97c863a1586b96",
+      "english_sha256": "839bbc149203722616799913ca5d00ba76c5f4a87cfe409f24f57e28eaa4e2e1"
+    },
+    {
+      "path": "experiments/alfw_stage_a.py",
+      "original_sha256": "be93f6d79ebd563d9f7d4c1a206e5aac502b2473e1c4bd834af14d91cb6b8449",
+      "english_sha256": "5c23640b2dc4bef12b08f8846b0a18467a3fe8c675fff9653a33dd83b225488f"
+    },
+    {
+      "path": "experiments/alfw_stage_b.py",
+      "original_sha256": "5669270b774256ee8b7b92bbf7b4c7a338202ef6d118ad3d773982e009078988",
+      "english_sha256": "d3fd7f1d0aec13ec386ecd13c9214a172d3f8933ef5e3d6c1e01048058181eb6"
+    },
+    {
+      "path": "experiments/analysis.py",
+      "original_sha256": "6816e2f6438c3eb6df182e68197a29d55668cd26d41ae1a490d266f9130eb67d",
+      "english_sha256": "16a9cc15d54dacee2d969350d1c6c336be84c7ad45ab477a4336e1d89d3595ea"
+    },
+    {
+      "path": "experiments/api_client.py",
+      "original_sha256": "950197e5afde8e21b9ef547413dea3d231d9c223753c0d13d7edba165ba213ab",
+      "english_sha256": "a6d01ce0021df094568e127e8cb908f117f8a8e22a46120f9440da60f1ebbba6"
+    },
+    {
+      "path": "experiments/api_policy.py",
+      "original_sha256": "427b35849c2d2e513903b683850719ab2e07c8688bce1a2d4bffa8da4e4f0320",
+      "english_sha256": "25b71d07557c1d7a6608f897e2f718f1b8a9cd4d5b85c7ea2a9871720df89e60"
+    },
+    {
+      "path": "experiments/archive/llama_copy/config_llama8b.py",
+      "original_sha256": "bdeec0d0835807d49227234046a399f5dfce256fae460c27d0be03fc8c24c187",
+      "english_sha256": "e5f6d7b70eba45fd802760307d0259efa94e05e6732f7871d5290b7dd278b8ca"
+    },
+    {
+      "path": "experiments/archive/llama_copy/posthoc/ds612_07c5ff69.py",
+      "original_sha256": "624fd6139847f7aefd4f8a1c61bce742e2d5245f8cb7ebbcb6b2ced4fa8cf1b2",
+      "english_sha256": "ada2e06dede81c12bcb000405d1f838294d9c07e61d0282c093996f27e3a737b"
+    },
+    {
+      "path": "experiments/archive/nested_copy/config_phi4mini.py",
+      "original_sha256": "bb8bdc2be4904ead63dd6bdd488e23f2da8929385705758b54b62a5fb6bf1f3c",
+      "english_sha256": "4b572f70e0eba65c4e076e0e581c6f55893c7547251dc04d71c6dd5fc1f6cc06"
+    },
+    {
+      "path": "experiments/archive/rt_before_merge/ds_alfw_1240.py",
+      "original_sha256": "955e0d33156c875ea8614043fe799e2fc09b1c1fd462808527ab6f396f2ef8ef",
+      "english_sha256": "4511747b3a39d658113d6d87f64072188904c2c78cec997eea8eaa01e8e5b200"
+    },
+    {
+      "path": "experiments/archive/rt_before_merge/posthoc/ds612_6c98b45f.py",
+      "original_sha256": "dc87acd14881693145feb705c9e95ad6df78ca7fd01b160f599f541c226b187e",
+      "english_sha256": "06ff012d22936d280b885d91c8cc83623bd039dc337cf87de2f9053b8e46870e"
+    },
+    {
+      "path": "experiments/config.py",
+      "original_sha256": "7bfd5bd794b959e9b13c6397cd584d472ffa505ab15b6139eafa84814bc80f72",
+      "english_sha256": "867fe3efcab69d13e731e6a9be649959c5518be6391c84ffd40709dbc20fa1cf"
+    },
+    {
+      "path": "experiments/confirm.py",
+      "original_sha256": "ab8658b624495d26e9cce1169a94e3e643e895e57dc2161d8fab1ccedc3261b5",
+      "english_sha256": "82154c57667b5d35caedcc9ef0de9cfeeb9cc2b3bac5fbfd57df4998b24410f5"
+    },
+    {
+      "path": "experiments/consequence.py",
+      "original_sha256": "772dae9033e7a0f3ebd36816f3f1992f9c4c34b9eadab7647abf7d67a7cdac2a",
+      "english_sha256": "0a48bf8cbac16fdac2a085a7de237fb0fe905b53a17b665eead8a7a26c22a6f3"
+    },
+    {
+      "path": "experiments/design.py",
+      "original_sha256": "b1280b85e112ec1950144d1d80ec942ae25ec442ab58dae4c72f16b5d513a4e8",
+      "english_sha256": "a8fdc44e4a6b3fe397607efe72ff048eb380192ffc57db82500c5245a4901ac2"
+    },
+    {
+      "path": "experiments/download_model.py",
+      "original_sha256": "7c12a22a6e8071e535c3ac483318abfccb76910752c805c131f7b20e2609971b",
+      "english_sha256": "1c5dc205e40a71ba2fa9ea10365e157716806d0dcf58054afba3f86402784684"
+    },
+    {
+      "path": "experiments/ds_alfw.py",
+      "original_sha256": "adf085a598ebd2f3edc4d709e47acb157b0835935ed30caa99105a8c6ff24553",
+      "english_sha256": "6b952f549048a516afe0c183559a2e502c39bb7af3ac90046b98efc60fbfa87b"
+    },
+    {
+      "path": "experiments/ds_gw.py",
+      "original_sha256": "7a2e99709014c3e0cd9889c3dc0f3c6fd2ea2e59e4dcac4fa257ed5208863f31",
+      "english_sha256": "30afc81a48b4858e3acd0ecc22559d6599eea4ae4c00a94b43ded6943404a808"
+    },
+    {
+      "path": "experiments/ds_score.py",
+      "original_sha256": "0dadc5621efc208572fd92bf720ec93decf6ccc8c9532aea6bf13f7aec508216",
+      "english_sha256": "46a4f1d64c8309d9a09d412e17561ea13e6d593c2c1df098da33f47db716626e"
+    },
+    {
+      "path": "experiments/env.py",
+      "original_sha256": "eb19358b8b95df4e04f3b07ad5733de070a2b6cbeee5240b591a12556fa8fb48",
+      "english_sha256": "6bf9a35d87d6cf2c492e7dffcb567a5a73f441e5a3a3353c4c4dac04d571ca8a"
+    },
+    {
+      "path": "experiments/exploratory_v1.py",
+      "original_sha256": "92d0f11a2d774e2003a23e902c1559768c4a627b8b52e6c404279264762a36d8",
+      "english_sha256": "eb6167296c570be2ed32070fa51fd7ffc0b61ad3bfe77cb29c0ad4d0d884faa1"
+    },
+    {
+      "path": "experiments/harness_check.py",
+      "original_sha256": "f6cc5b30ecf09225be1304e4108d44af317055b623891006548a1b8a5fc11965",
+      "english_sha256": "f5628db635865ef4beafd515634c6ea130121cd454a667c2327633c189847a14"
+    },
+    {
+      "path": "experiments/judge_backends.py",
+      "original_sha256": "4fa42489dd72529d2b4f2186505be60541f855b64b187dda463ebc3ec67958a9",
+      "english_sha256": "c29b96b4ecaf8bbacadb994ef5160f0fc7dc3482d5a46604f0e379cd9a204764"
+    },
+    {
+      "path": "experiments/judge_gw.py",
+      "original_sha256": "e833eed2162f21fe96e9fb7d37f93f76ebfb2fdc49f120bc91e4cc335cd45851",
+      "english_sha256": "3277c30b4a103fb1559dc6ea4f2defd02c62238df5dd0fcc62f41876df7fdde3"
+    },
+    {
+      "path": "experiments/ladder_alfw.py",
+      "original_sha256": "ca33fa7b86ffc428fc67495b3f12c0320d1048d91bc61dd912d224101a247fa3",
+      "english_sha256": "758405b9a8cd7dbb441492e54d61db6190ad3bfe3532dc451e3585677bf22284"
+    },
+    {
+      "path": "experiments/ladder_gw.py",
+      "original_sha256": "9cfbd0282901e0bf94efc2c4626dadc026733919e0208a0aa5627178c409920a",
+      "english_sha256": "c13fc7c2a8ae8b34345b5ba94dadf9c59f30746d5670ac71b2651549e553844e"
+    },
+    {
+      "path": "experiments/mechanism.py",
+      "original_sha256": "07d985ffbbfa9c0fbfc279227298915f73416988e3339cef829b2d421d06d914",
+      "english_sha256": "bb838149776de63b19cdb4077625446b33734cb005f15ae28846401c83001f02"
+    },
+    {
+      "path": "experiments/method_cascade.py",
+      "original_sha256": "e5a538868f29cc618c98192e89172084edd3bc84e2ae4d93c0ff72756f1f7bc3",
+      "english_sha256": "afef68e56720d0280570652f09e97a139c79029651b8552f36ccd978f6f32d6c"
+    },
+    {
+      "path": "experiments/methods_gw.py",
+      "original_sha256": "1eb49f63c444e8680595a1824d72e9f7722770880b8b7dd7d86ecaf2b8f67c60",
+      "english_sha256": "0ee2c7e077bde4214268babfe567e01929e2670320ab695f3083d4a4cfde82a7"
+    },
+    {
+      "path": "experiments/model.py",
+      "original_sha256": "1d616c8dd46cc413ad58f84d892f7efe8fe2341cef9ab71d5927975267406187",
+      "english_sha256": "4f639588998bc50f376ff1cf7d882e6d8cc8d2c8fec8ad2b7cbee4cc52570e1d"
+    },
+    {
+      "path": "experiments/oracle.py",
+      "original_sha256": "1a94158dd6a9658d5b40bdcd823610992168ca24f0404a4b8217a2b024f320e5",
+      "english_sha256": "c90fbd235470e2f0059b1ff479c1687e21004a6eaf8671e42e94671fe85054fc"
+    },
+    {
+      "path": "experiments/policies.py",
+      "original_sha256": "d7ab37833d9ad36be7b925d8ddca54144d23a687c6cc0958fb97055fc144d5e8",
+      "english_sha256": "cfd2816a9063ac574fe24118fa02227a543df521f7c59d6a74de734fb7fc9957"
+    },
+    {
+      "path": "experiments/posthoc/ds612.py",
+      "original_sha256": "e8268128358ff544a3ebaff425c49bc35908e43576681ac4ba80bca4fc9e980d",
+      "english_sha256": "e27ce770f89d40d13322744dae005e55a97862aa794bf7e97c0095678bea1f9b"
+    },
+    {
+      "path": "experiments/posthoc/ds69a.py",
+      "original_sha256": "85e65016d0c31662a35bcfa05f28b3ca878846c112643c0c89faca898c126c56",
+      "english_sha256": "b9fc4a5e8382cf5a10aea50c5d5a9c013fb4907a0ec7f0566f71ab39c30bceb2"
+    },
+    {
+      "path": "experiments/posthoc/g612.py",
+      "original_sha256": "fafd9eb445a420ec06c3fa939f28e41c466e7f95237f91bd7df0c76089db5b9e",
+      "english_sha256": "0a6c092f90ca8482763a776eceec0a5327bfa71a3c6c2c6f22c3225fe16e6358"
+    },
+    {
+      "path": "experiments/quick.py",
+      "original_sha256": "46bd89c15fb31f2682347479cc1def50091acd9b4ee86303a461d961f0da162f",
+      "english_sha256": "5246c95d04d6d5f6e4ea123939050940aac46fa086bfa45c2618f08cba65a3b9"
+    },
+    {
+      "path": "experiments/run_bg.sh",
+      "original_sha256": "bd8c165004070e2d0dbe2fb1560397b0794b72c349110dd54f3d8c7e652ad835",
+      "english_sha256": "f4a57c27e2b46267ea8754db3a3c81d286c5e12a3b716c1b7de657e3898a4502"
+    },
+    {
+      "path": "experiments/run_cross.py",
+      "original_sha256": "c2822bf426cc95986f34476f8437da0605e7ebb05f0b5baabc8d964eb7f14823",
+      "english_sha256": "d4238c9e38d43f945a2e3524134db2564a1fb717a5611a254455a13e1f114fc8"
+    },
+    {
+      "path": "experiments/runner.py",
+      "original_sha256": "9a7f17dd7843d2e2e5ae2de5f137c97200ffadb9210a41e831a63306aa5707d8",
+      "english_sha256": "3dbd04aa183f0ce2b09ac28b27fac3fbf5718636173653f711e60d31ca5778e2"
+    },
+    {
+      "path": "experiments/selftest.py",
+      "original_sha256": "ec719be9c84581cbfed71310c7668653a429cd915244bc89780b73addc760585",
+      "english_sha256": "56777aa010b02ee730a9e2315a7df04af68646ca32b1e3e7ed3ec0b6a79449c3"
+    },
+    {
+      "path": "experiments/share_gap.py",
+      "original_sha256": "13f253d3627943a7b6b58a562ebff301a29a9694bf8a3777a532085217dba065",
+      "english_sha256": "5ae3be887fce485c0a8bb9ddcaaa825b4afc8b5de27544c7fd7d2dd75676dd02"
+    },
+    {
+      "path": "experiments/webshop/__init__.py",
+      "original_sha256": "2eedd367180a148dfbcf5b7db17a19f70e7f81dad7c338531bf965f04a8d88d9",
+      "english_sha256": "5ad1ac0c66dcf90613b19656fa04bde542c5397bae16bf3a42f84889b6368eec"
+    },
+    {
+      "path": "experiments/webshop/make_100k.py",
+      "original_sha256": "fcd62b47db83d755b5179107ab09032039ff17cd5d5158a95b0ab2e7eb2bc4df",
+      "english_sha256": "9acb36def5c1153cb48bda79834196196d0a68aaae0f1382aa69d0bf25a3e700"
+    },
+    {
+      "path": "experiments/webshop/setup_webshop.sh",
+      "original_sha256": "87f5ff657e198c78e3e7885ffe61ab58159b9ae9e6ee2301bfa08512654ed2e2",
+      "english_sha256": "ebcb119159f05cc8cad361e9081b1c61a0eb139e4d0e17d3c31ee618652b3e2a"
+    },
+    {
+      "path": "experiments/webshop/shims/pyserini/__init__.py",
+      "original_sha256": "a16f6f3a99313720eed79f7e1ca937ae38100723ba0ce8e54f83346229296472",
+      "english_sha256": "286786bf9d4a9ee03a12cbb082bea4027a1d4bc4a1782acd96cb4f7d2b9a6bfc"
+    },
+    {
+      "path": "experiments/webshop/shims/pyserini/search/lucene.py",
+      "original_sha256": "5fd42c449a095128a70ed4b34740b4e4094d6ca8e6f1d25a6e27370e35796731",
+      "english_sha256": "7a1a91a04b4fd5366ef0b321056fbac1637a7d84d15bf47968e2ca87dc8cd503"
+    },
+    {
+      "path": "experiments/webshop/wcfg.py",
+      "original_sha256": "597b3f0f66cde8bce6c711fe9c15ad56397a4304bf1a921cdf8159726870e60d",
+      "english_sha256": "2c373f4f0cf09bc9e0e63effbaa86f77eb64ad6c51a2c7f40dfed828c4556c50"
+    },
+    {
+      "path": "experiments/webshop/ws_agent.py",
+      "original_sha256": "48a7f4207f19b2f4dceb20c20f0a832fa45ee48b33e10a569c3f72b39bf2f593",
+      "english_sha256": "2bc6bdc660dea38e108f0a5fac265dd9f09fc2a935109610a527781ff18bfa4e"
+    },
+    {
+      "path": "experiments/webshop/ws_convert.py",
+      "original_sha256": "b8a16e3ada960f817a9b5c159c6e8d79e016f3e1410b4dd046e1c483cd9997ee",
+      "english_sha256": "e3484e1fd0f67cc53c3a6e8ef3b5fb2d87d32d38d3b5fd8c19bb55051cb80c2d"
+    },
+    {
+      "path": "experiments/webshop/ws_data.py",
+      "original_sha256": "5899681190576669fac5799d9f54257cf77e6ee71c9d78e69e52555ac9d85f73",
+      "english_sha256": "5199005c074ddaa6adc94a170e01372e2cfeb02a459ef4e0598508d92443d2b3"
+    },
+    {
+      "path": "experiments/webshop/ws_formal.py",
+      "original_sha256": "c8b55bc79a1d7397c633c404cc15334175b1751c9b2bc1a2261c39d3c8e0267b",
+      "english_sha256": "bda329cd080c6f1fb6a55c151348150984b29a95ce6f63c145edf421bbdd6e63"
+    },
+    {
+      "path": "experiments/webshop/ws_pool.py",
+      "original_sha256": "d56012707dc5ec8b7f4c9dcb6403ff3fbcb29ab6181b0bd66edae8b431dd286c",
+      "english_sha256": "0520c535d49b385c9aee615f99d313962fb78552cb0018728efd75e8ea0e0df5"
+    },
+    {
+      "path": "experiments/webshop/ws_rollout.py",
+      "original_sha256": "aae14519701a5e14671bc1a365f5c9e7b54091368be257477e023f93a46b6bf5",
+      "english_sha256": "d58c50324b1a3a766a79dcbbcaba48356aa5bc0ae81ffa897f46b8b8bc0f59a4"
+    },
+    {
+      "path": "experiments/webshop/ws_smoke.py",
+      "original_sha256": "214597c24f75ec76c69f64defec767ca47e2c5061470046efd1ab872a8e4e604",
+      "english_sha256": "a9a22b4ea854096c763e541bed8f6fd7b28d0aa4386f9241bd2ae3710681d181"
+    },
+    {
+      "path": "experiments/webshop/ws_worker.py",
+      "original_sha256": "fc47770ee02f7501c11fa33310050a8672029a5f4c491dbd6f14f529e3dacfac",
+      "english_sha256": "e83a6109ed327478c6324e00d3708c544eb3c62ed33dcd9e3cf0e8a929528209"
+    },
+    {
+      "path": "framework/repair_eval/_paper/current.py",
+      "original_sha256": "967c110a55cbb1c3965697f1d31e7b7bba10ce8248cbfc6f351828f65cd39028",
+      "english_sha256": "f224ea9dbc986f484292f3638b2aca9d46e8fad130c7dc9705aa33ae9660091e"
+    },
+    {
+      "path": "framework/repair_eval/_paper/legacy69.py",
+      "original_sha256": "86ee10da5a4dece2307fc95e474294c441c47108c2b613adea63b68615b52cc8",
+      "english_sha256": "868206a6d4151ea3e2c85fef2930e803c2f10902f51d189873e4834eafb7bc47"
+    },
+    {
+      "path": "framework/runtime/alfw/__init__.py",
+      "original_sha256": "66429db6482e2bafde9291ad4a64bcfb0518a95aa6027f222150b2e2f69df45d",
+      "english_sha256": "32593f4cf1c1ebfe97e58dc7b1652b660d17a7304ca4785c52c3aeef6a4b862c"
+    },
+    {
+      "path": "framework/runtime/alfw/acfg.py",
+      "original_sha256": "10d17f4f8f2f3e43883dfcac019457a63b91a0fb2de344f59ea0a206224594b1",
+      "english_sha256": "e3ede24b21498342543a1860c426f50f526cd1fc0e7898976f4116148ba746d5"
+    },
+    {
+      "path": "framework/runtime/alfw/agent.py",
+      "original_sha256": "654351300312c0e96d06a8c71d44f34cfd39c6ac5808864027c031773c238fc7",
+      "english_sha256": "0afef938f7e66334cc1d62569b7d014b8c521756dc4b46093604be404d178b47"
+    },
+    {
+      "path": "framework/runtime/alfw/games.py",
+      "original_sha256": "3de5da518a1e60ae4bf80af512e251bfe1358ddf9050fff16e38528ab997e7b6",
+      "english_sha256": "e8612f29bc14a063296f802a3cadd363187271705007b35b6caa185054707d3f"
+    },
+    {
+      "path": "framework/runtime/alfw/mockenv.py",
+      "original_sha256": "3c16342edd6f922549ed211a567116c500759ba2952a2793761da5107a3ba622",
+      "english_sha256": "ede49ec62dcaf90b3ea9099b9a65d3350189db24e9069adddb889e6693afcf69"
+    },
+    {
+      "path": "framework/runtime/alfw/pool.py",
+      "original_sha256": "b0b39383d491a26f3f5a1e5a7e19da02e2d79138d0c777e28c008e41f2d45eb6",
+      "english_sha256": "e20cf3b6e63aefa81f19a1dc07a588b28ac2ef363fb5ec863dcc1b03f341e9c4"
+    },
+    {
+      "path": "framework/runtime/alfw/rollout.py",
+      "original_sha256": "e58d0d6e4021e0940fe8b9b02fc209022410a791f84ed7e6e3274316a0befdb6",
+      "english_sha256": "54b650ba815bc1e376faf7793b27e5fc59685ed0d057dd854428952bcf04cd26"
+    },
+    {
+      "path": "framework/runtime/alfw/twenv.py",
+      "original_sha256": "1bdd1581a8b75257b48a7449f88d9441d080a0cf6f3c51eebe1f8c00f5233f30",
+      "english_sha256": "2a4a933b569e1b973db9d7d8cc0ea68b1709963b977d2a4e229e0e3a5741ecb2"
+    },
+    {
+      "path": "framework/runtime/alfw_setup.sh",
+      "original_sha256": "3415ba16f874579c3d7fa00c704fc00112c92ced61de28e51a97c863a1586b96",
+      "english_sha256": "839bbc149203722616799913ca5d00ba76c5f4a87cfe409f24f57e28eaa4e2e1"
+    },
+    {
+      "path": "framework/runtime/webshop/__init__.py",
+      "original_sha256": "2eedd367180a148dfbcf5b7db17a19f70e7f81dad7c338531bf965f04a8d88d9",
+      "english_sha256": "5ad1ac0c66dcf90613b19656fa04bde542c5397bae16bf3a42f84889b6368eec"
+    },
+    {
+      "path": "framework/runtime/webshop/make_100k.py",
+      "original_sha256": "fcd62b47db83d755b5179107ab09032039ff17cd5d5158a95b0ab2e7eb2bc4df",
+      "english_sha256": "9acb36def5c1153cb48bda79834196196d0a68aaae0f1382aa69d0bf25a3e700"
+    },
+    {
+      "path": "framework/runtime/webshop/setup_webshop.sh",
+      "original_sha256": "87f5ff657e198c78e3e7885ffe61ab58159b9ae9e6ee2301bfa08512654ed2e2",
+      "english_sha256": "ebcb119159f05cc8cad361e9081b1c61a0eb139e4d0e17d3c31ee618652b3e2a"
+    },
+    {
+      "path": "framework/runtime/webshop/shims/pyserini/__init__.py",
+      "original_sha256": "a16f6f3a99313720eed79f7e1ca937ae38100723ba0ce8e54f83346229296472",
+      "english_sha256": "286786bf9d4a9ee03a12cbb082bea4027a1d4bc4a1782acd96cb4f7d2b9a6bfc"
+    },
+    {
+      "path": "framework/runtime/webshop/shims/pyserini/search/lucene.py",
+      "original_sha256": "5fd42c449a095128a70ed4b34740b4e4094d6ca8e6f1d25a6e27370e35796731",
+      "english_sha256": "7a1a91a04b4fd5366ef0b321056fbac1637a7d84d15bf47968e2ca87dc8cd503"
+    },
+    {
+      "path": "framework/runtime/webshop/wcfg.py",
+      "original_sha256": "597b3f0f66cde8bce6c711fe9c15ad56397a4304bf1a921cdf8159726870e60d",
+      "english_sha256": "2c373f4f0cf09bc9e0e63effbaa86f77eb64ad6c51a2c7f40dfed828c4556c50"
+    },
+    {
+      "path": "framework/runtime/webshop/ws_agent.py",
+      "original_sha256": "48a7f4207f19b2f4dceb20c20f0a832fa45ee48b33e10a569c3f72b39bf2f593",
+      "english_sha256": "2bc6bdc660dea38e108f0a5fac265dd9f09fc2a935109610a527781ff18bfa4e"
+    },
+    {
+      "path": "framework/runtime/webshop/ws_convert.py",
+      "original_sha256": "b8a16e3ada960f817a9b5c159c6e8d79e016f3e1410b4dd046e1c483cd9997ee",
+      "english_sha256": "e3484e1fd0f67cc53c3a6e8ef3b5fb2d87d32d38d3b5fd8c19bb55051cb80c2d"
+    },
+    {
+      "path": "framework/runtime/webshop/ws_data.py",
+      "original_sha256": "5899681190576669fac5799d9f54257cf77e6ee71c9d78e69e52555ac9d85f73",
+      "english_sha256": "5199005c074ddaa6adc94a170e01372e2cfeb02a459ef4e0598508d92443d2b3"
+    },
+    {
+      "path": "framework/runtime/webshop/ws_pool.py",
+      "original_sha256": "d56012707dc5ec8b7f4c9dcb6403ff3fbcb29ab6181b0bd66edae8b431dd286c",
+      "english_sha256": "0520c535d49b385c9aee615f99d313962fb78552cb0018728efd75e8ea0e0df5"
+    },
+    {
+      "path": "framework/runtime/webshop/ws_rollout.py",
+      "original_sha256": "aae14519701a5e14671bc1a365f5c9e7b54091368be257477e023f93a46b6bf5",
+      "english_sha256": "d58c50324b1a3a766a79dcbbcaba48356aa5bc0ae81ffa897f46b8b8bc0f59a4"
+    },
+    {
+      "path": "framework/runtime/webshop/ws_worker.py",
+      "original_sha256": "fc47770ee02f7501c11fa33310050a8672029a5f4c491dbd6f14f529e3dacfac",
+      "english_sha256": "e83a6109ed327478c6324e00d3708c544eb3c62ed33dcd9e3cf0e8a929528209"
+    },
+    {
+      "path": "paper_figs/fig1_example.py",
+      "original_sha256": "af72b52c81200e078cad3057a52c6bbb98ddd81b4153f2bfe815c845db2d9227",
+      "english_sha256": "39ef44f829a7e47e3d1f23bc0e8ff5628cb45315d02c0ed99d853ef120946410"
+    },
+    {
+      "path": "paper_figs/fig2_forest.py",
+      "original_sha256": "88aae0f5d818b77c759cabfb1a3c8e7ba63de259fb6f56218bd03e7ac36a59bd",
+      "english_sha256": "708d0d43395640a0a4a3d9a7d53a24254600e4c32077be0ec9a03e07ceb9a080"
+    },
+    {
+      "path": "paper_figs/fig2_ladder.py",
+      "original_sha256": "76a41f6b9bdfb01239b21d9dcb15feb5f15607a45c412d7ca693e3feb5b349d2",
+      "english_sha256": "d9dfe1830adadbee5d53fa7aec9ae31eb66a6957b16e74a752f8c9aa010a6b8a"
+    },
+    {
+      "path": "paper_figs/fig3_budget.py",
+      "original_sha256": "6029a49985a1a019de2de7435464256a89d2807903c2bd34829be8d267c19b74",
+      "english_sha256": "e5723a87d86871566f7582ccfe75367070a0beadaca01434b2fbdacf10f47752"
+    },
+    {
+      "path": "paper_figs/fig3_curves.py",
+      "original_sha256": "f62deb1aeaaa9d27c0e7a6da65d633c3716e29ca2fc3911cb084a5db5b339cb1",
+      "english_sha256": "c4673964714de66ad1293e046538c7685c7f528f4ae8a2bb71837a0fda9f90d6"
+    },
+    {
+      "path": "paper_figs/style.py",
+      "original_sha256": "8a74fe716e398a45fc3ecb2e41f38ba9c24588af0b5af976ecc0c326c6b6fb62",
+      "english_sha256": "096e933598f5e6595c93d24b3586a4bda1fe119a8fbb1c220f6a425b34623308"
+    }
+  ],
+  "checks": {
+    "all_python_ast_equivalent_except_originally_chinese_string_constants": true,
+    "originally_english_prompt_parser_and_other_literals_unchanged": true,
+    "code_comments_and_messages_no_chinese_characters": true,
+    "historical_record_files_preserved": 290,
+    "framework_tests_passed": 19,
+    "cpu_reproduction": [
+      {
+        "pool": "alfworld-q7",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "P1",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "P2",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "pool": "alfworld-l8",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H2",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H3",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "pool": "webshop-q7",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "P1w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H1w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "pool": "webshop-l8",
+        "max_abs_row_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H2w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H3w",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      },
+      {
+        "test": "H1",
+        "max_abs_stat_error": 0.0,
+        "pass": true
+      }
+    ]
+  },
+  "preserved_record_paths": [
+    "analysis_plan/论文方案.md",
+    "experiments/out/analysis.json",
+    "experiments/out/analysis_delta0.10.json",
+    "experiments/out/design.json",
+    "experiments/out/report.md",
+    "experiments/out/report_delta0.10.md",
+    "experiments/out/rollouts.jsonl",
+    "experiments/out_612/analysis_612.json",
+    "experiments/out_612/report_612.md",
+    "experiments/out_alfw/a1.json",
+    "experiments/out_alfw/a2.json",
+    "experiments/out_alfw/a2_walks.json",
+    "experiments/out_alfw/a3.json",
+    "experiments/out_alfw/a4.json",
+    "experiments/out_alfw/a4_episodes.jsonl",
+    "experiments/out_alfw/a4_rollout_meta.json",
+    "experiments/out_alfw/games_train.json",
+    "experiments/out_alfw/games_valid_seen.json",
+    "experiments/out_alfw/games_valid_unseen.json",
+    "experiments/out_alfw/stageA_report.md",
+    "experiments/out_alfw_b/analysis.json",
+    "experiments/out_alfw_b/design.json",
+    "experiments/out_alfw_b/episodes.jsonl",
+    "experiments/out_alfw_b/episodes_meta.json",
+    "experiments/out_alfw_b/judge_cache/qwen3.8-flash.jsonl",
+    "experiments/out_alfw_b/judge_cache/qwen3.8-flash_think.jsonl",
+    "experiments/out_alfw_b/judge_cache/qwen3.8-flash_think_informed.jsonl",
+    "experiments/out_alfw_b/judge_cache/qwen3.8-flash_think_noexec.jsonl",
+    "experiments/out_alfw_b/judge_qwen3.8-flash.jsonl",
+    "experiments/out_alfw_b/judge_qwen3.8-flash_think.jsonl",
+    "experiments/out_alfw_b/judge_qwen3.8-flash_think_informed.jsonl",
+    "experiments/out_alfw_b/judge_qwen3.8-flash_think_noexec.jsonl",
+    "experiments/out_alfw_b/judge_qwen7b_self.jsonl",
+    "experiments/out_alfw_b/main_design.json",
+    "experiments/out_alfw_b/main_rollouts.jsonl",
+    "experiments/out_alfw_b/report.md",
+    "experiments/out_alfw_b/screen_result.json",
+    "experiments/out_alfw_b/screen_rollouts.jsonl",
+    "experiments/out_alfw_b/survey.json",
+    "experiments/out_alfw_b_smoke/analysis.json",
+    "experiments/out_alfw_b_smoke/design.json",
+    "experiments/out_alfw_b_smoke/episodes.jsonl",
+    "experiments/out_alfw_b_smoke/episodes_meta.json",
+    "experiments/out_alfw_b_smoke/main_design.json",
+    "experiments/out_alfw_b_smoke/main_rollouts.jsonl",
+    "experiments/out_alfw_b_smoke/report.md",
+    "experiments/out_alfw_b_smoke/screen_result.json",
+    "experiments/out_alfw_b_smoke/screen_rollouts.jsonl",
+    "experiments/out_alfw_b_smoke/smoke_summary.json",
+    "experiments/out_confirm/archive_deepseek/judge_deepseek-flash.jsonl",
+    "experiments/out_confirm/archive_deepseek/judge_deepseek-flash_think.jsonl",
+    "experiments/out_confirm/archive_deepseek/judge_deepseek-flash_think_noexec.jsonl",
+    "experiments/out_confirm/archive_deepseek/methods_analysis.json",
+    "experiments/out_confirm/archive_deepseek/methods_report.md",
+    "experiments/out_confirm/confirm_analysis.json",
+    "experiments/out_confirm/confirm_report.md",
+    "experiments/out_confirm/episodes.jsonl",
+    "experiments/out_confirm/judge_cache/qwen3.8-flash.jsonl",
+    "experiments/out_confirm/judge_qwen3.8-flash.jsonl",
+    "experiments/out_confirm/judge_qwen3.8-flash_think.jsonl",
+    "experiments/out_confirm/judge_qwen3.8-flash_think_noexec.jsonl",
+    "experiments/out_confirm/judge_qwen7b_self.jsonl",
+    "experiments/out_confirm/ladder_qflash.jsonl",
+    "experiments/out_confirm/ladder_qflash_smoke.json",
+    "experiments/out_confirm/ladder_report.md",
+    "experiments/out_confirm/main_design.json",
+    "experiments/out_confirm/main_rollouts.jsonl",
+    "experiments/out_confirm/mechanism_analysis.json",
+    "experiments/out_confirm/mechanism_report.md",
+    "experiments/out_confirm/mechanism_rollouts.jsonl",
+    "experiments/out_confirm/methods_analysis.json",
+    "experiments/out_confirm/methods_report.md",
+    "experiments/out_confirm/screen_design.json",
+    "experiments/out_confirm/screen_result.json",
+    "experiments/out_confirm/screen_rollouts.jsonl",
+    "experiments/out_consequence/consequence_alfw.json",
+    "experiments/out_consequence/consequence_alfw.md",
+    "experiments/out_consequence/consequence_gw.json",
+    "experiments/out_consequence/consequence_gw.md",
+    "experiments/out_ds_alfw/analysis.json",
+    "experiments/out_ds_alfw/analysis_69a.json",
+    "experiments/out_ds_alfw/bundle_info.json",
+    "experiments/out_ds_alfw/design.json",
+    "experiments/out_ds_alfw/episodes.jsonl",
+    "experiments/out_ds_alfw/episodes_meta.json",
+    "experiments/out_ds_alfw/evals_l8.jsonl",
+    "experiments/out_ds_alfw/evals_q14.jsonl",
+    "experiments/out_ds_alfw/evals_q7.jsonl",
+    "experiments/out_ds_alfw/positions.json",
+    "experiments/out_ds_alfw/proposals_q14.jsonl",
+    "experiments/out_ds_alfw/proposals_q7.jsonl",
+    "experiments/out_ds_alfw/proposals_qflash.jsonl",
+    "experiments/out_ds_alfw/propose_cache/q14.jsonl",
+    "experiments/out_ds_alfw/propose_cache/q7.jsonl",
+    "experiments/out_ds_alfw/propose_cache/qflash.jsonl",
+    "experiments/out_ds_alfw/report.md",
+    "experiments/out_ds_alfw/timing_l8.json",
+    "experiments/out_ds_alfw/timing_q14.json",
+    "experiments/out_ds_alfw/timing_q7.json",
+    "experiments/out_ds_alfw_l8/analysis.json",
+    "experiments/out_ds_alfw_l8/design.json",
+    "experiments/out_ds_alfw_l8/episodes.jsonl",
+    "experiments/out_ds_alfw_l8/episodes_meta.json",
+    "experiments/out_ds_alfw_l8/evals_l8.jsonl",
+    "experiments/out_ds_alfw_l8/evals_q7.jsonl",
+    "experiments/out_ds_alfw_l8/positions.json",
+    "experiments/out_ds_alfw_l8/proposals_l8.jsonl",
+    "experiments/out_ds_alfw_l8/proposals_q7.jsonl",
+    "experiments/out_ds_alfw_l8/proposals_qflash.jsonl",
+    "experiments/out_ds_alfw_l8/propose_cache/l8.jsonl",
+    "experiments/out_ds_alfw_l8/propose_cache/q7.jsonl",
+    "experiments/out_ds_alfw_l8/propose_cache/qflash.jsonl",
+    "experiments/out_ds_alfw_l8/report.md",
+    "experiments/out_ds_alfw_l8/report_610.md",
+    "experiments/out_ds_alfw_l8/report_610_rerun.md",
+    "experiments/out_ds_alfw_l8/tests_610.json",
+    "experiments/out_ds_alfw_l8/tests_610_rerun.json",
+    "experiments/out_ds_alfw_l8/timing_l8.json",
+    "experiments/out_ds_alfw_l8/timing_q7.json",
+    "experiments/out_ds_alfw_l8_smoke/design.json",
+    "experiments/out_ds_alfw_l8_smoke/episodes.jsonl",
+    "experiments/out_ds_alfw_l8_smoke/episodes_meta.json",
+    "experiments/out_ds_alfw_l8_smoke/evals_l8.jsonl",
+    "experiments/out_ds_alfw_l8_smoke/positions.json",
+    "experiments/out_ds_alfw_l8_smoke/proposals_l8.jsonl",
+    "experiments/out_ds_alfw_l8_smoke/proposals_qflash.jsonl",
+    "experiments/out_ds_alfw_l8_smoke/propose_cache/l8.jsonl",
+    "experiments/out_ds_alfw_l8_smoke/propose_cache/qflash.jsonl",
+    "experiments/out_ds_alfw_l8_smoke/smoke_summary.json",
+    "experiments/out_ds_alfw_l8_smoke/timing_l8.json",
+    "experiments/out_ds_alfw_pmini_smoke/design.json",
+    "experiments/out_ds_alfw_pmini_smoke/episodes.jsonl",
+    "experiments/out_ds_alfw_pmini_smoke/episodes_meta.json",
+    "experiments/out_ds_alfw_pmini_smoke/evals_pmini.jsonl",
+    "experiments/out_ds_alfw_pmini_smoke/positions.json",
+    "experiments/out_ds_alfw_pmini_smoke/proposals_pmini.jsonl",
+    "experiments/out_ds_alfw_pmini_smoke/proposals_qflash.jsonl",
+    "experiments/out_ds_alfw_pmini_smoke/propose_cache/pmini.jsonl",
+    "experiments/out_ds_alfw_pmini_smoke/propose_cache/qflash.jsonl",
+    "experiments/out_ds_alfw_pmini_smoke/smoke_summary.json",
+    "experiments/out_ds_alfw_pmini_smoke/timing_pmini.json",
+    "experiments/out_ds_alfw_smoke/design.json",
+    "experiments/out_ds_alfw_smoke/episodes.jsonl",
+    "experiments/out_ds_alfw_smoke/episodes_meta.json",
+    "experiments/out_ds_alfw_smoke/evals_q7.jsonl",
+    "experiments/out_ds_alfw_smoke/positions.json",
+    "experiments/out_ds_alfw_smoke/proposals_q7.jsonl",
+    "experiments/out_ds_alfw_smoke/proposals_qflash.jsonl",
+    "experiments/out_ds_alfw_smoke/propose_cache/q7.jsonl",
+    "experiments/out_ds_alfw_smoke/propose_cache/qflash.jsonl",
+    "experiments/out_ds_alfw_smoke/smoke_summary.json",
+    "experiments/out_ds_alfw_smoke/timing_q7.json",
+    "experiments/out_ds_gw/design_q7.json",
+    "experiments/out_ds_gw/episodes_q7.jsonl",
+    "experiments/out_ds_gw/evals_q7_by_q14.jsonl",
+    "experiments/out_ds_gw/evals_q7_by_q7.jsonl",
+    "experiments/out_ds_gw/summary_q7_by_q7.md",
+    "experiments/out_g612/analysis_g.json",
+    "experiments/out_g612/api_cache/locate.jsonl",
+    "experiments/out_g612/api_cache/propose.jsonl",
+    "experiments/out_g612/design.json",
+    "experiments/out_g612/evals_q7.jsonl",
+    "experiments/out_g612/locate.jsonl",
+    "experiments/out_g612/proposals.jsonl",
+    "experiments/out_g612/report_g.md",
+    "experiments/out_g612/steps.json",
+    "experiments/out_g612/timing_q7.json",
+    "experiments/out_harness/harness_report.md",
+    "experiments/out_harness/harness_rows.jsonl",
+    "experiments/out_harness/harness_summary.json",
+    "experiments/out_ladder_alfw/ladder_report.md",
+    "experiments/out_ladder_alfw/q14.jsonl",
+    "experiments/out_ladder_alfw/qflash.jsonl",
+    "experiments/out_ladder_alfw/qflash_smoke.json",
+    "experiments/out_ladder_alfw/qflash_smoke.jsonl",
+    "experiments/out_ladder_gw/ladder_report.md",
+    "experiments/out_ladder_gw/ladder_report_old.md",
+    "experiments/out_ladder_gw/q14.jsonl",
+    "experiments/out_ladder_gw/qflash.jsonl",
+    "experiments/out_ladder_gw/qflash_smoke.json",
+    "experiments/out_method/method_alfw.json",
+    "experiments/out_method/method_alfw.md",
+    "experiments/out_method/method_gw.json",
+    "experiments/out_method/method_gw.md",
+    "experiments/out_method/method_pool.json",
+    "experiments/out_method/method_pool.md",
+    "experiments/out_quick/design.json",
+    "experiments/out_quick/quick_analysis.json",
+    "experiments/out_quick/quick_report.md",
+    "experiments/out_quick/rollouts.jsonl",
+    "experiments/out_rev612/analysis_rev.json",
+    "experiments/out_rev612/l8/cases.json",
+    "experiments/out_rev612/l8/design.json",
+    "experiments/out_rev612/l8/evals_l8.jsonl",
+    "experiments/out_rev612/l8/evals_q7.jsonl",
+    "experiments/out_rev612/l8/timing_l8.json",
+    "experiments/out_rev612/l8/timing_q7.json",
+    "experiments/out_rev612/q14/cases.json",
+    "experiments/out_rev612/q14/design.json",
+    "experiments/out_rev612/q14/evals_q14.jsonl",
+    "experiments/out_rev612/q14/evals_q7.jsonl",
+    "experiments/out_rev612/q14/timing_q14.json",
+    "experiments/out_rev612/q14/timing_q7.json",
+    "experiments/out_rev612/report.md",
+    "experiments/out_share/share_gap.json",
+    "experiments/out_share/share_gap.md",
+    "experiments/out_ws_A/analysis.json",
+    "experiments/out_ws_A/analysis_7b_part_1027.json",
+    "experiments/out_ws_A/design.json",
+    "experiments/out_ws_A/episodes.jsonl",
+    "experiments/out_ws_A/episodes_meta.json",
+    "experiments/out_ws_A/evals_l8.jsonl",
+    "experiments/out_ws_A/evals_q7.jsonl",
+    "experiments/out_ws_A/positions.json",
+    "experiments/out_ws_A/proposals_l8.jsonl",
+    "experiments/out_ws_A/proposals_q7.jsonl",
+    "experiments/out_ws_A/proposals_qflash.jsonl",
+    "experiments/out_ws_A/propose_cache_l8.jsonl",
+    "experiments/out_ws_A/propose_cache_q7.jsonl",
+    "experiments/out_ws_A/propose_cache_qflash.jsonl",
+    "experiments/out_ws_A/report.md",
+    "experiments/out_ws_A/report_7b_part_1027.md",
+    "experiments/out_ws_A/timing_l8.json",
+    "experiments/out_ws_A/timing_q7.json",
+    "experiments/out_ws_B/analysis.json",
+    "experiments/out_ws_B/design.json",
+    "experiments/out_ws_B/episodes.jsonl",
+    "experiments/out_ws_B/episodes_meta.json",
+    "experiments/out_ws_B/evals_l8.jsonl",
+    "experiments/out_ws_B/evals_q7.jsonl",
+    "experiments/out_ws_B/positions.json",
+    "experiments/out_ws_B/proposals_l8.jsonl",
+    "experiments/out_ws_B/proposals_q7.jsonl",
+    "experiments/out_ws_B/proposals_qflash.jsonl",
+    "experiments/out_ws_B/report.md",
+    "experiments/out_ws_B/timing_l8.json",
+    "experiments/out_ws_B/timing_q7.json",
+    "experiments/out_ws_S/design.json",
+    "experiments/out_ws_S/episodes.jsonl",
+    "experiments/out_ws_S/episodes_meta.json",
+    "experiments/out_ws_S/evals_q7.jsonl",
+    "experiments/out_ws_S/positions.json",
+    "experiments/out_ws_S/proposals_q7.jsonl",
+    "experiments/out_ws_S/proposals_qflash.jsonl",
+    "experiments/out_ws_S/smoke_verdict.json",
+    "experiments/out_ws_S/timing_q7.json",
+    "experiments/out_ws_smoke/env_check.json",
+    "experiments/out_ws_smoke/episodes_l8.jsonl",
+    "experiments/out_ws_smoke/episodes_q7.jsonl",
+    "experiments/out_ws_smoke/goals.json",
+    "experiments/out_ws_smoke/smoke_report.md",
+    "experiments/out_ws_smoke/smoke_summary.json",
+    "experiments/out_ws_smoke/timing_l8.json",
+    "experiments/out_ws_smoke/timing_q7.json",
+    "experiments/out_ws_smoke25/env_check.json",
+    "experiments/out_ws_smoke25/env_check_14b.json",
+    "experiments/out_ws_smoke25/episodes_l8.jsonl",
+    "experiments/out_ws_smoke25/episodes_q14.jsonl",
+    "experiments/out_ws_smoke25/episodes_q7.jsonl",
+    "experiments/out_ws_smoke25/goals.json",
+    "experiments/out_ws_smoke25/goals_14b.json",
+    "experiments/out_ws_smoke25/smoke_report.md",
+    "experiments/out_ws_smoke25/smoke_report_14b.md",
+    "experiments/out_ws_smoke25/smoke_summary.json",
+    "experiments/out_ws_smoke25/timing_l8.json",
+    "experiments/out_ws_smoke25/timing_q14.json",
+    "experiments/out_ws_smoke25/timing_q7.json",
+    "experiments/out_ws_summary/report_ws.md",
+    "experiments/out_ws_summary/tests_ws.json",
+    "framework/data/alfworld-l8/design.json",
+    "framework/data/alfworld-l8/manifest.json",
+    "framework/data/alfworld-l8/outcomes/l8.jsonl",
+    "framework/data/alfworld-l8/outcomes/q7.jsonl",
+    "framework/data/alfworld-l8/tasks.jsonl",
+    "framework/data/alfworld-q7/design.json",
+    "framework/data/alfworld-q7/manifest.json",
+    "framework/data/alfworld-q7/outcomes/l8.jsonl",
+    "framework/data/alfworld-q7/outcomes/q14.jsonl",
+    "framework/data/alfworld-q7/outcomes/q7.jsonl",
+    "framework/data/alfworld-q7/tasks.jsonl",
+    "framework/data/webshop-l8/design.json",
+    "framework/data/webshop-l8/manifest.json",
+    "framework/data/webshop-l8/outcomes/l8.jsonl",
+    "framework/data/webshop-l8/outcomes/q7.jsonl",
+    "framework/data/webshop-l8/tasks.jsonl",
+    "framework/data/webshop-q7/design.json",
+    "framework/data/webshop-q7/manifest.json",
+    "framework/data/webshop-q7/outcomes/l8.jsonl",
+    "framework/data/webshop-q7/outcomes/q7.jsonl",
+    "framework/data/webshop-q7/tasks.jsonl"
+  ],
+  "notes": [
+    "Original research plans, archived reports and raw data retain their original language and bytes.",
+    "Original source hashes in existing provenance continue to describe historical sources; this audit and release_manifest describe the English edition.",
+    "Local draft translation was followed by terminology corrections and manual review of public guides and core module introductions.",
+    "No live GPU continuation experiment was run."
+  ]
+}

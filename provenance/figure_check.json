@@ -1,0 +1,18 @@
+[
+  {
+    "script": "fig1_example",
+    "exit_code": 0
+  },
+  {
+    "script": "fig2_forest",
+    "exit_code": 0
+  },
+  {
+    "script": "fig3_curves",
+    "exit_code": 0
+  },
+  {
+    "script": "fig3_budget",
+    "exit_code": 0
+  }
+]
