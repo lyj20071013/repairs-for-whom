@@ -1,0 +1,3475 @@
+{
+  "objective": "net",
+  "delta": 0.05,
+  "alpha": 0.05,
+  "n_boot": 2000,
+  "matched_source": "deploy_T07/S",
+  "positive_control": {
+    "random_loss_ci": [
+      0.11897462121212118,
+      0.33293001602564104
+    ],
+    "discriminative": true
+  },
+  "point": {
+    "deploy_T07/S": {
+      "value_net": 0.24274999999999997,
+      "value_post": 0.26499999999999996,
+      "loss_vs_matched": 0.0,
+      "regret_naive_net": 0.0032500000000000003,
+      "agree_candidate": 1.0,
+      "agree_position": 1.0,
+      "mean_spearman_vs_V": 0.6954914072610464,
+      "mean_tied": 9.4
+    },
+    "llm_T03/S": {
+      "value_net": 0.21886111111111112,
+      "value_post": 0.2544444444444444,
+      "loss_vs_matched": 0.023888888888888883,
+      "regret_naive_net": 0.02713888888888889,
+      "agree_candidate": 0.85,
+      "agree_position": 0.85,
+      "mean_spearman_vs_V": 0.41514650689263155,
+      "mean_tied": 11.45
+    },
+    "llm_greedy/S": {
+      "value_net": 0.08954732905982907,
+      "value_post": 0.16794732905982906,
+      "loss_vs_matched": 0.15320267094017093,
+      "regret_naive_net": 0.15645267094017093,
+      "agree_candidate": 0.9,
+      "agree_position": 0.95,
+      "mean_spearman_vs_V": 0.23169462044893419,
+      "mean_tied": 16.25
+    },
+    "oracle/S": {
+      "value_net": 0.14791666666666664,
+      "value_post": 0.14791666666666664,
+      "loss_vs_matched": 0.09483333333333334,
+      "regret_naive_net": 0.09808333333333333,
+      "agree_candidate": 0.7,
+      "agree_position": 0.7,
+      "mean_spearman_vs_V": 0.40625886194412825,
+      "mean_tied": 3.05
+    },
+    "noisy_oracle_e30/S": {
+      "value_net": 0.19575,
+      "value_post": 0.21225,
+      "loss_vs_matched": 0.04699999999999999,
+      "regret_naive_net": 0.050249999999999996,
+      "agree_candidate": 0.65,
+      "agree_position": 0.7,
+      "mean_spearman_vs_V": 0.4725636450480488,
+      "mean_tied": 1.05
+    },
+    "deploy_T07/S[:5]": {
+      "value_net": 0.17287499999999995,
+      "value_post": 0.22337499999999996,
+      "loss_vs_matched": 0.06987499999999999,
+      "regret_naive_net": 0.073125,
+      "agree_candidate": 0.85,
+      "agree_position": 0.9,
+      "mean_spearman_vs_V": 0.4063530241118734,
+      "mean_tied": 11.85
+    },
+    "deploy_T07/S[:10]": {
+      "value_net": 0.18529166666666666,
+      "value_post": 0.22529166666666667,
+      "loss_vs_matched": 0.057458333333333333,
+      "regret_naive_net": 0.06070833333333333,
+      "agree_candidate": 0.8,
+      "agree_position": 0.9,
+      "mean_spearman_vs_V": 0.4970846065573534,
+      "mean_tied": 11.75
+    },
+    "random_candidate": {
+      "value_net": 0.009624999999999996,
+      "loss_vs_matched": 0.23312499999999997,
+      "loss_vs_matched_ci": [
+        0.11897462121212118,
+        0.33293001602564104
+      ]
+    }
+  },
+  "intervals": {
+    "deploy_T07/S": {
+      "value_ci": [
+        0.1253320238095238,
+        0.34740499999999996
+      ],
+      "loss_vs_matched_ci": [
+        0.0,
+        0.0
+      ],
+      "verdict": "参照"
+    },
+    "llm_T03/S": {
+      "value_ci": [
+        0.10015833333333332,
+        0.3325083333333333
+      ],
+      "loss_vs_matched_ci": [
+        -0.020300352980352904,
+        0.06909666666666668
+      ],
+      "verdict": "不确定（区间跨过 δ）"
+    },
+    "llm_greedy/S": {
+      "value_ci": [
+        0.03473506944444445,
+        0.15144125
+      ],
+      "loss_vs_matched_ci": [
+        0.06233604166666665,
+        0.22740051816239315
+      ],
+      "verdict": "有实际意义的损失（下界 > δ）"
+    },
+    "oracle/S": {
+      "value_ci": [
+        0.076255,
+        0.23725000000000002
+      ],
+      "loss_vs_matched_ci": [
+        0.020249583333333352,
+        0.14507277777777774
+      ],
+      "verdict": "显著更差，但未确认超过 δ"
+    },
+    "noisy_oracle_e30/S": {
+      "value_ci": [
+        0.095,
+        0.29804166666666665
+      ],
+      "loss_vs_matched_ci": [
+        -0.011627083333333333,
+        0.11317499999999991
+      ],
+      "verdict": "不确定（区间跨过 δ）"
+    },
+    "deploy_T07/S[:5]": {
+      "value_ci": [
+        0.04683236111111111,
+        0.2476708333333333
+      ],
+      "loss_vs_matched_ci": [
+        0.019741249999999936,
+        0.1867522916666666
+      ],
+      "verdict": "显著更差，但未确认超过 δ"
+    },
+    "deploy_T07/S[:10]": {
+      "value_ci": [
+        0.07651500000000001,
+        0.28738374999999994
+      ],
+      "loss_vs_matched_ci": [
+        0.0005952083333333365,
+        0.12461916666666666
+      ],
+      "verdict": "显著更差，但未确认超过 δ"
+    }
+  },
+  "per_traj": {
+    "deploy_T07/S": [
+      {
+        "traj_id": "ep0024",
+        "value_net": 0.5399999999999999,
+        "value_post": 0.7,
+        "best_naive_net": 0.5399999999999999,
+        "n_tied": 1,
+        "chosen": [
+          "ep0024|t3|move:down"
+        ],
+        "chosen_positions": [
+          3
+        ],
+        "spearman_vs_V": 0.7952925707180312
+      },
+      {
+        "traj_id": "ep0029",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0029|t2|move:up",
+          "ep0029|t2|move:left",
+          "ep0029|t2|move:right",
+          "ep0029|t2|pick",
+          "ep0029|t2|open",
+          "ep0029|t2|look",
+          "ep0029|t6|move:up",
+          "ep0029|t6|move:left",
+          "ep0029|t6|move:right",
+          "ep0029|t6|pick",
+          "ep0029|t6|open",
+          "ep0029|t6|look",
+          "ep0029|t10|move:up",
+          "ep0029|t10|move:down",
+          "ep0029|t10|move:right",
+          "ep0029|t10|pick",
+          "ep0029|t10|open",
+          "ep0029|t10|look",
+          "ep0029|t11|move:up",
+          "ep0029|t11|move:down",
+          "ep0029|t11|move:left",
+          "ep0029|t11|pick",
+          "ep0029|t11|open",
+          "ep0029|t11|look"
+        ],
+        "chosen_positions": [
+          2,
+          6,
+          10,
+          11
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0031",
+        "value_net": -0.0025,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0031|t0|move:up",
+          "ep0031|t0|move:left",
+          "ep0031|t0|move:right",
+          "ep0031|t0|pick",
+          "ep0031|t0|open",
+          "ep0031|t0|look",
+          "ep0031|t1|move:up",
+          "ep0031|t1|move:down",
+          "ep0031|t1|move:left",
+          "ep0031|t1|pick",
+          "ep0031|t1|open",
+          "ep0031|t1|look",
+          "ep0031|t3|move:up",
+          "ep0031|t3|move:down",
+          "ep0031|t3|move:left",
+          "ep0031|t3|pick",
+          "ep0031|t3|open",
+          "ep0031|t3|look",
+          "ep0031|t4|move:down",
+          "ep0031|t4|move:left",
+          "ep0031|t4|move:right",
+          "ep0031|t4|pick",
+          "ep0031|t4|open",
+          "ep0031|t4|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0034",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 6,
+        "chosen": [
+          "ep0034|t0|move:up",
+          "ep0034|t0|move:down",
+          "ep0034|t0|move:left",
+          "ep0034|t0|pick",
+          "ep0034|t0|open",
+          "ep0034|t0|look"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0035",
+        "value_net": 0.019999999999999997,
+        "value_post": 0.1,
+        "best_naive_net": 0.04999999999999999,
+        "n_tied": 2,
+        "chosen": [
+          "ep0035|t0|pick",
+          "ep0035|t0|open"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": 0.12299333370702316
+      },
+      {
+        "traj_id": "ep0039",
+        "value_net": 0.01,
+        "value_post": 0.01,
+        "best_naive_net": 0.02,
+        "n_tied": 2,
+        "chosen": [
+          "ep0039|t9|look",
+          "ep0039|t15|move:left"
+        ],
+        "chosen_positions": [
+          9,
+          15
+        ],
+        "spearman_vs_V": 0.6997978507211763
+      },
+      {
+        "traj_id": "ep0040",
+        "value_net": 0.61,
+        "value_post": 0.77,
+        "best_naive_net": 0.61,
+        "n_tied": 1,
+        "chosen": [
+          "ep0040|t8|move:down"
+        ],
+        "chosen_positions": [
+          8
+        ],
+        "spearman_vs_V": 0.9318981567323391
+      },
+      {
+        "traj_id": "ep0055",
+        "value_net": 0.75,
+        "value_post": 0.75,
+        "best_naive_net": 0.75,
+        "n_tied": 1,
+        "chosen": [
+          "ep0055|t7|move:down"
+        ],
+        "chosen_positions": [
+          7
+        ],
+        "spearman_vs_V": 0.6161726827815779
+      },
+      {
+        "traj_id": "ep0056",
+        "value_net": 0.8,
+        "value_post": 0.8,
+        "best_naive_net": 0.8,
+        "n_tied": 1,
+        "chosen": [
+          "ep0056|t3|move:up"
+        ],
+        "chosen_positions": [
+          3
+        ],
+        "spearman_vs_V": 0.9320856820060989
+      },
+      {
+        "traj_id": "ep0060",
+        "value_net": 0.3,
+        "value_post": 0.3,
+        "best_naive_net": 0.3,
+        "n_tied": 1,
+        "chosen": [
+          "ep0060|t21|pick"
+        ],
+        "chosen_positions": [
+          21
+        ],
+        "spearman_vs_V": 0.5734683888480121
+      },
+      {
+        "traj_id": "ep0064",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0064|t0|move:up",
+          "ep0064|t0|move:down",
+          "ep0064|t0|move:left",
+          "ep0064|t0|pick",
+          "ep0064|t0|open",
+          "ep0064|t0|look",
+          "ep0064|t2|move:up",
+          "ep0064|t2|move:left",
+          "ep0064|t2|move:right",
+          "ep0064|t2|pick",
+          "ep0064|t2|open",
+          "ep0064|t2|look",
+          "ep0064|t3|move:up",
+          "ep0064|t3|move:left",
+          "ep0064|t3|move:right",
+          "ep0064|t3|pick",
+          "ep0064|t3|open",
+          "ep0064|t3|look",
+          "ep0064|t5|move:down",
+          "ep0064|t5|move:left",
+          "ep0064|t5|move:right",
+          "ep0064|t5|pick",
+          "ep0064|t5|open",
+          "ep0064|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0077",
+        "value_net": 0.5,
+        "value_post": 0.5,
+        "best_naive_net": 0.5,
+        "n_tied": 1,
+        "chosen": [
+          "ep0077|t4|move:down"
+        ],
+        "chosen_positions": [
+          4
+        ],
+        "spearman_vs_V": 0.871108228789459
+      },
+      {
+        "traj_id": "ep0098",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0098|t3|move:down",
+          "ep0098|t3|move:left",
+          "ep0098|t3|move:right",
+          "ep0098|t3|pick",
+          "ep0098|t3|open",
+          "ep0098|t3|look",
+          "ep0098|t9|move:up",
+          "ep0098|t9|move:left",
+          "ep0098|t9|move:right",
+          "ep0098|t9|pick",
+          "ep0098|t9|open",
+          "ep0098|t9|look",
+          "ep0098|t14|move:up",
+          "ep0098|t14|move:down",
+          "ep0098|t14|move:left",
+          "ep0098|t14|pick",
+          "ep0098|t14|open",
+          "ep0098|t14|look",
+          "ep0098|t15|move:up",
+          "ep0098|t15|move:down",
+          "ep0098|t15|move:left",
+          "ep0098|t15|pick",
+          "ep0098|t15|open",
+          "ep0098|t15|look"
+        ],
+        "chosen_positions": [
+          3,
+          9,
+          14,
+          15
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0099",
+        "value_net": -0.0025,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0099|t2|move:up",
+          "ep0099|t2|move:down",
+          "ep0099|t2|move:left",
+          "ep0099|t2|pick",
+          "ep0099|t2|open",
+          "ep0099|t2|look",
+          "ep0099|t5|move:down",
+          "ep0099|t5|move:left",
+          "ep0099|t5|move:right",
+          "ep0099|t5|pick",
+          "ep0099|t5|open",
+          "ep0099|t5|look",
+          "ep0099|t6|move:up",
+          "ep0099|t6|move:down",
+          "ep0099|t6|move:right",
+          "ep0099|t6|pick",
+          "ep0099|t6|open",
+          "ep0099|t6|look",
+          "ep0099|t9|move:up",
+          "ep0099|t9|move:left",
+          "ep0099|t9|move:right",
+          "ep0099|t9|pick",
+          "ep0099|t9|open",
+          "ep0099|t9|look"
+        ],
+        "chosen_positions": [
+          2,
+          5,
+          6,
+          9
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0102",
+        "value_net": 0.7,
+        "value_post": 0.7,
+        "best_naive_net": 0.7,
+        "n_tied": 1,
+        "chosen": [
+          "ep0102|t21|pick"
+        ],
+        "chosen_positions": [
+          21
+        ],
+        "spearman_vs_V": 0.7160076522829553
+      },
+      {
+        "traj_id": "ep0107",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0107|t5|move:right"
+        ],
+        "chosen_positions": [
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0108",
+        "value_net": 0.62,
+        "value_post": 0.66,
+        "best_naive_net": 0.62,
+        "n_tied": 1,
+        "chosen": [
+          "ep0108|t8|move:down"
+        ],
+        "chosen_positions": [
+          8
+        ],
+        "spearman_vs_V": 0.7976803035256034
+      },
+      {
+        "traj_id": "ep0110",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0110|t0|move:up",
+          "ep0110|t0|move:down",
+          "ep0110|t0|move:left",
+          "ep0110|t0|pick",
+          "ep0110|t0|open",
+          "ep0110|t0|look",
+          "ep0110|t1|move:up",
+          "ep0110|t1|move:left",
+          "ep0110|t1|move:right",
+          "ep0110|t1|pick",
+          "ep0110|t1|open",
+          "ep0110|t1|look",
+          "ep0110|t4|move:up",
+          "ep0110|t4|move:down",
+          "ep0110|t4|move:left",
+          "ep0110|t4|pick",
+          "ep0110|t4|open",
+          "ep0110|t4|look",
+          "ep0110|t5|move:up",
+          "ep0110|t5|move:down",
+          "ep0110|t5|move:left",
+          "ep0110|t5|pick",
+          "ep0110|t5|open",
+          "ep0110|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0112",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0112|t0|move:up",
+          "ep0112|t0|move:left",
+          "ep0112|t0|move:right",
+          "ep0112|t0|pick",
+          "ep0112|t0|open",
+          "ep0112|t0|look",
+          "ep0112|t1|move:up",
+          "ep0112|t1|move:down",
+          "ep0112|t1|move:left",
+          "ep0112|t1|pick",
+          "ep0112|t1|open",
+          "ep0112|t1|look",
+          "ep0112|t4|move:up",
+          "ep0112|t4|move:left",
+          "ep0112|t4|move:right",
+          "ep0112|t4|pick",
+          "ep0112|t4|open",
+          "ep0112|t4|look",
+          "ep0112|t5|move:up",
+          "ep0112|t5|move:down",
+          "ep0112|t5|move:left",
+          "ep0112|t5|pick",
+          "ep0112|t5|open",
+          "ep0112|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0114",
+        "value_net": 0.01,
+        "value_post": 0.01,
+        "best_naive_net": 0.030000000000000002,
+        "n_tied": 1,
+        "chosen": [
+          "ep0114|t22|move:right"
+        ],
+        "chosen_positions": [
+          22
+        ],
+        "spearman_vs_V": 0.5939006297592346
+      }
+    ],
+    "llm_T03/S": [
+      {
+        "traj_id": "ep0024",
+        "value_net": 0.5,
+        "value_post": 0.58,
+        "best_naive_net": 0.5399999999999999,
+        "n_tied": 2,
+        "chosen": [
+          "ep0024|t3|move:down",
+          "ep0024|t5|move:down"
+        ],
+        "chosen_positions": [
+          3,
+          5
+        ],
+        "spearman_vs_V": 0.8653469858866303
+      },
+      {
+        "traj_id": "ep0029",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0029|t2|move:up",
+          "ep0029|t2|move:left",
+          "ep0029|t2|move:right",
+          "ep0029|t2|pick",
+          "ep0029|t2|open",
+          "ep0029|t2|look",
+          "ep0029|t6|move:up",
+          "ep0029|t6|move:left",
+          "ep0029|t6|move:right",
+          "ep0029|t6|pick",
+          "ep0029|t6|open",
+          "ep0029|t6|look",
+          "ep0029|t10|move:up",
+          "ep0029|t10|move:down",
+          "ep0029|t10|move:right",
+          "ep0029|t10|pick",
+          "ep0029|t10|open",
+          "ep0029|t10|look",
+          "ep0029|t11|move:up",
+          "ep0029|t11|move:down",
+          "ep0029|t11|move:left",
+          "ep0029|t11|pick",
+          "ep0029|t11|open",
+          "ep0029|t11|look"
+        ],
+        "chosen_positions": [
+          2,
+          6,
+          10,
+          11
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0031",
+        "value_net": -0.0025,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0031|t0|move:up",
+          "ep0031|t0|move:left",
+          "ep0031|t0|move:right",
+          "ep0031|t0|pick",
+          "ep0031|t0|open",
+          "ep0031|t0|look",
+          "ep0031|t1|move:up",
+          "ep0031|t1|move:down",
+          "ep0031|t1|move:left",
+          "ep0031|t1|pick",
+          "ep0031|t1|open",
+          "ep0031|t1|look",
+          "ep0031|t3|move:up",
+          "ep0031|t3|move:down",
+          "ep0031|t3|move:left",
+          "ep0031|t3|pick",
+          "ep0031|t3|open",
+          "ep0031|t3|look",
+          "ep0031|t4|move:down",
+          "ep0031|t4|move:left",
+          "ep0031|t4|move:right",
+          "ep0031|t4|pick",
+          "ep0031|t4|open",
+          "ep0031|t4|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0034",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 6,
+        "chosen": [
+          "ep0034|t0|move:up",
+          "ep0034|t0|move:down",
+          "ep0034|t0|move:left",
+          "ep0034|t0|pick",
+          "ep0034|t0|open",
+          "ep0034|t0|look"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0035",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.04999999999999999,
+        "n_tied": 1,
+        "chosen": [
+          "ep0035|t12|move:left"
+        ],
+        "chosen_positions": [
+          12
+        ],
+        "spearman_vs_V": 0.010233501544665865
+      },
+      {
+        "traj_id": "ep0039",
+        "value_net": -0.001111111111111111,
+        "value_post": 0.005555555555555556,
+        "best_naive_net": 0.02,
+        "n_tied": 18,
+        "chosen": [
+          "ep0039|t2|move:up",
+          "ep0039|t2|move:left",
+          "ep0039|t2|move:right",
+          "ep0039|t2|pick",
+          "ep0039|t2|open",
+          "ep0039|t2|look",
+          "ep0039|t11|move:up",
+          "ep0039|t11|move:left",
+          "ep0039|t11|move:right",
+          "ep0039|t11|pick",
+          "ep0039|t11|open",
+          "ep0039|t11|look",
+          "ep0039|t15|move:down",
+          "ep0039|t15|move:left",
+          "ep0039|t15|move:right",
+          "ep0039|t15|pick",
+          "ep0039|t15|open",
+          "ep0039|t15|look"
+        ],
+        "chosen_positions": [
+          2,
+          11,
+          15
+        ],
+        "spearman_vs_V": -0.41338369095716276
+      },
+      {
+        "traj_id": "ep0040",
+        "value_net": 0.61,
+        "value_post": 0.77,
+        "best_naive_net": 0.61,
+        "n_tied": 1,
+        "chosen": [
+          "ep0040|t8|move:down"
+        ],
+        "chosen_positions": [
+          8
+        ],
+        "spearman_vs_V": 0.012473427556277691
+      },
+      {
+        "traj_id": "ep0055",
+        "value_net": 0.75,
+        "value_post": 0.75,
+        "best_naive_net": 0.75,
+        "n_tied": 1,
+        "chosen": [
+          "ep0055|t7|move:down"
+        ],
+        "chosen_positions": [
+          7
+        ],
+        "spearman_vs_V": 0.6756235741764791
+      },
+      {
+        "traj_id": "ep0056",
+        "value_net": 0.8,
+        "value_post": 0.8,
+        "best_naive_net": 0.8,
+        "n_tied": 1,
+        "chosen": [
+          "ep0056|t3|move:up"
+        ],
+        "chosen_positions": [
+          3
+        ],
+        "spearman_vs_V": 0.9534378622495654
+      },
+      {
+        "traj_id": "ep0060",
+        "value_net": -0.11000000000000004,
+        "value_post": 0.29,
+        "best_naive_net": 0.3,
+        "n_tied": 1,
+        "chosen": [
+          "ep0060|t13|open"
+        ],
+        "chosen_positions": [
+          13
+        ],
+        "spearman_vs_V": 0.3844640499387424
+      },
+      {
+        "traj_id": "ep0064",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0064|t0|move:up",
+          "ep0064|t0|move:down",
+          "ep0064|t0|move:left",
+          "ep0064|t0|pick",
+          "ep0064|t0|open",
+          "ep0064|t0|look",
+          "ep0064|t2|move:up",
+          "ep0064|t2|move:left",
+          "ep0064|t2|move:right",
+          "ep0064|t2|pick",
+          "ep0064|t2|open",
+          "ep0064|t2|look",
+          "ep0064|t3|move:up",
+          "ep0064|t3|move:left",
+          "ep0064|t3|move:right",
+          "ep0064|t3|pick",
+          "ep0064|t3|open",
+          "ep0064|t3|look",
+          "ep0064|t5|move:down",
+          "ep0064|t5|move:left",
+          "ep0064|t5|move:right",
+          "ep0064|t5|pick",
+          "ep0064|t5|open",
+          "ep0064|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0077",
+        "value_net": 0.5,
+        "value_post": 0.5,
+        "best_naive_net": 0.5,
+        "n_tied": 1,
+        "chosen": [
+          "ep0077|t4|move:down"
+        ],
+        "chosen_positions": [
+          4
+        ],
+        "spearman_vs_V": 0.8048357196433983
+      },
+      {
+        "traj_id": "ep0098",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0098|t3|move:down",
+          "ep0098|t3|move:left",
+          "ep0098|t3|move:right",
+          "ep0098|t3|pick",
+          "ep0098|t3|open",
+          "ep0098|t3|look",
+          "ep0098|t9|move:up",
+          "ep0098|t9|move:left",
+          "ep0098|t9|move:right",
+          "ep0098|t9|pick",
+          "ep0098|t9|open",
+          "ep0098|t9|look",
+          "ep0098|t14|move:up",
+          "ep0098|t14|move:down",
+          "ep0098|t14|move:left",
+          "ep0098|t14|pick",
+          "ep0098|t14|open",
+          "ep0098|t14|look",
+          "ep0098|t15|move:up",
+          "ep0098|t15|move:down",
+          "ep0098|t15|move:left",
+          "ep0098|t15|pick",
+          "ep0098|t15|open",
+          "ep0098|t15|look"
+        ],
+        "chosen_positions": [
+          3,
+          9,
+          14,
+          15
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0099",
+        "value_net": -0.0025,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0099|t2|move:up",
+          "ep0099|t2|move:down",
+          "ep0099|t2|move:left",
+          "ep0099|t2|pick",
+          "ep0099|t2|open",
+          "ep0099|t2|look",
+          "ep0099|t5|move:down",
+          "ep0099|t5|move:left",
+          "ep0099|t5|move:right",
+          "ep0099|t5|pick",
+          "ep0099|t5|open",
+          "ep0099|t5|look",
+          "ep0099|t6|move:up",
+          "ep0099|t6|move:down",
+          "ep0099|t6|move:right",
+          "ep0099|t6|pick",
+          "ep0099|t6|open",
+          "ep0099|t6|look",
+          "ep0099|t9|move:up",
+          "ep0099|t9|move:left",
+          "ep0099|t9|move:right",
+          "ep0099|t9|pick",
+          "ep0099|t9|open",
+          "ep0099|t9|look"
+        ],
+        "chosen_positions": [
+          2,
+          5,
+          6,
+          9
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0102",
+        "value_net": 0.7,
+        "value_post": 0.7,
+        "best_naive_net": 0.7,
+        "n_tied": 1,
+        "chosen": [
+          "ep0102|t21|pick"
+        ],
+        "chosen_positions": [
+          21
+        ],
+        "spearman_vs_V": 0.6712028741540169
+      },
+      {
+        "traj_id": "ep0107",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0107|t0|move:up",
+          "ep0107|t0|move:down",
+          "ep0107|t0|move:left",
+          "ep0107|t0|pick",
+          "ep0107|t0|open",
+          "ep0107|t0|look",
+          "ep0107|t5|move:up",
+          "ep0107|t5|move:left",
+          "ep0107|t5|move:right",
+          "ep0107|t5|pick",
+          "ep0107|t5|open",
+          "ep0107|t5|look",
+          "ep0107|t7|move:up",
+          "ep0107|t7|move:down",
+          "ep0107|t7|move:right",
+          "ep0107|t7|pick",
+          "ep0107|t7|open",
+          "ep0107|t7|look",
+          "ep0107|t10|move:up",
+          "ep0107|t10|move:left",
+          "ep0107|t10|move:right",
+          "ep0107|t10|pick",
+          "ep0107|t10|open",
+          "ep0107|t10|look"
+        ],
+        "chosen_positions": [
+          0,
+          5,
+          7,
+          10
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0108",
+        "value_net": 0.62,
+        "value_post": 0.66,
+        "best_naive_net": 0.62,
+        "n_tied": 1,
+        "chosen": [
+          "ep0108|t8|move:down"
+        ],
+        "chosen_positions": [
+          8
+        ],
+        "spearman_vs_V": 0.5858267503932609
+      },
+      {
+        "traj_id": "ep0110",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0110|t0|move:up",
+          "ep0110|t0|move:down",
+          "ep0110|t0|move:left",
+          "ep0110|t0|pick",
+          "ep0110|t0|open",
+          "ep0110|t0|look",
+          "ep0110|t1|move:up",
+          "ep0110|t1|move:left",
+          "ep0110|t1|move:right",
+          "ep0110|t1|pick",
+          "ep0110|t1|open",
+          "ep0110|t1|look",
+          "ep0110|t4|move:up",
+          "ep0110|t4|move:down",
+          "ep0110|t4|move:left",
+          "ep0110|t4|pick",
+          "ep0110|t4|open",
+          "ep0110|t4|look",
+          "ep0110|t5|move:up",
+          "ep0110|t5|move:down",
+          "ep0110|t5|move:left",
+          "ep0110|t5|pick",
+          "ep0110|t5|open",
+          "ep0110|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0112",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0112|t0|move:up",
+          "ep0112|t0|move:left",
+          "ep0112|t0|move:right",
+          "ep0112|t0|pick",
+          "ep0112|t0|open",
+          "ep0112|t0|look",
+          "ep0112|t1|move:up",
+          "ep0112|t1|move:down",
+          "ep0112|t1|move:left",
+          "ep0112|t1|pick",
+          "ep0112|t1|open",
+          "ep0112|t1|look",
+          "ep0112|t4|move:up",
+          "ep0112|t4|move:left",
+          "ep0112|t4|move:right",
+          "ep0112|t4|pick",
+          "ep0112|t4|open",
+          "ep0112|t4|look",
+          "ep0112|t5|move:up",
+          "ep0112|t5|move:down",
+          "ep0112|t5|move:left",
+          "ep0112|t5|pick",
+          "ep0112|t5|open",
+          "ep0112|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0114",
+        "value_net": 0.013333333333333334,
+        "value_post": 0.03333333333333333,
+        "best_naive_net": 0.030000000000000002,
+        "n_tied": 3,
+        "chosen": [
+          "ep0114|t0|move:up",
+          "ep0114|t8|pick",
+          "ep0114|t8|open"
+        ],
+        "chosen_positions": [
+          0,
+          8
+        ],
+        "spearman_vs_V": 0.016550521233073594
+      }
+    ],
+    "llm_greedy/S": [
+      {
+        "traj_id": "ep0024",
+        "value_net": 0.13833333333333334,
+        "value_post": 0.26,
+        "best_naive_net": 0.5399999999999999,
+        "n_tied": 6,
+        "chosen": [
+          "ep0024|t0|pick",
+          "ep0024|t0|open",
+          "ep0024|t0|look",
+          "ep0024|t1|move:up",
+          "ep0024|t5|move:down",
+          "ep0024|t5|move:left"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          5
+        ],
+        "spearman_vs_V": 0.3470447897428607
+      },
+      {
+        "traj_id": "ep0029",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0029|t2|move:up",
+          "ep0029|t2|move:left",
+          "ep0029|t2|move:right",
+          "ep0029|t2|pick",
+          "ep0029|t2|open",
+          "ep0029|t2|look",
+          "ep0029|t6|move:up",
+          "ep0029|t6|move:left",
+          "ep0029|t6|move:right",
+          "ep0029|t6|pick",
+          "ep0029|t6|open",
+          "ep0029|t6|look",
+          "ep0029|t10|move:up",
+          "ep0029|t10|move:down",
+          "ep0029|t10|move:right",
+          "ep0029|t10|pick",
+          "ep0029|t10|open",
+          "ep0029|t10|look",
+          "ep0029|t11|move:up",
+          "ep0029|t11|move:down",
+          "ep0029|t11|move:left",
+          "ep0029|t11|pick",
+          "ep0029|t11|open",
+          "ep0029|t11|look"
+        ],
+        "chosen_positions": [
+          2,
+          6,
+          10,
+          11
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0031",
+        "value_net": -0.0025,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0031|t0|move:up",
+          "ep0031|t0|move:left",
+          "ep0031|t0|move:right",
+          "ep0031|t0|pick",
+          "ep0031|t0|open",
+          "ep0031|t0|look",
+          "ep0031|t1|move:up",
+          "ep0031|t1|move:down",
+          "ep0031|t1|move:left",
+          "ep0031|t1|pick",
+          "ep0031|t1|open",
+          "ep0031|t1|look",
+          "ep0031|t3|move:up",
+          "ep0031|t3|move:down",
+          "ep0031|t3|move:left",
+          "ep0031|t3|pick",
+          "ep0031|t3|open",
+          "ep0031|t3|look",
+          "ep0031|t4|move:down",
+          "ep0031|t4|move:left",
+          "ep0031|t4|move:right",
+          "ep0031|t4|pick",
+          "ep0031|t4|open",
+          "ep0031|t4|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0034",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 6,
+        "chosen": [
+          "ep0034|t0|move:up",
+          "ep0034|t0|move:down",
+          "ep0034|t0|move:left",
+          "ep0034|t0|pick",
+          "ep0034|t0|open",
+          "ep0034|t0|look"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0035",
+        "value_net": 0.0009999999999999974,
+        "value_post": 0.039,
+        "best_naive_net": 0.04999999999999999,
+        "n_tied": 20,
+        "chosen": [
+          "ep0035|t0|move:up",
+          "ep0035|t0|look",
+          "ep0035|t4|move:up",
+          "ep0035|t4|move:left",
+          "ep0035|t4|move:right",
+          "ep0035|t4|pick",
+          "ep0035|t4|open",
+          "ep0035|t4|look",
+          "ep0035|t12|move:down",
+          "ep0035|t12|move:left",
+          "ep0035|t12|move:right",
+          "ep0035|t12|pick",
+          "ep0035|t12|open",
+          "ep0035|t12|look",
+          "ep0035|t13|move:up",
+          "ep0035|t13|move:down",
+          "ep0035|t13|move:right",
+          "ep0035|t13|pick",
+          "ep0035|t13|open",
+          "ep0035|t13|look"
+        ],
+        "chosen_positions": [
+          0,
+          4,
+          12,
+          13
+        ],
+        "spearman_vs_V": -0.12332687818381667
+      },
+      {
+        "traj_id": "ep0039",
+        "value_net": 0.0008333333333333335,
+        "value_post": 0.005833333333333334,
+        "best_naive_net": 0.02,
+        "n_tied": 24,
+        "chosen": [
+          "ep0039|t2|move:up",
+          "ep0039|t2|move:left",
+          "ep0039|t2|move:right",
+          "ep0039|t2|pick",
+          "ep0039|t2|open",
+          "ep0039|t2|look",
+          "ep0039|t9|move:up",
+          "ep0039|t9|move:down",
+          "ep0039|t9|move:left",
+          "ep0039|t9|move:right",
+          "ep0039|t9|open",
+          "ep0039|t9|look",
+          "ep0039|t11|move:up",
+          "ep0039|t11|move:left",
+          "ep0039|t11|move:right",
+          "ep0039|t11|pick",
+          "ep0039|t11|open",
+          "ep0039|t11|look",
+          "ep0039|t15|move:down",
+          "ep0039|t15|move:left",
+          "ep0039|t15|move:right",
+          "ep0039|t15|pick",
+          "ep0039|t15|open",
+          "ep0039|t15|look"
+        ],
+        "chosen_positions": [
+          2,
+          9,
+          11,
+          15
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0040",
+        "value_net": 0.12,
+        "value_post": 0.39333333333333337,
+        "best_naive_net": 0.61,
+        "n_tied": 3,
+        "chosen": [
+          "ep0040|t6|move:up",
+          "ep0040|t6|pick",
+          "ep0040|t8|move:down"
+        ],
+        "chosen_positions": [
+          6,
+          8
+        ],
+        "spearman_vs_V": 0.03658464324063877
+      },
+      {
+        "traj_id": "ep0055",
+        "value_net": 0.12230769230769231,
+        "value_post": 0.25230769230769234,
+        "best_naive_net": 0.75,
+        "n_tied": 13,
+        "chosen": [
+          "ep0055|t1|move:up",
+          "ep0055|t1|move:down",
+          "ep0055|t1|move:left",
+          "ep0055|t1|move:right",
+          "ep0055|t1|open",
+          "ep0055|t1|look",
+          "ep0055|t2|move:right",
+          "ep0055|t7|move:up",
+          "ep0055|t7|move:down",
+          "ep0055|t7|move:left",
+          "ep0055|t7|pick",
+          "ep0055|t7|open",
+          "ep0055|t7|look"
+        ],
+        "chosen_positions": [
+          1,
+          2,
+          7
+        ],
+        "spearman_vs_V": 0.45976316012711854
+      },
+      {
+        "traj_id": "ep0056",
+        "value_net": 0.33916666666666667,
+        "value_post": 0.6608333333333334,
+        "best_naive_net": 0.8,
+        "n_tied": 12,
+        "chosen": [
+          "ep0056|t0|move:up",
+          "ep0056|t0|pick",
+          "ep0056|t0|open",
+          "ep0056|t1|move:up",
+          "ep0056|t1|pick",
+          "ep0056|t1|open",
+          "ep0056|t1|look",
+          "ep0056|t3|move:up",
+          "ep0056|t3|move:right",
+          "ep0056|t3|pick",
+          "ep0056|t3|open",
+          "ep0056|t3|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          3
+        ],
+        "spearman_vs_V": 0.6324626650114162
+      },
+      {
+        "traj_id": "ep0060",
+        "value_net": -0.06444444444444446,
+        "value_post": 0.17888888888888888,
+        "best_naive_net": 0.3,
+        "n_tied": 18,
+        "chosen": [
+          "ep0060|t13|move:up",
+          "ep0060|t13|move:down",
+          "ep0060|t13|move:left",
+          "ep0060|t13|pick",
+          "ep0060|t13|open",
+          "ep0060|t13|look",
+          "ep0060|t18|move:up",
+          "ep0060|t18|move:down",
+          "ep0060|t18|move:left",
+          "ep0060|t18|pick",
+          "ep0060|t18|open",
+          "ep0060|t18|look",
+          "ep0060|t21|move:up",
+          "ep0060|t21|move:down",
+          "ep0060|t21|move:right",
+          "ep0060|t21|pick",
+          "ep0060|t21|open",
+          "ep0060|t21|look"
+        ],
+        "chosen_positions": [
+          13,
+          18,
+          21
+        ],
+        "spearman_vs_V": -0.27231476508932007
+      },
+      {
+        "traj_id": "ep0064",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0064|t0|move:up",
+          "ep0064|t0|move:down",
+          "ep0064|t0|move:left",
+          "ep0064|t0|pick",
+          "ep0064|t0|open",
+          "ep0064|t0|look",
+          "ep0064|t2|move:up",
+          "ep0064|t2|move:left",
+          "ep0064|t2|move:right",
+          "ep0064|t2|pick",
+          "ep0064|t2|open",
+          "ep0064|t2|look",
+          "ep0064|t3|move:up",
+          "ep0064|t3|move:left",
+          "ep0064|t3|move:right",
+          "ep0064|t3|pick",
+          "ep0064|t3|open",
+          "ep0064|t3|look",
+          "ep0064|t5|move:down",
+          "ep0064|t5|move:left",
+          "ep0064|t5|move:right",
+          "ep0064|t5|pick",
+          "ep0064|t5|open",
+          "ep0064|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0077",
+        "value_net": 0.29,
+        "value_post": 0.3833333333333333,
+        "best_naive_net": 0.5,
+        "n_tied": 3,
+        "chosen": [
+          "ep0077|t1|move:left",
+          "ep0077|t4|move:down",
+          "ep0077|t4|look"
+        ],
+        "chosen_positions": [
+          1,
+          4
+        ],
+        "spearman_vs_V": 0.4557047646387514
+      },
+      {
+        "traj_id": "ep0098",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0098|t3|move:down",
+          "ep0098|t3|move:left",
+          "ep0098|t3|move:right",
+          "ep0098|t3|pick",
+          "ep0098|t3|open",
+          "ep0098|t3|look",
+          "ep0098|t9|move:up",
+          "ep0098|t9|move:left",
+          "ep0098|t9|move:right",
+          "ep0098|t9|pick",
+          "ep0098|t9|open",
+          "ep0098|t9|look",
+          "ep0098|t14|move:up",
+          "ep0098|t14|move:down",
+          "ep0098|t14|move:left",
+          "ep0098|t14|pick",
+          "ep0098|t14|open",
+          "ep0098|t14|look",
+          "ep0098|t15|move:up",
+          "ep0098|t15|move:down",
+          "ep0098|t15|move:left",
+          "ep0098|t15|pick",
+          "ep0098|t15|open",
+          "ep0098|t15|look"
+        ],
+        "chosen_positions": [
+          3,
+          9,
+          14,
+          15
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0099",
+        "value_net": -0.0025,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0099|t2|move:up",
+          "ep0099|t2|move:down",
+          "ep0099|t2|move:left",
+          "ep0099|t2|pick",
+          "ep0099|t2|open",
+          "ep0099|t2|look",
+          "ep0099|t5|move:down",
+          "ep0099|t5|move:left",
+          "ep0099|t5|move:right",
+          "ep0099|t5|pick",
+          "ep0099|t5|open",
+          "ep0099|t5|look",
+          "ep0099|t6|move:up",
+          "ep0099|t6|move:down",
+          "ep0099|t6|move:right",
+          "ep0099|t6|pick",
+          "ep0099|t6|open",
+          "ep0099|t6|look",
+          "ep0099|t9|move:up",
+          "ep0099|t9|move:left",
+          "ep0099|t9|move:right",
+          "ep0099|t9|pick",
+          "ep0099|t9|open",
+          "ep0099|t9|look"
+        ],
+        "chosen_positions": [
+          2,
+          5,
+          6,
+          9
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0102",
+        "value_net": 0.22666666666666666,
+        "value_post": 0.5133333333333333,
+        "best_naive_net": 0.7,
+        "n_tied": 3,
+        "chosen": [
+          "ep0102|t3|move:left",
+          "ep0102|t19|open",
+          "ep0102|t21|pick"
+        ],
+        "chosen_positions": [
+          3,
+          19,
+          21
+        ],
+        "spearman_vs_V": 0.19854910101640563
+      },
+      {
+        "traj_id": "ep0107",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0107|t0|move:up",
+          "ep0107|t0|move:down",
+          "ep0107|t0|move:left",
+          "ep0107|t0|pick",
+          "ep0107|t0|open",
+          "ep0107|t0|look",
+          "ep0107|t5|move:up",
+          "ep0107|t5|move:left",
+          "ep0107|t5|move:right",
+          "ep0107|t5|pick",
+          "ep0107|t5|open",
+          "ep0107|t5|look",
+          "ep0107|t7|move:up",
+          "ep0107|t7|move:down",
+          "ep0107|t7|move:right",
+          "ep0107|t7|pick",
+          "ep0107|t7|open",
+          "ep0107|t7|look",
+          "ep0107|t10|move:up",
+          "ep0107|t10|move:left",
+          "ep0107|t10|move:right",
+          "ep0107|t10|pick",
+          "ep0107|t10|open",
+          "ep0107|t10|look"
+        ],
+        "chosen_positions": [
+          0,
+          5,
+          7,
+          10
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0108",
+        "value_net": 0.62,
+        "value_post": 0.66,
+        "best_naive_net": 0.62,
+        "n_tied": 1,
+        "chosen": [
+          "ep0108|t8|move:down"
+        ],
+        "chosen_positions": [
+          8
+        ],
+        "spearman_vs_V": 0.3507841035363532
+      },
+      {
+        "traj_id": "ep0110",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0110|t0|move:up",
+          "ep0110|t0|move:down",
+          "ep0110|t0|move:left",
+          "ep0110|t0|pick",
+          "ep0110|t0|open",
+          "ep0110|t0|look",
+          "ep0110|t1|move:up",
+          "ep0110|t1|move:left",
+          "ep0110|t1|move:right",
+          "ep0110|t1|pick",
+          "ep0110|t1|open",
+          "ep0110|t1|look",
+          "ep0110|t4|move:up",
+          "ep0110|t4|move:down",
+          "ep0110|t4|move:left",
+          "ep0110|t4|pick",
+          "ep0110|t4|open",
+          "ep0110|t4|look",
+          "ep0110|t5|move:up",
+          "ep0110|t5|move:down",
+          "ep0110|t5|move:left",
+          "ep0110|t5|pick",
+          "ep0110|t5|open",
+          "ep0110|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0112",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0112|t0|move:up",
+          "ep0112|t0|move:left",
+          "ep0112|t0|move:right",
+          "ep0112|t0|pick",
+          "ep0112|t0|open",
+          "ep0112|t0|look",
+          "ep0112|t1|move:up",
+          "ep0112|t1|move:down",
+          "ep0112|t1|move:left",
+          "ep0112|t1|pick",
+          "ep0112|t1|open",
+          "ep0112|t1|look",
+          "ep0112|t4|move:up",
+          "ep0112|t4|move:left",
+          "ep0112|t4|move:right",
+          "ep0112|t4|pick",
+          "ep0112|t4|open",
+          "ep0112|t4|look",
+          "ep0112|t5|move:up",
+          "ep0112|t5|move:down",
+          "ep0112|t5|move:left",
+          "ep0112|t5|pick",
+          "ep0112|t5|open",
+          "ep0112|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0114",
+        "value_net": 0.002083333333333333,
+        "value_post": 0.012083333333333335,
+        "best_naive_net": 0.030000000000000002,
+        "n_tied": 24,
+        "chosen": [
+          "ep0114|t0|move:up",
+          "ep0114|t0|move:left",
+          "ep0114|t0|move:right",
+          "ep0114|t0|pick",
+          "ep0114|t0|open",
+          "ep0114|t0|look",
+          "ep0114|t8|move:up",
+          "ep0114|t8|move:down",
+          "ep0114|t8|move:left",
+          "ep0114|t8|pick",
+          "ep0114|t8|open",
+          "ep0114|t8|look",
+          "ep0114|t22|move:down",
+          "ep0114|t22|move:left",
+          "ep0114|t22|move:right",
+          "ep0114|t22|pick",
+          "ep0114|t22|open",
+          "ep0114|t22|look",
+          "ep0114|t26|move:up",
+          "ep0114|t26|move:down",
+          "ep0114|t26|move:left",
+          "ep0114|t26|pick",
+          "ep0114|t26|open",
+          "ep0114|t26|look"
+        ],
+        "chosen_positions": [
+          0,
+          8,
+          22,
+          26
+        ],
+        "spearman_vs_V": null
+      }
+    ],
+    "oracle/S": [
+      {
+        "traj_id": "ep0024",
+        "value_net": 0.19166666666666665,
+        "value_post": 0.19166666666666665,
+        "best_naive_net": 0.5399999999999999,
+        "n_tied": 6,
+        "chosen": [
+          "ep0024|t5|move:up",
+          "ep0024|t5|move:down",
+          "ep0024|t5|move:left",
+          "ep0024|t5|pick",
+          "ep0024|t5|open",
+          "ep0024|t5|look"
+        ],
+        "chosen_positions": [
+          5
+        ],
+        "spearman_vs_V": 0.5041718835197445
+      },
+      {
+        "traj_id": "ep0029",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0029|t11|move:down"
+        ],
+        "chosen_positions": [
+          11
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0031",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 6,
+        "chosen": [
+          "ep0031|t4|move:down",
+          "ep0031|t4|move:left",
+          "ep0031|t4|move:right",
+          "ep0031|t4|pick",
+          "ep0031|t4|open",
+          "ep0031|t4|look"
+        ],
+        "chosen_positions": [
+          4
+        ],
+        "spearman_vs_V": 0.33333333333333326
+      },
+      {
+        "traj_id": "ep0034",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 6,
+        "chosen": [
+          "ep0034|t0|move:up",
+          "ep0034|t0|move:down",
+          "ep0034|t0|move:left",
+          "ep0034|t0|pick",
+          "ep0034|t0|open",
+          "ep0034|t0|look"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0035",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.04999999999999999,
+        "n_tied": 2,
+        "chosen": [
+          "ep0035|t13|move:down",
+          "ep0035|t13|move:right"
+        ],
+        "chosen_positions": [
+          13
+        ],
+        "spearman_vs_V": -0.07126882655104304
+      },
+      {
+        "traj_id": "ep0039",
+        "value_net": 0.005,
+        "value_post": 0.005,
+        "best_naive_net": 0.02,
+        "n_tied": 2,
+        "chosen": [
+          "ep0039|t15|move:down",
+          "ep0039|t15|move:left"
+        ],
+        "chosen_positions": [
+          15
+        ],
+        "spearman_vs_V": 0.19189563715236668
+      },
+      {
+        "traj_id": "ep0040",
+        "value_net": 0.36,
+        "value_post": 0.36,
+        "best_naive_net": 0.61,
+        "n_tied": 1,
+        "chosen": [
+          "ep0040|t24|move:up"
+        ],
+        "chosen_positions": [
+          24
+        ],
+        "spearman_vs_V": 0.46104271653874973
+      },
+      {
+        "traj_id": "ep0055",
+        "value_net": 0.2966666666666667,
+        "value_post": 0.2966666666666667,
+        "best_naive_net": 0.75,
+        "n_tied": 6,
+        "chosen": [
+          "ep0055|t7|move:up",
+          "ep0055|t7|move:down",
+          "ep0055|t7|move:left",
+          "ep0055|t7|pick",
+          "ep0055|t7|open",
+          "ep0055|t7|look"
+        ],
+        "chosen_positions": [
+          7
+        ],
+        "spearman_vs_V": 0.7239524750437792
+      },
+      {
+        "traj_id": "ep0056",
+        "value_net": 0.6816666666666666,
+        "value_post": 0.6816666666666666,
+        "best_naive_net": 0.8,
+        "n_tied": 6,
+        "chosen": [
+          "ep0056|t3|move:up",
+          "ep0056|t3|move:left",
+          "ep0056|t3|move:right",
+          "ep0056|t3|pick",
+          "ep0056|t3|open",
+          "ep0056|t3|look"
+        ],
+        "chosen_positions": [
+          3
+        ],
+        "spearman_vs_V": 0.7938979986042967
+      },
+      {
+        "traj_id": "ep0060",
+        "value_net": 0.3,
+        "value_post": 0.3,
+        "best_naive_net": 0.3,
+        "n_tied": 1,
+        "chosen": [
+          "ep0060|t21|pick"
+        ],
+        "chosen_positions": [
+          21
+        ],
+        "spearman_vs_V": 0.34800251167936563
+      },
+      {
+        "traj_id": "ep0064",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 5,
+        "chosen": [
+          "ep0064|t5|move:down",
+          "ep0064|t5|move:left",
+          "ep0064|t5|pick",
+          "ep0064|t5|open",
+          "ep0064|t5|look"
+        ],
+        "chosen_positions": [
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0077",
+        "value_net": 0.29333333333333333,
+        "value_post": 0.29333333333333333,
+        "best_naive_net": 0.5,
+        "n_tied": 6,
+        "chosen": [
+          "ep0077|t4|move:down",
+          "ep0077|t4|move:left",
+          "ep0077|t4|move:right",
+          "ep0077|t4|pick",
+          "ep0077|t4|open",
+          "ep0077|t4|look"
+        ],
+        "chosen_positions": [
+          4
+        ],
+        "spearman_vs_V": 0.7942435472598773
+      },
+      {
+        "traj_id": "ep0098",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0098|t15|move:up"
+        ],
+        "chosen_positions": [
+          15
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0099",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0099|t9|move:left"
+        ],
+        "chosen_positions": [
+          9
+        ],
+        "spearman_vs_V": 0.1203858530857692
+      },
+      {
+        "traj_id": "ep0102",
+        "value_net": 0.7,
+        "value_post": 0.7,
+        "best_naive_net": 0.7,
+        "n_tied": 1,
+        "chosen": [
+          "ep0102|t21|pick"
+        ],
+        "chosen_positions": [
+          21
+        ],
+        "spearman_vs_V": 0.5893066665856983
+      },
+      {
+        "traj_id": "ep0107",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0107|t10|move:right"
+        ],
+        "chosen_positions": [
+          10
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0108",
+        "value_net": 0.12,
+        "value_post": 0.12,
+        "best_naive_net": 0.62,
+        "n_tied": 1,
+        "chosen": [
+          "ep0108|t16|move:down"
+        ],
+        "chosen_positions": [
+          16
+        ],
+        "spearman_vs_V": 0.25927520696165235
+      },
+      {
+        "traj_id": "ep0110",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0110|t5|move:down"
+        ],
+        "chosen_positions": [
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0112",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 6,
+        "chosen": [
+          "ep0112|t5|move:up",
+          "ep0112|t5|move:down",
+          "ep0112|t5|move:left",
+          "ep0112|t5|pick",
+          "ep0112|t5|open",
+          "ep0112|t5|look"
+        ],
+        "chosen_positions": [
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0114",
+        "value_net": 0.01,
+        "value_post": 0.01,
+        "best_naive_net": 0.030000000000000002,
+        "n_tied": 1,
+        "chosen": [
+          "ep0114|t26|move:down"
+        ],
+        "chosen_positions": [
+          26
+        ],
+        "spearman_vs_V": 0.2331262020600785
+      }
+    ],
+    "noisy_oracle_e30/S": [
+      {
+        "traj_id": "ep0024",
+        "value_net": 0.46,
+        "value_post": 0.46,
+        "best_naive_net": 0.5399999999999999,
+        "n_tied": 1,
+        "chosen": [
+          "ep0024|t5|move:down"
+        ],
+        "chosen_positions": [
+          5
+        ],
+        "spearman_vs_V": 0.4927034069904184
+      },
+      {
+        "traj_id": "ep0029",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0029|t6|move:left"
+        ],
+        "chosen_positions": [
+          6
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0031",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0031|t4|move:right"
+        ],
+        "chosen_positions": [
+          4
+        ],
+        "spearman_vs_V": -0.03491214937042565
+      },
+      {
+        "traj_id": "ep0034",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0034|t0|move:down"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0035",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.04999999999999999,
+        "n_tied": 1,
+        "chosen": [
+          "ep0035|t12|move:right"
+        ],
+        "chosen_positions": [
+          12
+        ],
+        "spearman_vs_V": -0.24385094708663788
+      },
+      {
+        "traj_id": "ep0039",
+        "value_net": 0.0,
+        "value_post": 0.01,
+        "best_naive_net": 0.02,
+        "n_tied": 1,
+        "chosen": [
+          "ep0039|t11|move:left"
+        ],
+        "chosen_positions": [
+          11
+        ],
+        "spearman_vs_V": 0.19134534618032023
+      },
+      {
+        "traj_id": "ep0040",
+        "value_net": 0.36,
+        "value_post": 0.36,
+        "best_naive_net": 0.61,
+        "n_tied": 1,
+        "chosen": [
+          "ep0040|t24|move:up"
+        ],
+        "chosen_positions": [
+          24
+        ],
+        "spearman_vs_V": 0.6461540958451282
+      },
+      {
+        "traj_id": "ep0055",
+        "value_net": 0.75,
+        "value_post": 0.75,
+        "best_naive_net": 0.75,
+        "n_tied": 1,
+        "chosen": [
+          "ep0055|t7|move:down"
+        ],
+        "chosen_positions": [
+          7
+        ],
+        "spearman_vs_V": 0.48801761450447156
+      },
+      {
+        "traj_id": "ep0056",
+        "value_net": 0.6950000000000001,
+        "value_post": 0.6950000000000001,
+        "best_naive_net": 0.8,
+        "n_tied": 2,
+        "chosen": [
+          "ep0056|t3|move:right",
+          "ep0056|t3|open"
+        ],
+        "chosen_positions": [
+          3
+        ],
+        "spearman_vs_V": 0.6722610444570488
+      },
+      {
+        "traj_id": "ep0060",
+        "value_net": 0.3,
+        "value_post": 0.3,
+        "best_naive_net": 0.3,
+        "n_tied": 1,
+        "chosen": [
+          "ep0060|t21|pick"
+        ],
+        "chosen_positions": [
+          21
+        ],
+        "spearman_vs_V": 0.5963104847653592
+      },
+      {
+        "traj_id": "ep0064",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0064|t0|open"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0077",
+        "value_net": 0.5,
+        "value_post": 0.5,
+        "best_naive_net": 0.5,
+        "n_tied": 1,
+        "chosen": [
+          "ep0077|t4|move:down"
+        ],
+        "chosen_positions": [
+          4
+        ],
+        "spearman_vs_V": 0.5841498070087774
+      },
+      {
+        "traj_id": "ep0098",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0098|t3|move:right"
+        ],
+        "chosen_positions": [
+          3
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0099",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0099|t6|move:up"
+        ],
+        "chosen_positions": [
+          6
+        ],
+        "spearman_vs_V": 0.7315854688435784
+      },
+      {
+        "traj_id": "ep0102",
+        "value_net": 0.21999999999999997,
+        "value_post": 0.5,
+        "best_naive_net": 0.7,
+        "n_tied": 1,
+        "chosen": [
+          "ep0102|t19|move:right"
+        ],
+        "chosen_positions": [
+          19
+        ],
+        "spearman_vs_V": 0.7539594680397855
+      },
+      {
+        "traj_id": "ep0107",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0107|t5|move:right"
+        ],
+        "chosen_positions": [
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0108",
+        "value_net": 0.62,
+        "value_post": 0.66,
+        "best_naive_net": 0.62,
+        "n_tied": 1,
+        "chosen": [
+          "ep0108|t8|move:down"
+        ],
+        "chosen_positions": [
+          8
+        ],
+        "spearman_vs_V": 0.7750506944985299
+      },
+      {
+        "traj_id": "ep0110",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0110|t0|move:down"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0112",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 1,
+        "chosen": [
+          "ep0112|t5|move:down"
+        ],
+        "chosen_positions": [
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0114",
+        "value_net": 0.01,
+        "value_post": 0.01,
+        "best_naive_net": 0.030000000000000002,
+        "n_tied": 1,
+        "chosen": [
+          "ep0114|t26|move:down"
+        ],
+        "chosen_positions": [
+          26
+        ],
+        "spearman_vs_V": 0.49055305094828033
+      }
+    ],
+    "deploy_T07/S[:5]": [
+      {
+        "traj_id": "ep0024",
+        "value_net": 0.5399999999999999,
+        "value_post": 0.7,
+        "best_naive_net": 0.5399999999999999,
+        "n_tied": 1,
+        "chosen": [
+          "ep0024|t3|move:down"
+        ],
+        "chosen_positions": [
+          3
+        ],
+        "spearman_vs_V": 0.2417159945243354
+      },
+      {
+        "traj_id": "ep0029",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0029|t2|move:up",
+          "ep0029|t2|move:left",
+          "ep0029|t2|move:right",
+          "ep0029|t2|pick",
+          "ep0029|t2|open",
+          "ep0029|t2|look",
+          "ep0029|t6|move:up",
+          "ep0029|t6|move:left",
+          "ep0029|t6|move:right",
+          "ep0029|t6|pick",
+          "ep0029|t6|open",
+          "ep0029|t6|look",
+          "ep0029|t10|move:up",
+          "ep0029|t10|move:down",
+          "ep0029|t10|move:right",
+          "ep0029|t10|pick",
+          "ep0029|t10|open",
+          "ep0029|t10|look",
+          "ep0029|t11|move:up",
+          "ep0029|t11|move:down",
+          "ep0029|t11|move:left",
+          "ep0029|t11|pick",
+          "ep0029|t11|open",
+          "ep0029|t11|look"
+        ],
+        "chosen_positions": [
+          2,
+          6,
+          10,
+          11
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0031",
+        "value_net": -0.0025,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0031|t0|move:up",
+          "ep0031|t0|move:left",
+          "ep0031|t0|move:right",
+          "ep0031|t0|pick",
+          "ep0031|t0|open",
+          "ep0031|t0|look",
+          "ep0031|t1|move:up",
+          "ep0031|t1|move:down",
+          "ep0031|t1|move:left",
+          "ep0031|t1|pick",
+          "ep0031|t1|open",
+          "ep0031|t1|look",
+          "ep0031|t3|move:up",
+          "ep0031|t3|move:down",
+          "ep0031|t3|move:left",
+          "ep0031|t3|pick",
+          "ep0031|t3|open",
+          "ep0031|t3|look",
+          "ep0031|t4|move:down",
+          "ep0031|t4|move:left",
+          "ep0031|t4|move:right",
+          "ep0031|t4|pick",
+          "ep0031|t4|open",
+          "ep0031|t4|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0034",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 6,
+        "chosen": [
+          "ep0034|t0|move:up",
+          "ep0034|t0|move:down",
+          "ep0034|t0|move:left",
+          "ep0034|t0|pick",
+          "ep0034|t0|open",
+          "ep0034|t0|look"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0035",
+        "value_net": 0.006666666666666664,
+        "value_post": 0.08666666666666667,
+        "best_naive_net": 0.04999999999999999,
+        "n_tied": 3,
+        "chosen": [
+          "ep0035|t0|pick",
+          "ep0035|t0|open",
+          "ep0035|t0|look"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": -0.03083802255052693
+      },
+      {
+        "traj_id": "ep0039",
+        "value_net": 0.0008333333333333335,
+        "value_post": 0.005833333333333334,
+        "best_naive_net": 0.02,
+        "n_tied": 24,
+        "chosen": [
+          "ep0039|t2|move:up",
+          "ep0039|t2|move:left",
+          "ep0039|t2|move:right",
+          "ep0039|t2|pick",
+          "ep0039|t2|open",
+          "ep0039|t2|look",
+          "ep0039|t9|move:up",
+          "ep0039|t9|move:down",
+          "ep0039|t9|move:left",
+          "ep0039|t9|move:right",
+          "ep0039|t9|open",
+          "ep0039|t9|look",
+          "ep0039|t11|move:up",
+          "ep0039|t11|move:left",
+          "ep0039|t11|move:right",
+          "ep0039|t11|pick",
+          "ep0039|t11|open",
+          "ep0039|t11|look",
+          "ep0039|t15|move:down",
+          "ep0039|t15|move:left",
+          "ep0039|t15|move:right",
+          "ep0039|t15|pick",
+          "ep0039|t15|open",
+          "ep0039|t15|look"
+        ],
+        "chosen_positions": [
+          2,
+          9,
+          11,
+          15
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0040",
+        "value_net": 0.21,
+        "value_post": 0.37,
+        "best_naive_net": 0.61,
+        "n_tied": 1,
+        "chosen": [
+          "ep0040|t8|open"
+        ],
+        "chosen_positions": [
+          8
+        ],
+        "spearman_vs_V": 0.6436614515974577
+      },
+      {
+        "traj_id": "ep0055",
+        "value_net": 0.75,
+        "value_post": 0.75,
+        "best_naive_net": 0.75,
+        "n_tied": 1,
+        "chosen": [
+          "ep0055|t7|move:down"
+        ],
+        "chosen_positions": [
+          7
+        ],
+        "spearman_vs_V": 0.5845113149545762
+      },
+      {
+        "traj_id": "ep0056",
+        "value_net": 0.8,
+        "value_post": 0.8,
+        "best_naive_net": 0.8,
+        "n_tied": 1,
+        "chosen": [
+          "ep0056|t3|move:up"
+        ],
+        "chosen_positions": [
+          3
+        ],
+        "spearman_vs_V": 0.7991150338526075
+      },
+      {
+        "traj_id": "ep0060",
+        "value_net": -0.11000000000000004,
+        "value_post": 0.29,
+        "best_naive_net": 0.3,
+        "n_tied": 1,
+        "chosen": [
+          "ep0060|t13|open"
+        ],
+        "chosen_positions": [
+          13
+        ],
+        "spearman_vs_V": -0.047675243513274235
+      },
+      {
+        "traj_id": "ep0064",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0064|t0|move:up",
+          "ep0064|t0|move:down",
+          "ep0064|t0|move:left",
+          "ep0064|t0|pick",
+          "ep0064|t0|open",
+          "ep0064|t0|look",
+          "ep0064|t2|move:up",
+          "ep0064|t2|move:left",
+          "ep0064|t2|move:right",
+          "ep0064|t2|pick",
+          "ep0064|t2|open",
+          "ep0064|t2|look",
+          "ep0064|t3|move:up",
+          "ep0064|t3|move:left",
+          "ep0064|t3|move:right",
+          "ep0064|t3|pick",
+          "ep0064|t3|open",
+          "ep0064|t3|look",
+          "ep0064|t5|move:down",
+          "ep0064|t5|move:left",
+          "ep0064|t5|move:right",
+          "ep0064|t5|pick",
+          "ep0064|t5|open",
+          "ep0064|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0077",
+        "value_net": 0.285,
+        "value_post": 0.425,
+        "best_naive_net": 0.5,
+        "n_tied": 2,
+        "chosen": [
+          "ep0077|t1|move:left",
+          "ep0077|t4|move:down"
+        ],
+        "chosen_positions": [
+          1,
+          4
+        ],
+        "spearman_vs_V": 0.6082828108957999
+      },
+      {
+        "traj_id": "ep0098",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0098|t3|move:down",
+          "ep0098|t3|move:left",
+          "ep0098|t3|move:right",
+          "ep0098|t3|pick",
+          "ep0098|t3|open",
+          "ep0098|t3|look",
+          "ep0098|t9|move:up",
+          "ep0098|t9|move:left",
+          "ep0098|t9|move:right",
+          "ep0098|t9|pick",
+          "ep0098|t9|open",
+          "ep0098|t9|look",
+          "ep0098|t14|move:up",
+          "ep0098|t14|move:down",
+          "ep0098|t14|move:left",
+          "ep0098|t14|pick",
+          "ep0098|t14|open",
+          "ep0098|t14|look",
+          "ep0098|t15|move:up",
+          "ep0098|t15|move:down",
+          "ep0098|t15|move:left",
+          "ep0098|t15|pick",
+          "ep0098|t15|open",
+          "ep0098|t15|look"
+        ],
+        "chosen_positions": [
+          3,
+          9,
+          14,
+          15
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0099",
+        "value_net": -0.0025,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0099|t2|move:up",
+          "ep0099|t2|move:down",
+          "ep0099|t2|move:left",
+          "ep0099|t2|pick",
+          "ep0099|t2|open",
+          "ep0099|t2|look",
+          "ep0099|t5|move:down",
+          "ep0099|t5|move:left",
+          "ep0099|t5|move:right",
+          "ep0099|t5|pick",
+          "ep0099|t5|open",
+          "ep0099|t5|look",
+          "ep0099|t6|move:up",
+          "ep0099|t6|move:down",
+          "ep0099|t6|move:right",
+          "ep0099|t6|pick",
+          "ep0099|t6|open",
+          "ep0099|t6|look",
+          "ep0099|t9|move:up",
+          "ep0099|t9|move:left",
+          "ep0099|t9|move:right",
+          "ep0099|t9|pick",
+          "ep0099|t9|open",
+          "ep0099|t9|look"
+        ],
+        "chosen_positions": [
+          2,
+          5,
+          6,
+          9
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0102",
+        "value_net": 0.7,
+        "value_post": 0.7,
+        "best_naive_net": 0.7,
+        "n_tied": 1,
+        "chosen": [
+          "ep0102|t21|pick"
+        ],
+        "chosen_positions": [
+          21
+        ],
+        "spearman_vs_V": 0.4333899923340916
+      },
+      {
+        "traj_id": "ep0107",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0107|t0|move:up",
+          "ep0107|t0|move:down",
+          "ep0107|t0|move:left",
+          "ep0107|t0|pick",
+          "ep0107|t0|open",
+          "ep0107|t0|look",
+          "ep0107|t5|move:up",
+          "ep0107|t5|move:left",
+          "ep0107|t5|move:right",
+          "ep0107|t5|pick",
+          "ep0107|t5|open",
+          "ep0107|t5|look",
+          "ep0107|t7|move:up",
+          "ep0107|t7|move:down",
+          "ep0107|t7|move:right",
+          "ep0107|t7|pick",
+          "ep0107|t7|open",
+          "ep0107|t7|look",
+          "ep0107|t10|move:up",
+          "ep0107|t10|move:left",
+          "ep0107|t10|move:right",
+          "ep0107|t10|pick",
+          "ep0107|t10|open",
+          "ep0107|t10|look"
+        ],
+        "chosen_positions": [
+          0,
+          5,
+          7,
+          10
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0108",
+        "value_net": 0.27,
+        "value_post": 0.31,
+        "best_naive_net": 0.62,
+        "n_tied": 3,
+        "chosen": [
+          "ep0108|t8|move:down",
+          "ep0108|t8|pick",
+          "ep0108|t8|look"
+        ],
+        "chosen_positions": [
+          8
+        ],
+        "spearman_vs_V": 0.6914911877876195
+      },
+      {
+        "traj_id": "ep0110",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0110|t0|move:up",
+          "ep0110|t0|move:down",
+          "ep0110|t0|move:left",
+          "ep0110|t0|pick",
+          "ep0110|t0|open",
+          "ep0110|t0|look",
+          "ep0110|t1|move:up",
+          "ep0110|t1|move:left",
+          "ep0110|t1|move:right",
+          "ep0110|t1|pick",
+          "ep0110|t1|open",
+          "ep0110|t1|look",
+          "ep0110|t4|move:up",
+          "ep0110|t4|move:down",
+          "ep0110|t4|move:left",
+          "ep0110|t4|pick",
+          "ep0110|t4|open",
+          "ep0110|t4|look",
+          "ep0110|t5|move:up",
+          "ep0110|t5|move:down",
+          "ep0110|t5|move:left",
+          "ep0110|t5|pick",
+          "ep0110|t5|open",
+          "ep0110|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0112",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0112|t0|move:up",
+          "ep0112|t0|move:left",
+          "ep0112|t0|move:right",
+          "ep0112|t0|pick",
+          "ep0112|t0|open",
+          "ep0112|t0|look",
+          "ep0112|t1|move:up",
+          "ep0112|t1|move:down",
+          "ep0112|t1|move:left",
+          "ep0112|t1|pick",
+          "ep0112|t1|open",
+          "ep0112|t1|look",
+          "ep0112|t4|move:up",
+          "ep0112|t4|move:left",
+          "ep0112|t4|move:right",
+          "ep0112|t4|pick",
+          "ep0112|t4|open",
+          "ep0112|t4|look",
+          "ep0112|t5|move:up",
+          "ep0112|t5|move:down",
+          "ep0112|t5|move:left",
+          "ep0112|t5|pick",
+          "ep0112|t5|open",
+          "ep0112|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0114",
+        "value_net": 0.009999999999999998,
+        "value_post": 0.03,
+        "best_naive_net": 0.030000000000000002,
+        "n_tied": 1,
+        "chosen": [
+          "ep0114|t8|move:up"
+        ],
+        "chosen_positions": [
+          8
+        ],
+        "spearman_vs_V": 0.13987572123604708
+      }
+    ],
+    "deploy_T07/S[:10]": [
+      {
+        "traj_id": "ep0024",
+        "value_net": 0.5399999999999999,
+        "value_post": 0.7,
+        "best_naive_net": 0.5399999999999999,
+        "n_tied": 1,
+        "chosen": [
+          "ep0024|t3|move:down"
+        ],
+        "chosen_positions": [
+          3
+        ],
+        "spearman_vs_V": 0.5777622442452367
+      },
+      {
+        "traj_id": "ep0029",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0029|t2|move:up",
+          "ep0029|t2|move:left",
+          "ep0029|t2|move:right",
+          "ep0029|t2|pick",
+          "ep0029|t2|open",
+          "ep0029|t2|look",
+          "ep0029|t6|move:up",
+          "ep0029|t6|move:left",
+          "ep0029|t6|move:right",
+          "ep0029|t6|pick",
+          "ep0029|t6|open",
+          "ep0029|t6|look",
+          "ep0029|t10|move:up",
+          "ep0029|t10|move:down",
+          "ep0029|t10|move:right",
+          "ep0029|t10|pick",
+          "ep0029|t10|open",
+          "ep0029|t10|look",
+          "ep0029|t11|move:up",
+          "ep0029|t11|move:down",
+          "ep0029|t11|move:left",
+          "ep0029|t11|pick",
+          "ep0029|t11|open",
+          "ep0029|t11|look"
+        ],
+        "chosen_positions": [
+          2,
+          6,
+          10,
+          11
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0031",
+        "value_net": -0.0025,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0031|t0|move:up",
+          "ep0031|t0|move:left",
+          "ep0031|t0|move:right",
+          "ep0031|t0|pick",
+          "ep0031|t0|open",
+          "ep0031|t0|look",
+          "ep0031|t1|move:up",
+          "ep0031|t1|move:down",
+          "ep0031|t1|move:left",
+          "ep0031|t1|pick",
+          "ep0031|t1|open",
+          "ep0031|t1|look",
+          "ep0031|t3|move:up",
+          "ep0031|t3|move:down",
+          "ep0031|t3|move:left",
+          "ep0031|t3|pick",
+          "ep0031|t3|open",
+          "ep0031|t3|look",
+          "ep0031|t4|move:down",
+          "ep0031|t4|move:left",
+          "ep0031|t4|move:right",
+          "ep0031|t4|pick",
+          "ep0031|t4|open",
+          "ep0031|t4|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0034",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 6,
+        "chosen": [
+          "ep0034|t0|move:up",
+          "ep0034|t0|move:down",
+          "ep0034|t0|move:left",
+          "ep0034|t0|pick",
+          "ep0034|t0|open",
+          "ep0034|t0|look"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0035",
+        "value_net": 0.009999999999999995,
+        "value_post": 0.09,
+        "best_naive_net": 0.04999999999999999,
+        "n_tied": 2,
+        "chosen": [
+          "ep0035|t0|pick",
+          "ep0035|t0|look"
+        ],
+        "chosen_positions": [
+          0
+        ],
+        "spearman_vs_V": -0.08082209007583234
+      },
+      {
+        "traj_id": "ep0039",
+        "value_net": 0.0008333333333333335,
+        "value_post": 0.005833333333333334,
+        "best_naive_net": 0.02,
+        "n_tied": 24,
+        "chosen": [
+          "ep0039|t2|move:up",
+          "ep0039|t2|move:left",
+          "ep0039|t2|move:right",
+          "ep0039|t2|pick",
+          "ep0039|t2|open",
+          "ep0039|t2|look",
+          "ep0039|t9|move:up",
+          "ep0039|t9|move:down",
+          "ep0039|t9|move:left",
+          "ep0039|t9|move:right",
+          "ep0039|t9|open",
+          "ep0039|t9|look",
+          "ep0039|t11|move:up",
+          "ep0039|t11|move:left",
+          "ep0039|t11|move:right",
+          "ep0039|t11|pick",
+          "ep0039|t11|open",
+          "ep0039|t11|look",
+          "ep0039|t15|move:down",
+          "ep0039|t15|move:left",
+          "ep0039|t15|move:right",
+          "ep0039|t15|pick",
+          "ep0039|t15|open",
+          "ep0039|t15|look"
+        ],
+        "chosen_positions": [
+          2,
+          9,
+          11,
+          15
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0040",
+        "value_net": 0.41,
+        "value_post": 0.5700000000000001,
+        "best_naive_net": 0.61,
+        "n_tied": 2,
+        "chosen": [
+          "ep0040|t8|move:down",
+          "ep0040|t8|open"
+        ],
+        "chosen_positions": [
+          8
+        ],
+        "spearman_vs_V": 0.7892178560677379
+      },
+      {
+        "traj_id": "ep0055",
+        "value_net": 0.75,
+        "value_post": 0.75,
+        "best_naive_net": 0.75,
+        "n_tied": 1,
+        "chosen": [
+          "ep0055|t7|move:down"
+        ],
+        "chosen_positions": [
+          7
+        ],
+        "spearman_vs_V": 0.5154358990076954
+      },
+      {
+        "traj_id": "ep0056",
+        "value_net": 0.65,
+        "value_post": 0.65,
+        "best_naive_net": 0.8,
+        "n_tied": 1,
+        "chosen": [
+          "ep0056|t3|open"
+        ],
+        "chosen_positions": [
+          3
+        ],
+        "spearman_vs_V": 0.8405497425599898
+      },
+      {
+        "traj_id": "ep0060",
+        "value_net": -0.16,
+        "value_post": 0.17,
+        "best_naive_net": 0.3,
+        "n_tied": 1,
+        "chosen": [
+          "ep0060|t18|look"
+        ],
+        "chosen_positions": [
+          18
+        ],
+        "spearman_vs_V": 0.04213650199231349
+      },
+      {
+        "traj_id": "ep0064",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0064|t0|move:up",
+          "ep0064|t0|move:down",
+          "ep0064|t0|move:left",
+          "ep0064|t0|pick",
+          "ep0064|t0|open",
+          "ep0064|t0|look",
+          "ep0064|t2|move:up",
+          "ep0064|t2|move:left",
+          "ep0064|t2|move:right",
+          "ep0064|t2|pick",
+          "ep0064|t2|open",
+          "ep0064|t2|look",
+          "ep0064|t3|move:up",
+          "ep0064|t3|move:left",
+          "ep0064|t3|move:right",
+          "ep0064|t3|pick",
+          "ep0064|t3|open",
+          "ep0064|t3|look",
+          "ep0064|t5|move:down",
+          "ep0064|t5|move:left",
+          "ep0064|t5|move:right",
+          "ep0064|t5|pick",
+          "ep0064|t5|open",
+          "ep0064|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0077",
+        "value_net": 0.18,
+        "value_post": 0.18,
+        "best_naive_net": 0.5,
+        "n_tied": 1,
+        "chosen": [
+          "ep0077|t4|pick"
+        ],
+        "chosen_positions": [
+          4
+        ],
+        "spearman_vs_V": 0.7670011499563212
+      },
+      {
+        "traj_id": "ep0098",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0098|t3|move:down",
+          "ep0098|t3|move:left",
+          "ep0098|t3|move:right",
+          "ep0098|t3|pick",
+          "ep0098|t3|open",
+          "ep0098|t3|look",
+          "ep0098|t9|move:up",
+          "ep0098|t9|move:left",
+          "ep0098|t9|move:right",
+          "ep0098|t9|pick",
+          "ep0098|t9|open",
+          "ep0098|t9|look",
+          "ep0098|t14|move:up",
+          "ep0098|t14|move:down",
+          "ep0098|t14|move:left",
+          "ep0098|t14|pick",
+          "ep0098|t14|open",
+          "ep0098|t14|look",
+          "ep0098|t15|move:up",
+          "ep0098|t15|move:down",
+          "ep0098|t15|move:left",
+          "ep0098|t15|pick",
+          "ep0098|t15|open",
+          "ep0098|t15|look"
+        ],
+        "chosen_positions": [
+          3,
+          9,
+          14,
+          15
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0099",
+        "value_net": -0.0025,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0099|t2|move:up",
+          "ep0099|t2|move:down",
+          "ep0099|t2|move:left",
+          "ep0099|t2|pick",
+          "ep0099|t2|open",
+          "ep0099|t2|look",
+          "ep0099|t5|move:down",
+          "ep0099|t5|move:left",
+          "ep0099|t5|move:right",
+          "ep0099|t5|pick",
+          "ep0099|t5|open",
+          "ep0099|t5|look",
+          "ep0099|t6|move:up",
+          "ep0099|t6|move:down",
+          "ep0099|t6|move:right",
+          "ep0099|t6|pick",
+          "ep0099|t6|open",
+          "ep0099|t6|look",
+          "ep0099|t9|move:up",
+          "ep0099|t9|move:left",
+          "ep0099|t9|move:right",
+          "ep0099|t9|pick",
+          "ep0099|t9|open",
+          "ep0099|t9|look"
+        ],
+        "chosen_positions": [
+          2,
+          5,
+          6,
+          9
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0102",
+        "value_net": 0.7,
+        "value_post": 0.7,
+        "best_naive_net": 0.7,
+        "n_tied": 1,
+        "chosen": [
+          "ep0102|t21|pick"
+        ],
+        "chosen_positions": [
+          21
+        ],
+        "spearman_vs_V": 0.5438633640913297
+      },
+      {
+        "traj_id": "ep0107",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0107|t0|move:up",
+          "ep0107|t0|move:down",
+          "ep0107|t0|move:left",
+          "ep0107|t0|pick",
+          "ep0107|t0|open",
+          "ep0107|t0|look",
+          "ep0107|t5|move:up",
+          "ep0107|t5|move:left",
+          "ep0107|t5|move:right",
+          "ep0107|t5|pick",
+          "ep0107|t5|open",
+          "ep0107|t5|look",
+          "ep0107|t7|move:up",
+          "ep0107|t7|move:down",
+          "ep0107|t7|move:right",
+          "ep0107|t7|pick",
+          "ep0107|t7|open",
+          "ep0107|t7|look",
+          "ep0107|t10|move:up",
+          "ep0107|t10|move:left",
+          "ep0107|t10|move:right",
+          "ep0107|t10|pick",
+          "ep0107|t10|open",
+          "ep0107|t10|look"
+        ],
+        "chosen_positions": [
+          0,
+          5,
+          7,
+          10
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0108",
+        "value_net": 0.62,
+        "value_post": 0.66,
+        "best_naive_net": 0.62,
+        "n_tied": 1,
+        "chosen": [
+          "ep0108|t8|move:down"
+        ],
+        "chosen_positions": [
+          8
+        ],
+        "spearman_vs_V": 0.7734414389897704
+      },
+      {
+        "traj_id": "ep0110",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0110|t0|move:up",
+          "ep0110|t0|move:down",
+          "ep0110|t0|move:left",
+          "ep0110|t0|pick",
+          "ep0110|t0|open",
+          "ep0110|t0|look",
+          "ep0110|t1|move:up",
+          "ep0110|t1|move:left",
+          "ep0110|t1|move:right",
+          "ep0110|t1|pick",
+          "ep0110|t1|open",
+          "ep0110|t1|look",
+          "ep0110|t4|move:up",
+          "ep0110|t4|move:down",
+          "ep0110|t4|move:left",
+          "ep0110|t4|pick",
+          "ep0110|t4|open",
+          "ep0110|t4|look",
+          "ep0110|t5|move:up",
+          "ep0110|t5|move:down",
+          "ep0110|t5|move:left",
+          "ep0110|t5|pick",
+          "ep0110|t5|open",
+          "ep0110|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0112",
+        "value_net": 0.0,
+        "value_post": 0.0,
+        "best_naive_net": 0.0,
+        "n_tied": 24,
+        "chosen": [
+          "ep0112|t0|move:up",
+          "ep0112|t0|move:left",
+          "ep0112|t0|move:right",
+          "ep0112|t0|pick",
+          "ep0112|t0|open",
+          "ep0112|t0|look",
+          "ep0112|t1|move:up",
+          "ep0112|t1|move:down",
+          "ep0112|t1|move:left",
+          "ep0112|t1|pick",
+          "ep0112|t1|open",
+          "ep0112|t1|look",
+          "ep0112|t4|move:up",
+          "ep0112|t4|move:left",
+          "ep0112|t4|move:right",
+          "ep0112|t4|pick",
+          "ep0112|t4|open",
+          "ep0112|t4|look",
+          "ep0112|t5|move:up",
+          "ep0112|t5|move:down",
+          "ep0112|t5|move:left",
+          "ep0112|t5|pick",
+          "ep0112|t5|open",
+          "ep0112|t5|look"
+        ],
+        "chosen_positions": [
+          0,
+          1,
+          4,
+          5
+        ],
+        "spearman_vs_V": null
+      },
+      {
+        "traj_id": "ep0114",
+        "value_net": 0.009999999999999998,
+        "value_post": 0.03,
+        "best_naive_net": 0.030000000000000002,
+        "n_tied": 2,
+        "chosen": [
+          "ep0114|t0|move:up",
+          "ep0114|t8|move:up"
+        ],
+        "chosen_positions": [
+          0,
+          8
+        ],
+        "spearman_vs_V": 0.20225995873897265
+      }
+    ]
+  },
+  "V_split_half_mean_spearman": 0.5032226867056356,
+  "coverage": {
+    "trajectories": 20,
+    "candidates": 462,
+    "deterministic_branches": 99,
+    "traj_with_beneficial_candidate_V(>δ)": 8,
+    "traj_all_candidates_nonpositive_V": 9
+  },
+  "sources": [
+    "deploy_T07/S",
+    "llm_T03/S",
+    "llm_greedy/S",
+    "oracle/S",
+    "noisy_oracle_e30/S",
+    "deploy_T07/S[:5]",
+    "deploy_T07/S[:10]"
+  ],
+  "design_id": "42ea91e5f15fa833a00ced20e901846edf318541716a54d7b13cb0eb10fa1804",
+  "mock": false
+}

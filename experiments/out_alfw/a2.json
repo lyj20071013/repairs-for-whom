@@ -1,0 +1,103 @@
+{
+ "games": [
+  "look_at_obj_in_light-Laptop-None-DeskLamp-323/trial_T20190908_014255_071929",
+  "pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190918_215750_186147",
+  "pick_and_place_simple-CreditCard-None-Shelf-307/trial_T20190908_141030_925653",
+  "pick_and_place_simple-SoapBottle-None-GarbageCan-419/trial_T20190908_204814_095948",
+  "pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-428/trial_T20190909_053523_986414",
+  "pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-25/trial_T20190907_212022_934468",
+  "pick_clean_then_place_in_recep-DishSponge-None-Cabinet-414/trial_T20190909_061502_436342",
+  "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-13/trial_T20190907_171959_889613",
+  "pick_clean_then_place_in_recep-Potato-None-Microwave-6/trial_T20190907_182137_254302",
+  "pick_clean_then_place_in_recep-SoapBar-None-Toilet-419/trial_T20190907_005259_630711",
+  "pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+  "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-22/trial_T20190919_002053_011262",
+  "pick_cool_then_place_in_recep-Mug-None-Cabinet-6/trial_T20190908_224403_664612",
+  "pick_cool_then_place_in_recep-Pan-None-CounterTop-22/trial_T20190907_003356_969170",
+  "pick_cool_then_place_in_recep-Pan-None-StoveBurner-20/trial_T20190907_014638_097425",
+  "pick_heat_then_place_in_recep-Cup-None-CounterTop-22/trial_T20190909_023638_397924",
+  "pick_two_obj_and_place-Newspaper-None-ArmChair-214/trial_T20190909_011031_694881",
+  "pick_two_obj_and_place-PepperShaker-None-Drawer-15/trial_T20190909_022741_011150",
+  "pick_two_obj_and_place-SprayBottle-None-Dresser-413/trial_T20190906_193429_044662",
+  "pick_two_obj_and_place-TissueBox-None-Drawer-427/trial_T20190909_061021_313805"
+ ],
+ "timing_unpatched": {
+  "load": {
+   "n": 20,
+   "mean": 0.7516836090013385,
+   "p50": 0.7441358678042889,
+   "p95": 1.233565989881754,
+   "max": 1.6347693093121052
+  },
+  "reset": {
+   "n": 20,
+   "mean": 0.7164862804114819,
+   "p50": 0.7370939813554287,
+   "p95": 1.2268037870526314,
+   "max": 1.6849202625453472
+  },
+  "step": {
+   "n": 800,
+   "mean": 0.0815104858763516,
+   "p50": 0.08491550013422966,
+   "p95": 0.15116946399211884,
+   "max": 0.2188337966799736
+  }
+ },
+ "n_admissible": {
+  "n": 820,
+  "mean": 29.15609756097561,
+  "p50": 30,
+  "p95": 48,
+  "max": 65
+ },
+ "rss_per_env_mb": {
+  "construct": 0.9298828125,
+  "after_load": 5.332421875
+ },
+ "rss_growth_per_load_mb": 0.0,
+ "timing_patched": {
+  "load": {
+   "n": 20,
+   "mean": 0.7219587802886963,
+   "p50": 0.7347461245954037,
+   "p95": 1.2218066565692425,
+   "max": 1.7605832032859325
+  },
+  "reset": {
+   "n": 20,
+   "mean": 0.059465151466429236,
+   "p50": 0.06067132204771042,
+   "p95": 0.13153240829706192,
+   "max": 0.17976372316479683
+  },
+  "step": {
+   "n": 800,
+   "mean": 0.02483508539851755,
+   "p50": 0.02528805285692215,
+   "p95": 0.04908159747719765,
+   "max": 0.06795991212129593
+  }
+ },
+ "subprocess_other_seed_identical": true,
+ "subprocess_other_seed_hashseed": "12345",
+ "checks": {
+  "fresh_instance": {
+   "identical": true,
+   "mismatches": []
+  },
+  "reset_reuse": {
+   "identical": true,
+   "mismatches": []
+  },
+  "patched": {
+   "identical": true,
+   "mismatches": []
+  },
+  "subprocess_same_seed": {
+   "identical": true,
+   "mismatches": []
+  }
+ },
+ "ok": true
+}

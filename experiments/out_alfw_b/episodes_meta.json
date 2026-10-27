@@ -1,0 +1,1 @@
+{"key": "5f8458cc5d019cb7493fa9135b888787f0027208010f8cf04e09d5ed1bd98081", "timing": {"wall": 418.4723283164203, "gen": 363.1244333945215, "env": 25.773840852081776, "open": 24.782211128622293, "waves": 100, "policy_steps": 7541, "gen_tokens": 342526, "max_prompt_tokens": 5513, "retries": 2000}}

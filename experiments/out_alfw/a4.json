@@ -1,0 +1,775 @@
+{
+ "groups": {
+  "all": {
+   "n": 234,
+   "success": 115,
+   "rate": 0.49145299145299143,
+   "ci90": [
+    0.4380981402444623,
+    0.5450032615893102
+   ],
+   "steps_success": {
+    "n": 115,
+    "mean": 13.747826086956522,
+    "p50": 9,
+    "p95": 38,
+    "max": 50
+   },
+   "invalid": 0.02974372593281105,
+   "no_action": 0.0,
+   "alias": 0.0,
+   "trunc": 0.0,
+   "first_bad": 0.1909440977293852,
+   "retries_per_step": 0.25614128269818087,
+   "hist_drop": 0.0,
+   "revisit": 0.4569114327446554,
+   "repeat": 0.05683176205019254,
+   "max_prompt_tokens": 5378
+  },
+  "train": {
+   "n": 100,
+   "success": 39,
+   "rate": 0.39,
+   "ci90": [
+    0.3136743484883385,
+    0.47212205440039184
+   ],
+   "steps_success": {
+    "n": 39,
+    "mean": 15.871794871794872,
+    "p50": 12,
+    "p95": 37,
+    "max": 42
+   },
+   "invalid": 0.022621967838648133,
+   "no_action": 0.0,
+   "alias": 0.0,
+   "trunc": 0.0,
+   "first_bad": 0.1539929136004361,
+   "retries_per_step": 0.2041428182065958,
+   "hist_drop": 0.0,
+   "revisit": 0.4540746797492505,
+   "repeat": 0.053693104388116655,
+   "max_prompt_tokens": 5378
+  },
+  "valid_unseen": {
+   "n": 134,
+   "success": 76,
+   "rate": 0.5671641791044776,
+   "ci90": [
+    0.49611314802143114,
+    0.6355562498708709
+   ],
+   "steps_success": {
+    "n": 76,
+    "mean": 12.657894736842104,
+    "p50": 8,
+    "p95": 38,
+    "max": 50
+   },
+   "invalid": 0.03650958052822372,
+   "no_action": 0.0,
+   "alias": 0.0,
+   "trunc": 0.0,
+   "first_bad": 0.2260486794407043,
+   "retries_per_step": 0.30554117037804246,
+   "hist_drop": 0.0,
+   "revisit": 0.4596064215432418,
+   "repeat": 0.05981356809943035,
+   "max_prompt_tokens": 3882
+  }
+ },
+ "by_task": {
+  "train": {
+   "look_at_obj_in_light": {
+    "n": 6,
+    "rate": 0.8333333333333334
+   },
+   "pick_and_place_simple": {
+    "n": 22,
+    "rate": 0.5454545454545454
+   },
+   "pick_clean_then_place_in_recep": {
+    "n": 17,
+    "rate": 0.6470588235294118
+   },
+   "pick_cool_then_place_in_recep": {
+    "n": 20,
+    "rate": 0.4
+   },
+   "pick_heat_then_place_in_recep": {
+    "n": 10,
+    "rate": 0.2
+   },
+   "pick_two_obj_and_place": {
+    "n": 25,
+    "rate": 0.04
+   }
+  },
+  "valid_unseen": {
+   "look_at_obj_in_light": {
+    "n": 18,
+    "rate": 0.8888888888888888
+   },
+   "pick_and_place_simple": {
+    "n": 24,
+    "rate": 0.6666666666666666
+   },
+   "pick_clean_then_place_in_recep": {
+    "n": 31,
+    "rate": 0.5806451612903226
+   },
+   "pick_cool_then_place_in_recep": {
+    "n": 21,
+    "rate": 0.5714285714285714
+   },
+   "pick_heat_then_place_in_recep": {
+    "n": 23,
+    "rate": 0.5652173913043478
+   },
+   "pick_two_obj_and_place": {
+    "n": 17,
+    "rate": 0.058823529411764705
+   }
+  }
+ },
+ "l0": {
+  "success": {
+   "n": 114,
+   "mean": 5.280701754385965,
+   "p50": 6,
+   "p95": 7,
+   "max": 8
+  },
+  "failure": {
+   "n": 114,
+   "mean": 6.535087719298246,
+   "p50": 6,
+   "p95": 9,
+   "max": 9
+  }
+ },
+ "slack_curve": {
+  "0": {
+   "n": 57,
+   "feasible_frac": 1.0,
+   "median_slack": 44
+  },
+  "5": {
+   "n": 58,
+   "feasible_frac": 1.0,
+   "median_slack": 39.0
+  },
+  "10": {
+   "n": 58,
+   "feasible_frac": 1.0,
+   "median_slack": 34.0
+  },
+  "15": {
+   "n": 58,
+   "feasible_frac": 1.0,
+   "median_slack": 29.0
+  },
+  "20": {
+   "n": 56,
+   "feasible_frac": 1.0,
+   "median_slack": 24.0
+  },
+  "25": {
+   "n": 58,
+   "feasible_frac": 1.0,
+   "median_slack": 19.0
+  },
+  "30": {
+   "n": 56,
+   "feasible_frac": 1.0,
+   "median_slack": 14.0
+  },
+  "35": {
+   "n": 58,
+   "feasible_frac": 1.0,
+   "median_slack": 9.0
+  },
+  "40": {
+   "n": 57,
+   "feasible_frac": 1.0,
+   "median_slack": 4
+  },
+  "45": {
+   "n": 59,
+   "feasible_frac": 0.3220338983050847,
+   "median_slack": -1
+  }
+ },
+ "last_feasible_probe": {
+  "n": 59,
+  "mean": 41.101694915254235,
+  "p50": 40,
+  "p95": 45,
+  "max": 45
+ },
+ "never_feasible_frac": 0.0,
+ "timing": {
+  "wall": 325.4394659511745,
+  "gen": 283.66450476646423,
+  "env": 18.815682779997587,
+  "open": 18.33600640296936,
+  "waves": 50,
+  "policy_steps": 7531,
+  "gen_tokens": 336345,
+  "max_prompt_tokens": 5378,
+  "retries": 1929
+ },
+ "sec_per_policy_step": 0.043213313763268424,
+ "hours_per_100k_steps": 1.2003698267574563,
+ "nominal_stage_b_hours": 16.107762705258306,
+ "t_model_load": 32.992863312363625,
+ "t_probe": 751.7690113522112,
+ "n_probe": 844,
+ "n_probe_timeout": 41,
+ "probe_latency": {
+  "n": 803,
+  "mean": 4.401055416539961,
+  "p50": 0.7903274483978748,
+  "p95": 23.325662825256586,
+  "max": 59.214761812239885
+ },
+ "workers": [
+  {
+   "pid": 32552,
+   "n_envs": 8,
+   "n_loads": 24,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 208.484375,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32553,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 224.65234375,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32554,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 215.48828125,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32555,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 221.41015625,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32556,
+   "n_envs": 8,
+   "n_loads": 24,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 228.41796875,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32557,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 217.87109375,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32558,
+   "n_envs": 8,
+   "n_loads": 24,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 209.33203125,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32559,
+   "n_envs": 8,
+   "n_loads": 24,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 220.06640625,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32560,
+   "n_envs": 8,
+   "n_loads": 23,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 226.796875,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32561,
+   "n_envs": 8,
+   "n_loads": 24,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 185.67578125,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32562,
+   "n_envs": 8,
+   "n_loads": 24,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 194.98046875,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32563,
+   "n_envs": 8,
+   "n_loads": 24,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 184.6953125,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32564,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 177.51953125,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32565,
+   "n_envs": 8,
+   "n_loads": 24,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 184.23828125,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32566,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 186.55859375,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32567,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 187.421875,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32568,
+   "n_envs": 8,
+   "n_loads": 23,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 183.3046875,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32569,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 204.33984375,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32570,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 192.625,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32571,
+   "n_envs": 8,
+   "n_loads": 24,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 208.2734375,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32572,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 201.66015625,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32573,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 206.5234375,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32574,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 217.08203125,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32575,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 208.30859375,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32576,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 205.5859375,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32577,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 211.87890625,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32578,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 223.64453125,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32579,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 217.65625,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32580,
+   "n_envs": 8,
+   "n_loads": 25,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 199.75,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32581,
+   "n_envs": 2,
+   "n_loads": 19,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 153.28515625,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32582,
+   "n_envs": 1,
+   "n_loads": 17,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 151.91015625,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  },
+  {
+   "pid": 32583,
+   "n_envs": 1,
+   "n_loads": 17,
+   "tmpdir": "/root/autodl-tmp/alfw_tmp",
+   "active": 0,
+   "rss_mb": 150.9609375,
+   "patches": [
+    "grammar",
+    "translate"
+   ],
+   "hashseed": "0"
+  }
+ ],
+ "patches": true,
+ "train_games": [
+  "look_at_obj_in_light-AlarmClock-None-DeskLamp-302/trial_T20190908_192808_880740",
+  "look_at_obj_in_light-Book-None-DeskLamp-309/trial_T20190907_175916_775742",
+  "look_at_obj_in_light-Laptop-None-DeskLamp-323/trial_T20190908_014255_071929",
+  "look_at_obj_in_light-Pillow-None-DeskLamp-314/trial_T20190908_115844_093537",
+  "look_at_obj_in_light-Pillow-None-DeskLamp-316/trial_T20190908_232409_225369",
+  "look_at_obj_in_light-Watch-None-DeskLamp-205/trial_T20190907_001900_859623",
+  "pick_and_place_simple-AlarmClock-None-SideTable-329/trial_T20190909_013608_170798",
+  "pick_and_place_simple-Book-None-Sofa-209/trial_T20190909_035124_250394",
+  "pick_and_place_simple-Box-None-ArmChair-212/trial_T20190908_032818_426471",
+  "pick_and_place_simple-Box-None-ArmChair-225/trial_T20190908_151218_514571",
+  "pick_and_place_simple-ButterKnife-None-Drawer-8/trial_T20190907_142645_859732",
+  "pick_and_place_simple-CD-None-DiningTable-311/trial_T20190908_071437_984059",
+  "pick_and_place_simple-Candle-None-Cabinet-428/trial_T20190907_024325_233549",
+  "pick_and_place_simple-CellPhone-None-Desk-327/trial_T20190907_162342_304038",
+  "pick_and_place_simple-CreditCard-None-Drawer-227/trial_T20190918_215750_186147",
+  "pick_and_place_simple-CreditCard-None-Shelf-307/trial_T20190908_141030_925653",
+  "pick_and_place_simple-DishSponge-None-Cabinet-5/trial_T20190906_192821_060129",
+  "pick_and_place_simple-Glassbottle-None-CounterTop-23/trial_T20190907_122237_574960",
+  "pick_and_place_simple-Pencil-None-Shelf-313/trial_T20190908_182722_927182",
+  "pick_and_place_simple-RemoteControl-None-ArmChair-223/trial_T20190908_163700_012593",
+  "pick_and_place_simple-RemoteControl-None-ArmChair-227/trial_T20190909_101528_704500",
+  "pick_and_place_simple-SoapBottle-None-GarbageCan-419/trial_T20190908_204814_095948",
+  "pick_and_place_simple-SoapBottle-None-Toilet-412/trial_T20190908_112135_164068",
+  "pick_and_place_simple-Statue-None-CoffeeTable-228/trial_T20190906_185451_580211",
+  "pick_and_place_simple-TissueBox-None-SideTable-229/trial_T20190908_114048_231845",
+  "pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-406/trial_T20190908_122807_136741",
+  "pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-428/trial_T20190909_053523_986414",
+  "pick_and_place_simple-Tomato-None-Microwave-5/trial_T20190918_171755_707602",
+  "pick_clean_then_place_in_recep-ButterKnife-None-CounterTop-25/trial_T20190907_212022_934468",
+  "pick_clean_then_place_in_recep-Cloth-None-Drawer-411/trial_T20190907_202223_569116",
+  "pick_clean_then_place_in_recep-Cup-None-Shelf-1/trial_T20190909_151825_980574",
+  "pick_clean_then_place_in_recep-DishSponge-None-Cabinet-414/trial_T20190909_061502_436342",
+  "pick_clean_then_place_in_recep-Egg-None-DiningTable-23/trial_T20190908_083753_379941",
+  "pick_clean_then_place_in_recep-Fork-None-DiningTable-24/trial_T20190911_095727_416274",
+  "pick_clean_then_place_in_recep-Fork-None-SideTable-3/trial_T20190908_044107_458160",
+  "pick_clean_then_place_in_recep-Kettle-None-DiningTable-17/trial_T20190909_023440_415981",
+  "pick_clean_then_place_in_recep-Kettle-None-StoveBurner-2/trial_T20190908_125614_245164",
+  "pick_clean_then_place_in_recep-Knife-None-CounterTop-24/trial_T20190907_234956_921701",
+  "pick_clean_then_place_in_recep-Knife-None-DiningTable-15/trial_T20190908_162419_748388",
+  "pick_clean_then_place_in_recep-Lettuce-None-Fridge-19/trial_T20190908_100230_335827",
+  "pick_clean_then_place_in_recep-Mug-None-CoffeeMachine-13/trial_T20190907_171959_889613",
+  "pick_clean_then_place_in_recep-Potato-None-Microwave-6/trial_T20190907_182137_254302",
+  "pick_clean_then_place_in_recep-SoapBar-None-GarbageCan-406/trial_T20190907_015846_164761",
+  "pick_clean_then_place_in_recep-SoapBar-None-Toilet-419/trial_T20190907_005259_630711",
+  "pick_clean_then_place_in_recep-Tomato-None-CounterTop-14/trial_T20190909_012652_365290",
+  "pick_cool_then_place_in_recep-Apple-None-Microwave-22/trial_T20190908_000205_582040",
+  "pick_cool_then_place_in_recep-Bowl-None-CounterTop-17/trial_T20190909_042203_048291",
+  "pick_cool_then_place_in_recep-Bowl-None-Shelf-20/trial_T20190908_034252_450652",
+  "pick_cool_then_place_in_recep-Egg-None-Microwave-18/trial_T20190909_113913_547975",
+  "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-22/trial_T20190919_002053_011262",
+  "pick_cool_then_place_in_recep-Lettuce-None-CounterTop-24/trial_T20190908_015250_257517",
+  "pick_cool_then_place_in_recep-Mug-None-Cabinet-6/trial_T20190908_224403_664612",
+  "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-18/trial_T20190907_075222_975015",
+  "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-24/trial_T20190907_190005_461857",
+  "pick_cool_then_place_in_recep-Pan-None-CounterTop-22/trial_T20190907_003356_969170",
+  "pick_cool_then_place_in_recep-Pan-None-DiningTable-23/trial_T20190909_005801_641557",
+  "pick_cool_then_place_in_recep-Pan-None-StoveBurner-20/trial_T20190907_014638_097425",
+  "pick_cool_then_place_in_recep-Pot-None-Cabinet-5/trial_T20190906_235541_875587",
+  "pick_cool_then_place_in_recep-Pot-None-StoveBurner-5/trial_T20190906_182110_576616",
+  "pick_cool_then_place_in_recep-Potato-None-Microwave-15/trial_T20190908_154425_762831",
+  "pick_cool_then_place_in_recep-Potato-None-Microwave-5/trial_T20190909_102546_579154",
+  "pick_cool_then_place_in_recep-Tomato-None-GarbageCan-5/trial_T20190909_153636_286202",
+  "pick_cool_then_place_in_recep-Tomato-None-Microwave-17/trial_T20190908_073132_917743",
+  "pick_cool_then_place_in_recep-Tomato-None-Microwave-27/trial_T20190909_145459_922990",
+  "pick_cool_then_place_in_recep-WineBottle-None-Cabinet-16/trial_T20190907_084028_991219",
+  "pick_heat_then_place_in_recep-Apple-None-DiningTable-24/trial_T20190908_233423_925879",
+  "pick_heat_then_place_in_recep-Apple-None-GarbageCan-8/trial_T20190907_043034_904085",
+  "pick_heat_then_place_in_recep-Cup-None-CounterTop-22/trial_T20190909_023638_397924",
+  "pick_heat_then_place_in_recep-Egg-None-GarbageCan-2/trial_T20190909_101128_479012",
+  "pick_heat_then_place_in_recep-Mug-None-Cabinet-22/trial_T20190908_073225_811379",
+  "pick_heat_then_place_in_recep-Mug-None-Cabinet-26/trial_T20190909_014033_250547",
+  "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-16/trial_T20190908_181242_051846",
+  "pick_heat_then_place_in_recep-Mug-None-CoffeeMachine-30/trial_T20190908_175003_052826",
+  "pick_heat_then_place_in_recep-Plate-None-Shelf-7/trial_T20190906_193929_080179",
+  "pick_heat_then_place_in_recep-Tomato-None-SideTable-28/trial_T20190908_153259_734590",
+  "pick_two_obj_and_place-Bowl-None-CoffeeTable-203/trial_T20190907_153529_699181",
+  "pick_two_obj_and_place-CellPhone-None-Bed-309/trial_T20190910_144311_654244",
+  "pick_two_obj_and_place-CellPhone-None-Bed-314/trial_T20190909_013435_646326",
+  "pick_two_obj_and_place-CellPhone-None-Bed-324/trial_T20190910_071016_913045",
+  "pick_two_obj_and_place-CellPhone-None-Dresser-229/trial_T20190911_131523_783089",
+  "pick_two_obj_and_place-CreditCard-None-ArmChair-221/trial_T20190907_161645_456905",
+  "pick_two_obj_and_place-Cup-None-CounterTop-4/trial_T20190908_095149_466906",
+  "pick_two_obj_and_place-Cup-None-CounterTop-4/trial_T20190908_095244_390748",
+  "pick_two_obj_and_place-Lettuce-None-Fridge-27/trial_T20190907_212302_910644",
+  "pick_two_obj_and_place-Newspaper-None-ArmChair-214/trial_T20190909_011031_694881",
+  "pick_two_obj_and_place-PepperShaker-None-Drawer-15/trial_T20190909_022741_011150",
+  "pick_two_obj_and_place-PepperShaker-None-Shelf-20/trial_T20190918_185821_186807",
+  "pick_two_obj_and_place-RemoteControl-None-Sofa-207/trial_T20190908_111138_987161",
+  "pick_two_obj_and_place-SaltShaker-None-Cabinet-3/trial_T20190908_102405_454935",
+  "pick_two_obj_and_place-SaltShaker-None-CounterTop-25/trial_T20190908_084232_595551",
+  "pick_two_obj_and_place-SaltShaker-None-Drawer-15/trial_T20190909_021339_652839",
+  "pick_two_obj_and_place-SoapBar-None-Shelf-415/trial_T20190908_070656_373737",
+  "pick_two_obj_and_place-SoapBottle-None-CounterTop-411/trial_T20190907_111008_609321",
+  "pick_two_obj_and_place-SprayBottle-None-Cabinet-403/trial_T20190907_123359_561127",
+  "pick_two_obj_and_place-SprayBottle-None-CounterTop-410/trial_T20190908_161634_318819",
+  "pick_two_obj_and_place-SprayBottle-None-Dresser-413/trial_T20190906_193429_044662",
+  "pick_two_obj_and_place-Statue-None-Dresser-213/trial_T20190909_065419_372851",
+  "pick_two_obj_and_place-TissueBox-None-Drawer-427/trial_T20190909_061021_313805",
+  "pick_two_obj_and_place-ToiletPaper-None-CounterTop-402/trial_T20190909_053732_822099",
+  "pick_two_obj_and_place-WateringCan-None-Shelf-214/trial_T20190907_031049_207882"
+ ],
+ "prompt_example": [
+  {
+   "role": "system",
+   "content": "You are an agent in a text-based household environment. Each turn you see your task, the steps you have taken so far with what happened, and the list of actions that are possible right now. Choose exactly one of them.\n\nHow the environment works:\n- \"go to X\" takes you to receptacle X and shows what is on or in it. A closed receptacle (cabinet, drawer, fridge, microwave, safe, ...) must be opened with \"open X\" before you can see or take what is inside.\n- \"take A from X\" picks up object A; you can hold only one object at a time. \"move A to X\" puts the object you are holding in or on receptacle X; you must be at X.\n- To heat an object, hold it, go to a microwave and use \"heat A with microwave N\". To cool it, use \"cool A with fridge N\" at the fridge. To clean it, use \"clean A with sinkbasin N\" at the sinkbasin.\n- To look at an object under a lamp, hold the object, go to where the lamp is and \"use desklamp N\" (or \"use floorlamp N\").\n- If the task says \"two\", put two such objects in the target receptacle, one at a time.\n- Only the actions listed under \"Actions possible now\" can be done in the current state. For example, you cannot \"go to\" the place where you already are; you can take, move, heat, cool, clean or use things only at your current location; you can take something only when your hands are empty; and you can heat, cool, clean or move only the object you are holding. If what you want to do is not in the list, first do what makes it possible (for example, go to the right place).\n- An action that is not in the list does nothing (\"Nothing happens.\") but still uses up a step. You have at most 50 steps.\n\nAnswer in exactly this format:\nThought: <one or two short sentences: what you know so far and what to do next>\nAction: <one action copied exactly from the list>"
+  },
+  {
+   "role": "user",
+   "content": "Your task is to: examine the alarmclock with the desklamp.\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a desk 1, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a safe 1, a shelf 5, a shelf 4, a shelf 3, a shelf 2, a shelf 1, a sidetable 2, and a sidetable 1.\n\nSteps so far:\n1. > go to desk 1\nYou arrive at desk 1. On the desk 1, you see a alarmclock 1, a bowl 3, a bowl 2, a cellphone 2, a creditcard 1, a keychain 3, a laptop 1, a pen 1, and a pencil 2.\n2. > take alarmclock 1 from desk 1\nYou pick up the alarmclock 1 from the desk 1.\n3. > go to desk 1\nNothing happens.\n\nYou are now at: desk 1. You are holding: alarmclock 1.\nYou have used 3 of 50 steps.\nActions possible now:\n(admissible list)\n\nWrite the Thought line, then the Action line."
+  }
+ ],
+ "gates": {
+  "success_in_range": true,
+  "bad_action_ok": true,
+  "trunc_ok": true,
+  "hist_drop_ok": true
+ },
+ "ok": true
+}
