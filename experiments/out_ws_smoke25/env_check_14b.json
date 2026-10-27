@@ -1,0 +1,120 @@
+{
+ "time": "2026-10-27 17:05",
+ "search_backend": "pyserini",
+ "checks": {
+  "data_matches_manifest": true,
+  "workers_same_goals": true,
+  "enough_goals": true,
+  "replay_same_process": true,
+  "replay_other_process": true,
+  "replay_fresh_process": true
+ },
+ "data_sha256": {
+  "items_shuffle_100k.json": "16bbeacc0ba3d9d69aa284bed3184638ff1473f2b5a47fcd2fbe39bd2c834487",
+  "items_ins_v2_100k.json": "fd36620a42ee5365c8164ad37e157ee5a676bd08b9e94a0158795a0a90b5d6d0",
+  "items_human_ins.json": "cf78667548a71786e1d9049c24b802e48e1084ad4bb021cae56ce1f6d96954a3"
+ },
+ "mem_available_gb": 119.2120475769043,
+ "n_workers_default": 16,
+ "hello": [
+  {
+   "pid": 2535,
+   "n_goals": 1021,
+   "goals_hash": "82c2f1354d732593",
+   "n_products": 100000,
+   "products_hash": "41122b594569470a",
+   "search_fp": {
+    "hash": "32416e726df5b9fe",
+    "queries": 10,
+    "hits": 500
+   },
+   "product_file": "items_shuffle_100k.json",
+   "search_backend": "pyserini.search.lucene._searcher 2.3.0",
+   "python": "3.12.16",
+   "versions": {
+    "flask": "3.1.3",
+    "beautifulsoup4": "4.15.0",
+    "spacy": "3.8.18",
+    "en_core_web_sm": "3.8.0",
+    "thefuzz": "0.22.1",
+    "pyserini": "2.3.0",
+    "pyjnius": "1.9.0",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "gym": "compat（最小替代）",
+    "selenium": "compat（最小替代）",
+    "anserini_jar": "anserini-2.2.0-fatjar.jar"
+   },
+   "java_home": "/root/autodl-tmp/envs/webshop/lib/jvm",
+   "rss_mb": 1943.79296875,
+   "init_s": 13.57,
+   "seed": 0,
+   "mode": "text_rich",
+   "num_products": 100000,
+   "human_goals": 1
+  },
+  {
+   "pid": 2536,
+   "n_goals": 1021,
+   "goals_hash": "82c2f1354d732593",
+   "n_products": 100000,
+   "products_hash": "41122b594569470a",
+   "search_fp": {
+    "hash": "32416e726df5b9fe",
+    "queries": 10,
+    "hits": 500
+   },
+   "product_file": "items_shuffle_100k.json",
+   "search_backend": "pyserini.search.lucene._searcher 2.3.0",
+   "python": "3.12.16",
+   "versions": {
+    "flask": "3.1.3",
+    "beautifulsoup4": "4.15.0",
+    "spacy": "3.8.18",
+    "en_core_web_sm": "3.8.0",
+    "thefuzz": "0.22.1",
+    "pyserini": "2.3.0",
+    "pyjnius": "1.9.0",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "gym": "compat（最小替代）",
+    "selenium": "compat（最小替代）",
+    "anserini_jar": "anserini-2.2.0-fatjar.jar"
+   },
+   "java_home": "/root/autodl-tmp/envs/webshop/lib/jvm",
+   "rss_mb": 1944.84375,
+   "init_s": 13.75,
+   "seed": 0,
+   "mode": "text_rich",
+   "num_products": 100000,
+   "human_goals": 1
+  }
+ ],
+ "walks": {
+  "n": 20,
+  "steps": 235,
+  "invalid": 26,
+  "done": 4,
+  "reward_mean": 0.0
+ },
+ "worker_stats": [
+  {
+   "pid": 2535,
+   "active": 0,
+   "sessions": 0,
+   "rss_mb": 2109.0703125,
+   "search_time": 1.173,
+   "render_time": 0.754
+  },
+  {
+   "pid": 2536,
+   "active": 0,
+   "sessions": 0,
+   "rss_mb": 2096.203125,
+   "search_time": 0.628,
+   "render_time": 0.371
+  }
+ ],
+ "pass": true,
+ "wall_s": 54.6
+}

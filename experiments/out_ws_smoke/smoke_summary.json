@@ -1,0 +1,195 @@
+{
+ "env": {
+  "time": "2026-10-26 20:10",
+  "search_backend": "pyserini",
+  "checks": {
+   "data_matches_manifest": true,
+   "workers_same_goals": true,
+   "enough_goals": true,
+   "replay_same_process": true,
+   "replay_other_process": true,
+   "replay_fresh_process": true
+  },
+  "data_sha256": {
+   "items_shuffle_100k.json": "16bbeacc0ba3d9d69aa284bed3184638ff1473f2b5a47fcd2fbe39bd2c834487",
+   "items_ins_v2_100k.json": "fd36620a42ee5365c8164ad37e157ee5a676bd08b9e94a0158795a0a90b5d6d0",
+   "items_human_ins.json": "cf78667548a71786e1d9049c24b802e48e1084ad4bb021cae56ce1f6d96954a3"
+  },
+  "mem_available_gb": 117.56554412841797,
+  "n_workers_default": 16,
+  "hello": [
+   {
+    "pid": 4704,
+    "n_goals": 1021,
+    "goals_hash": "82c2f1354d732593",
+    "n_products": 100000,
+    "products_hash": "41122b594569470a",
+    "search_fp": {
+     "hash": "32416e726df5b9fe",
+     "queries": 10,
+     "hits": 500
+    },
+    "product_file": "items_shuffle_100k.json",
+    "search_backend": "pyserini.search.lucene._searcher 2.3.0",
+    "python": "3.12.15",
+    "versions": {
+     "flask": "3.1.3",
+     "beautifulsoup4": "4.15.0",
+     "spacy": "3.8.16",
+     "en_core_web_sm": "3.8.0",
+     "thefuzz": "0.22.1",
+     "pyserini": "2.3.0",
+     "pyjnius": "1.9.0",
+     "torch": "2.14.1+cpu",
+     "numpy": "2.5.4",
+     "gym": "compat（最小替代）",
+     "selenium": "compat（最小替代）",
+     "anserini_jar": "anserini-2.2.0-fatjar.jar"
+    },
+    "java_home": "/root/autodl-tmp/envs/webshop/lib/jvm",
+    "rss_mb": 1946.7265625,
+    "init_s": 13.07,
+    "seed": 0,
+    "mode": "text_rich",
+    "num_products": 100000,
+    "human_goals": 1
+   },
+   {
+    "pid": 4705,
+    "n_goals": 1021,
+    "goals_hash": "82c2f1354d732593",
+    "n_products": 100000,
+    "products_hash": "41122b594569470a",
+    "search_fp": {
+     "hash": "32416e726df5b9fe",
+     "queries": 10,
+     "hits": 500
+    },
+    "product_file": "items_shuffle_100k.json",
+    "search_backend": "pyserini.search.lucene._searcher 2.3.0",
+    "python": "3.12.15",
+    "versions": {
+     "flask": "3.1.3",
+     "beautifulsoup4": "4.15.0",
+     "spacy": "3.8.16",
+     "en_core_web_sm": "3.8.0",
+     "thefuzz": "0.22.1",
+     "pyserini": "2.3.0",
+     "pyjnius": "1.9.0",
+     "torch": "2.14.1+cpu",
+     "numpy": "2.5.4",
+     "gym": "compat（最小替代）",
+     "selenium": "compat（最小替代）",
+     "anserini_jar": "anserini-2.2.0-fatjar.jar"
+    },
+    "java_home": "/root/autodl-tmp/envs/webshop/lib/jvm",
+    "rss_mb": 1945.91796875,
+    "init_s": 13.17,
+    "seed": 0,
+    "mode": "text_rich",
+    "num_products": 100000,
+    "human_goals": 1
+   }
+  ],
+  "walks": {
+   "n": 20,
+   "steps": 235,
+   "invalid": 26,
+   "done": 4,
+   "reward_mean": 0.0
+  },
+  "worker_stats": [
+   {
+    "pid": 4704,
+    "active": 0,
+    "sessions": 0,
+    "rss_mb": 2106.84765625,
+    "search_time": 1.093,
+    "render_time": 0.729
+   },
+   {
+    "pid": 4705,
+    "active": 0,
+    "sessions": 0,
+    "rss_mb": 2097.453125,
+    "search_time": 0.608,
+    "render_time": 0.37
+   }
+  ],
+  "pass": true,
+  "wall_s": 52.8
+ },
+ "models": {
+  "q7": {
+   "n": 60,
+   "success": 0.21666666666666667,
+   "reward_mean": 0.46499999999999997,
+   "bought": 0.6333333333333333,
+   "bought_wrong": 0.4166666666666667,
+   "timeout": 0.36666666666666664,
+   "reward_if_bought": 0.7342105263157894,
+   "steps_mean": 9.3,
+   "invalid_frac": 0.021505376344086023,
+   "first_bad_frac": 0.07885304659498207,
+   "retries_per_step": 0.1057347670250896,
+   "alias_frac": 0.0,
+   "trunc_frac": 0.0,
+   "drop_frac": 0.0,
+   "searches_mean": 1.6833333333333333,
+   "revisit_mean": 3.25,
+   "max_prompt_tokens": 2593,
+   "actions_per_page_mean": 9.420711974110032,
+   "pages": {
+    "index": 107,
+    "search_results": 289,
+    "item_page": 173,
+    "done": 38,
+    "item_sub_page": 11
+   },
+   "sec_per_episode": 0.9654526238019268
+  },
+  "l8": {
+   "n": 60,
+   "success": 0.08333333333333333,
+   "reward_mean": 0.15416666666666667,
+   "bought": 0.2,
+   "bought_wrong": 0.11666666666666667,
+   "timeout": 0.8,
+   "reward_if_bought": 0.7708333333333334,
+   "steps_mean": 13.866666666666667,
+   "invalid_frac": 0.001201923076923077,
+   "first_bad_frac": 0.05889423076923077,
+   "retries_per_step": 0.06490384615384616,
+   "alias_frac": 0.0,
+   "trunc_frac": 0.0,
+   "drop_frac": 0.0,
+   "searches_mean": 1.7833333333333334,
+   "revisit_mean": 6.583333333333333,
+   "max_prompt_tokens": 6350,
+   "actions_per_page_mean": 12.747757847533633,
+   "pages": {
+    "index": 110,
+    "search_results": 303,
+    "item_page": 332,
+    "done": 12,
+    "item_sub_page": 135
+   },
+   "sec_per_episode": 1.4678790598486862
+  }
+ },
+ "gates": {
+  "q7": {
+   "invalid": true,
+   "trunc": true,
+   "drop": true,
+   "success_range": true
+  },
+  "l8": {
+   "invalid": true,
+   "trunc": true,
+   "drop": true
+  }
+ },
+ "peers": {},
+ "pass": true
+}

@@ -1,0 +1,928 @@
+{
+ "seed": 3001,
+ "n_goals_total": 1021,
+ "goals": [
+  15,
+  24,
+  29,
+  91,
+  149,
+  183,
+  203,
+  216,
+  248,
+  266,
+  267,
+  289,
+  290,
+  298,
+  340,
+  342,
+  348,
+  360,
+  366,
+  377,
+  393,
+  420,
+  435,
+  448,
+  453,
+  454,
+  461,
+  487,
+  502,
+  522,
+  612,
+  617,
+  652,
+  665,
+  692,
+  702,
+  715,
+  757,
+  793,
+  806,
+  814,
+  820,
+  828,
+  880,
+  882,
+  895,
+  921,
+  926,
+  932,
+  936,
+  950,
+  959,
+  963,
+  967,
+  970,
+  972,
+  979,
+  997,
+  1006,
+  1014
+ ],
+ "instructions": {
+  "15": "i am looking for a women's socks made up of polyester cotton which is washable in machine. also choose black or semi mint rush green color, and price lower than 50.00 dollars",
+  "24": "i'm looking for a high definition screen protector for my smart watch, and price lower than 40.00 dollars",
+  "29": "i would get to get a women's large cranberry t-shirt made from cotton heather , and price lower than 50.00 dollars",
+  "91": "i'm looking for a 12 pack pepper jack gluten free cheese, and price lower than 60.00 dollars",
+  "149": "i am looking for black magic seasoning that is gluten free and 1.37 pounds, and price lower than 60.00 dollars",
+  "183": "i would like a light weight computer speaker that is easy to carry, and price lower than 120.00 dollars",
+  "203": "i am looking for spice powder of liver curry flavor that is easy to use, and price lower than 30.00 dollars",
+  "216": "i'm looking for a security camera that has motion detection functionality, and price lower than 70.00 dollars",
+  "248": "i'm looking for a package of 16 stainless steel lip razors for women, and price lower than 40.00 dollars",
+  "266": "i'm looking for a quad-core i5 touchscreen laptop computer; specifically with 16 gig ddr4 and 512 gig pcie ssd, and price lower than 810.00 dollars",
+  "267": "i'm looking for margarita low sugared real fruit needed, and price lower than 50.00 dollars",
+  "289": "i am looking for a 12 pack of gluten free almonds, and price lower than 40.00 dollars",
+  "290": "i want a television stand with storage space, and price lower than 320.00 dollars",
+  "298": "i want a white yisella shower brush with a long handle, and price lower than 50.00 dollars",
+  "340": "i want a women slip resistant red color shoes with size 10.5, and price lower than 60.00 dollars",
+  "342": "i am looking for high quality bathing accessories in white color, and price lower than 30.00 dollars",
+  "348": "i need a pack of long lasting argan oil lotion. pick one that is 16.8 fl oz in size, and price lower than 40.00 dollars",
+  "360": "i want a variety pack of grass fed collagen creamers, and price lower than 50.00 dollars",
+  "366": "i am looking for wild caught, ready to eat sardines in a tomato sauce, and price lower than 50.00 dollars",
+  "377": "i want to find an office chair that offers lumbar support. i also want to be able to adjust the height, and price lower than 460.00 dollars",
+  "393": "i want a lenovo thinkcentre quad core desktop pc, and price lower than 270.00 dollars",
+  "420": "i would like 18 bags of 1.25 croele party mix that is gluten free, and price lower than 60.00 dollars",
+  "435": "i would like a two pack of tempered glass screen protectors, and price lower than 140.00 dollars",
+  "448": "i need a high quality elastic tie for my hair with a light blue band, and price lower than 50.00 dollars",
+  "453": "looking for ceramic drink coasters that is set of 6 with cup holder, and price lower than 70.00 dollars",
+  "454": "i'm looking for a portable wireless bluetooth speakers made of carbon fiber with long lasting battery, and price lower than 210.00 dollars",
+  "461": "order for me sour  gummies that are dairy free,gluten free and with  good quality ingredients, and price lower than 50.00 dollars",
+  "487": "can you help me find a pair of women's high heel sandal with a rubber sole? i want bubble pink one and size 11, and price lower than 160.00 dollars",
+  "502": "show me an one organic hair growth serum roller set for all hair types, and price lower than 60.00 dollars",
+  "522": "what sweet and salty hazelnuts do you have that have no artificial flavors or colors?, and price lower than 40.00 dollars",
+  "612": "i'm looking for mason jar spirit infusion kit, and price lower than 60.00 dollars",
+  "617": "i need some navy button down shirts that are long sleeved and in a size medium, and price lower than 50.00 dollars",
+  "652": "i am looking for button tufted , easy assemble velvet ottoman bench with white faux fur in color, and price lower than 140.00 dollars",
+  "665": "i need a long lasting 7 oz rosemary candle, and price lower than 60.00 dollars",
+  "692": "get me a gluten and nut free ready to eat plant based vegan meal variety pack in size 2.29 ounce (pack of 4), and price lower than 50.00 dollars",
+  "702": "get me a forty pack of old-fashioned popcorn, and price lower than 100.00 dollars",
+  "715": "i would like to buy cell phone signal booster which has high speed, and price lower than 190.00 dollars",
+  "757": "i need some gluten free popped cheddar cheese snacks, and price lower than 60.00 dollars",
+  "793": "i am looking for fluoride free teeth whitening toothpaste that has two times the repair, and price lower than 40.00 dollars",
+  "806": "i am looking for a black and gold chandelier for my dining room that has six lights, and price lower than 90.00 dollars",
+  "814": "i am looking for long lasting , high quality spray of ca perfume impression which is alcohol free and easy to carry in purse or travel bag in handy all day long. jo malone velvet rose & oud impression preferable, and price lower than 50.00 dollars",
+  "820": "deep conditioning hair growth hair mask with supplement tablets 180 nos, and price lower than 140.00 dollars",
+  "828": "i am looking for slim fit men jean.it shoud be machine washable, and price lower than 60.00 dollars",
+  "880": "i am looking high quality long lasting travel size parfum prada luna rossa impression, and price lower than 40.00 dollars",
+  "882": "i am looking for a 3 color alarm clock having wireless bluetooth, and price lower than 30.00 dollars",
+  "895": "i need to find a black gaming headset with stereo sound, and price lower than 40.00 dollars",
+  "921": "i need a set of non slip eyebrow epilator, and price lower than 50.00 dollars",
+  "926": "i'm looking for flannel throw blanket sherpa microfiber bed sofa, and price lower than 70.00 dollars",
+  "932": "i need a black dress with an imported zipper, and price lower than 240.00 dollars",
+  "936": "find me a case with tempered glass for apple watch 45mm color variety, and price lower than 30.00 dollars",
+  "950": "i need some grey and white, easy to clean collapsible storage bins in a four pack, and price lower than 140.00 dollars",
+  "959": "i want fuchsia modencoco women's pointed toe pumps with ankle strap, and price lower than 80.00 dollars",
+  "963": "i need a hand wash blue jump suit for daily wear, and price lower than 30.00 dollars",
+  "967": "i am looking for short sleeve women t-shirt of xx-large size, and price lower than 40.00 dollars",
+  "970": "i want a mydrinkbomb cocktail bombs tequila sunrise mix gift set, and price lower than 60.00 dollars",
+  "972": "i want 1080p hd hidden camera 32 gb memory  recorder, and price lower than 130.00 dollars",
+  "979": "i need an easy to install shower caddy tension pole, and price lower than 70.00 dollars",
+  "997": "my high heel size was 6.5, and price lower than 50.00 dollars",
+  "1006": "i am looking for fragrance free foaming cream cleanser, and price lower than 30.00 dollars",
+  "1014": "i would like a mickey mouse toy chest made of solid wood, and price lower than 70.00 dollars"
+ },
+ "goal_info": {
+  "15": {
+   "asin": "B091DCM8YQ",
+   "instruction": "i am looking for a women's socks made up of polyester cotton which is washable in machine. also choose black or semi mint rush green color, and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "machine wash",
+    "polyester cotton"
+   ],
+   "goal_options": [
+    "black | semi turbo pink | semi mint rush green"
+   ],
+   "query": "women's socks & hosiery",
+   "category": "fashion"
+  },
+  "24": {
+   "asin": "B0928MPG7R",
+   "instruction": "i'm looking for a high definition screen protector for my smart watch, and price lower than 40.00 dollars",
+   "price_upper": 40.0,
+   "attributes": [
+    "high definition"
+   ],
+   "goal_options": [],
+   "query": "screen protectors",
+   "category": "electronics"
+  },
+  "29": {
+   "asin": "B07HWLYSP6",
+   "instruction": "i would get to get a women's large cranberry t-shirt made from cotton heather , and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "heathers cotton",
+    "cotton heather"
+   ],
+   "goal_options": [
+    "cranberry",
+    "women",
+    "large"
+   ],
+   "query": "men's shirts",
+   "category": "fashion"
+  },
+  "91": {
+   "asin": "B01KUTWRY2",
+   "instruction": "i'm looking for a 12 pack pepper jack gluten free cheese, and price lower than 60.00 dollars",
+   "price_upper": 60.0,
+   "attributes": [
+    "gluten free"
+   ],
+   "goal_options": [
+    "pepper jack",
+    "12 pack"
+   ],
+   "query": "puffed snacks",
+   "category": "grocery"
+  },
+  "149": {
+   "asin": "B0848BNQFD",
+   "instruction": "i am looking for black magic seasoning that is gluten free and 1.37 pounds, and price lower than 60.00 dollars",
+   "price_upper": 60.0,
+   "attributes": [
+    "gluten free"
+   ],
+   "goal_options": [
+    "black magic",
+    "1.37 pound (pack of 1)"
+   ],
+   "query": "pantry staples",
+   "category": "grocery"
+  },
+  "183": {
+   "asin": "B09MCKF3S7",
+   "instruction": "i would like a light weight computer speaker that is easy to carry, and price lower than 120.00 dollars",
+   "price_upper": 120.0,
+   "attributes": [
+    "light weight",
+    "easy carry"
+   ],
+   "goal_options": [],
+   "query": "soundbars",
+   "category": "electronics"
+  },
+  "203": {
+   "asin": "B08XM81S7M",
+   "instruction": "i am looking for spice powder of liver curry flavor that is easy to use, and price lower than 30.00 dollars",
+   "price_upper": 30.0,
+   "attributes": [
+    "easy use"
+   ],
+   "goal_options": [
+    "liver curry"
+   ],
+   "query": "meat snacks",
+   "category": "grocery"
+  },
+  "216": {
+   "asin": "B083KPNYHF",
+   "instruction": "i'm looking for a security camera that has motion detection functionality, and price lower than 70.00 dollars",
+   "price_upper": 70.0,
+   "attributes": [
+    "motion detection"
+   ],
+   "goal_options": [],
+   "query": "video surveillance",
+   "category": "electronics"
+  },
+  "248": {
+   "asin": "B099RC7F69",
+   "instruction": "i'm looking for a package of 16 stainless steel lip razors for women, and price lower than 40.00 dollars",
+   "price_upper": 40.0,
+   "attributes": [
+    "stainless steel"
+   ],
+   "goal_options": [
+    "16"
+   ],
+   "query": "shave & hair removal",
+   "category": "beauty"
+  },
+  "266": {
+   "asin": "B08BNKV89Y",
+   "instruction": "i'm looking for a quad-core i5 touchscreen laptop computer; specifically with 16 gig ddr4 and 512 gig pcie ssd, and price lower than 810.00 dollars",
+   "price_upper": 810.0,
+   "attributes": [
+    "core i5",
+    "quad core"
+   ],
+   "goal_options": [
+    "16gb ddr4 ram, 512gb pcie ssd"
+   ],
+   "query": "flashes",
+   "category": "electronics"
+  },
+  "267": {
+   "asin": "B07BMLMXPP",
+   "instruction": "i'm looking for margarita low sugared real fruit needed, and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "low sugar",
+    "zero sugar",
+    "real fruit"
+   ],
+   "goal_options": [
+    "margarita"
+   ],
+   "query": "party mix",
+   "category": "grocery"
+  },
+  "289": {
+   "asin": "B08NPJ6Q94",
+   "instruction": "i am looking for a 12 pack of gluten free almonds, and price lower than 40.00 dollars",
+   "price_upper": 40.0,
+   "attributes": [
+    "gluten free"
+   ],
+   "goal_options": [
+    "12 pack"
+   ],
+   "query": "milks & creams",
+   "category": "grocery"
+  },
+  "290": {
+   "asin": "B08H5898QC",
+   "instruction": "i want a television stand with storage space, and price lower than 320.00 dollars",
+   "price_upper": 320.0,
+   "attributes": [
+    "storage space"
+   ],
+   "goal_options": [],
+   "query": "furniture sets",
+   "category": "garden"
+  },
+  "298": {
+   "asin": "B082D247QB",
+   "instruction": "i want a white yisella shower brush with a long handle, and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "long handle"
+   ],
+   "goal_options": [
+    "pink | white"
+   ],
+   "query": "bathing accessories",
+   "category": "beauty"
+  },
+  "340": {
+   "asin": "B09PLH5ZF6",
+   "instruction": "i want a women slip resistant red color shoes with size 10.5, and price lower than 60.00 dollars",
+   "price_upper": 60.0,
+   "attributes": [
+    "slip resistant"
+   ],
+   "goal_options": [
+    "red",
+    "10.5"
+   ],
+   "query": "women's flats",
+   "category": "fashion"
+  },
+  "342": {
+   "asin": "B0744MQDVZ",
+   "instruction": "i am looking for high quality bathing accessories in white color, and price lower than 30.00 dollars",
+   "price_upper": 30.0,
+   "attributes": [
+    "high quality"
+   ],
+   "goal_options": [
+    "white"
+   ],
+   "query": "bathing accessories",
+   "category": "beauty"
+  },
+  "348": {
+   "asin": "B07DZW6GQV",
+   "instruction": "i need a pack of long lasting argan oil lotion. pick one that is 16.8 fl oz in size, and price lower than 40.00 dollars",
+   "price_upper": 40.0,
+   "attributes": [
+    "long lasting",
+    "argan oil"
+   ],
+   "goal_options": [
+    "16.8 fl oz (pack of 1)"
+   ],
+   "query": "body care",
+   "category": "beauty"
+  },
+  "360": {
+   "asin": "B07WTY16LH",
+   "instruction": "i want a variety pack of grass fed collagen creamers, and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "grass fed"
+   ],
+   "goal_options": [
+    "variety"
+   ],
+   "query": "non-dairy milks",
+   "category": "grocery"
+  },
+  "366": {
+   "asin": "B087GFN56C",
+   "instruction": "i am looking for wild caught, ready to eat sardines in a tomato sauce, and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "wild caught",
+    "ready eat"
+   ],
+   "goal_options": [
+    "tomato sauce"
+   ],
+   "query": "meat snacks",
+   "category": "grocery"
+  },
+  "377": {
+   "asin": "B09PYK8SNV",
+   "instruction": "i want to find an office chair that offers lumbar support. i also want to be able to adjust the height, and price lower than 460.00 dollars",
+   "price_upper": 460.0,
+   "attributes": [
+    "height adjustable",
+    "lumbar support"
+   ],
+   "goal_options": [],
+   "query": "home office chairs",
+   "category": "garden"
+  },
+  "393": {
+   "asin": "B07XBV3VZC",
+   "instruction": "i want a lenovo thinkcentre quad core desktop pc, and price lower than 270.00 dollars",
+   "price_upper": 270.0,
+   "attributes": [
+    "quad core"
+   ],
+   "goal_options": [],
+   "query": "pc",
+   "category": "electronics"
+  },
+  "420": {
+   "asin": "B0861RT8HC",
+   "instruction": "i would like 18 bags of 1.25 croele party mix that is gluten free, and price lower than 60.00 dollars",
+   "price_upper": 60.0,
+   "attributes": [
+    "gluten free"
+   ],
+   "goal_options": [
+    "creole",
+    "1.25 ounce (pack of 18)"
+   ],
+   "query": "snack crackers",
+   "category": "grocery"
+  },
+  "435": {
+   "asin": "B0968QW5TN",
+   "instruction": "i would like a two pack of tempered glass screen protectors, and price lower than 140.00 dollars",
+   "price_upper": 140.0,
+   "attributes": [
+    "tempered glass"
+   ],
+   "goal_options": [
+    "2 pack"
+   ],
+   "query": "video glasses",
+   "category": "electronics"
+  },
+  "448": {
+   "asin": "B09HRZ8V4P",
+   "instruction": "i need a high quality elastic tie for my hair with a light blue band, and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "high quality"
+   ],
+   "goal_options": [
+    "light blue"
+   ],
+   "query": "hair accessories",
+   "category": "beauty"
+  },
+  "453": {
+   "asin": "B09FY2C67G",
+   "instruction": "looking for ceramic drink coasters that is set of 6 with cup holder, and price lower than 70.00 dollars",
+   "price_upper": 70.0,
+   "attributes": [
+    "living room"
+   ],
+   "goal_options": [
+    "set of 6 with cup holder"
+   ],
+   "query": "home office furniture sets",
+   "category": "garden"
+  },
+  "454": {
+   "asin": "B08ZQC14PN",
+   "instruction": "i'm looking for a portable wireless bluetooth speakers made of carbon fiber with long lasting battery, and price lower than 210.00 dollars",
+   "price_upper": 210.0,
+   "attributes": [
+    "long lasting",
+    "carbon fiber",
+    "wireless bluetooth"
+   ],
+   "goal_options": [],
+   "query": "surround sound systems",
+   "category": "electronics"
+  },
+  "461": {
+   "asin": "B07968GK3T",
+   "instruction": "order for me sour  gummies that are dairy free,gluten free and with  good quality ingredients, and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "gluten free",
+    "quality ingredients"
+   ],
+   "goal_options": [
+    "sour"
+   ],
+   "query": "sour creams",
+   "category": "grocery"
+  },
+  "487": {
+   "asin": "B09HL9DTF5",
+   "instruction": "can you help me find a pair of women's high heel sandal with a rubber sole? i want bubble pink one and size 11, and price lower than 160.00 dollars",
+   "price_upper": 160.0,
+   "attributes": [
+    "high heel",
+    "rubber sole"
+   ],
+   "goal_options": [
+    "bubble pink",
+    "11"
+   ],
+   "query": "women's sandals",
+   "category": "fashion"
+  },
+  "502": {
+   "asin": "B09PY89B1S",
+   "instruction": "show me an one organic hair growth serum roller set for all hair types, and price lower than 60.00 dollars",
+   "price_upper": 60.0,
+   "attributes": [
+    "hair growth"
+   ],
+   "goal_options": [
+    "1pcs"
+   ],
+   "query": "hair loss products",
+   "category": "beauty"
+  },
+  "522": {
+   "asin": "B09LK4G5G2",
+   "instruction": "what sweet and salty hazelnuts do you have that have no artificial flavors or colors?, and price lower than 40.00 dollars",
+   "price_upper": 40.0,
+   "attributes": [
+    "artificial flavors",
+    "artificial colors"
+   ],
+   "goal_options": [
+    "sweet & salty hazelnuts"
+   ],
+   "query": "snack nuts & seeds",
+   "category": "grocery"
+  },
+  "612": {
+   "asin": "B09GV7ZLRH",
+   "instruction": "i'm looking for mason jar spirit infusion kit, and price lower than 60.00 dollars",
+   "price_upper": 60.0,
+   "attributes": [
+    "perfect gift"
+   ],
+   "goal_options": [
+    "serves 8"
+   ],
+   "query": "beverages",
+   "category": "grocery"
+  },
+  "617": {
+   "asin": "B07KFBHJR9",
+   "instruction": "i need some navy button down shirts that are long sleeved and in a size medium, and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "long sleeve"
+   ],
+   "goal_options": [
+    "solid3-navy",
+    "medium"
+   ],
+   "query": "men's casual button-down shirts",
+   "category": "fashion"
+  },
+  "652": {
+   "asin": "B08FM8P9RB",
+   "instruction": "i am looking for button tufted , easy assemble velvet ottoman bench with white faux fur in color, and price lower than 140.00 dollars",
+   "price_upper": 140.0,
+   "attributes": [
+    "button tufted",
+    "easy assemble"
+   ],
+   "goal_options": [
+    "white faux fur"
+   ],
+   "query": "ottomans",
+   "category": "garden"
+  },
+  "665": {
+   "asin": "B01LYP9LQ2",
+   "instruction": "i need a long lasting 7 oz rosemary candle, and price lower than 60.00 dollars",
+   "price_upper": 60.0,
+   "attributes": [
+    "long lasting"
+   ],
+   "goal_options": [
+    "rosemary (double wick - white box)",
+    "7 oz"
+   ],
+   "query": "candles",
+   "category": "garden"
+  },
+  "692": {
+   "asin": "B079S8B9SF",
+   "instruction": "get me a gluten and nut free ready to eat plant based vegan meal variety pack in size 2.29 ounce (pack of 4), and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "ready eat",
+    "gluten free",
+    "nut free"
+   ],
+   "goal_options": [
+    "variety pack",
+    "2.29 ounce (pack of 4)"
+   ],
+   "query": "deli & prepared foods",
+   "category": "grocery"
+  },
+  "702": {
+   "asin": "B09RNB4SVT",
+   "instruction": "get me a forty pack of old-fashioned popcorn, and price lower than 100.00 dollars",
+   "price_upper": 100.0,
+   "attributes": [
+    "old fashioned"
+   ],
+   "goal_options": [
+    "40"
+   ],
+   "query": "popcorn",
+   "category": "grocery"
+  },
+  "715": {
+   "asin": "B09KGJQQ4B",
+   "instruction": "i would like to buy cell phone signal booster which has high speed, and price lower than 190.00 dollars",
+   "price_upper": 190.0,
+   "attributes": [
+    "high speed"
+   ],
+   "goal_options": [],
+   "query": "signal boosters",
+   "category": "electronics"
+  },
+  "757": {
+   "asin": "B08QG2T2LX",
+   "instruction": "i need some gluten free popped cheddar cheese snacks, and price lower than 60.00 dollars",
+   "price_upper": 60.0,
+   "attributes": [
+    "gluten free"
+   ],
+   "goal_options": [
+    "cheddar-cheese"
+   ],
+   "query": "cheeses",
+   "category": "grocery"
+  },
+  "793": {
+   "asin": "B09P656ZZ4",
+   "instruction": "i am looking for fluoride free teeth whitening toothpaste that has two times the repair, and price lower than 40.00 dollars",
+   "price_upper": 40.0,
+   "attributes": [
+    "fluoride free",
+    "teeth whitening"
+   ],
+   "goal_options": [
+    "2x tooth repair"
+   ],
+   "query": "sensitivity treatments",
+   "category": "beauty"
+  },
+  "806": {
+   "asin": "B095NKLWVJ",
+   "instruction": "i am looking for a black and gold chandelier for my dining room that has six lights, and price lower than 90.00 dollars",
+   "price_upper": 90.0,
+   "attributes": [
+    "dining room"
+   ],
+   "goal_options": [
+    "black&gold",
+    "6 lights"
+   ],
+   "query": "pendants and chandeliers",
+   "category": "garden"
+  },
+  "814": {
+   "asin": "B097WQNRSP",
+   "instruction": "i am looking for long lasting , high quality spray of ca perfume impression which is alcohol free and easy to carry in purse or travel bag in handy all day long. jo malone velvet rose & oud impression preferable, and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "travel size",
+    "alcohol free",
+    "high quality",
+    "long lasting"
+   ],
+   "goal_options": [
+    "jo malone velvet rose & oud impression"
+   ],
+   "query": "children's fragrance",
+   "category": "beauty"
+  },
+  "820": {
+   "asin": "B09Q7LVG2Y",
+   "instruction": "deep conditioning hair growth hair mask with supplement tablets 180 nos, and price lower than 140.00 dollars",
+   "price_upper": 140.0,
+   "attributes": [
+    "hair growth"
+   ],
+   "goal_options": [
+    "180 tablets + elixir"
+   ],
+   "query": "hair masks",
+   "category": "beauty"
+  },
+  "828": {
+   "asin": "B07MWSX8Z7",
+   "instruction": "i am looking for slim fit men jean.it shoud be machine washable, and price lower than 60.00 dollars",
+   "price_upper": 60.0,
+   "attributes": [
+    "machine wash"
+   ],
+   "goal_options": [
+    "slim"
+   ],
+   "query": "men's pants",
+   "category": "fashion"
+  },
+  "880": {
+   "asin": "B08KGFBJDF",
+   "instruction": "i am looking high quality long lasting travel size parfum prada luna rossa impression, and price lower than 40.00 dollars",
+   "price_upper": 40.0,
+   "attributes": [
+    "travel size",
+    "long lasting",
+    "high quality"
+   ],
+   "goal_options": [
+    "prada luna rossa impression"
+   ],
+   "query": "children's fragrance",
+   "category": "beauty"
+  },
+  "882": {
+   "asin": "B09NN9HDQ3",
+   "instruction": "i am looking for a 3 color alarm clock having wireless bluetooth, and price lower than 30.00 dollars",
+   "price_upper": 30.0,
+   "attributes": [
+    "wireless bluetooth"
+   ],
+   "goal_options": [
+    "3"
+   ],
+   "query": "clock radios",
+   "category": "electronics"
+  },
+  "895": {
+   "asin": "B09GPDQWD2",
+   "instruction": "i need to find a black gaming headset with stereo sound, and price lower than 40.00 dollars",
+   "price_upper": 40.0,
+   "attributes": [
+    "stereo sound"
+   ],
+   "goal_options": [
+    "black blue"
+   ],
+   "query": "headphones",
+   "category": "electronics"
+  },
+  "921": {
+   "asin": "B08LFZ6LGZ",
+   "instruction": "i need a set of non slip eyebrow epilator, and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "non slip"
+   ],
+   "goal_options": [
+    "style 1"
+   ],
+   "query": "shave & hair removal",
+   "category": "beauty"
+  },
+  "926": {
+   "asin": "B08BNQHLLR",
+   "instruction": "i'm looking for flannel throw blanket sherpa microfiber bed sofa, and price lower than 70.00 dollars",
+   "price_upper": 70.0,
+   "attributes": [
+    "super soft"
+   ],
+   "goal_options": [
+    "60\"x50\" blanket for teens"
+   ],
+   "query": "throw blankets",
+   "category": "garden"
+  },
+  "932": {
+   "asin": "B097NFT33B",
+   "instruction": "i need a black dress with an imported zipper, and price lower than 240.00 dollars",
+   "price_upper": 240.0,
+   "attributes": [
+    "imported zipper"
+   ],
+   "goal_options": [
+    "black"
+   ],
+   "query": "women's dresses",
+   "category": "fashion"
+  },
+  "936": {
+   "asin": "B09L6B6HGN",
+   "instruction": "find me a case with tempered glass for apple watch 45mm color variety, and price lower than 30.00 dollars",
+   "price_upper": 30.0,
+   "attributes": [
+    "tempered glass"
+   ],
+   "goal_options": [
+    "black+silver+pink+rose gold+white+classic leopard",
+    "only for 45mm"
+   ],
+   "query": "wearable technology",
+   "category": "electronics"
+  },
+  "950": {
+   "asin": "B09CQ8VNM6",
+   "instruction": "i need some grey and white, easy to clean collapsible storage bins in a four pack, and price lower than 140.00 dollars",
+   "price_upper": 140.0,
+   "attributes": [
+    "easy clean"
+   ],
+   "goal_options": [
+    "grey & white",
+    "4-pack"
+   ],
+   "query": "baskets and storage",
+   "category": "garden"
+  },
+  "959": {
+   "asin": "B098TDDJV9",
+   "instruction": "i want fuchsia modencoco women's pointed toe pumps with ankle strap, and price lower than 80.00 dollars",
+   "price_upper": 80.0,
+   "attributes": [
+    "ankle strap"
+   ],
+   "goal_options": [
+    "fuchsia"
+   ],
+   "query": "women's pumps",
+   "category": "fashion"
+  },
+  "963": {
+   "asin": "B08QJL3F1N",
+   "instruction": "i need a hand wash blue jump suit for daily wear, and price lower than 30.00 dollars",
+   "price_upper": 30.0,
+   "attributes": [
+    "hand wash",
+    "daily wear"
+   ],
+   "goal_options": [
+    "blue"
+   ],
+   "query": "women's jumpsuits, rompers & overalls",
+   "category": "fashion"
+  },
+  "967": {
+   "asin": "B09PGDMPZV",
+   "instruction": "i am looking for short sleeve women t-shirt of xx-large size, and price lower than 40.00 dollars",
+   "price_upper": 40.0,
+   "attributes": [
+    "short sleeve"
+   ],
+   "goal_options": [
+    "xx-large"
+   ],
+   "query": "women's tops, tees & blouses",
+   "category": "fashion"
+  },
+  "970": {
+   "asin": "B09MHFT1NS",
+   "instruction": "i want a mydrinkbomb cocktail bombs tequila sunrise mix gift set, and price lower than 60.00 dollars",
+   "price_upper": 60.0,
+   "attributes": [
+    "gift set"
+   ],
+   "goal_options": [
+    "tequilasunrise"
+   ],
+   "query": "party mix",
+   "category": "grocery"
+  },
+  "972": {
+   "asin": "B09DYV3YD4",
+   "instruction": "i want 1080p hd hidden camera 32 gb memory  recorder, and price lower than 130.00 dollars",
+   "price_upper": 130.0,
+   "attributes": [
+    "1080p hd"
+   ],
+   "goal_options": [
+    "32gb"
+   ],
+   "query": "video surveillance",
+   "category": "electronics"
+  },
+  "979": {
+   "asin": "B09MFDPHZM",
+   "instruction": "i need an easy to install shower caddy tension pole, and price lower than 70.00 dollars",
+   "price_upper": 70.0,
+   "attributes": [
+    "easy install"
+   ],
+   "goal_options": [],
+   "query": "cabinets",
+   "category": "garden"
+  },
+  "997": {
+   "asin": "B09PVJ5GD4",
+   "instruction": "my high heel size was 6.5, and price lower than 50.00 dollars",
+   "price_upper": 50.0,
+   "attributes": [
+    "high heel"
+   ],
+   "goal_options": [
+    "6.5"
+   ],
+   "query": "women's pumps",
+   "category": "fashion"
+  },
+  "1006": {
+   "asin": "B07YLJPMC3",
+   "instruction": "i am looking for fragrance free foaming cream cleanser, and price lower than 30.00 dollars",
+   "price_upper": 30.0,
+   "attributes": [
+    "fragrance free"
+   ],
+   "goal_options": [],
+   "query": "body makeup",
+   "category": "beauty"
+  },
+  "1014": {
+   "asin": "B07DD9Z6ZB",
+   "instruction": "i would like a mickey mouse toy chest made of solid wood, and price lower than 70.00 dollars",
+   "price_upper": 70.0,
+   "attributes": [
+    "solid wood"
+   ],
+   "goal_options": [
+    "disney mickey mouse"
+   ],
+   "query": "book cases",
+   "category": "garden"
+  }
+ },
+ "goals_hash": "82c2f1354d732593"
+}

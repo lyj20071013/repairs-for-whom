@@ -1,0 +1,20 @@
+{
+ "runs": [
+  {
+   "wall": 88.07274359092116,
+   "policy_steps": 832,
+   "episodes": 60,
+   "gen_s": 78.54293910041451,
+   "env_s": 8.911676216870546,
+   "max_prompt_tokens": 6350,
+   "retries": 54,
+   "gpu": {
+    "names": [
+     "NVIDIA A800 80GB PCIe"
+    ],
+    "visible": null
+   },
+   "time": "2026-10-26 20:13"
+  }
+ ]
+}
