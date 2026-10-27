@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repair-eval"
+version = "0.1.0"
+description = "Executor-conditioned evaluation of single-step agent repairs"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+dependencies = ["numpy>=1.24,<3"]
+
+[project.scripts]
+repair-eval = "repair_eval.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["repair_eval*"]
