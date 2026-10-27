@@ -1,0 +1,15 @@
+{
+ "key": "fa3f6cf8f9c6e29580aa3df772bda32130f8dd43b84682ff87ef90f5d3acc3d7",
+ "complete": true,
+ "timings": [
+  {
+   "wall": 50.112412590533495,
+   "policy_steps": 416,
+   "gen": 42.43483141064644,
+   "env": 7.38622846826911,
+   "max_prompt_tokens": 3499,
+   "retries": 19
+  }
+ ],
+ "n_collected": 30
+}

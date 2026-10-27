@@ -1,0 +1,1 @@
+{"runs": [{"cond": "q14_T07/R612", "wall": 6639.4647928103805, "policy_steps": 83131, "rollouts": 6000, "gpu": {"names": ["NVIDIA A800 80GB PCIe"], "visible": null}, "tp": 1, "time": "2026-10-25 14:59"}]}

@@ -1,0 +1,233 @@
+{
+ "trajectories": [
+  {
+   "traj_id": "s000",
+   "goal": 769,
+   "T": 4,
+   "n_eligible": 4,
+   "reward": 0.3333333333333333,
+   "done": true,
+   "positions": [
+    {
+     "t": 2,
+     "orig": "click[b08zsq363t]",
+     "orig_valid": true,
+     "page": "search_results",
+     "search": false,
+     "clicks": [
+      "back to search",
+      "next >",
+      "b08zsq363t",
+      "b09mjz4zyr",
+      "b09mk1ctgn",
+      "b09rpw1z3g",
+      "b09r1qrrvw",
+      "b08zk52nlc",
+      "b09lcp7294",
+      "b08sccj8ml",
+      "b09shhdqg1",
+      "b099jh7p4s"
+     ],
+     "obs": "[button] Back to Search [button_]\nPage 1 (Total results: 50)\n[button] Next > [button_]\n[button] B08ZSQ363T [button_]\nTablet 10-inch, 2GB RAM,32GB ROM,Android 5.1,Octa-Core Processor 10.1 IPS HD Display,WiFi,Dual SIM Cards,Colorful Gradient Body\n$167.44\n[button] B09MJZ4ZYR [button_]\nSRURLLUG Tablet 8 Inch, 4G Phone Tablet with Dual Sim Card Slots, Android OS.12.0,12GB RAM 512GB ROM, 8MP+13MP Dual Camera, WiFi,Metal Body,Gold\n$105.98\n[button] B09MK1CTGN [button_]\nSRURLLUG Tablet 8 Inch, 4G Phone Tablet with Dual Sim Card Slots, Android OS.12.0,12GB RAM 512GB ROM, 8MP+13MP Dual Camera, WiFi,Metal Body,Black\n$105.98\n[button] B09RPW1Z3G [button_]\nTablet 10 inch Android 5.1 Tablets - 16GB Quadcore Tablet PC, High-Definition Screen Smart Tablet PC 4000mAh Battery Tablet with Dual Camera, 4000mAh Battery\n$259.99\n[button] B09R1QRRVW [button_]\nHudiee Tablet PC, 10.1-inch Quad-core HD Camera Tablet Pc, Android 5.1 1G+16G Battery Face Recognition Dual SIM WiFi\n$100.0\n[button] B08ZK52NLC [button_]\nYYC Tablet Android 6.0,10\" IPS Full HD Touchscreen,1.6 GHz Quad Core Processor,WiFi Bluetooth GPS, 1GB RAM+16GB ROM,4500mAh Battery,0.3MP+2MP Dual Camera\n$139.32\n[button] B09LCP7294 [button_]\n2 in 1 Windows 10 Tablet 10 Inch, Tablet Laptops with Keyboard 6GB RAM 128GB eMMC 5G Dual WiFi Dual Camera 1200x1920 IPS Touchscreen Support HDMI GPS Windows 10 (Red\n$279.88\n[button] B08SCCJ8ML [button_]\nLTINN Tablet 8 Inch 2MP and 2MP Cameras Dual SIM Card Slots, Bluetooth, GPS Tablet Ultra-Fast WI-FI | 800x1280 Full HD IPS Screen | 1GB + 16GB | Octa core | Unlocked Tablets\n$164.23\n[button] B09SHHDQG1 [button_]\nAndroid 10 Tablet 10 Inch, 6GB RAM 128GB ROM / 512GB ROM Extend, Octa Core 1.5GHz Google GMS Certified Tablets, Dual Camera 5G WiFi 4G LTE 7000mAh 1280x800 Full HD IPS Tablet PC with Holder (Pink)\n$165.99\n[button] B099JH7P4S [button_]\nLINGOSHUN Android Tablet 1280x800 HD IPS Screen,2MP+2MP Camera,Portable Dual SIM,WI-FI GPS+Bluetooth Support,4000mAh Battery/Golden / 10.1 inches\n$100.0",
+     "priv": "click[back to search]",
+     "replay_ok": true
+    },
+    {
+     "t": 3,
+     "orig": "click[blue]",
+     "orig_valid": true,
+     "page": "item_page",
+     "search": false,
+     "clicks": [
+      "back to search",
+      "< prev",
+      "description",
+      "features",
+      "reviews",
+      "buy now",
+      "blue",
+      "gray",
+      "green",
+      "pink"
+     ],
+     "obs": "[button] Back to Search [button_]\n[button] < Prev [button_]\ncolor\n  [button] blue [button_]\n  [button] gray [button_]\n  [button] green [button_]\n  [button] pink [button_]\nTablet 10-inch, 2GB RAM,32GB ROM,Android 5.1,Octa-Core Processor 10.1 IPS HD Display,WiFi,Dual SIM Cards,Colorful Gradient Body\nPrice: $167.44\nRating: N.A.\n[button] Description [button_]\n[button] Features [button_]\n[button] Reviews [button_]\n[button] Buy Now [button_]",
+     "priv": "click[< prev]",
+     "replay_ok": true
+    },
+    {
+     "t": 4,
+     "orig": "click[buy now]",
+     "orig_valid": true,
+     "page": "item_page",
+     "search": false,
+     "clicks": [
+      "back to search",
+      "< prev",
+      "description",
+      "features",
+      "reviews",
+      "buy now",
+      "blue",
+      "gray",
+      "green",
+      "pink"
+     ],
+     "obs": "You have clicked blue.\n[button] Back to Search [button_]\n[button] < Prev [button_]\ncolor\n  [clicked button] blue [clicked button_]\n  [button] gray [button_]\n  [button] green [button_]\n  [button] pink [button_]\nTablet 10-inch, 2GB RAM,32GB ROM,Android 5.1,Octa-Core Processor 10.1 IPS HD Display,WiFi,Dual SIM Cards,Colorful Gradient Body\nPrice: $167.44\nRating: N.A.\n[button] Description [button_]\n[button] Features [button_]\n[button] Reviews [button_]\n[button] Buy Now [button_]",
+     "priv": "click[< prev]",
+     "replay_ok": true
+    }
+   ]
+  },
+  {
+   "traj_id": "s001",
+   "goal": 497,
+   "T": 3,
+   "n_eligible": 3,
+   "reward": 0.5,
+   "done": true,
+   "positions": [
+    {
+     "t": 1,
+     "orig": "search[hand-knitted ottoman pouf purple living room <250.00]",
+     "orig_valid": true,
+     "page": "index",
+     "search": true,
+     "clicks": [],
+     "obs": "[button] Search [button_]",
+     "priv": "search[dlgf round knit pouf - hand-knitted ottoman pouf - knit ottoman accent seating chair for living room nursery and bedroom - 40 x 30 cm]",
+     "replay_ok": true
+    },
+    {
+     "t": 2,
+     "orig": "click[b09fqzlvtc]",
+     "orig_valid": true,
+     "page": "search_results",
+     "search": false,
+     "clicks": [
+      "back to search",
+      "next >",
+      "b08yww48jc",
+      "b09fqzlvtc",
+      "b07b2d9w9q",
+      "b09fr3fdlx",
+      "b08jv2d8wh",
+      "b099sbcrzh",
+      "b08xh1pg6y",
+      "b09fr75fkr",
+      "b071nrrkn9",
+      "b08dxptvrm"
+     ],
+     "obs": "[button] Back to Search [button_]\nPage 1 (Total results: 50)\n[button] Next > [button_]\n[button] B08YWW48JC [button_]\nDLGF Round Knit Pouf - Hand-Knitted Ottoman Pouf - Knit Ottoman Accent Seating Chair for Living Room Nursery and Bedroom - 40 X 30 cm\n$211.35\n[button] B09FQZLVTC [button_]\nColor Dark Blue Modern Knitted Cotton Round Pouf Ottoman Living Room Furniture Pouffe Ottoman Poof Ottomans Ottoman Pouf Floor Pouf Ottoman Foot Rest Foot stools Home Furniture Poufs and Ottomans\n$100.0\n[button] B07B2D9W9Q [button_]\nGreat Home Discounts Handmade Ribbon Style Pouf –Handmade Floor Ottoman with Unique Ribbon Design –Super-Soft Hand Stitched Beanbag Chair–Handcrafted Knit Foot Rest…\n$69.99\n[button] B09FR3FDLX [button_]\nPouf Medium Gray Ottoman Living Room Furniture Pouffe Ottoman Poof Ottomans Ottoman Pouf Floor Pouf Ottoman Foot Rest Foot stools Home Furniture Poufs and Ottomans Foot Rest for Couch\n$100.0\n[button] B08JV2D8WH [button_]\nNileco Round Knitted Ottoman,Handmade Home Decorative Seat Cushion,Ideal for Living Room Bedroom Kid's Room Footrest,Bean Bag Floor Chair\n$119.99\n[button] B099SBCRZH [button_]\nUnstuffed Pouf Cover, Bean Bag Chair,Handmade Knitted Pouf, Round Cotton Braid Hand Knitted Pouf, Knitted Ottoman Pouf Foot Rest, Handmade Home Decor (White)\n$45.99\n[button] B08XH1PG6Y [button_]\nRISEON Boho Hand Woven Contemporary Cotton Linen Fabric Pouf Cover Footstool Ottoman Poufs Unstuffed-Square Floor Cushion Footrest  Cover for Living Room, Bedroom and Under Desk (Green)\n$28.98\n[button] B09FR75FKR [button_]\nColor Gray Button Tufted Fabric Rectangle Storage Ottoman Bench Turned Legs Ottoman Living Room Furniture Pouffe Ottoman Poof Ottomans Ottoman Pouf Floor Pouf Ottoman Foot Rest Foot stools\n$100.0\n[button] B071NRRKN9 [button_]\nStylo Culture Bohemian Decor 16\" Cotton Patchwork Embroidered Ottoman Stool Pouf Cover Purple Floral Footstool Floor Cushion Ethnic Bean Bag Living Room\n$20.99\n[button] B08DXPTVRM [button_]\nLiving Room Decorative Traditional Vintage Kilim Footrest Ottoman & Sitting Table Wool Jute Cover Kilim Ottoman Triangular Vintage Rustic Wool Jute Pouf Cover 18 x 18 x 18 Inches by Handicraft Bazarr\n$103.99",
+     "priv": "click[b08yww48jc]",
+     "replay_ok": true
+    },
+    {
+     "t": 3,
+     "orig": "click[buy now]",
+     "orig_valid": true,
+     "page": "item_page",
+     "search": false,
+     "clicks": [
+      "back to search",
+      "< prev",
+      "description",
+      "features",
+      "reviews",
+      "buy now"
+     ],
+     "obs": "[button] Back to Search [button_]\n[button] < Prev [button_]\nColor Dark Blue Modern Knitted Cotton Round Pouf Ottoman Living Room Furniture Pouffe Ottoman Poof Ottomans Ottoman Pouf Floor Pouf Ottoman Foot Rest Foot stools Home Furniture Poufs and Ottomans\nPrice: $100.0\nRating: N.A.\n[button] Description [button_]\n[button] Features [button_]\n[button] Reviews [button_]\n[button] Buy Now [button_]",
+     "priv": "click[< prev]",
+     "replay_ok": true
+    }
+   ]
+  },
+  {
+   "traj_id": "s002",
+   "goal": 956,
+   "T": 25,
+   "n_eligible": 20,
+   "reward": 0.0,
+   "done": false,
+   "positions": [
+    {
+     "t": 4,
+     "orig": "search[camo women's running shorts elastic waistband price<50]",
+     "orig_valid": true,
+     "page": "index",
+     "search": true,
+     "clicks": [],
+     "obs": "[button] Search [button_]",
+     "priv": "search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]",
+     "replay_ok": true
+    },
+    {
+     "t": 12,
+     "orig": "click[next >]",
+     "orig_valid": true,
+     "page": "search_results",
+     "search": false,
+     "clicks": [
+      "back to search",
+      "< prev",
+      "next >",
+      "b09ndpgf9p",
+      "b08w8w9xb8",
+      "b085gk985f",
+      "b08b3nhhzr",
+      "b07fb82h9d",
+      "b09s3qxkvs",
+      "b00ikj3k2i",
+      "b07tt4xp5q",
+      "b07tpxtvkx",
+      "b08gxc65jc"
+     ],
+     "obs": "[button] Back to Search [button_]\nPage 4 (Total results: 50)\n[button] < Prev [button_]\n[button] Next > [button_]\n[button] B09NDPGF9P [button_]\nWorkout Running Shorts for Women, High Waist Tie-dye Bubble Loose Drawstring Yoga Shorts, Active Lounge Short Pants\n$13.99 to $36.99\n[button] B08W8W9XB8 [button_]\nGodsen Womens Drawstring Elastic Waistband Workout Athletic Running Jogging Cotton Sweat with Pockets Shorts (Pack of 5 …\n$14.99\n[button] B085GK985F [button_]\nYoga Shorts for Women High Waist,Yoga Short Tummy Control Workout Biker Shorts Running Athletic Compression Yoga Pants\n$0.01 to $4.35\n[button] B08B3NHHZR [button_]\nVtuAOL Women's Cargo Shorts Elastic Waist Comfy Cotton Loose Fit Shorts\n$18.88 to $30.88\n[button] B07FB82H9D [button_]\nB2BODY Shorts for Men with Invisible Zipper Pockets and Hidden Stash Pocket Elastic Waist Drawstring 10” Short\n$14.99 to $25.99\n[button] B09S3QXKVS [button_]\nQTOCIO Mens Relaxed Fit Straight Leg Camo Camouflage Cargo Pants Sport Pants Jogger Sweatpants Chino Utility Outdoor Trousers\n$22.98 to $27.98\n[button] B00IKJ3K2I [button_]\nKingSize Men's Big & Tall 10\" Canyon Cargo Shorts\n$31.03 to $41.04\n[button] B07TT4XP5Q [button_]\nHigh Waist Out Pocket Yoga Short 8\"/5\" Tummy Control Workout Running Athletic Non See-Through Active Shorts\n$22.69 to $33.99\n[button] B07TPXTVKX [button_]\nC9 Champion Women's 3.5\" Knit Premium Running Shorts\n$14.68 to $28.18\n[button] B08GXC65JC [button_]\nTiktok Leggings for Women Tummy Control Butt Lifting High Waisted Yoga Pants Scrunch Capri Workout Running Tights\n$6.99",
+     "priv": "click[back to search]",
+     "replay_ok": true
+    },
+    {
+     "t": 19,
+     "orig": "search[camo women's running shorts elastic waistband price<50]",
+     "orig_valid": true,
+     "page": "index",
+     "search": true,
+     "clicks": [],
+     "obs": "[button] Search [button_]",
+     "priv": "search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]",
+     "replay_ok": true
+    }
+   ]
+  }
+ ],
+ "excluded": [],
+ "n_fail": 25,
+ "n_episodes": 30,
+ "settings": {
+  "profile": "S",
+  "deployer": "q7",
+  "seed": 4101,
+  "max_goals": 30,
+  "n_traj": 3,
+  "n_pos": 3,
+  "min_left": 5,
+  "n_propose": 2,
+  "proposers": [
+   "q7",
+   "qflash"
+  ],
+  "block": 30,
+  "stop_fails": 3,
+  "max_steps": 25,
+  "num_products": 100000,
+  "env_seed": 0,
+  "obs": [
+   "text_rich",
+   6000,
+   300
+  ],
+  "temperature": 0.7,
+  "mock": false
+ },
+ "n_replay_mismatch": 0,
+ "positions_id": "137f28ae906b8b0ccf85441443e25f4869cf7b5ec5cd7980fe762ba5ddf9d362"
+}

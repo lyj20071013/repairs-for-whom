@@ -1,0 +1,228 @@
+{
+  "H1_decisive_action_choice": {
+    "point": 0.11,
+    "ci90": [
+      0.0179125,
+      0.19531250000000008
+    ],
+    "n_traj": 11,
+    "verdict": "确认（下界 > 0）"
+  },
+  "H2_earlier_position_gain": {
+    "point": 0.041497564935064936,
+    "ci90": [
+      -0.014583333333333332,
+      0.09332623106060606
+    ],
+    "n_traj": 22,
+    "verdict": "未确认"
+  },
+  "H3_greedy_loss": {
+    "point": 0.07445211038961037,
+    "ci90": [
+      0.011420048701298702,
+      0.13415652056277053
+    ],
+    "n_traj": 22,
+    "verdict": "确认（下界 > 0）"
+  },
+  "oracle_loss": {
+    "point": 0.09365665584415585,
+    "ci90": [
+      0.010452178030303022,
+      0.1494759199134199
+    ],
+    "n_traj": 22,
+    "verdict": "确认（下界 > 0）"
+  },
+  "positive_control_random_loss": {
+    "point": 0.2836377164502164,
+    "ci90": [
+      0.15747632575757575,
+      0.3908475378787879
+    ],
+    "n_traj": 22,
+    "verdict": "通过"
+  },
+  "informative_trajectories": "11/22",
+  "earlier_beats_decisive_by_delta": "2/22",
+  "per_traj": [
+    {
+      "traj_id": "ep0001",
+      "fail_reason": "trap_step",
+      "max_R": 0.025,
+      "best_earlier": 0.025,
+      "best_decisive": 0.0,
+      "n_recoverable_alts_at_decisive": 6
+    },
+    {
+      "traj_id": "ep0009",
+      "fail_reason": "trap_step",
+      "max_R": 0.0,
+      "best_earlier": 0.0,
+      "best_decisive": 0.0,
+      "n_recoverable_alts_at_decisive": 1
+    },
+    {
+      "traj_id": "ep0027",
+      "fail_reason": "trap_step",
+      "max_R": 0.675,
+      "best_earlier": 0.25,
+      "best_decisive": 0.675,
+      "n_recoverable_alts_at_decisive": 6
+    },
+    {
+      "traj_id": "ep0037",
+      "fail_reason": "trap_step",
+      "max_R": 0.0,
+      "best_earlier": -1.0,
+      "best_decisive": 0.0,
+      "n_recoverable_alts_at_decisive": 6
+    },
+    {
+      "traj_id": "ep0041",
+      "fail_reason": "timeout_return",
+      "max_R": 0.0,
+      "best_earlier": -0.05,
+      "best_decisive": 0.0,
+      "n_recoverable_alts_at_decisive": 1
+    },
+    {
+      "traj_id": "ep0048",
+      "fail_reason": "timeout_return",
+      "max_R": 0.375,
+      "best_earlier": 0.0,
+      "best_decisive": 0.375,
+      "n_recoverable_alts_at_decisive": 1
+    },
+    {
+      "traj_id": "ep0049",
+      "fail_reason": "timeout_return",
+      "max_R": 0.8,
+      "best_earlier": -0.15000000000000002,
+      "best_decisive": 0.8,
+      "n_recoverable_alts_at_decisive": 6
+    },
+    {
+      "traj_id": "ep0050",
+      "fail_reason": "timeout_return",
+      "max_R": 0.35,
+      "best_earlier": 0.0,
+      "best_decisive": 0.35,
+      "n_recoverable_alts_at_decisive": 1
+    },
+    {
+      "traj_id": "ep0053",
+      "fail_reason": "trap_step",
+      "max_R": 0.22499999999999998,
+      "best_earlier": 0.025,
+      "best_decisive": 0.22499999999999998,
+      "n_recoverable_alts_at_decisive": 6
+    },
+    {
+      "traj_id": "ep0054",
+      "fail_reason": "trap_step",
+      "max_R": 0.0,
+      "best_earlier": 0.0,
+      "best_decisive": 0.0,
+      "n_recoverable_alts_at_decisive": 6
+    },
+    {
+      "traj_id": "ep0057",
+      "fail_reason": "timeout_return",
+      "max_R": 0.95,
+      "best_earlier": 0.05,
+      "best_decisive": 0.95,
+      "n_recoverable_alts_at_decisive": 1
+    },
+    {
+      "traj_id": "ep0066",
+      "fail_reason": "timeout_return",
+      "max_R": 0.7749999999999999,
+      "best_earlier": 0.22499999999999998,
+      "best_decisive": 0.7749999999999999,
+      "n_recoverable_alts_at_decisive": 1
+    },
+    {
+      "traj_id": "ep0069",
+      "fail_reason": "trap_step",
+      "max_R": 0.0,
+      "best_earlier": -1.0,
+      "best_decisive": 0.0,
+      "n_recoverable_alts_at_decisive": 6
+    },
+    {
+      "traj_id": "ep0079",
+      "fail_reason": "trap_step",
+      "max_R": 0.07500000000000001,
+      "best_earlier": 0.07500000000000001,
+      "best_decisive": 0.0,
+      "n_recoverable_alts_at_decisive": 5
+    },
+    {
+      "traj_id": "ep0085",
+      "fail_reason": "timeout_return",
+      "max_R": 0.025,
+      "best_earlier": 0.0,
+      "best_decisive": 0.025,
+      "n_recoverable_alts_at_decisive": 1
+    },
+    {
+      "traj_id": "ep0089",
+      "fail_reason": "timeout_return",
+      "max_R": 0.975,
+      "best_earlier": 0.425,
+      "best_decisive": 0.975,
+      "n_recoverable_alts_at_decisive": 1
+    },
+    {
+      "traj_id": "ep0093",
+      "fail_reason": "timeout_return",
+      "max_R": 0.25,
+      "best_earlier": 0.25,
+      "best_decisive": 0.05,
+      "n_recoverable_alts_at_decisive": 6
+    },
+    {
+      "traj_id": "ep0096",
+      "fail_reason": "timeout_return",
+      "max_R": 0.0,
+      "best_earlier": 0.0,
+      "best_decisive": 0.0,
+      "n_recoverable_alts_at_decisive": 6
+    },
+    {
+      "traj_id": "ep0097",
+      "fail_reason": "timeout_return",
+      "max_R": 0.05,
+      "best_earlier": -0.025,
+      "best_decisive": 0.05,
+      "n_recoverable_alts_at_decisive": 1
+    },
+    {
+      "traj_id": "ep0106",
+      "fail_reason": "timeout_return",
+      "max_R": 0.7250000000000001,
+      "best_earlier": 0.7250000000000001,
+      "best_decisive": 0.0,
+      "n_recoverable_alts_at_decisive": 1
+    },
+    {
+      "traj_id": "ep0116",
+      "fail_reason": "timeout_return",
+      "max_R": 0.05,
+      "best_earlier": 0.025,
+      "best_decisive": 0.05,
+      "n_recoverable_alts_at_decisive": 1
+    },
+    {
+      "traj_id": "ep0119",
+      "fail_reason": "timeout_return",
+      "max_R": 1.0,
+      "best_earlier": 0.025,
+      "best_decisive": 1.0,
+      "n_recoverable_alts_at_decisive": 5
+    }
+  ],
+  "design_id": "bf8af280343159713042a0b741905fbade644ac031568468820c7784af3d2fd8"
+}

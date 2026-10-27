@@ -1,0 +1,17 @@
+{
+ "invalid_per_step": 0.006314580941446613,
+ "proposers": {
+  "q7": {
+   "valid_rate": 0.9444444444444444,
+   "errors": 0
+  },
+  "qflash": {
+   "valid_rate": 0.9444444444444444,
+   "errors": 0
+  }
+ },
+ "n_traj": 3,
+ "n_branches": 84,
+ "n_stochastic": 81,
+ "pass": true
+}

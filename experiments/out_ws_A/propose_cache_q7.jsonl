@@ -1,0 +1,180 @@
+{"key": "a000|t1", "hash": "0f16e7d459208d2c", "out": {"text": "Action 1: search[beige open toed sandals ankle strap size 8 under 140]\nAction 2: search[beige ankle strap sandals size 8 open toed under 140]", "finish_reason": "stop", "error": null}}
+{"key": "a000|t2", "hash": "01ff7c0531d10f6a", "out": {"text": "Action 1: click[b09sf3rjgt]\nAction 2: search[open toed sandals ankle strap beige size 8 price < 140]", "finish_reason": "stop", "error": null}}
+{"key": "a000|t3", "hash": "28f8310945118234", "out": {"text": "Action 1: click[8]\nAction 2: click[0 # beige]", "finish_reason": "stop", "error": null}}
+{"key": "a005|t5", "hash": "d5e61c86515dc9dc", "out": {"text": "Action 1: click[back to search]\nAction 2: click[buy now]", "finish_reason": "stop", "error": null}}
+{"key": "a005|t13", "hash": "70aa7cb90fb9d4f6", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a005|t20", "hash": "a8b9a671dc1f55b2", "out": {"text": "Action 1: click[b09r3wbqqh]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a006|t3", "hash": "8820bc90f9c2bb83", "out": {"text": "Action 1: click[b082tyt6x4]\nAction 2: search[tie dye water resistance smartwatch bands price < 30.00]", "finish_reason": "stop", "error": null}}
+{"key": "a006|t5", "hash": "b0f9a8fc7c3240de", "out": {"text": "Action 1: click[blackgray |  whiteblack |  blacklime]\nAction 2: click[blacknavy |  whiteblack |  coalblack]", "finish_reason": "stop", "error": null}}
+{"key": "a006|t7", "hash": "6a8a9066199f8984", "out": {"text": "Action 1: click[description]\nAction 2: click[features]", "finish_reason": "stop", "error": null}}
+{"key": "a007|t1", "hash": "23e9d22707d2f57b", "out": {"text": "Action 1: search[navy blue men's cotton heather shirt heart figure skater price < 50.00]\nAction 2: search[men's navy blue cotton heather shirt with heart made by figure skater price < 50.00]", "finish_reason": "stop", "error": null}}
+{"key": "a007|t4", "hash": "6074fae109145eab", "out": {"text": "Action 1: click[men]\nAction 2: click[description]", "finish_reason": "stop", "error": null}}
+{"key": "a007|t5", "hash": "590292a6b58179e1", "out": {"text": "Action 1: click[description]\nAction 2: click[men]", "finish_reason": "stop", "error": null}}
+{"key": "a009|t2", "hash": "5f4c0ad639ad9304", "out": {"text": "Action 1: click[b09lz33pp3]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a009|t4", "hash": "02eec775e04fa6d0", "out": {"text": "Action 1: click[< prev]\nAction 2: click[gold]", "finish_reason": "stop", "error": null}}
+{"key": "a009|t7", "hash": "fb5d5e7acf5d21a2", "out": {"text": "Action 1: click[description]\nAction 2: click[features]", "finish_reason": "stop", "error": null}}
+{"key": "a011|t1", "hash": "dc7ca7ec12f8956c", "out": {"text": "Action 1: search[super soft easy to clean throw blanket cartoon3 color price<50.00]\nAction 2: search[throw blanket cartoon3 color soft easy to clean price<50.00]", "finish_reason": "stop", "error": null}}
+{"key": "a011|t2", "hash": "2dc438fa0c677322", "out": {"text": "Action 1: click[b09kpmwg9v]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a011|t3", "hash": "3528be86722270ed", "out": {"text": "Action 1: click[cartoon3]\nAction 2: click[description]", "finish_reason": "stop", "error": null}}
+{"key": "a012|t4", "hash": "d7c06facbf109ecf", "out": {"text": "Action 1: click[back to search]\nAction 2: search[3x3 wine rack wall mount easy install price <150]", "finish_reason": "stop", "error": null}}
+{"key": "a012|t8", "hash": "e7f6700f9055ea86", "out": {"text": "Action 1: click[< prev]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a012|t19", "hash": "51ec029b0c35111f", "out": {"text": "Action 1: click[back to search]\nAction 2: search[3x3 wine rack wall mount easy install price <150]", "finish_reason": "stop", "error": null}}
+{"key": "a013|t1", "hash": "42ba2208bfb3f59a", "out": {"text": "Action 1: search[non gmo gluten free organic cinnamon syrup]\nAction 2: search[organic cinnamon syrup price < 40.00]", "finish_reason": "stop", "error": null}}
+{"key": "a013|t3", "hash": "83ae7274e76847a5", "out": {"text": "Action 1: click[< prev]\nAction 2: click[b01j1x8hpq]", "finish_reason": "stop", "error": null}}
+{"key": "a013|t4", "hash": "48433c86855287a6", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a014|t2", "hash": "7eb8e8fdab39ba5d", "out": {"text": "Action 1: click[b07d2hsh4d]\nAction 2: click[b082wjc4qj]", "finish_reason": "stop", "error": null}}
+{"key": "a014|t3", "hash": "c04c9780212724ea", "out": {"text": "Action 1: click[6 feet]\nAction 2: click[1080p]", "finish_reason": "stop", "error": null}}
+{"key": "a014|t4", "hash": "fc64eb656b097cdb", "out": {"text": "Action 1: click[description]\nAction 2: click[features]", "finish_reason": "stop", "error": null}}
+{"key": "a016|t2", "hash": "e018474f4f3e74ce", "out": {"text": "Action 1: click[b076fw698v]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a016|t11", "hash": "06a26d599bf5f83f", "out": {"text": "Action 1: click[b06xx65b9r]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a016|t15", "hash": "3e14afcbe209241a", "out": {"text": "Action 1: click[back to search]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a017|t6", "hash": "5a0bd5db9b1b52fe", "out": {"text": "Action 1: click[i-sky blue]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a017|t12", "hash": "a4efbea5dde62d84", "out": {"text": "Action 1: click[description]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a017|t18", "hash": "796804e86cbd447f", "out": {"text": "Action 1: click[j-yellow]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a019|t2", "hash": "3481fc9cdd624061", "out": {"text": "Action 1: click[b09shpdm8s]\nAction 2: search[comfortable women's pink drawstring sweatpants aragone high waist pockets gym workout under 50]", "finish_reason": "stop", "error": null}}
+{"key": "a019|t4", "hash": "2e0c652b5cc3776d", "out": {"text": "Action 1: click[description]\nAction 2: click[black]", "finish_reason": "stop", "error": null}}
+{"key": "a019|t5", "hash": "e223495114cfb631", "out": {"text": "Action 1: click[medium]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a020|t2", "hash": "df3258363ac9d7cc", "out": {"text": "Action 1: click[b07y1sc8yh]\nAction 2: search[actloe women hoodie price < 70.00]", "finish_reason": "stop", "error": null}}
+{"key": "a020|t4", "hash": "cef05aa0fe2cc59b", "out": {"text": "Action 1: click[navy]\nAction 2: click[buy now]", "finish_reason": "stop", "error": null}}
+{"key": "a020|t5", "hash": "92d593ef62ed7cf0", "out": {"text": "Action 1: click[description]\nAction 2: click[features]", "finish_reason": "stop", "error": null}}
+{"key": "a021|t3", "hash": "ca99ac3578e10bad", "out": {"text": "Action 1: click[back to search]\nAction 2: click[dark blue]", "finish_reason": "stop", "error": null}}
+{"key": "a021|t8", "hash": "37f249dda053a971", "out": {"text": "Action 1: click[b07tpxtvkx]\nAction 2: search[running shorts polyester spandex elastic waistband size small color red]", "finish_reason": "stop", "error": null}}
+{"key": "a021|t13", "hash": "efd997262c1c8d62", "out": {"text": "Action 1: click[rock brick red]\nAction 2: click[buy now]", "finish_reason": "stop", "error": null}}
+{"key": "a022|t7", "hash": "016fddd38a79571c", "out": {"text": "Action 1: search[dual band laptop price<40]\nAction 2: search[laptop dual band price<40]", "finish_reason": "stop", "error": null}}
+{"key": "a022|t10", "hash": "f08fcf9ddd48179c", "out": {"text": "Action 1: click[b07jvq97jy]\nAction 2: click[b08zsq363t]", "finish_reason": "stop", "error": null}}
+{"key": "a022|t16", "hash": "13a45020f97d0b90", "out": {"text": "Action 1: click[b08ywsgqtt]\nAction 2: search[dual band laptop price<40]", "finish_reason": "stop", "error": null}}
+{"key": "a023|t2", "hash": "e62eabe6b60b581d", "out": {"text": "Action 1: click[b099qkvt9f]\nAction 2: click[b08lynsgnq]", "finish_reason": "stop", "error": null}}
+{"key": "a023|t12", "hash": "b7052e41272e00b5", "out": {"text": "Action 1: click[next >]\nAction 2: click[b08dcrh5m4]", "finish_reason": "stop", "error": null}}
+{"key": "a023|t20", "hash": "5b332c2f2045df14", "out": {"text": "Action 1: click[b08dcrh5m4]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a024|t5", "hash": "25739c790e986f17", "out": {"text": "Action 1: click[b09233tw6f]\nAction 2: search[dry skin foot scrub coconut oil 3 pack price < 130]", "finish_reason": "stop", "error": null}}
+{"key": "a024|t12", "hash": "b1f7100e0bb5e631", "out": {"text": "Action 1: click[.3 pack - 6 fl oz]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a024|t13", "hash": "7c0417d53d6d0161", "out": {"text": "Action 1: click[buy now]\nAction 2: click[.3 pack - 6 fl oz]", "finish_reason": "stop", "error": null}}
+{"key": "a025|t5", "hash": "a82dca32ddb16f45", "out": {"text": "Action 1: click[< prev]\nAction 2: click[buy now]", "finish_reason": "stop", "error": null}}
+{"key": "a025|t13", "hash": "a906470c19408911", "out": {"text": "Action 1: search[10 foot rose gold usb a to c cable < 40.00]\nAction 2: search[10 foot rose gold usb cable type c < 40.00]", "finish_reason": "stop", "error": null}}
+{"key": "a025|t20", "hash": "76deb895c76dd61d", "out": {"text": "Action 1: click[b07xlcfssn]\nAction 2: click[b07wdhfl1l]", "finish_reason": "stop", "error": null}}
+{"key": "a026|t1", "hash": "266fb8bd4d7ad6c5", "out": {"text": "Action 1: search[dolly parton greatest hits t-shirt women < 40.00]\nAction 2: search[dolly parton t-shirt greatest hits women < 40.00]", "finish_reason": "stop", "error": null}}
+{"key": "a026|t3", "hash": "804cc6bc3edd4b7b", "out": {"text": "Action 1: click[description]\nAction 2: click[men]", "finish_reason": "stop", "error": null}}
+{"key": "a026|t5", "hash": "db9d9cbe23cc64bf", "out": {"text": "Action 1: click[description]\nAction 2: click[features]", "finish_reason": "stop", "error": null}}
+{"key": "a028|t2", "hash": "f2b5dc641d684f8e", "out": {"text": "Action 1: click[b0092mlo5w]\nAction 2: search[vintage grey side table <150.00]", "finish_reason": "stop", "error": null}}
+{"key": "a028|t3", "hash": "0031c19000a8130f", "out": {"text": "Action 1: click[next >]\nAction 2: search[vintage grey side table <150.00]", "finish_reason": "stop", "error": null}}
+{"key": "a028|t5", "hash": "4611b5932fe376bb", "out": {"text": "Action 1: click[b08s681s6p]\nAction 2: search[vintage grey side table <150.00]", "finish_reason": "stop", "error": null}}
+{"key": "a029|t5", "hash": "6041ac30a2796834", "out": {"text": "Action 1: click[next >]\nAction 2: click[b08wptpfnk]", "finish_reason": "stop", "error": null}}
+{"key": "a029|t9", "hash": "4af378b9544e0f31", "out": {"text": "Action 1: click[b095xcchcb]\nAction 2: search[samsung phone blue fast charging under 170]", "finish_reason": "stop", "error": null}}
+{"key": "a029|t17", "hash": "d3e9c5e7e193fab2", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a031|t1", "hash": "2a288fe1c430aa6a", "out": {"text": "Action 1: search[hydrating stick for face sensitive skin <40]\nAction 2: search[face hydrating stick for sensitive skin <40]", "finish_reason": "stop", "error": null}}
+{"key": "a031|t3", "hash": "80ce3dd3d901d6b6", "out": {"text": "Action 1: click[13.5 ounce]\nAction 2: click[tea tree]", "finish_reason": "stop", "error": null}}
+{"key": "a031|t4", "hash": "de0647d195749d4c", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a032|t6", "hash": "ff4dda6eaffcaf53", "out": {"text": "Action 1: click[b09dfgq7gk]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a032|t10", "hash": "cfb13e48f45f5af5", "out": {"text": "Action 1: click[b09dfgq7gk]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a032|t18", "hash": "2ea18320f44b3142", "out": {"text": "Action 1: click[b09cym6gv7]\nAction 2: search[painted stainless steel 20mm watch band with color options price < 40.00]", "finish_reason": "stop", "error": null}}
+{"key": "a034|t7", "hash": "9a3f2c132031cfef", "out": {"text": "Action 1: search[r9 b75 core pentium g2020 16gb ram intel i5 140]\nAction 2: search[intel i5 16gb ram router 140]", "finish_reason": "stop", "error": null}}
+{"key": "a034|t13", "hash": "cb55454209d4dc0c", "out": {"text": "Action 1: click[16g ram 128g ssd 1tb hdd]\nAction 2: click[r9 b75+intel pentium g2020]\n\nExplanation: The agent needs to select the correct product and options that match the instruction. At step 13, the agent has already clicked on the product \"Firewall,VPN,1U Rackmount, Network Security Appliance,Router PC,6 Nics I5 2540M/I5 2520M with AES-NI Support 4G RAM 32G SSD R11\" which is not the correct product. Therefore, the agent should either click on the correct product or select the correct options. Since the correct product is \"r9 b75+intel pentium g2020\", clicking on it would be the best action. The other option, \"16g ram 128g ssd 1tb hdd\", is a specific configuration that does not match the instruction, so it is not a good choice.", "finish_reason": "stop", "error": null}}
+{"key": "a034|t17", "hash": "547f36502fb9f837", "out": {"text": "Action 1: click[buy now]\nAction 2: click[r9 b75+intel pentium g2020]", "finish_reason": "stop", "error": null}}
+{"key": "a036|t3", "hash": "86207cd3e6ec1c6c", "out": {"text": "Action 1: click[b015utbzek]\nAction 2: search[50ft coaxial cable video accessories price<50]", "finish_reason": "stop", "error": null}}
+{"key": "a036|t8", "hash": "15eae4797686df48", "out": {"text": "Action 1: click[< prev]\nAction 2: click[description]", "finish_reason": "stop", "error": null}}
+{"key": "a036|t20", "hash": "738e052be4145bb6", "out": {"text": "Action 1: click[< prev]\nAction 2: click[description]", "finish_reason": "stop", "error": null}}
+{"key": "a038|t2", "hash": "e48974314d0a7ed8", "out": {"text": "Action 1: click[b07n6gkjll]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a038|t3", "hash": "2610dba73d68ee49", "out": {"text": "Action 1: click[back to search]\nAction 2: click[1.37 pound (pack of 1)]", "finish_reason": "stop", "error": null}}
+{"key": "a038|t4", "hash": "0b134dac0c550cad", "out": {"text": "Action 1: click[buy now]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a039|t1", "hash": "987a9db86244768f", "out": {"text": "Action 1: search[extra large navy mississippi state bulldog sweatshirt price<90.00]\nAction 2: search[fleece lined mississippi state bulldog sweatshirt size extra large price<90.00]", "finish_reason": "stop", "error": null}}
+{"key": "a039|t8", "hash": "2f03c9ee51763e56", "out": {"text": "Action 1: click[next >]\nAction 2: search[fleece lined extra large navy mississippi state bulldog sweatshirt price<90.00]", "finish_reason": "stop", "error": null}}
+{"key": "a039|t14", "hash": "65aee2d496dbc94d", "out": {"text": "Action 1: click[navy]\nAction 2: click[buy now]", "finish_reason": "stop", "error": null}}
+{"key": "a041|t6", "hash": "7950d37061b03ac9", "out": {"text": "Action 1: click[back to search]\nAction 2: click[buy now]", "finish_reason": "stop", "error": null}}
+{"key": "a041|t8", "hash": "49f57b1a7eaa3dae", "out": {"text": "Action 1: search[15 bpa free eco-friendly jars]\nAction 2: search[15 eco-friendly bpa free jars <40.00]", "finish_reason": "stop", "error": null}}
+{"key": "a041|t20", "hash": "c5c105e4479faf11", "out": {"text": "Action 1: search[15 bpa free eco-friendly jars <40.00]\nAction 2: search[15 bpa free jars eco-friendly <40.00]", "finish_reason": "stop", "error": null}}
+{"key": "a042|t1", "hash": "502a13ae093e791d", "out": {"text": "Action 1: search[open toe non-slip sandal blue women size 6 price < 40]\nAction 2: search[blue open toe non-slip sandal women size 6 price < 40]", "finish_reason": "stop", "error": null}}
+{"key": "a042|t2", "hash": "f12d2c7b11236630", "out": {"text": "Action 1: click[b0987ylx9h]\nAction 2: click[b09rbby8nt]", "finish_reason": "stop", "error": null}}
+{"key": "a042|t3", "hash": "1e7236191c7768f6", "out": {"text": "Action 1: click[back to search]\nAction 2: click[36]", "finish_reason": "stop", "error": null}}
+{"key": "a043|t2", "hash": "1eb4237c42d27d24", "out": {"text": "Action 1: click[b09g72kr4d]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a043|t10", "hash": "5fd3e1bdb1b45cb1", "out": {"text": "Action 1: search[galaxy a11 blue unlocked 128gb fast charging]\nAction 2: search[galaxy a11 blue 128gb fast charging unlocked]", "finish_reason": "stop", "error": null}}
+{"key": "a043|t15", "hash": "0b9069710444ca82", "out": {"text": "Action 1: search[galaxy a11 blue unlocked 128gb fast charging price<190]\nAction 2: search[galaxy a11 blue 128gb unlocked fast charging]", "finish_reason": "stop", "error": null}}
+{"key": "a044|t1", "hash": "97171ba2d5b9c938", "out": {"text": "Action 1: search[sky blue ring holder wireless charging under 50]\nAction 2: search[wireless charging ring holder for smartphone under 50]", "finish_reason": "stop", "error": null}}
+{"key": "a044|t11", "hash": "a299cd190a31aab6", "out": {"text": "Action 1: click[back to search]\nAction 2: click[buy now]", "finish_reason": "stop", "error": null}}
+{"key": "a044|t16", "hash": "06591dc1c08dc053", "out": {"text": "Action 1: click[b08l1tpzw6]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a046|t1", "hash": "9bc179ca4883f3b9", "out": {"text": "Action 1: search[wild caught ready to eat sardines tomato sauce]\nAction 2: search[ready to eat wild caught sardines tomato sauce price<50]", "finish_reason": "stop", "error": null}}
+{"key": "a046|t2", "hash": "84dbe0784739a6aa", "out": {"text": "Action 1: click[b085nyyqqw]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a046|t3", "hash": "12ae6df80884055a", "out": {"text": "Action 1: click[4.4 ounce (pack of 1)]\nAction 2: click[tomato sauce]", "finish_reason": "stop", "error": null}}
+{"key": "a047|t6", "hash": "3a7046a9c416b1e7", "out": {"text": "Action 1: click[b08xyvh28j]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a047|t13", "hash": "a842a8810d7a2883", "out": {"text": "Action 1: click[b084rsw8g6]\nAction 2: click[b09bftcss7]", "finish_reason": "stop", "error": null}}
+{"key": "a047|t18", "hash": "e823ce213510cf60", "out": {"text": "Action 1: click[back to search]\nAction 2: search[nightsand engineered wood price:<140]", "finish_reason": "stop", "error": null}}
+{"key": "a048|t1", "hash": "424116a625958943", "out": {"text": "Action 1: search[natural scenery high resolution price<70.00]\nAction 2: search[high resolution nature wall art price<70.00]", "finish_reason": "stop", "error": null}}
+{"key": "a048|t4", "hash": "aa2d408808162532", "out": {"text": "Action 1: click[a10]\nAction 2: click[buy now]", "finish_reason": "stop", "error": null}}
+{"key": "a048|t5", "hash": "8210b2af82d44156", "out": {"text": "Action 1: click[description]\nAction 2: click[reviews]", "finish_reason": "stop", "error": null}}
+{"key": "a051|t3", "hash": "e4927d1e55aa1b79", "out": {"text": "Action 1: click[back to search]\nAction 2: click[aa 8 count]", "finish_reason": "stop", "error": null}}
+{"key": "a051|t5", "hash": "8458faba226640a9", "out": {"text": "Action 1: click[< prev]\nAction 2: click[b01iqx5e7g]", "finish_reason": "stop", "error": null}}
+{"key": "a051|t7", "hash": "7de9465833fb0c6e", "out": {"text": "Action 1: click[b01iqx5e7g]\nAction 2: click[b009ppnhhe]", "finish_reason": "stop", "error": null}}
+{"key": "a052|t7", "hash": "2ce9afe6e00936c9", "out": {"text": "Action 1: click[b09cjqb6zf]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a052|t8", "hash": "5f163f9bc9ad4d43", "out": {"text": "Action 1: click[back to search]\nAction 2: click[b00jp6kuwi]", "finish_reason": "stop", "error": null}}
+{"key": "a052|t16", "hash": "bc464061652e3fe4", "out": {"text": "Action 1: click[< prev]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a054|t3", "hash": "c8622bfdf23aee6a", "out": {"text": "Action 1: click[back to search]\nAction 2: search[adjustable child learning blue desk chair lumbar support price<140]", "finish_reason": "stop", "error": null}}
+{"key": "a054|t5", "hash": "3443649e2d927f63", "out": {"text": "Action 1: search[adjustable child learning blue desk chair lumbar support under 140]\nAction 2: search[blue adjustable child learning desk chair with lumbar support under 140]", "finish_reason": "stop", "error": null}}
+{"key": "a054|t9", "hash": "e80453f48cdc5efb", "out": {"text": "Action 1: search[adjustable child learning blue desk chair lumbar support under 140]\nAction 2: search[blue adjustable child learning desk chair with lumbar support under 140]", "finish_reason": "stop", "error": null}}
+{"key": "a055|t1", "hash": "b61870243a4b289a", "out": {"text": "Action 1: search[multi-colored blackout window film living room price < 40]\nAction 2: search[window film multi-colored living room price < 40]", "finish_reason": "stop", "error": null}}
+{"key": "a055|t3", "hash": "cdf1e6433c763802", "out": {"text": "Action 1: click[multi-11450]\nAction 2: click[17.7\" x 35.4\" x 2 pcs]", "finish_reason": "stop", "error": null}}
+{"key": "a055|t6", "hash": "2a53a8196a3182ac", "out": {"text": "Action 1: click[17.7\" x 35.4\" x 2 pcs]\nAction 2: click[description]", "finish_reason": "stop", "error": null}}
+{"key": "a056|t4", "hash": "2b16e3bd5d10ea26", "out": {"text": "Action 1: click[description]\nAction 2: click[features]", "finish_reason": "stop", "error": null}}
+{"key": "a056|t6", "hash": "c889c1c3d488c4f6", "out": {"text": "Action 1: click[b08khxydkc]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a056|t10", "hash": "44173436a0f10766", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a058|t4", "hash": "da3924d360e185ba", "out": {"text": "Action 1: click[back to search]\nAction 2: click[b09q4lzngs]", "finish_reason": "stop", "error": null}}
+{"key": "a058|t13", "hash": "da3e653088744af6", "out": {"text": "Action 1: click[b09pdqrcr9]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a058|t16", "hash": "a58f6f4aaea12bfe", "out": {"text": "Action 1: click[back to search]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a059|t1", "hash": "ea973dab8aa0a0b3", "out": {"text": "Action 1: search[135 ft high speed coaxial cable price < 60]\nAction 2: search[high speed coaxial cable 135 feet price < 60]", "finish_reason": "stop", "error": null}}
+{"key": "a059|t10", "hash": "c90ab2d9461f6111", "out": {"text": "Action 1: click[< prev]\nAction 2: search[135 ft high speed coaxial cable price < 60]", "finish_reason": "stop", "error": null}}
+{"key": "a059|t20", "hash": "59391882c67dfe0b", "out": {"text": "Action 1: click[b071d1d1wj]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a060|t1", "hash": "ba751f2357e09b9d", "out": {"text": "Action 1: search[64gb data shur usb drive price<80]\nAction 2: search[64gb usb flash drive price<80]", "finish_reason": "stop", "error": null}}
+{"key": "a060|t4", "hash": "e188786316370fa8", "out": {"text": "Action 1: click[< prev]\nAction 2: click[b08swk9rrw]", "finish_reason": "stop", "error": null}}
+{"key": "a060|t5", "hash": "a00684ddfde7dffe", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a061|t4", "hash": "8fe79e3f194b229c", "out": {"text": "Action 1: click[b081d7p6s9]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a061|t8", "hash": "12cc62edb491a443", "out": {"text": "Action 1: search[lightweight backdrop 9x16 ft price < 130]\nAction 2: search[9x16 ft lightweight background under 130]", "finish_reason": "stop", "error": null}}
+{"key": "a061|t19", "hash": "a0730111b68aa261", "out": {"text": "Action 1: click[< prev]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a062|t3", "hash": "d6545023d242e450", "out": {"text": "Action 1: click[< prev]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a062|t12", "hash": "329fda8579c55964", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a062|t13", "hash": "b1fcf7ccd5921041", "out": {"text": "Action 1: click[< prev]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a063|t1", "hash": "4a66965ed18a2a55", "out": {"text": "Action 1: search[blue blouse xx-large under 50]\nAction 2: search[long sleeve blouse xx-large under 50]", "finish_reason": "stop", "error": null}}
+{"key": "a063|t12", "hash": "ea46ccfaeda67d5a", "out": {"text": "Action 1: click[b09pnqbf7h]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a063|t16", "hash": "d96e133b980c0219", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a064|t5", "hash": "ac3caf1c63f48956", "out": {"text": "Action 1: click[back to search]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a064|t13", "hash": "d63cc4f27bb8bf08", "out": {"text": "Action 1: search[12 natural desserts friends collection price < 70.00]\nAction 2: search[12 natural friends collection desserts price < 70.00]", "finish_reason": "stop", "error": null}}
+{"key": "a064|t20", "hash": "15d330d8d36e20fa", "out": {"text": "Action 1: click[back to search]\nAction 2: search[12 desserts natural ingredients friends collection price < 70.00]", "finish_reason": "stop", "error": null}}
+{"key": "a066|t1", "hash": "d99886dfdcdd5f75", "out": {"text": "Action 1: search[22 inch natural hair extensions under 130]\nAction 2: search[22 inch natural hair extensions Remy]", "finish_reason": "stop", "error": null}}
+{"key": "a066|t4", "hash": "0f0a65902d75698f", "out": {"text": "Action 1: click[14 inch (pack of 1)]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a066|t5", "hash": "7eb4e7f05c046a40", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a067|t5", "hash": "186d321a3d6b686e", "out": {"text": "Action 1: click[back to search]\nAction 2: click[b07b9k659s]", "finish_reason": "stop", "error": null}}
+{"key": "a067|t8", "hash": "c34f58a886adf91c", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a067|t19", "hash": "29ab96e16984345e", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a068|t1", "hash": "02904948335d0b8d", "out": {"text": "Action 1: search[screen protectors easy to install colorful price < 40.00]\nAction 2: search[screen protectors for phone easy to install colorful price < 40.00]", "finish_reason": "stop", "error": null}}
+{"key": "a068|t2", "hash": "d1d76d924ef892ac", "out": {"text": "Action 1: click[b09pbfvx7g]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a068|t3", "hash": "6cff55cf86492b64", "out": {"text": "Action 1: click[description]\nAction 2: click[features]", "finish_reason": "stop", "error": null}}
+{"key": "a069|t5", "hash": "75cf761797bd2acc", "out": {"text": "Action 1: search[blue easy to assemble home office desk chair with lumbar support price < 350.00]\nAction 2: search[easy to assemble blue home office desk chair with lumbar support under 350.00]", "finish_reason": "stop", "error": null}}
+{"key": "a069|t14", "hash": "72e3eda073908669", "out": {"text": "Action 1: click[< prev]\nAction 2: search[easy to assemble blue home office desk chair with lumbar support price < 350.00]", "finish_reason": "stop", "error": null}}
+{"key": "a069|t16", "hash": "cd97e46586ae87c1", "out": {"text": "Action 1: click[< prev]\nAction 2: search[easy to assemble blue home office desk chair with lumbar support price < 350.00]", "finish_reason": "stop", "error": null}}
+{"key": "a070|t2", "hash": "00d43f54ad404801", "out": {"text": "Action 1: click[b00kky13os]\nAction 2: click[b07cngx5yc]", "finish_reason": "stop", "error": null}}
+{"key": "a070|t7", "hash": "4cc9793f585677b0", "out": {"text": "Action 1: click[back to search]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a070|t13", "hash": "aa52269a82292e71", "out": {"text": "Action 1: click[< prev]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a072|t1", "hash": "386954200d9e7b4a", "out": {"text": "Action 1: search[24 inch hd tv <470.00]\nAction 2: search[high definition 24 inch tv <470.00]", "finish_reason": "stop", "error": null}}
+{"key": "a072|t3", "hash": "9a2c2f0526c19d4b", "out": {"text": "Action 1: click[32 inch hd smart tv]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a072|t4", "hash": "3fdf56dca25bde89", "out": {"text": "Action 1: click[description]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a073|t1", "hash": "4661d5d21fc7cfcb", "out": {"text": "Action 1: search[4.2 fluid ounce coconut oil shampoo under 50]\nAction 2: search[4.2 fl oz coconut oil shampoo price less than 50]", "finish_reason": "stop", "error": null}}
+{"key": "a073|t9", "hash": "a1ca4a91c36fd822", "out": {"text": "Action 1: click[4 fluid ounces]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a073|t15", "hash": "4e4e870c1547ed24", "out": {"text": "Action 1: click[back to search]\nAction 2: click[2 fluid ounces]", "finish_reason": "stop", "error": null}}
+{"key": "a076|t1", "hash": "fb820440ba2383a9", "out": {"text": "Action 1: search[bloody mary mix low sugar]\nAction 2: search[low sugar bloody mary cocktail mix price <60.00]", "finish_reason": "stop", "error": null}}
+{"key": "a076|t2", "hash": "a96152152e2b010c", "out": {"text": "Action 1: click[b09n7vkhm8]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a076|t3", "hash": "1ba6fb3cdbc07899", "out": {"text": "Action 1: click[description]\nAction 2: click[features]", "finish_reason": "stop", "error": null}}
+{"key": "a077|t5", "hash": "629c7eaa69d4ee87", "out": {"text": "Action 1: click[back to search]\nAction 2: click[description]", "finish_reason": "stop", "error": null}}
+{"key": "a077|t8", "hash": "34ef4fcb3f1cac9e", "out": {"text": "Action 1: click[b001zbfhlk]\nAction 2: search[canned skinless boneless pink salmon sweet and spicy flavor price<50.00]", "finish_reason": "stop", "error": null}}
+{"key": "a077|t20", "hash": "0acc01b5cabac3a7", "out": {"text": "Action 1: click[b001zbfhlk]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}
+{"key": "a078|t1", "hash": "e76d041a0c4fa5f2", "out": {"text": "Action 1: search[grey memory foam slippers open toes]\nAction 2: search[memory foam slippers open toes grey]", "finish_reason": "stop", "error": null}}
+{"key": "a078|t3", "hash": "d8678ce81d3f1696", "out": {"text": "Action 1: click[< prev]\nAction 2: click[green]", "finish_reason": "stop", "error": null}}
+{"key": "a078|t5", "hash": "caa2bb62d7568bd7", "out": {"text": "Action 1: click[back to search]\nAction 2: click[7.5 wide]", "finish_reason": "stop", "error": null}}
+{"key": "a080|t1", "hash": "cbf814e55039644c", "out": {"text": "Action 1: search[purple toppers for cake <50.00]\nAction 2: search[birthday cake toppers purple <50.00]", "finish_reason": "stop", "error": null}}
+{"key": "a080|t10", "hash": "143c656a93481f8d", "out": {"text": "Action 1: click[buy now]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a080|t18", "hash": "e3fa614a48a37c4d", "out": {"text": "Action 1: click[< prev]\nAction 2: search[purple cake toppers <50.00]", "finish_reason": "stop", "error": null}}
+{"key": "a081|t1", "hash": "919159f3ea307b3e", "out": {"text": "Action 1: search[n!ck's swedish chocolate variety pack ice cream bakery keto friendly]\nAction 2: search[swedish chocolate variety pack ice cream bakery keto friendly price < 110.00]", "finish_reason": "stop", "error": null}}
+{"key": "a081|t2", "hash": "4fc3cb967c820d41", "out": {"text": "Action 1: click[b085863qzx]\nAction 2: click[b0855dyxtg]", "finish_reason": "stop", "error": null}}
+{"key": "a081|t3", "hash": "9ab719b88e608b02", "out": {"text": "Action 1: click[bakery]\nAction 2: click[description]", "finish_reason": "stop", "error": null}}
+{"key": "a082|t2", "hash": "9f5c8b36cc42b1c1", "out": {"text": "Action 1: click[b07122vpjc]\nAction 2: search[multicolored hair bands non toxic price<40.00]", "finish_reason": "stop", "error": null}}
+{"key": "a082|t14", "hash": "5a190faa2986084a", "out": {"text": "Action 1: click[b09n3z484q]\nAction 2: click[< prev]", "finish_reason": "stop", "error": null}}
+{"key": "a082|t18", "hash": "c019e7fabd4562c5", "out": {"text": "Action 1: click[< prev]\nAction 2: search[multicolored hair bands non toxic price<40.00]", "finish_reason": "stop", "error": null}}
+{"key": "a085|t4", "hash": "88592229bec1b2ce", "out": {"text": "Action 1: click[description]\nAction 2: click[buy now]", "finish_reason": "stop", "error": null}}
+{"key": "a085|t12", "hash": "8641b66e57c97d6e", "out": {"text": "Action 1: click[buy now]\nAction 2: click[back to search]", "finish_reason": "stop", "error": null}}
+{"key": "a085|t15", "hash": "199983ae1473eed0", "out": {"text": "Action 1: click[b092m8kfsd]\nAction 2: click[next >]", "finish_reason": "stop", "error": null}}

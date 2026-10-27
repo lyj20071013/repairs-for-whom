@@ -1,0 +1,2273 @@
+{
+ "kind": "ws_formal",
+ "profile": "S",
+ "trajectories": [
+  {
+   "traj_id": "s000",
+   "goal": 769,
+   "T": 4,
+   "positions": [
+    {
+     "t": 2,
+     "orig": "s000|t2|orig",
+     "alts": [
+      "s000|t2|click[back to search]",
+      "s000|t2|click[b09mjz4zyr]",
+      "s000|t2|click[b09mk1ctgn]",
+      "s000|t2|click[b09lcp7294]",
+      "s000|t2|click[b09shhdqg1]",
+      "s000|t2|click[b08sccj8ml]",
+      "s000|t2|click[next >]",
+      "s000|t2|click[b09rpw1z3g]",
+      "s000|t2|click[b09r1qrrvw]",
+      "s000|t2|click[b08zk52nlc]",
+      "s000|t2|click[b099jh7p4s]"
+     ],
+     "page": "search_results"
+    },
+    {
+     "t": 3,
+     "orig": "s000|t3|orig",
+     "alts": [
+      "s000|t3|click[< prev]",
+      "s000|t3|click[gray]",
+      "s000|t3|click[buy now]",
+      "s000|t3|click[back to search]",
+      "s000|t3|click[description]",
+      "s000|t3|click[reviews]",
+      "s000|t3|click[features]",
+      "s000|t3|click[green]",
+      "s000|t3|click[pink]"
+     ],
+     "page": "item_page"
+    },
+    {
+     "t": 4,
+     "orig": "s000|t4|orig",
+     "alts": [
+      "s000|t4|click[< prev]",
+      "s000|t4|click[back to search]",
+      "s000|t4|click[pink]",
+      "s000|t4|click[description]",
+      "s000|t4|click[features]",
+      "s000|t4|click[reviews]",
+      "s000|t4|click[blue]",
+      "s000|t4|click[gray]",
+      "s000|t4|click[green]"
+     ],
+     "page": "item_page"
+    }
+   ]
+  },
+  {
+   "traj_id": "s001",
+   "goal": 497,
+   "T": 3,
+   "positions": [
+    {
+     "t": 1,
+     "orig": "s001|t1|orig",
+     "alts": [
+      "s001|t1|search[dlgf round knit pouf - hand-knitted ottoman pouf - knit ottoman accent seating chair for living room nursery and bedroom - 40 x 30 cm]",
+      "s001|t1|search[hand-knitted pouf purple living room <250.00]",
+      "s001|t1|search[hand-knitted ottoman purple living room <250.00]",
+      "s001|t1|search[purple hand-knitted ottoman pouf]",
+      "s001|t1|search[knitted ottoman pouf purple]",
+      "s001|t1|search[250 living hand]"
+     ],
+     "page": "index"
+    },
+    {
+     "t": 2,
+     "orig": "s001|t2|orig",
+     "alts": [
+      "s001|t2|click[b08yww48jc]",
+      "s001|t2|click[back to search]",
+      "s001|t2|click[b08jv2d8wh]",
+      "s001|t2|click[b09fr75fkr]",
+      "s001|t2|click[next >]",
+      "s001|t2|click[b07b2d9w9q]",
+      "s001|t2|click[b09fr3fdlx]",
+      "s001|t2|click[b099sbcrzh]",
+      "s001|t2|click[b08xh1pg6y]",
+      "s001|t2|click[b071nrrkn9]",
+      "s001|t2|click[b08dxptvrm]"
+     ],
+     "page": "search_results"
+    },
+    {
+     "t": 3,
+     "orig": "s001|t3|orig",
+     "alts": [
+      "s001|t3|click[< prev]",
+      "s001|t3|click[back to search]",
+      "s001|t3|click[features]",
+      "s001|t3|click[description]",
+      "s001|t3|click[reviews]"
+     ],
+     "page": "item_page"
+    }
+   ]
+  },
+  {
+   "traj_id": "s002",
+   "goal": 956,
+   "T": 25,
+   "positions": [
+    {
+     "t": 4,
+     "orig": "s002|t4|orig",
+     "alts": [
+      "s002|t4|search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]",
+      "s002|t4|search[camo women's running shorts elastic waistband plus size price<50]",
+      "s002|t4|search[camo women's running shorts elastic waistband size:plus price<50]",
+      "s002|t4|search[camo print women's running shorts]",
+      "s002|t4|search[women's camo athletic shorts elastic waist]",
+      "s002|t4|search[looking shorts]"
+     ],
+     "page": "index"
+    },
+    {
+     "t": 12,
+     "orig": "s002|t12|orig",
+     "alts": [
+      "s002|t12|click[back to search]",
+      "s002|t12|click[b08w8w9xb8]",
+      "s002|t12|click[b085gk985f]",
+      "s002|t12|click[< prev]",
+      "s002|t12|click[b09ndpgf9p]",
+      "s002|t12|click[b08b3nhhzr]",
+      "s002|t12|click[b07fb82h9d]",
+      "s002|t12|click[b09s3qxkvs]",
+      "s002|t12|click[b00ikj3k2i]",
+      "s002|t12|click[b07tt4xp5q]",
+      "s002|t12|click[b07tpxtvkx]",
+      "s002|t12|click[b08gxc65jc]"
+     ],
+     "page": "search_results"
+    },
+    {
+     "t": 19,
+     "orig": "s002|t19|orig",
+     "alts": [
+      "s002|t19|search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]",
+      "s002|t19|search[camo women's running shorts elastic waistband plus size price<50]",
+      "s002|t19|search[camo women's running shorts elastic waistband size:plus price<50]",
+      "s002|t19|search[camo women's running shorts]",
+      "s002|t19|search[women's camo athletic shorts]",
+      "s002|t19|search[than for with]"
+     ],
+     "page": "index"
+    }
+   ]
+  }
+ ],
+ "branches": {
+  "s000|t2|orig": {
+   "branch_id": "s000|t2|orig",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "orig:click[b08zsq363t]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]"
+   ],
+   "orig": true,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t2|click[back to search]": {
+   "branch_id": "s000|t2|click[back to search]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "click[back to search]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[back to search]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": true,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 1.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t2|click[b09mjz4zyr]": {
+   "branch_id": "s000|t2|click[b09mjz4zyr]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "click[b09mjz4zyr]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b09mjz4zyr]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t2|click[b09mk1ctgn]": {
+   "branch_id": "s000|t2|click[b09mk1ctgn]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "click[b09mk1ctgn]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b09mk1ctgn]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t2|click[b09lcp7294]": {
+   "branch_id": "s000|t2|click[b09lcp7294]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "click[b09lcp7294]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b09lcp7294]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": 0,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t2|click[b09shhdqg1]": {
+   "branch_id": "s000|t2|click[b09shhdqg1]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "click[b09shhdqg1]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b09shhdqg1]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": 1,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t2|click[b08sccj8ml]": {
+   "branch_id": "s000|t2|click[b08sccj8ml]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "click[b08sccj8ml]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08sccj8ml]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": true,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t2|click[next >]": {
+   "branch_id": "s000|t2|click[next >]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "click[next >]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[next >]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t2|click[b09rpw1z3g]": {
+   "branch_id": "s000|t2|click[b09rpw1z3g]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "click[b09rpw1z3g]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b09rpw1z3g]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t2|click[b09r1qrrvw]": {
+   "branch_id": "s000|t2|click[b09r1qrrvw]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "click[b09r1qrrvw]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b09r1qrrvw]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t2|click[b08zk52nlc]": {
+   "branch_id": "s000|t2|click[b08zk52nlc]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "click[b08zk52nlc]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zk52nlc]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t2|click[b099jh7p4s]": {
+   "branch_id": "s000|t2|click[b099jh7p4s]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 2,
+   "action": "click[b099jh7p4s]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b099jh7p4s]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t3|orig": {
+   "branch_id": "s000|t3|orig",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 3,
+   "action": "orig:click[blue]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[blue]"
+   ],
+   "orig": true,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t3|click[< prev]": {
+   "branch_id": "s000|t3|click[< prev]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 3,
+   "action": "click[< prev]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[< prev]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": true,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 1.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t3|click[gray]": {
+   "branch_id": "s000|t3|click[gray]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 3,
+   "action": "click[gray]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[gray]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t3|click[buy now]": {
+   "branch_id": "s000|t3|click[buy now]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 3,
+   "action": "click[buy now]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[buy now]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": 0.0,
+   "det_reward": 0.3333333333333333
+  },
+  "s000|t3|click[back to search]": {
+   "branch_id": "s000|t3|click[back to search]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 3,
+   "action": "click[back to search]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[back to search]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": 0,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t3|click[description]": {
+   "branch_id": "s000|t3|click[description]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 3,
+   "action": "click[description]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[description]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": 1,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t3|click[reviews]": {
+   "branch_id": "s000|t3|click[reviews]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 3,
+   "action": "click[reviews]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[reviews]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": true,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t3|click[features]": {
+   "branch_id": "s000|t3|click[features]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 3,
+   "action": "click[features]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[features]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t3|click[green]": {
+   "branch_id": "s000|t3|click[green]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 3,
+   "action": "click[green]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[green]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t3|click[pink]": {
+   "branch_id": "s000|t3|click[pink]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 3,
+   "action": "click[pink]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[pink]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t4|orig": {
+   "branch_id": "s000|t4|orig",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 4,
+   "action": "orig:click[buy now]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[blue]",
+    "click[buy now]"
+   ],
+   "orig": true,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": 0.0,
+   "det_reward": 0.3333333333333333
+  },
+  "s000|t4|click[< prev]": {
+   "branch_id": "s000|t4|click[< prev]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 4,
+   "action": "click[< prev]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[blue]",
+    "click[< prev]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7",
+    "qflash"
+   ],
+   "planner": true,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": 1,
+   "oracle_F": 1.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t4|click[back to search]": {
+   "branch_id": "s000|t4|click[back to search]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 4,
+   "action": "click[back to search]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[blue]",
+    "click[back to search]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7",
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": 0,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t4|click[pink]": {
+   "branch_id": "s000|t4|click[pink]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 4,
+   "action": "click[pink]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[blue]",
+    "click[pink]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": true,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t4|click[description]": {
+   "branch_id": "s000|t4|click[description]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 4,
+   "action": "click[description]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[blue]",
+    "click[description]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t4|click[features]": {
+   "branch_id": "s000|t4|click[features]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 4,
+   "action": "click[features]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[blue]",
+    "click[features]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t4|click[reviews]": {
+   "branch_id": "s000|t4|click[reviews]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 4,
+   "action": "click[reviews]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[blue]",
+    "click[reviews]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t4|click[blue]": {
+   "branch_id": "s000|t4|click[blue]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 4,
+   "action": "click[blue]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[blue]",
+    "click[blue]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t4|click[gray]": {
+   "branch_id": "s000|t4|click[gray]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 4,
+   "action": "click[gray]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[blue]",
+    "click[gray]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s000|t4|click[green]": {
+   "branch_id": "s000|t4|click[green]",
+   "traj_id": "s000",
+   "goal": 769,
+   "t": 4,
+   "action": "click[green]",
+   "prefix": [
+    "search[high performance tablet dual band wifi price < 330]",
+    "click[b08zsq363t]",
+    "click[blue]",
+    "click[green]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t1|orig": {
+   "branch_id": "s001|t1|orig",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 1,
+   "action": "orig:search[hand-knitted ottoman pouf purple living room <250.00]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]"
+   ],
+   "orig": true,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t1|search[dlgf round knit pouf - hand-knitted ottoman pouf - knit ottoman accent seating chair for living room nursery and bedroom - 40 x 30 cm]": {
+   "branch_id": "s001|t1|search[dlgf round knit pouf - hand-knitted ottoman pouf - knit ottoman accent seating chair for living room nursery and bedroom - 40 x 30 cm]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 1,
+   "action": "search[dlgf round knit pouf - hand-knitted ottoman pouf - knit ottoman accent seating chair for living room nursery and bedroom - 40 x 30 cm]",
+   "prefix": [
+    "search[dlgf round knit pouf - hand-knitted ottoman pouf - knit ottoman accent seating chair for living room nursery and bedroom - 40 x 30 cm]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": true,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 1.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t1|search[hand-knitted pouf purple living room <250.00]": {
+   "branch_id": "s001|t1|search[hand-knitted pouf purple living room <250.00]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 1,
+   "action": "search[hand-knitted pouf purple living room <250.00]",
+   "prefix": [
+    "search[hand-knitted pouf purple living room <250.00]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t1|search[hand-knitted ottoman purple living room <250.00]": {
+   "branch_id": "s001|t1|search[hand-knitted ottoman purple living room <250.00]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 1,
+   "action": "search[hand-knitted ottoman purple living room <250.00]",
+   "prefix": [
+    "search[hand-knitted ottoman purple living room <250.00]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t1|search[purple hand-knitted ottoman pouf]": {
+   "branch_id": "s001|t1|search[purple hand-knitted ottoman pouf]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 1,
+   "action": "search[purple hand-knitted ottoman pouf]",
+   "prefix": [
+    "search[purple hand-knitted ottoman pouf]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": 0,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t1|search[knitted ottoman pouf purple]": {
+   "branch_id": "s001|t1|search[knitted ottoman pouf purple]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 1,
+   "action": "search[knitted ottoman pouf purple]",
+   "prefix": [
+    "search[knitted ottoman pouf purple]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": 1,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t1|search[250 living hand]": {
+   "branch_id": "s001|t1|search[250 living hand]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 1,
+   "action": "search[250 living hand]",
+   "prefix": [
+    "search[250 living hand]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": true,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|orig": {
+   "branch_id": "s001|t2|orig",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "orig:click[b09fqzlvtc]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b09fqzlvtc]"
+   ],
+   "orig": true,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|click[b08yww48jc]": {
+   "branch_id": "s001|t2|click[b08yww48jc]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "click[b08yww48jc]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b08yww48jc]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7",
+    "qflash"
+   ],
+   "planner": true,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": 0,
+   "oracle_F": 1.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|click[back to search]": {
+   "branch_id": "s001|t2|click[back to search]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "click[back to search]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[back to search]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|click[b08jv2d8wh]": {
+   "branch_id": "s001|t2|click[b08jv2d8wh]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "click[b08jv2d8wh]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b08jv2d8wh]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": 1,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|click[b09fr75fkr]": {
+   "branch_id": "s001|t2|click[b09fr75fkr]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "click[b09fr75fkr]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b09fr75fkr]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": true,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|click[next >]": {
+   "branch_id": "s001|t2|click[next >]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "click[next >]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[next >]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|click[b07b2d9w9q]": {
+   "branch_id": "s001|t2|click[b07b2d9w9q]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "click[b07b2d9w9q]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b07b2d9w9q]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|click[b09fr3fdlx]": {
+   "branch_id": "s001|t2|click[b09fr3fdlx]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "click[b09fr3fdlx]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b09fr3fdlx]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|click[b099sbcrzh]": {
+   "branch_id": "s001|t2|click[b099sbcrzh]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "click[b099sbcrzh]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b099sbcrzh]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|click[b08xh1pg6y]": {
+   "branch_id": "s001|t2|click[b08xh1pg6y]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "click[b08xh1pg6y]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b08xh1pg6y]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|click[b071nrrkn9]": {
+   "branch_id": "s001|t2|click[b071nrrkn9]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "click[b071nrrkn9]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b071nrrkn9]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t2|click[b08dxptvrm]": {
+   "branch_id": "s001|t2|click[b08dxptvrm]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 2,
+   "action": "click[b08dxptvrm]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b08dxptvrm]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t3|orig": {
+   "branch_id": "s001|t3|orig",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 3,
+   "action": "orig:click[buy now]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b09fqzlvtc]",
+    "click[buy now]"
+   ],
+   "orig": true,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": 0.0,
+   "det_reward": 0.5
+  },
+  "s001|t3|click[< prev]": {
+   "branch_id": "s001|t3|click[< prev]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 3,
+   "action": "click[< prev]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b09fqzlvtc]",
+    "click[< prev]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7",
+    "qflash"
+   ],
+   "planner": true,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": 1,
+   "oracle_F": 1.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t3|click[back to search]": {
+   "branch_id": "s001|t3|click[back to search]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 3,
+   "action": "click[back to search]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b09fqzlvtc]",
+    "click[back to search]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7",
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": 0,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t3|click[features]": {
+   "branch_id": "s001|t3|click[features]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 3,
+   "action": "click[features]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b09fqzlvtc]",
+    "click[features]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": true,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t3|click[description]": {
+   "branch_id": "s001|t3|click[description]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 3,
+   "action": "click[description]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b09fqzlvtc]",
+    "click[description]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s001|t3|click[reviews]": {
+   "branch_id": "s001|t3|click[reviews]",
+   "traj_id": "s001",
+   "goal": 497,
+   "t": 3,
+   "action": "click[reviews]",
+   "prefix": [
+    "search[hand-knitted ottoman pouf purple living room <250.00]",
+    "click[b09fqzlvtc]",
+    "click[reviews]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t4|orig": {
+   "branch_id": "s002|t4|orig",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 4,
+   "action": "orig:search[camo women's running shorts elastic waistband price<50]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]"
+   ],
+   "orig": true,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t4|search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]": {
+   "branch_id": "s002|t4|search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 4,
+   "action": "search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": true,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 1.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t4|search[camo women's running shorts elastic waistband plus size price<50]": {
+   "branch_id": "s002|t4|search[camo women's running shorts elastic waistband plus size price<50]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 4,
+   "action": "search[camo women's running shorts elastic waistband plus size price<50]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband plus size price<50]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t4|search[camo women's running shorts elastic waistband size:plus price<50]": {
+   "branch_id": "s002|t4|search[camo women's running shorts elastic waistband size:plus price<50]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 4,
+   "action": "search[camo women's running shorts elastic waistband size:plus price<50]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband size:plus price<50]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t4|search[camo print women's running shorts]": {
+   "branch_id": "s002|t4|search[camo print women's running shorts]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 4,
+   "action": "search[camo print women's running shorts]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo print women's running shorts]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": 0,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t4|search[women's camo athletic shorts elastic waist]": {
+   "branch_id": "s002|t4|search[women's camo athletic shorts elastic waist]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 4,
+   "action": "search[women's camo athletic shorts elastic waist]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[women's camo athletic shorts elastic waist]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": 1,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t4|search[looking shorts]": {
+   "branch_id": "s002|t4|search[looking shorts]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 4,
+   "action": "search[looking shorts]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[looking shorts]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": true,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|orig": {
+   "branch_id": "s002|t12|orig",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "orig:click[next >]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]"
+   ],
+   "orig": true,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[back to search]": {
+   "branch_id": "s002|t12|click[back to search]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[back to search]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[back to search]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": true,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 1.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[b08w8w9xb8]": {
+   "branch_id": "s002|t12|click[b08w8w9xb8]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[b08w8w9xb8]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[b08w8w9xb8]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": 0,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[b085gk985f]": {
+   "branch_id": "s002|t12|click[b085gk985f]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[b085gk985f]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[b085gk985f]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": true,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[< prev]": {
+   "branch_id": "s002|t12|click[< prev]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[< prev]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[< prev]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[b09ndpgf9p]": {
+   "branch_id": "s002|t12|click[b09ndpgf9p]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[b09ndpgf9p]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[b09ndpgf9p]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[b08b3nhhzr]": {
+   "branch_id": "s002|t12|click[b08b3nhhzr]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[b08b3nhhzr]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[b08b3nhhzr]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[b07fb82h9d]": {
+   "branch_id": "s002|t12|click[b07fb82h9d]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[b07fb82h9d]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[b07fb82h9d]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[b09s3qxkvs]": {
+   "branch_id": "s002|t12|click[b09s3qxkvs]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[b09s3qxkvs]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[b09s3qxkvs]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[b00ikj3k2i]": {
+   "branch_id": "s002|t12|click[b00ikj3k2i]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[b00ikj3k2i]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[b00ikj3k2i]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[b07tt4xp5q]": {
+   "branch_id": "s002|t12|click[b07tt4xp5q]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[b07tt4xp5q]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[b07tt4xp5q]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[b07tpxtvkx]": {
+   "branch_id": "s002|t12|click[b07tpxtvkx]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[b07tpxtvkx]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[b07tpxtvkx]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t12|click[b08gxc65jc]": {
+   "branch_id": "s002|t12|click[b08gxc65jc]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 12,
+   "action": "click[b08gxc65jc]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[b08gxc65jc]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": false,
+   "exhaustive": true,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t19|orig": {
+   "branch_id": "s002|t19|orig",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 19,
+   "action": "orig:search[camo women's running shorts elastic waistband price<50]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]"
+   ],
+   "orig": true,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t19|search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]": {
+   "branch_id": "s002|t19|search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 19,
+   "action": "search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[blooming jelly women's quick-dry running shorts workout sport layer active shorts with pockets 1.75\"]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": true,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 1.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t19|search[camo women's running shorts elastic waistband plus size price<50]": {
+   "branch_id": "s002|t19|search[camo women's running shorts elastic waistband plus size price<50]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 19,
+   "action": "search[camo women's running shorts elastic waistband plus size price<50]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband plus size price<50]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t19|search[camo women's running shorts elastic waistband size:plus price<50]": {
+   "branch_id": "s002|t19|search[camo women's running shorts elastic waistband size:plus price<50]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 19,
+   "action": "search[camo women's running shorts elastic waistband size:plus price<50]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband size:plus price<50]"
+   ],
+   "orig": false,
+   "proposers": [
+    "q7"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t19|search[camo women's running shorts]": {
+   "branch_id": "s002|t19|search[camo women's running shorts]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 19,
+   "action": "search[camo women's running shorts]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": 0,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t19|search[women's camo athletic shorts]": {
+   "branch_id": "s002|t19|search[women's camo athletic shorts]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 19,
+   "action": "search[women's camo athletic shorts]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[women's camo athletic shorts]"
+   ],
+   "orig": false,
+   "proposers": [
+    "qflash"
+   ],
+   "planner": false,
+   "random": false,
+   "exhaustive": false,
+   "flash_rank": 1,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  },
+  "s002|t19|search[than for with]": {
+   "branch_id": "s002|t19|search[than for with]",
+   "traj_id": "s002",
+   "goal": 956,
+   "t": 19,
+   "action": "search[than for with]",
+   "prefix": [
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mbvrsb]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[next >]",
+    "click[back to search]",
+    "search[camo women's running shorts elastic waistband price<50]",
+    "click[b097mcw5z8]",
+    "click[description]",
+    "click[back to search]",
+    "search[than for with]"
+   ],
+   "orig": false,
+   "proposers": [],
+   "planner": false,
+   "random": true,
+   "exhaustive": false,
+   "flash_rank": null,
+   "oracle_F": 0.0,
+   "oracle_slack": 0.0,
+   "deterministic": null,
+   "det_reward": null
+  }
+ },
+ "positions_id": "137f28ae906b8b0ccf85441443e25f4869cf7b5ec5cd7980fe762ba5ddf9d362",
+ "proposers": [
+  "q7",
+  "qflash"
+ ],
+ "settings": {
+  "profile": "S",
+  "deployer": "q7",
+  "seed": 4101,
+  "max_goals": 30,
+  "n_traj": 3,
+  "n_pos": 3,
+  "min_left": 5,
+  "n_propose": 2,
+  "proposers": [
+   "q7",
+   "qflash"
+  ],
+  "block": 30,
+  "stop_fails": 3,
+  "max_steps": 25,
+  "num_products": 100000,
+  "env_seed": 0,
+  "obs": [
+   "text_rich",
+   6000,
+   300
+  ],
+  "temperature": 0.7,
+  "mock": false
+ },
+ "design_id": "a309a0a350ad13cb6c3d6de3c063c2d2104409821cae441a1fed3f0201004b45"
+}

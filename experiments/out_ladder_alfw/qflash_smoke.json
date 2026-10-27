@@ -1,0 +1,21 @@
+{
+ "name": "qflash",
+ "n_rollouts": 40,
+ "wall_s": 271.01357109472156,
+ "success_eval": 0.825,
+ "success_7b_same_branches": 0.22000000000000003,
+ "mean_steps": 9.95,
+ "projected_hours": 13.042528108933475,
+ "usage": {
+  "calls": 429,
+  "prompt_tokens": 848341,
+  "cached_tokens": 542208,
+  "completion_tokens": 26257,
+  "retries": 0,
+  "errors": 0,
+  "length_cut": 17,
+  "seconds_in_calls": 1258.2201068401337
+ },
+ "cost_yuan": 0.4025535800000001,
+ "projected_cost_yuan": 69.74240773500001
+}
