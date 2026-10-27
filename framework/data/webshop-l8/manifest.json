@@ -1,0 +1,80 @@
+{
+  "schema_version": "repair-eval/1",
+  "pool_id": "webshop-l8",
+  "environment": "webshop",
+  "source_design_id": "615e56dd2617feabc08df2ab11ab46df619bb4515a74a3994d8641336639d47f",
+  "source_folder": "out_ws_B",
+  "source_hashes": {
+    "design.json": "763717793def3bc2c3aa73952e243e6bbd0beaa29243c9e6f3052bb6f4d176d9",
+    "positions.json": "e5280af8e4a411170d669cd295c3017aa472527ffa4c54b0293c76025de1bd60",
+    "episodes.jsonl": "615a55e05c5cb77c49123ca815fa60064506ca3194375d9b4aeb5b440d8544b7",
+    "evals_l8.jsonl": "fb6aea1dd24a73408ae1e88463061f88acddcb2b7d6c485ba6cc5ef2b5d87297",
+    "evals_q7.jsonl": "b30d2477807cf17401833bc6faea73203e6dd765852cb29f6079d2f08759ade7"
+  },
+  "deployer": "l8",
+  "primary_metric": "reward",
+  "metrics": [
+    "success",
+    "reward"
+  ],
+  "executors": {
+    "l8": {
+      "model": "Llama-3.1-8B-Instruct",
+      "samples": 10,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "greedy_temperature": 0.0,
+      "max_invalid_retries": 2,
+      "history": "actions and observations; no earlier thoughts",
+      "seed_provenance": "reconstructed from original SHA256(condition|batch|branch|index), not observed RNG state"
+    },
+    "q7": {
+      "model": "Qwen2.5-7B-Instruct",
+      "samples": 10,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "greedy_temperature": 0.0,
+      "max_invalid_retries": 2,
+      "history": "actions and observations; no earlier thoughts",
+      "seed_provenance": "reconstructed from original SHA256(condition|batch|branch|index), not observed RNG state"
+    }
+  },
+  "pending_executors": [],
+  "max_steps": 25,
+  "screening": "first failures, not screened by repair value",
+  "restrictions": "ALFWorld excludes two-object tasks and requires >=5 planner slack; WebShop requires >=5 remaining steps",
+  "source_settings": {
+    "profile": "B",
+    "deployer": "l8",
+    "seed": 4002,
+    "max_goals": 300,
+    "n_traj": 60,
+    "n_pos": 3,
+    "min_left": 5,
+    "n_propose": 2,
+    "proposers": [
+      "q7",
+      "l8",
+      "qflash"
+    ],
+    "block": 100,
+    "stop_fails": 70,
+    "max_steps": 25,
+    "num_products": 100000,
+    "env_seed": 0,
+    "obs": [
+      "text_rich",
+      6000,
+      300
+    ],
+    "temperature": 0.7,
+    "mock": false
+  },
+  "files": {
+    "design.json": "d63bfe22c73bcebc3890351e60dec82d1536700c7487bad1c12d58dc02f3b49e",
+    "outcomes/l8.jsonl": "d3df0e2648b4f9ea86286c11918dc8dc7a1e610a740ec03c500ca27e6f89743c",
+    "outcomes/q7.jsonl": "179ab316c4105d634c6fd15c8ab6a4593d4a1b52c97cdb36f6e0a3fac26a71cb",
+    "tasks.jsonl": "a830e4ec350f1709728c5f8e3344f08021bb2458cb505d6e7d10c213c1d959b5"
+  },
+  "bundle_id": "bd212fadd54652b5f0e6777628cc2d1c1022b8ba01aa4fb8e1dc06c50cbba2e0"
+}

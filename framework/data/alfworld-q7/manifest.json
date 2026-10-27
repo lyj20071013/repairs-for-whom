@@ -1,0 +1,89 @@
+{
+  "schema_version": "repair-eval/1",
+  "pool_id": "alfworld-q7",
+  "environment": "alfworld",
+  "source_design_id": "8402896c0d67e6cfc56d4949e1fd9c84248158176b1a03da109d3b5d74337cb4",
+  "source_folder": "out_ds_alfw",
+  "source_hashes": {
+    "design.json": "abed43d474e23894d6ec25651e542f46999083b7ae213d04362651b3b070c390",
+    "positions.json": "bfb3a43bc742653a6fb129027681c7d09dfc6b973b9c2cdee8b48d7224ccf04f",
+    "episodes.jsonl": "6e009bec801928de1f84a5a0f8fdebbb1a3ee08c2c21e83b3a30bab5c6f2b857",
+    "evals_q7.jsonl": "76b4a64babca6a923f76c69855db793dce7c7b467c1b3c54556ebd5a042b70c4",
+    "evals_q14.jsonl": "3e0077688f23d9cbc3f864d429f4f6f3626ceb7923c3bbb0c7aef7c79ddaac76",
+    "evals_l8.jsonl": "583bcefb55d36b45b73a2658e9bd7f5dd3e59b50dcb6f975802fd11afca5920d"
+  },
+  "deployer": "q7",
+  "primary_metric": "success",
+  "metrics": [
+    "success"
+  ],
+  "executors": {
+    "q7": {
+      "model": "Qwen2.5-7B-Instruct",
+      "samples": 10,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "greedy_temperature": 0.0,
+      "max_invalid_retries": 2,
+      "history": "actions and observations; no earlier thoughts",
+      "seed_provenance": "reconstructed from original SHA256(condition|batch|branch|index), not observed RNG state"
+    },
+    "q14": {
+      "model": "Qwen2.5-14B-Instruct",
+      "samples": 20,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "greedy_temperature": 0.0,
+      "max_invalid_retries": 2,
+      "history": "actions and observations; no earlier thoughts",
+      "seed_provenance": "reconstructed from original SHA256(condition|batch|branch|index), not observed RNG state"
+    },
+    "l8": {
+      "model": "Llama-3.1-8B-Instruct",
+      "samples": 10,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "greedy_temperature": 0.0,
+      "max_invalid_retries": 2,
+      "history": "actions and observations; no earlier thoughts",
+      "seed_provenance": "reconstructed from original SHA256(condition|batch|branch|index), not observed RNG state"
+    }
+  },
+  "pending_executors": [],
+  "max_steps": 50,
+  "screening": "first failures, not screened by repair value",
+  "restrictions": "ALFWorld excludes two-object tasks and requires >=5 planner slack; WebShop requires >=5 remaining steps",
+  "source_settings": {
+    "SEED": 2028,
+    "N_COLLECT": 220,
+    "N_TRAJ": 60,
+    "N_POS": 3,
+    "MIN_SLACK": 5,
+    "PLAN_TIMEOUT": 60,
+    "N_PROPOSE": 2,
+    "N_RANDOM": 1,
+    "PROPOSERS": [
+      "q7",
+      "q14",
+      "qflash"
+    ],
+    "N_EXEC": {
+      "q7": 10,
+      "q14": 20
+    },
+    "BATCH": "D",
+    "MAX_STEPS": 50,
+    "TEMPERATURE": 0.7,
+    "TOP_P": 0.95,
+    "mock": false,
+    "smoke": false
+  },
+  "files": {
+    "design.json": "fbcd30e59e1b74f7e8b678ef93ccdf42dce1c41d48d0f706ef3aa0094a919105",
+    "outcomes/l8.jsonl": "b174a8ecdd4bb9cb813ae3d493781fea69a7f7b8851d82f6afb7658e65e01328",
+    "outcomes/q14.jsonl": "bd292609fd157aa6dade4bfc7ca58e42284e70fc43ae5a9b200c3e71ebed0e2a",
+    "outcomes/q7.jsonl": "8d0b013601fe60bf0b38ac8f72bbac45f13e1ab9c81517f2e7844c09e9f34b15",
+    "tasks.jsonl": "227617cffcc9c38aad0b4d8c5c9facb966b4e5c9a47596815cd9dbca2912f709"
+  },
+  "bundle_id": "949f7a18c3e83c77135872e18ca1add4a7679e15327e3ddc11dedb59cd66645e"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "repair-eval/1",
+  "pool_id": "alfworld-l8",
+  "environment": "alfworld",
+  "source_design_id": "447c718a40d1be23f56d7a0aa0358072a6410a333cdc8cd3f783fa9f85d23896",
+  "source_folder": "out_ds_alfw_l8",
+  "source_hashes": {
+    "design.json": "fb16f698245d0897d2f1a6c997a49c814897e363bb4284637ed6132ce658f20c",
+    "positions.json": "140479bb1effd94d9fe37c4b4e81ca432b5c98f3713fc8182791c18f151b11c2",
+    "episodes.jsonl": "bde1783197ec2e152f53af196148edf0bc2b3e72b8fd51ca26479b1640d73152",
+    "evals_l8.jsonl": "605fa8ed15a626df35542bc9d98d73c1338b6a2348df9230337ff5a97c0f37a1",
+    "evals_q7.jsonl": "cf5858bff61bb8605dfcd01a2a17f04a8beba6fc208014df169c0c2f1e61ad2c"
+  },
+  "deployer": "l8",
+  "primary_metric": "success",
+  "metrics": [
+    "success"
+  ],
+  "executors": {
+    "l8": {
+      "model": "Llama-3.1-8B-Instruct",
+      "samples": 10,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "greedy_temperature": 0.0,
+      "max_invalid_retries": 2,
+      "history": "actions and observations; no earlier thoughts",
+      "seed_provenance": "reconstructed from original SHA256(condition|batch|branch|index), not observed RNG state"
+    },
+    "q7": {
+      "model": "Qwen2.5-7B-Instruct",
+      "samples": 10,
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "greedy_temperature": 0.0,
+      "max_invalid_retries": 2,
+      "history": "actions and observations; no earlier thoughts",
+      "seed_provenance": "reconstructed from original SHA256(condition|batch|branch|index), not observed RNG state"
+    }
+  },
+  "pending_executors": [],
+  "max_steps": 50,
+  "screening": "first failures, not screened by repair value",
+  "restrictions": "ALFWorld excludes two-object tasks and requires >=5 planner slack; WebShop requires >=5 remaining steps",
+  "source_settings": {
+    "SEED": 2029,
+    "N_TRAJ": 60,
+    "N_POS": 3,
+    "MIN_SLACK": 5,
+    "PLAN_TIMEOUT": 60,
+    "N_PROPOSE": 2,
+    "N_RANDOM": 1,
+    "PROPOSERS": [
+      "l8",
+      "q7",
+      "qflash"
+    ],
+    "N_EXEC": {
+      "l8": 10,
+      "q7": 10
+    },
+    "BATCH": "D",
+    "DEPLOYER": "l8",
+    "N_COLLECT_MAX": 600,
+    "COLLECT_CHUNK": 100,
+    "N_FAIL_TARGET": 70,
+    "MAX_STEPS": 50,
+    "TEMPERATURE": 0.7,
+    "TOP_P": 0.95,
+    "mock": false,
+    "smoke": false
+  },
+  "files": {
+    "design.json": "cf22f6c432a2a39ef3037dda5bf28dbc7a05f938e2dfd900bd76f779ecafdae9",
+    "outcomes/l8.jsonl": "78274006e7f1541bae133b4761f14f4c8a10b44a5e16fb49b8981ecab32faaaa",
+    "outcomes/q7.jsonl": "9b93ba319eb35ace67e1187b82d7d10ab1262f93662f09f60d7d69ca4eed03f3",
+    "tasks.jsonl": "028c9d1c778513de9f7cfe98c7393a6869255ebbb25fb7f4b5161f5c224230f6"
+  },
+  "bundle_id": "bb1d73c654bbbb042daa0848ce590b2a59a9250b0ae1897b308d66942846aa9c"
+}
