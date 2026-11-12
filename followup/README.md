@@ -22,7 +22,7 @@ Dated registration (登记_*), definition (定义_*), amendment and result (*结
 - `repair_training/论文方案.md` is the cumulative plan of the training project (pre-specified successor training and evaluation).
 - `repair_budget/tau2_pilot/*结果_tau2.md`, `步骤_tau2先导.md`: pilot notes.
 
-Read each note's own status line: some analyses are pre-specified, some post hoc, some exploratory. The manuscript's status table (Appendix "Status of Every Analysis") is the authoritative classification.
+Read each note's own status line: some analyses are pre-specified, some post hoc, some exploratory. The paper's status table (Appendix "Status of Every Analysis", arXiv:2610.38610) is the authoritative classification.
 
 ## Code identity and paths
 
