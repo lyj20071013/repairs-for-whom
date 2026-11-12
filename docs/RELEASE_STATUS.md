@@ -1,8 +1,22 @@
 # Release status
 
-Data snapshot: **2026-10-28**, including completed P2w. Packaging verified on **2026-10-28**.
+Data snapshot: **2026-11-13** (final manuscript). Previous snapshot: 2026-10-28, including completed P2w. The 2026-11-13 update is described in the next section; the remaining sections describe the 2026-10-28 packaging and still apply to the files it covers.
 
-## Verified
+## 2026-11-13 update
+
+Added: the successor-training and staleness studies and the τ²-bench pilots, main pool and label-training study (`followup/`); the τ²-bench 2B ← 4B shared-pool analysis (`experiments/tau2r/`, `experiments/out_tau_pool/`); post hoc analyses (`experiments/posthoc/ratio_loss.*`, `headroom.*`, `rev14.py`, `experiments/out_rev14/`); the November registration notes (`analysis_plan/amendments_202611/`). Replaced: `analysis_plan/论文方案.md` (cumulative plan, now including 6.14) and `manuscript/example_paper.tex`/`.bib` (final text). Unchanged: all other 2026-10-28 files, including `framework/` and its reference records.
+
+Checks run during this packaging (CPU only, no new inference):
+
+- `python tools/verify_release.py` against the regenerated SHA256 inventory.
+- Every added file is a byte copy of the file on the authors' machine, with one exception: a line holding a server SSH address in `followup/repair_budget/tau2_pilot/步骤_tau2先导.md` was replaced by a note. Source paths and hashes are in `provenance/update_20261113.json`.
+- Four archived reports were regenerated from the released records and compared byte-for-byte; all were identical: the τ²-bench shared-pool primary analysis (`experiments/out_tau_pool/report_main_v3.md`, via `tau2r/pool_analyze.py`), the τ²-bench H1/H2 report (`report_h1h2.md`, via `tau2r/h1h2_analyze.py report`), the post hoc loss-share and headroom tables (`posthoc/ratio_loss.*`, `posthoc/headroom.*`), and the Experiment B report (`followup/repair_budget/alfw_stale/out_np/report_np.*`). Commands are in `provenance/update_20261113.json`.
+- The manuscript was built with `latexmk -pdf` without errors or undefined references.
+- A text scan for credentials, SSH settings and e-mail addresses over all added files.
+
+Not checked: the other follow-up reports were not regenerated (several need τ²-bench source runs or model servers that are not part of the release; for example, the τ²-bench training study's end-to-end line reads `results.json` files that are not included). No GPU or environment run was repeated. The added code was not localized and was not covered by the framework unit tests.
+
+## Verified (2026-10-28 packaging)
 
 - 19 framework unit tests passed, including cross-fitting, outcome isolation, integrity checks and mock replay/resume.
 - All four standardized bundles passed schema, identity, candidate/branch joins, outcome coverage and hash validation.

@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-10-28",
+  "snapshot_date": "2026-11-13",
   "source_base": "authors-local-Paper-directory",
   "files": [
     {
@@ -2165,8 +2165,8 @@
     {
       "path": "analysis_plan/论文方案.md",
       "source": "repair_transfer/论文方案.md",
-      "sha256": "fd0f7801d33f00a4943306a992655176044541e804b8c6ee5c20f4f4acd29f98",
-      "bytes": 227220
+      "sha256": "69554b9c77270326ad400485b6cea14a850e76070966010604aea46164d4f785",
+      "bytes": 261286
     },
     {
       "path": "framework/.gitignore",
@@ -2836,15 +2836,15 @@
     },
     {
       "path": "manuscript/example_paper.bib",
-      "source": "overleaf/example_paper.bib",
-      "sha256": "932deba08d0ccf4d1f3f4ddb42283ce9b08ca905941f3fb95e20cf48ff381419",
-      "bytes": 12652
+      "source": "overleaf/example_paper_merged.bib",
+      "sha256": "c59c8caa1fb0d651f1942c68dd3c1321127a541c85addb30383d0eaab9ea1e45",
+      "bytes": 26622
     },
     {
       "path": "manuscript/example_paper.tex",
-      "source": "overleaf_arxiv/example_paper.tex",
-      "sha256": "bd7ba457f7e9b4dde8b20cc236ef0feb8c32aa581daad0a020c7a706ac5195e1",
-      "bytes": 87549
+      "source": "overleaf/example_paper_merged.tex",
+      "sha256": "26acd1d606ba61127adee688a389506caa55965dc95ad82bc3be3c87e830bfc0",
+      "bytes": 119958
     },
     {
       "path": "manuscript/fancyhdr.sty",
@@ -2923,6 +2923,1578 @@
       "source": "repair_transfer/out_ws_A/timing_q14.json",
       "sha256": "124f9db254923d16be4e14798e8f116e67b5246649b5a025e56177b64523d00b",
       "bytes": 664
+    },
+    {
+      "path": "analysis_plan/amendments_202611/6.14修订5_缺失续跑_20261111.md",
+      "source": "repair_transfer/6.14修订5_缺失续跑_20261111.md",
+      "sha256": "bb55e6900dbe306d671e3b2b630264d1060690375381884996f51905546cf260",
+      "bytes": 2199
+    },
+    {
+      "path": "analysis_plan/amendments_202611/事后分析_余量与可靠性_定义_20261111.md",
+      "source": "repair_transfer/posthoc/事后分析_余量与可靠性_定义_20261111.md",
+      "sha256": "57129772c6410c07d6502db0c735966465257bf0542fa9e65ee0f3e4c82a1d3c",
+      "bytes": 3666
+    },
+    {
+      "path": "analysis_plan/amendments_202611/登记_策略差异与损失_20261111.md",
+      "source": "repair_transfer/登记_策略差异与损失_20261111.md",
+      "sha256": "ba18dc1ce1ee88b0564611f8c0f6dcd24da0fc7a3abf4968c0a452afd0e869d4",
+      "bytes": 6322
+    },
+    {
+      "path": "analysis_plan/amendments_202611/结果_τ²共享池_P1τP2τ与H1H2_20261111.md",
+      "source": "repair_transfer/结果_τ²共享池_P1τP2τ与H1H2_20261111.md",
+      "sha256": "256d063233d8e73901c6a306c7c8501499c21d638d2a47dd16c4e147d5524467",
+      "bytes": 2576
+    },
+    {
+      "path": "experiments/out_rev14/report.md",
+      "source": "repair_transfer/out_rev14/report.md",
+      "sha256": "08b7b3b775b14d4d060908c37ada7a40a01898ed0273a7b19c5a4f25c6000fe1",
+      "bytes": 2058
+    },
+    {
+      "path": "experiments/out_rev14/rev14.json",
+      "source": "repair_transfer/out_rev14/rev14.json",
+      "sha256": "c2f39f3033beaf8f2205487bc6138fd3aff9463ea9551f2514a85ab745b59e11",
+      "bytes": 4527
+    },
+    {
+      "path": "experiments/out_tau_pool/analysis_main_v3.json",
+      "source": "repair_transfer/out_tau_pool/analysis_main_v3.json",
+      "sha256": "b52db3e9c5affad27a0ba7441bc5c48f22b5b140ffc0191e3461495b2379e6d5",
+      "bytes": 249471
+    },
+    {
+      "path": "experiments/out_tau_pool/analysis_sens_nomiss.json",
+      "source": "repair_transfer/out_tau_pool/analysis_sens_nomiss.json",
+      "sha256": "47f91405fe02bca4a6c4c69de8023825151db86b891afe4c8016b26ff9ad265a",
+      "bytes": 237014
+    },
+    {
+      "path": "experiments/out_tau_pool/analysis_sens_v2.json",
+      "source": "repair_transfer/out_tau_pool/analysis_sens_v2.json",
+      "sha256": "35e7f46686b84319d1143a33717065672fa5c455a414008fb030ef8fd9deae3f",
+      "bytes": 249444
+    },
+    {
+      "path": "experiments/out_tau_pool/design_p4sub.jsonl",
+      "source": "repair_transfer/out_tau_pool/design_p4sub.jsonl",
+      "sha256": "2c9151141bb941cffec225108da42ead902d7a7e9ed09724a77009919bd2566f",
+      "bytes": 1438934
+    },
+    {
+      "path": "experiments/out_tau_pool/p4sub_2b.txt",
+      "source": "repair_transfer/out_tau_pool/p4sub_2b.txt",
+      "sha256": "57624bf4543c11909ccf48431929f117572b917d66bbfb709cd12d2560b8dc27",
+      "bytes": 8704
+    },
+    {
+      "path": "experiments/out_tau_pool/p4sub_2b_nomiss.txt",
+      "source": "repair_transfer/out_tau_pool/p4sub_2b_nomiss.txt",
+      "sha256": "b214af1f1be2c9e35b9a49c691b776bd4b4254905a091ffce9474a34faa67212",
+      "bytes": 8213
+    },
+    {
+      "path": "experiments/out_tau_pool/report_h1h2.json",
+      "source": "repair_transfer/out_tau_pool/report_h1h2.json",
+      "sha256": "b8decd2dbb56c30627a1dc5485d9424c936241315efa411670f677b675e72d92",
+      "bytes": 2569
+    },
+    {
+      "path": "experiments/out_tau_pool/report_h1h2.md",
+      "source": "repair_transfer/out_tau_pool/report_h1h2.md",
+      "sha256": "3930e6cc4f4e453eb761be31a6288d58d6d71dee6c107db2456c225d35bdf780",
+      "bytes": 1622
+    },
+    {
+      "path": "experiments/out_tau_pool/report_h1h2.positions.json",
+      "source": "repair_transfer/out_tau_pool/report_h1h2.positions.json",
+      "sha256": "ad87c4f2f56f6d3e24108c2c367453132b88f65d661ff717b300a002e356671f",
+      "bytes": 94762
+    },
+    {
+      "path": "experiments/out_tau_pool/report_main_v3.md",
+      "source": "repair_transfer/out_tau_pool/report_main_v3.md",
+      "sha256": "a47724d23380dfc22ce68ee6313a675569d958d17924d0705c9ede663100d896",
+      "bytes": 4404
+    },
+    {
+      "path": "experiments/out_tau_pool/report_sens_nomiss.md",
+      "source": "repair_transfer/out_tau_pool/report_sens_nomiss.md",
+      "sha256": "9fcc19091e11e10ec6414a2dcaa3763b9ec1eb9875224842ffbfba03c32df411",
+      "bytes": 4403
+    },
+    {
+      "path": "experiments/out_tau_pool/report_sens_v2.md",
+      "source": "repair_transfer/out_tau_pool/report_sens_v2.md",
+      "sha256": "e9a89bfc8f5fb5a7ead2963efb6ec554097bb24a9f93144ac9ca86c43efd30ba",
+      "bytes": 4404
+    },
+    {
+      "path": "experiments/out_tau_pool/ro_2b.jsonl",
+      "source": "repair_transfer/out_tau_pool/ro_2b.jsonl",
+      "sha256": "2a422bba417c033064865363aa94a80c6a9865c324e1c1aac99859bc309f31e9",
+      "bytes": 3184620
+    },
+    {
+      "path": "experiments/out_tau_pool/ro_2b_fill.jsonl",
+      "source": "repair_transfer/out_tau_pool/ro_2b_fill.jsonl",
+      "sha256": "93ae38c3bb59d1295bc7f5f26ac7f1c99f2815dd754c2e0d6f5ea9182b0a5d50",
+      "bytes": 22365
+    },
+    {
+      "path": "experiments/out_tau_pool/ro_2b_greedy.jsonl",
+      "source": "repair_transfer/out_tau_pool/ro_2b_greedy.jsonl",
+      "sha256": "871417b6bd5f4c6952838052f050cab30811b5e5c8a69e4cb0d9675c771dbf1f",
+      "bytes": 319059
+    },
+    {
+      "path": "experiments/posthoc/headroom.json",
+      "source": "repair_transfer/posthoc/headroom.json",
+      "sha256": "ecf9bd5b4576b742d7d9223a32db936f948e63e9f59b0aefac256bbbe6b69ed3",
+      "bytes": 6418
+    },
+    {
+      "path": "experiments/posthoc/headroom.md",
+      "source": "repair_transfer/posthoc/headroom.md",
+      "sha256": "affcc5bc07c228585e289cfbf95edbeed714e212ec25d17c3aabef5e460205a5",
+      "bytes": 4135
+    },
+    {
+      "path": "experiments/posthoc/headroom.py",
+      "source": "repair_transfer/posthoc/headroom.py",
+      "sha256": "d3f8002388cb23cf1ac99cd0c7aca1325851dc5efc3fe64875008798f796897c",
+      "bytes": 14131
+    },
+    {
+      "path": "experiments/posthoc/ratio_loss.json",
+      "source": "repair_transfer/posthoc/ratio_loss.json",
+      "sha256": "55262568601061b987b86b6acac79801cd47ab26a108e0ce554b8ecfcff2c975",
+      "bytes": 2352
+    },
+    {
+      "path": "experiments/posthoc/ratio_loss.md",
+      "source": "repair_transfer/posthoc/ratio_loss.md",
+      "sha256": "a9e3ae6e7a22051b4e1f8375a7318c09f98d5d5a8a653871bef2d28c81da5463",
+      "bytes": 972
+    },
+    {
+      "path": "experiments/posthoc/ratio_loss.py",
+      "source": "repair_transfer/posthoc/ratio_loss.py",
+      "sha256": "e3bdbc1c63229193569a0385b1bd26185cef0fcc427eaba2f58acf0fc8a79c15",
+      "bytes": 3438
+    },
+    {
+      "path": "experiments/posthoc/rev14.py",
+      "source": "repair_transfer/posthoc/rev14.py",
+      "sha256": "cd07080b27075438473300092a5172d3cda1e8d59202beb732b37cbd45d49afd",
+      "bytes": 5288
+    },
+    {
+      "path": "experiments/tau2r/fill_missing.py",
+      "source": "repair_transfer/tau2r/fill_missing.py",
+      "sha256": "776c7d9cede0b995e0332cd5d2e6f5b9f7699e76b177fefbdbb6478092a9d482",
+      "bytes": 3185
+    },
+    {
+      "path": "experiments/tau2r/h1h2_analyze.py",
+      "source": "repair_transfer/tau2r/h1h2_analyze.py",
+      "sha256": "fc0c52b7bfb8ab59f77c8b6484400f8d8d9d5bab56983a3d09729b9b4ee84af9",
+      "bytes": 17234
+    },
+    {
+      "path": "experiments/tau2r/pool_analyze.py",
+      "source": "repair_transfer/tau2r/pool_analyze.py",
+      "sha256": "7557cc9ba6c9a86d94ecfa091a09c55ce3b9f00127887c46a6d6fd1b2f6e9ecd",
+      "bytes": 30841
+    },
+    {
+      "path": "experiments/tau2r/run_p4_2b.sh",
+      "source": "repair_transfer/tau2r/run_p4_2b.sh",
+      "sha256": "8398c99f2541b05507b70e3496c4ff98aef9cbd001d1cfc88bc34c1113b57f4e",
+      "bytes": 2460
+    },
+    {
+      "path": "followup/repair_budget/A层结果_20261101.md",
+      "source": "repair_budget/A层结果_20261101.md",
+      "sha256": "72bb6fab0181779cd854dbe8ce489956a8a25b017d146a43372a253a1b0e73de",
+      "bytes": 11444
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/data/design_69.json",
+      "source": "repair_budget/alfw_stale/data/design_69.json",
+      "sha256": "abed43d474e23894d6ec25651e542f46999083b7ae213d04362651b3b070c390",
+      "bytes": 1222542
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/data/evals_q7_69.jsonl",
+      "source": "repair_budget/alfw_stale/data/evals_q7_69.jsonl",
+      "sha256": "76b4a64babca6a923f76c69855db793dce7c7b467c1b3c54556ebd5a042b70c4",
+      "bytes": 920156
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/np_analyze.py",
+      "source": "repair_budget/alfw_stale/np_analyze.py",
+      "sha256": "026573c90abe3b17cdcf19883aa6b6d049805aad147a27e0eb06eab14795107d",
+      "bytes": 17925
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/np_labels.py",
+      "source": "repair_budget/alfw_stale/np_labels.py",
+      "sha256": "cdd1e337158534927fa35ea3de68d07ac4ca595f4931c511eaa367e4fc1ae93d",
+      "bytes": 8794
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_np/drift.jsonl",
+      "source": "repair_budget/alfw_stale/out_np/drift.jsonl",
+      "sha256": "d4ca8a75d7dea6a9fc0ceadf2dd85f424b5e1499ee1e4d518c79743653b42954",
+      "bytes": 4358060
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_np/full.jsonl",
+      "source": "repair_budget/alfw_stale/out_np/full.jsonl",
+      "sha256": "41d06320b734fb1c134eced048f8da1ba932b91cc5e43615d4639c4da5d5f40c",
+      "bytes": 15073665
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_np/report_np.json",
+      "source": "repair_budget/alfw_stale/out_np/report_np.json",
+      "sha256": "3d6cbf906272555d1edcaa2d3d952f0e8680765f2fee09d6926086a900f053a0",
+      "bytes": 20271
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_np/report_np.md",
+      "source": "repair_budget/alfw_stale/out_np/report_np.md",
+      "sha256": "fc94118ad28cd01888f9e57897cbd9d5d2951780361eedaa7c62b99e926f274a",
+      "bytes": 5789
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_np/self_eval_np.json",
+      "source": "repair_budget/alfw_stale/out_np/self_eval_np.json",
+      "sha256": "d30e7d31604a93a719af7eb22c39e1c1c4064803f41aa0ddfe2b2772c7fb2a91",
+      "bytes": 9633
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_np/self_eval_np.md",
+      "source": "repair_budget/alfw_stale/out_np/self_eval_np.md",
+      "sha256": "fe8169981b92abf19f4abd61c4d9dbfc16fede70444246db2ec4769b6e370a17",
+      "bytes": 4540
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_np/timing.json",
+      "source": "repair_budget/alfw_stale/out_np/timing.json",
+      "sha256": "86d5ba5441a30fdeb23795bb6ed1e26e28302fffc69f2cfd5dbbede5ceda3124",
+      "bytes": 768
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_np/train_log_s11.json",
+      "source": "repair_budget/alfw_stale/out_np/train_log_s11.json",
+      "sha256": "9b6011bd4971a319c31e36b930f8f7a38b57863710a97596e1dcf52a6957dbdc",
+      "bytes": 22992
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_np/train_log_s12.json",
+      "source": "repair_budget/alfw_stale/out_np/train_log_s12.json",
+      "sha256": "91934e1292dd95780204851989334ca56bed722098e248edbc58d2fcfb605393",
+      "bytes": 22966
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_np/trainsets_np.json",
+      "source": "repair_budget/alfw_stale/out_np/trainsets_np.json",
+      "sha256": "461992c7748c6abd4bd97a04c9d4195141ff05252ece53aaf8d3f31ba4be1cfe",
+      "bytes": 33982
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/analysis_stale.json",
+      "source": "repair_budget/alfw_stale/out_stale/analysis_stale.json",
+      "sha256": "c9ea711b351b9727d0cd347049c8b8009aabad26d25b88213b8549f4cf85261f",
+      "bytes": 14870
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/drift.jsonl",
+      "source": "repair_budget/alfw_stale/out_stale/drift.jsonl",
+      "sha256": "093c6e74abd1de9fa58f8f4940d63838e3cf7c61e99b2850328ae3ee954eef81",
+      "bytes": 29057213
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/free_b.jsonl",
+      "source": "repair_budget/alfw_stale/out_stale/free_b.jsonl",
+      "sha256": "6bedbc18a64219cd6140702c312279b7bbc18052aed766ab1aeba30631dcd670",
+      "bytes": 851938
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/full.jsonl",
+      "source": "repair_budget/alfw_stale/out_stale/full.jsonl",
+      "sha256": "1ca0353145124d44f1d40553d84000bac35bc18f2b66b8e1214fb77b0affae14",
+      "bytes": 14891616
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/planner_split.json",
+      "source": "repair_budget/alfw_stale/out_stale/planner_split.json",
+      "sha256": "feeda597370cc457d24f809383edbbfeaa288ca2e70fa2d527956348ac2811e1",
+      "bytes": 1478
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/planner_split.md",
+      "source": "repair_budget/alfw_stale/out_stale/planner_split.md",
+      "sha256": "04b82a247fd19b71f581403562a14141be2503f7bb5be0ebf1180253925045d1",
+      "bytes": 2787
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/posthoc_noplanner.json",
+      "source": "repair_budget/alfw_stale/out_stale/posthoc_noplanner.json",
+      "sha256": "65a1db09db38ea5c6540f1c27fc6d3937d2776c4e0be47fd2688f8e76533be33",
+      "bytes": 11001
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/posthoc_noplanner.md",
+      "source": "repair_budget/alfw_stale/out_stale/posthoc_noplanner.md",
+      "sha256": "ac54efd3c9c046878ea6c0e478ddff0d200ad9f132b559ce7f08dea49e8c0417",
+      "bytes": 7030
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/repair_windows.json",
+      "source": "repair_budget/alfw_stale/out_stale/repair_windows.json",
+      "sha256": "eebcb5e5609788b3fec2a685993cb89cd4f487db54b9c18be8571b820d2cc505",
+      "bytes": 747
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/repair_windows.md",
+      "source": "repair_budget/alfw_stale/out_stale/repair_windows.md",
+      "sha256": "33072f12dc9d61a10dce8bd7d76171e3ec22a112888ba0f220355ed1e927767f",
+      "bytes": 1215
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/report_stale.md",
+      "source": "repair_budget/alfw_stale/out_stale/report_stale.md",
+      "sha256": "8e795805103d0966db6cb51963e3747d365a3d9698a6bb38c4ac7ffb78ccf097",
+      "bytes": 9008
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/reverse.jsonl",
+      "source": "repair_budget/alfw_stale/out_stale/reverse.jsonl",
+      "sha256": "acd94c79348b6e54b8f50c797fb1add76d075884fe6cecf4b6f4fffecbffc96b",
+      "bytes": 1862127
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/self_eval.json",
+      "source": "repair_budget/alfw_stale/out_stale/self_eval.json",
+      "sha256": "55fc30a1178fa72784d71951111e3feadc76a8565f541d825dc4060203ed490f",
+      "bytes": 9597
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/self_eval.md",
+      "source": "repair_budget/alfw_stale/out_stale/self_eval.md",
+      "sha256": "45699efbda934ada72d05884bd73321794e2850656b532dd46787dab49b315c0",
+      "bytes": 4484
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/stale_predict.json",
+      "source": "repair_budget/alfw_stale/out_stale/stale_predict.json",
+      "sha256": "faff979bf620695d8c1fa3368e7192e78ea761471338b77a191bc31b3e176f26",
+      "bytes": 4883
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/stale_predict.md",
+      "source": "repair_budget/alfw_stale/out_stale/stale_predict.md",
+      "sha256": "4d52ce7310b78c929d9423c3a0af45f3fa91f36144e2f0b8dbd6909dbbfae254",
+      "bytes": 5105
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/timing.json",
+      "source": "repair_budget/alfw_stale/out_stale/timing.json",
+      "sha256": "1ee59297f7d119abaedc1382a98dd6ab8f804c0dd9b157ea134ea87392154c91",
+      "bytes": 5315
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/out_stale/two.jsonl",
+      "source": "repair_budget/alfw_stale/out_stale/two.jsonl",
+      "sha256": "c58f1be55bcfeb4e9467d3458374b8c8fad7c2993cb727ee12fdb7686b019787",
+      "bytes": 9073652
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/planner_split.py",
+      "source": "repair_budget/alfw_stale/planner_split.py",
+      "sha256": "2f2202ef8084da230820db1dc18628a6f29800883e4dae04c2a05ec4a811e607",
+      "bytes": 5406
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/posthoc_noplanner.py",
+      "source": "repair_budget/alfw_stale/posthoc_noplanner.py",
+      "sha256": "3da4fe0fe56b9e85c5c994ed21ad9b8c768f13d50cdc7aca734107ab0f8ad96f",
+      "bytes": 9919
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/repair_windows.py",
+      "source": "repair_budget/alfw_stale/repair_windows.py",
+      "sha256": "1cc03edd7c139fcefe89b057bcb46447bf6915b531b81c8dd6243893a972d18a",
+      "bytes": 2989
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/run_np.sh",
+      "source": "repair_budget/alfw_stale/run_np.sh",
+      "sha256": "8ab91518ceac0e96b7c6de101c94d8cb6c19ccbe2ffb8acb404d62a18dcb7410",
+      "bytes": 5084
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/run_stale.sh",
+      "source": "repair_budget/alfw_stale/run_stale.sh",
+      "sha256": "0fd3757c264c67f60c5c6dae3d4b5afcd3296c727907268dc04bdd0551cfb863",
+      "bytes": 4320
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/self_eval.py",
+      "source": "repair_budget/alfw_stale/self_eval.py",
+      "sha256": "813f06107872ec9b4311b222a62531efed461ff89c03acf0d98891b400387b7d",
+      "bytes": 8608
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/stale_alfw.py",
+      "source": "repair_budget/alfw_stale/stale_alfw.py",
+      "sha256": "d602fd915f5468639eb13ac3e7f35c9b25a392175d85c7d3de34322224743ae9",
+      "bytes": 21586
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/stale_analyze.py",
+      "source": "repair_budget/alfw_stale/stale_analyze.py",
+      "sha256": "7ca915dede4bd078d28563619a5eb8615e0ba85429d5a5a45b8895a59d25d53c",
+      "bytes": 22266
+    },
+    {
+      "path": "followup/repair_budget/alfw_stale/stale_predict.py",
+      "source": "repair_budget/alfw_stale/stale_predict.py",
+      "sha256": "5d2a56f2136b1dae152ff27aec16b6f8c920781703558a105c48ba393099e7f5",
+      "bytes": 7837
+    },
+    {
+      "path": "followup/repair_budget/label_reliability.json",
+      "source": "repair_budget/label_reliability.json",
+      "sha256": "36a69e6ab4404e01971ba0e82631959689923598bed1bcb522dcdde678353cbf",
+      "bytes": 8525
+    },
+    {
+      "path": "followup/repair_budget/label_reliability.md",
+      "source": "repair_budget/label_reliability.md",
+      "sha256": "e1f96917c076539b4e3d5dbd02b7a7ba7d2130b70e6f3a7c121a22ef5f464e57",
+      "bytes": 3480
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/adm_design.py",
+      "source": "repair_budget/tau2_pilot/adm_design.py",
+      "sha256": "0a8c59614e78c8c6cee25defb37ee9a74ab59f579c6b79cbeb7e526786827d84",
+      "bytes": 2337
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/adm_tau2.py",
+      "source": "repair_budget/tau2_pilot/adm_tau2.py",
+      "sha256": "4500b914aa8ccf01a5d93b627e36ac6f1981a4e5d411b67a9ed3690bcada4de7",
+      "bytes": 18554
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/analyze_pilot.py",
+      "source": "repair_budget/tau2_pilot/analyze_pilot.py",
+      "sha256": "529a0be8aefef5ec1e8fbaf646826939cef09931eee1a783dded66af17942cdf",
+      "bytes": 8250
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/analyze_tk.py",
+      "source": "repair_budget/tau2_pilot/analyze_tk.py",
+      "sha256": "9993995336ee2cff8b4de40bb706a8f134db70d0b137da684603ed126b5d4338",
+      "bytes": 4148
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/branch_tau2.py",
+      "source": "repair_budget/tau2_pilot/branch_tau2.py",
+      "sha256": "fbf4c7438dce956ec0d2c875be2ed8dd27f44e489debeebb9c5499ae87720193",
+      "bytes": 8112
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/chain_main.sh",
+      "source": "repair_budget/tau2_pilot/chain_main.sh",
+      "sha256": "ee6ad15ffa05eb38d2beabcac925285c280cae49b78b002b2189e898617a3620",
+      "bytes": 10674
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/chain_pi1.sh",
+      "source": "repair_budget/tau2_pilot/chain_pi1.sh",
+      "sha256": "6b6aab09dc083733b91c99ef40c79b38c736d197b38fec55132381f862a05cc9",
+      "bytes": 5341
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/classify_drift.py",
+      "source": "repair_budget/tau2_pilot/classify_drift.py",
+      "sha256": "77a49fc999151914d268de0c7c78291c6d4e13b93cfd81c9363dbd6c71032515",
+      "bytes": 11896
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/classify_fail.py",
+      "source": "repair_budget/tau2_pilot/classify_fail.py",
+      "sha256": "ea9a9f6d8553513795693c7a9d58578c060c1458792c60dd2960c33d7ea746c6",
+      "bytes": 4628
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/design_compare_tau2.py",
+      "source": "repair_budget/tau2_pilot/design_compare_tau2.py",
+      "sha256": "568071280dc7fda540f736b16bb1132b3d14377481da84267119ddc688c48404",
+      "bytes": 5098
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/download_models.py",
+      "source": "repair_budget/tau2_pilot/download_models.py",
+      "sha256": "c7dfe27e5e51c2ee0d2c6b2497b634219aff95de1f85b6973b48f55dff87c8a8",
+      "bytes": 1673
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/firstbad.py",
+      "source": "repair_budget/tau2_pilot/firstbad.py",
+      "sha256": "7cd342fba80d54bc932c200a8a370cd3c4470a1e7e7f99e0d66c4e2a54641c0f",
+      "bytes": 4816
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/fix_langpack.sh",
+      "source": "repair_budget/tau2_pilot/fix_langpack.sh",
+      "sha256": "8df06b4b241cb5a418e6c318c358b9a2ecff4b327d1753419c0db8ff46379785",
+      "bytes": 1049
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/fix_taskmix.py",
+      "source": "repair_budget/tau2_pilot/fix_taskmix.py",
+      "sha256": "31ae84c7249c12cfb95bbc21dafbe449c0b32c43276e770ccf50929145cb6cda",
+      "bytes": 5059
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/gate_free.py",
+      "source": "repair_budget/tau2_pilot/gate_free.py",
+      "sha256": "e4de204509a3f219b2217b7be672f8b1f89adaa64ef5c65a420754375d81f836",
+      "bytes": 4861
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/gate_main.py",
+      "source": "repair_budget/tau2_pilot/gate_main.py",
+      "sha256": "5d2c600369754d989606a9497f543ee4797ea92a683d31c6942e8eca61e43f1a",
+      "bytes": 13917
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/gzrobust.py",
+      "source": "repair_budget/tau2_pilot/gzrobust.py",
+      "sha256": "687848ab9278b71fee02ab158be45c87126eea26ed00509dfe651bfa9fab125e",
+      "bytes": 2180
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/ids_airline.txt",
+      "source": "repair_budget/tau2_pilot/ids_airline.txt",
+      "sha256": "5f01dd57fd3b4044fac93aaac2589bf49e34cbe1dc0713254c0f339ba2123bce",
+      "bytes": 140
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/ids_retail_det.txt",
+      "source": "repair_budget/tau2_pilot/ids_retail_det.txt",
+      "sha256": "8fabc7507cc01b297335b7efa3b5c641bd53ab822bc4982e15dce746d56c1632",
+      "bytes": 219
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/ids_telecom.txt",
+      "source": "repair_budget/tau2_pilot/ids_telecom.txt",
+      "sha256": "207d68fbd173970df6b9586be4fbcee9f796ff6041ff600ad4c533a44cbc0909",
+      "bytes": 5990
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/install_tau.sh",
+      "source": "repair_budget/tau2_pilot/install_tau.sh",
+      "sha256": "d07de285353975f735f6f91e2fb7dce4c25a0be6e9b4b0ab1a4cc01c607641e3",
+      "bytes": 4430
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/lora_parity.py",
+      "source": "repair_budget/tau2_pilot/lora_parity.py",
+      "sha256": "42bccea0a2ad122f0025a94c9cf37031a5eb7b55e44410f8b9b541ab5ed796b3",
+      "bytes": 17736
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/main_analyze.py",
+      "source": "repair_budget/tau2_pilot/main_analyze.py",
+      "sha256": "32449445f6756a2bb2b73eb15f36c095798591bdd23cdd89aaa90a5d6384ccdc",
+      "bytes": 33247
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/main_pool.py",
+      "source": "repair_budget/tau2_pilot/main_pool.py",
+      "sha256": "c8e3b97f83b1cc742e76708d96f4029d0ea47258a20b1ea40640ff988760a8ce",
+      "bytes": 16019
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pi1_diag.py",
+      "source": "repair_budget/tau2_pilot/pi1_diag.py",
+      "sha256": "a487ea3c1f246df5df3f9a237cb4217476b76e3a695dec978ea0ccb2a87ce1a2",
+      "bytes": 6737
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pilot2_all.sh",
+      "source": "repair_budget/tau2_pilot/pilot2_all.sh",
+      "sha256": "d3ea8e39bc6bff0c2594c6c810c9c79426eedbad51b75c595e87060fa6266984",
+      "bytes": 2791
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pilot_all.sh",
+      "source": "repair_budget/tau2_pilot/pilot_all.sh",
+      "sha256": "f13b18d260db9b44c004c2feac301cf851c7ef0ba87317ea0712a559125eaea3",
+      "bytes": 2453
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/adm_v2.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/adm_v2.jsonl",
+      "sha256": "a2016cb743265d35272fece6d381b1068ef9c428df20ceb2be75617e02f4f7aa",
+      "bytes": 429328
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/adm_v3.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/adm_v3.jsonl",
+      "sha256": "81948bddf19d4030123cdba5714dea0e8fdbf1d720aca7aa18d9198c3622771e",
+      "bytes": 430000
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/design_air.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/design_air.jsonl",
+      "sha256": "fc0b3f1f6e171b219810c8746d5d56e05c8e08793d12c8d8e7ead6c1a611188e",
+      "bytes": 2355056
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/design_p4retry.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/design_p4retry.jsonl",
+      "sha256": "07d0ff9fd55ade7cb7544e8e8fed61b0e9f952569d20ff06250e74197e491305",
+      "bytes": 8800
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/design_pi1_free_A.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/design_pi1_free_A.jsonl",
+      "sha256": "a443639e278e51484f7050d01549a6ba18902569426888485133b52d4a41ca28",
+      "bytes": 218558
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/design_pi1_free_B.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/design_pi1_free_B.jsonl",
+      "sha256": "7e7be504aefe01a4a4e4f2ee3ed4d2d50061d130437f0b8ce09e8d8fc88c70fd",
+      "bytes": 232007
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/design_pi1_full_A.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/design_pi1_full_A.jsonl",
+      "sha256": "8ea4ab0b49b5c9776a478d5cf091bd631bf2613f2fcd6812ea8741c4c0acd1ad",
+      "bytes": 929590
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/design_pi1_full_B.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/design_pi1_full_B.jsonl",
+      "sha256": "77e3123ddc4029f14839c4f6fe8b37a1b7ebbd0c9954803154166c632e3581d7",
+      "bytes": 1032661
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/design_pi1check_A.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/design_pi1check_A.jsonl",
+      "sha256": "f480488274f52c8884b05d6a575ad8290e19fdb7485e47ae015bed38490312be",
+      "bytes": 55612
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/design_pi1check_B.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/design_pi1check_B.jsonl",
+      "sha256": "f54543da099f42d7678a9f866bf278e0bd6f78eb4fabb90b2f728d171907c966",
+      "bytes": 56890
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/design_pi1s2_A.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/design_pi1s2_A.jsonl",
+      "sha256": "6c339c637d5afd17cd7bce8ad4707a2fa5c34957f914eb48448c04f9481f316e",
+      "bytes": 124183
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/design_ret.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/design_ret.jsonl",
+      "sha256": "9bb43a35725e3f17439f01e0f5ef6a19eb85b6b996611e13a05ff747bdc99732",
+      "bytes": 2625752
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/design_run.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/design_run.jsonl",
+      "sha256": "125a57e9427f03b11a6341c4b3e3d9b8f01c1737a4d9d159555896c3cb759351",
+      "bytes": 4298317
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/drift.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/drift.jsonl",
+      "sha256": "fbe7a5f5b81d5e374ccbb6aa7dc9b2b7311e1377513d8a4ee699289ae60d18f1",
+      "bytes": 7506155
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/drift_cls.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/drift_cls.jsonl",
+      "sha256": "bf3821001e74c5f95efbd893497c61f68423a960b21f12b55ca0a4604c73883f",
+      "bytes": 910420
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/first_cls.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/first_cls.jsonl",
+      "sha256": "672ad2038a2070fd07cfecba41fe2f50eeca2b40b72b7607c10b129af69ca240",
+      "bytes": 642586
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/first_p4.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/first_p4.jsonl",
+      "sha256": "191856eb93c40a22977fa55113db949fd0411fa7736b5cb27e2ef85cb6f51b5c",
+      "bytes": 3774044
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/first_p4_greedy.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/first_p4_greedy.jsonl",
+      "sha256": "789be09d53df9bcb357eca87cf76296c886ec88afe49ec14e4bd3dcc348741d9",
+      "bytes": 63525
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/folds.json",
+      "source": "repair_budget/tau2_pilot/pool/folds.json",
+      "sha256": "117914ca98713fe88e1de2d52347c2f6f20084ab10f83f8d7b835433a49f4e4e",
+      "bytes": 2271
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/lora_parity_A.json",
+      "source": "repair_budget/tau2_pilot/pool/lora_parity_A.json",
+      "sha256": "23d761d613a487fbf82d388c18a051f9ed0fdf8cda295b8d20ed5a67ab637548",
+      "bytes": 575680
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/lora_parity_B.json",
+      "source": "repair_budget/tau2_pilot/pool/lora_parity_B.json",
+      "sha256": "094959bafe35af125ed9f70b8c5a2422d4480309f742f49660ea9df6626b66c0",
+      "bytes": 549117
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/pi0_records.json",
+      "source": "repair_budget/tau2_pilot/pool/pi0_records.json",
+      "sha256": "659c10dc279d85c0bf94acc91b2e56956b2c5b00ea35feb89be35f51ca7dcfa4",
+      "bytes": 212252
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/positions.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/positions.jsonl",
+      "sha256": "5c301aa27970c6d7ce2462d7ef9ae15df00c03cd8677fafec69a9e5001edd92d",
+      "bytes": 152438
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/report_drift_cls.json",
+      "source": "repair_budget/tau2_pilot/pool/report_drift_cls.json",
+      "sha256": "8ff02248420b5acce8985d58014cb0b5a3edf39024356417ea40c801fc33a3e4",
+      "bytes": 1549
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/report_drift_cls.md",
+      "source": "repair_budget/tau2_pilot/pool/report_drift_cls.md",
+      "sha256": "a4b1514796e05ad59b448a637a66bd98fbaf44990ec5e101829f86b3c369beee",
+      "bytes": 2027
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/report_main.json",
+      "source": "repair_budget/tau2_pilot/pool/report_main.json",
+      "sha256": "5ea58b7acbfb1bb8adcae50d0aecba923078831be8fb8edb22254ba6ada9f44b",
+      "bytes": 35490
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/report_main.md",
+      "source": "repair_budget/tau2_pilot/pool/report_main.md",
+      "sha256": "2414969ebf37a60d9d8304f0c509186bf3ac4280c8ceef6c3b0a0a37bea15e18",
+      "bytes": 4370
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/report_terms.json",
+      "source": "repair_budget/tau2_pilot/pool/report_terms.json",
+      "sha256": "21c988b1edb440e8c2b2d3d0c55801bef89e5ea0de2425a39e26083675f22551",
+      "bytes": 4371
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/report_terms.md",
+      "source": "repair_budget/tau2_pilot/pool/report_terms.md",
+      "sha256": "b34205ad6866b85ff0c260cac001cb386779ba5eb6da7c0b07137ec0efb9b222",
+      "bytes": 2847
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/ro_pi0.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/ro_pi0.jsonl",
+      "sha256": "c194329978c901b98b162daeb84376df026ad1c531dde1da2a17d4152d4d5ff3",
+      "bytes": 7791360
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/ro_pi1_A.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/ro_pi1_A.jsonl",
+      "sha256": "05b71a0042e6878aafcd92f83b7676e82019a134f2cc13a866cee798777a9f47",
+      "bytes": 2278668
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/ro_pi1_B.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/ro_pi1_B.jsonl",
+      "sha256": "dfb00a35974a9a20cbb6fbc604ffab45b931de02ef25b8669bf366046d600aef",
+      "bytes": 2408023
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/ro_pi1s2_A.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/ro_pi1s2_A.jsonl",
+      "sha256": "d70e8b75cbff012adda135083ee3eadcb4b298bbfc172860df9ef5374c8022ef",
+      "bytes": 247510
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/samples_A.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/samples_A.jsonl",
+      "sha256": "4d988997e02d45eff08b1f7fe2332afab63b3ba19598169371b7bfa8dd7eeb8e",
+      "bytes": 3958899
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/samples_A.jsonl.admissible.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/samples_A.jsonl.admissible.jsonl",
+      "sha256": "7c72126829efd3f1eae704d4bfbc659610d7b08105acde3bedca76359de2e5b7",
+      "bytes": 135840
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/samples_A.jsonl.summary.json",
+      "source": "repair_budget/tau2_pilot/pool/samples_A.jsonl.summary.json",
+      "sha256": "0177d7c948cb7f839096e0810f9310c0d85d27228735a924877bbf11262e051b",
+      "bytes": 4576
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/samples_B.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/samples_B.jsonl",
+      "sha256": "7f9566b3439ffc19f0b0e9ceb66e5f0e654a6cf256883763990d8d4c70aaa61f",
+      "bytes": 4081370
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/samples_B.jsonl.admissible.jsonl",
+      "source": "repair_budget/tau2_pilot/pool/samples_B.jsonl.admissible.jsonl",
+      "sha256": "46d830874cf85c0b7bad29cd01b6e6b5dc556299e05b88d30758cf871ff36ae7",
+      "bytes": 128905
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/samples_B.jsonl.summary.json",
+      "source": "repair_budget/tau2_pilot/pool/samples_B.jsonl.summary.json",
+      "sha256": "79713f2b0c2ab04394b5bfdd3ce68894226e93c574a3a97d0ca17da0ae3abcf3",
+      "bytes": 4378
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool/w0.json",
+      "source": "repair_budget/tau2_pilot/pool/w0.json",
+      "sha256": "28d625de38635eaacfa64e0499d0d170e7f5e71f477d33ececce7abfab99fbe5",
+      "bytes": 61723
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/pool_tau2.py",
+      "source": "repair_budget/tau2_pilot/pool_tau2.py",
+      "sha256": "87cc0167fb66912186a791184f0d4cadd313df484e340c621a35525686224b65",
+      "bytes": 43732
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/posthoc_tau2.py",
+      "source": "repair_budget/tau2_pilot/posthoc_tau2.py",
+      "sha256": "e36f4b2453ffd355013d91145b38490a40a10c7ab09c1288331a5ceb32e0fa1c",
+      "bytes": 4828
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/power_tau2.py",
+      "source": "repair_budget/tau2_pilot/power_tau2.py",
+      "sha256": "2c93d2ccd6eabbfaac21592e3cd97aea73571ea5fc04338cdc3db5a8976cafce",
+      "bytes": 8892
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/adm_all_v2.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/adm_all_v2.jsonl",
+      "sha256": "4264d3e0a343fac31445e036fec6b1eccb0e716e4f4135f142de17ef55e873dd",
+      "bytes": 120944
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/adm_all_v3.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/adm_all_v3.jsonl",
+      "sha256": "efbde85f90870305d9541a432d980cc170c69529be7de3bf9de73cdffdef3ef5",
+      "bytes": 121408
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/adm_eval_v1.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/adm_eval_v1.jsonl",
+      "sha256": "36b03ed6916cb67b7c16e01a9355117e3b55df0fbd3a2442ffef33197abed8f2",
+      "bytes": 39768
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/adm_train_v1.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/adm_train_v1.jsonl",
+      "sha256": "fc6faa4793a7629a0ebcf3eeb5fead5796350960b9166dbb2fa438579f999aac",
+      "bytes": 85310
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/adm_v2_norand.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/adm_v2_norand.jsonl",
+      "sha256": "440aa8bcff1e9f6aca5d1c3c25cb6f8ac103bb624bfa38ace1523e4cf3135b7a",
+      "bytes": 122759
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/audit_s4_labels.txt",
+      "source": "repair_budget/tau2_pilot/probe/audit_s4_labels.txt",
+      "sha256": "bec62dae7849a3c087dfed1aba6e2a1b727815cf1fc30efc77c6d58eaa7138a4",
+      "bytes": 33838
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/design_compare.json",
+      "source": "repair_budget/tau2_pilot/probe/design_compare.json",
+      "sha256": "7ee9c61b15d5ddcfabf14427a271cb9de4c6ab577ac02cf43ddd6f3db11775dc",
+      "bytes": 7518
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/design_compare.md",
+      "source": "repair_budget/tau2_pilot/probe/design_compare.md",
+      "sha256": "eec03b7ebb50097aed5e3878397d46e9969754b6c6196c80af5668939758a80f",
+      "bytes": 2940
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/design_eval_air.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/design_eval_air.jsonl",
+      "sha256": "9fe6cf84e7c05aaa17b9d24b84c34aa70631861db5bcaa100185cf76985e7321",
+      "bytes": 174916
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/design_eval_ret.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/design_eval_ret.jsonl",
+      "sha256": "2dde4d72d3b70cd145b89056472b0c57731eb7bd50feb2efa86ca415ef734662",
+      "bytes": 250489
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/design_train_air.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/design_train_air.jsonl",
+      "sha256": "2782d544cec6f7d654e579bb0d22fc54c9eb7cfce86d953a26e6c7620b472c37",
+      "bytes": 396255
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/design_train_ret.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/design_train_ret.jsonl",
+      "sha256": "dd54effd88dd9d931d4d9d546d6161732bec1a57d6d6bfa291fb258af10637c2",
+      "bytes": 424351
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/gate_4B-S4r.json",
+      "source": "repair_budget/tau2_pilot/probe/gate_4B-S4r.json",
+      "sha256": "9bd54e2a62af2d214530ec048898f340fbadf805da377a54c7233c2a34b191c1",
+      "bytes": 753
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/lora_parity.json",
+      "source": "repair_budget/tau2_pilot/probe/lora_parity.json",
+      "sha256": "f9414416794b801c0d8509f5ca681dea1da749688e0287faf9961bc93e266fbc",
+      "bytes": 557825
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/lora_parity_s3.json",
+      "source": "repair_budget/tau2_pilot/probe/lora_parity_s3.json",
+      "sha256": "dd5c747c2a0184841e5483398edef50b49d805e4a6860e898a728826ddcf10be",
+      "bytes": 218855
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/lora_parity_s4.json",
+      "source": "repair_budget/tau2_pilot/probe/lora_parity_s4.json",
+      "sha256": "f5eb7d232c7bd4fed98b6dbe2abcc1f04868c528ec50c8409f6963a23910cae5",
+      "bytes": 216638
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/lora_parity_s4r.json",
+      "source": "repair_budget/tau2_pilot/probe/lora_parity_s4r.json",
+      "sha256": "91720bb19b2f025b2da18b7f4709f35fbf177466d60d2191dc2627e0c82d4994",
+      "bytes": 216593
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/power_adm_all_v2.json",
+      "source": "repair_budget/tau2_pilot/probe/power_adm_all_v2.json",
+      "sha256": "0a2a6a107445d3ffe06fcf0a47b3d560a3c58b4f670f45c98336e551f4cd199e",
+      "bytes": 6755
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/power_adm_all_v2.md",
+      "source": "repair_budget/tau2_pilot/probe/power_adm_all_v2.md",
+      "sha256": "4a32a921e9d733eab3e9f6eac88cc0c52fa15f5e13b0999d68f9ff3c8eeae0f8",
+      "bytes": 2277
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/power_adm_v2_norand.json",
+      "source": "repair_budget/tau2_pilot/probe/power_adm_v2_norand.json",
+      "sha256": "2c5f9b198ce44891ea74a0719a7cc91caeaf4b1ff21960d67848377f09efccb1",
+      "bytes": 6641
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/power_adm_v2_norand.md",
+      "source": "repair_budget/tau2_pilot/probe/power_adm_v2_norand.md",
+      "sha256": "f96c0270be09fd2ee2e0e934fa83291d557d08875ef9dff34c0e48acfc6f5883",
+      "bytes": 2292
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/report_probe_s4r.json",
+      "source": "repair_budget/tau2_pilot/probe/report_probe_s4r.json",
+      "sha256": "c90f32561fadff707b3954049ed2c86dcf46ad7b611fc4d29a0e600b7fef93bf",
+      "bytes": 2501
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/report_probe_s4r.md",
+      "source": "repair_budget/tau2_pilot/probe/report_probe_s4r.md",
+      "sha256": "0782362934d11e53e7bb3f2914a71f94f6d75801b6f7293c8603698ae9b51ce7",
+      "bytes": 1700
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/report_sens_v1.json",
+      "source": "repair_budget/tau2_pilot/probe/report_sens_v1.json",
+      "sha256": "4af5650cb02d563892ca4f3123b01deea66c416877297e48f6bd5e5ee4bc505a",
+      "bytes": 3873
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/report_sens_v1.md",
+      "source": "repair_budget/tau2_pilot/probe/report_sens_v1.md",
+      "sha256": "4bba5f41776cbf80ecb8a249f60ba11bc8056924f8094f7e5df1f28ac9154b68",
+      "bytes": 2167
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/report_sens_v2.json",
+      "source": "repair_budget/tau2_pilot/probe/report_sens_v2.json",
+      "sha256": "b40e6407f33c23d753d1e273c0e1f7be347329118a2916fad834e2b38adccb71",
+      "bytes": 3824
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/report_sens_v2.md",
+      "source": "repair_budget/tau2_pilot/probe/report_sens_v2.md",
+      "sha256": "f95e76a105e983cca53583daefb20f93faa6dc0ce32b40747a4c35c9469948ab",
+      "bytes": 2164
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/ro_eval_air.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/ro_eval_air.jsonl",
+      "sha256": "67566ed9a4e2da7fb6504a7399584a64c5c64ba6ca9443888330e64202295823",
+      "bytes": 803685
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/ro_eval_ret.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/ro_eval_ret.jsonl",
+      "sha256": "e957122a919f4393c90bc6782d0e5dc48543f34bf0e8c806ef363c33f2009ed3",
+      "bytes": 1251001
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/ro_train_air.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/ro_train_air.jsonl",
+      "sha256": "8e43f6c76e2a27fe3a7bc065ef2b5d83e7f6534721c9c0c5d5bdabd94af343b9",
+      "bytes": 559855
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/ro_train_ret.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/ro_train_ret.jsonl",
+      "sha256": "7e5d6c45a36d197124ce926b563922f537779d523530aea8955104b580bd1691",
+      "bytes": 867819
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/samples_s1.jsonl.summary.json",
+      "source": "repair_budget/tau2_pilot/probe/samples_s1.jsonl.summary.json",
+      "sha256": "9887de98878eb09037fed4237dcf9c2f411eae1e8ab53491dc411e71a0fcb361",
+      "bytes": 1695
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/samples_s3.jsonl.summary.json",
+      "source": "repair_budget/tau2_pilot/probe/samples_s3.jsonl.summary.json",
+      "sha256": "89ab88cc3bbb8b1be6648545ca0d5373d0e31a9c1e8acc0d31d5b2406eb80ff6",
+      "bytes": 1740
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/samples_s4.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/samples_s4.jsonl",
+      "sha256": "3807529a68795eda1b1faf34713379279fefb13428d1376397ae3e4ebdb4870b",
+      "bytes": 2926581
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/samples_s4.jsonl.summary.json",
+      "source": "repair_budget/tau2_pilot/probe/samples_s4.jsonl.summary.json",
+      "sha256": "8a0a130ce96592edeeb61bf1e2b667057b3e87443ef103f792478fc2bc72f3ee",
+      "bytes": 2035
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/samples_s4b.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/samples_s4b.jsonl",
+      "sha256": "d3e8659a48c3e2c70258b54fef4047f81afa709e44c8bb463dc5b4f5863994a5",
+      "bytes": 1791752
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/samples_s4b.jsonl.admissible.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/samples_s4b.jsonl.admissible.jsonl",
+      "sha256": "4d72dd09be4e399a21b7688296bd0e828a6af78a0d9df17ceee9d882be51ae32",
+      "bytes": 61621
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/samples_s4b.jsonl.summary.json",
+      "source": "repair_budget/tau2_pilot/probe/samples_s4b.jsonl.summary.json",
+      "sha256": "1ab0e17c4969e56990a39e27331eb128880576a8fc3f3954359d01d55a3d03f1",
+      "bytes": 2719
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/samples_s4c.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/samples_s4c.jsonl",
+      "sha256": "a77277533d1aeb57a4da0e589cd91d1fa750ad1da8947fd08cdc88ae503ad730",
+      "bytes": 1474935
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/samples_s4c.jsonl.admissible.jsonl",
+      "source": "repair_budget/tau2_pilot/probe/samples_s4c.jsonl.admissible.jsonl",
+      "sha256": "4d72dd09be4e399a21b7688296bd0e828a6af78a0d9df17ceee9d882be51ae32",
+      "bytes": 61621
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/samples_s4c.jsonl.summary.json",
+      "source": "repair_budget/tau2_pilot/probe/samples_s4c.jsonl.summary.json",
+      "sha256": "192b7bff9a45d2a2efc2a15b2961aaa15a631f6ff1f9e237cefc31025fb08f51",
+      "bytes": 2382
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/ssr_tau2.json",
+      "source": "repair_budget/tau2_pilot/probe/ssr_tau2.json",
+      "sha256": "c710e7af302ebd1154b9f026dcb530112cce0bed63b15490744b411dd909ef5b",
+      "bytes": 4992
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/ssr_tau2.md",
+      "source": "repair_budget/tau2_pilot/probe/ssr_tau2.md",
+      "sha256": "6c3b6efddb9e75ea92011e6c8315679a40cfc44f603c8a22d226c8591f7ffb4d",
+      "bytes": 1821
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/train_log_s1.json",
+      "source": "repair_budget/tau2_pilot/probe/train_log_s1.json",
+      "sha256": "25a825a5f880a5ddfe206d53bd6f5728297c526f3080df5a49cd5a91bfea43bb",
+      "bytes": 8234
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/train_log_s2.json",
+      "source": "repair_budget/tau2_pilot/probe/train_log_s2.json",
+      "sha256": "1c45de4c906fadb2384bcb3cdf24cbab92f047ef2364cfb3fa0a96fb0d7b13ab",
+      "bytes": 5759
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/train_log_s3.json",
+      "source": "repair_budget/tau2_pilot/probe/train_log_s3.json",
+      "sha256": "6f3f833adec238934fc85f3e860f1ec7c1881678cdad47560bb2ee3b284900e5",
+      "bytes": 10668
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/train_log_s4.json",
+      "source": "repair_budget/tau2_pilot/probe/train_log_s4.json",
+      "sha256": "b27bbff4e1a6b57146d85bbd6ff9f87ace67417b87035a2eac85e15ba196df77",
+      "bytes": 3085
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe/train_log_s4r.json",
+      "source": "repair_budget/tau2_pilot/probe/train_log_s4r.json",
+      "sha256": "6ed1fced5ae109463fb80ed8d7a7d5911c564282b9663f3b2d7a91eb45a8e8f2",
+      "bytes": 4432
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe_analyze.py",
+      "source": "repair_budget/tau2_pilot/probe_analyze.py",
+      "sha256": "aa0daa45fa67de7868f013a1ccf06f59992674f5dc870fce475c63ec20261ed6",
+      "bytes": 14255
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/probe_tools.py",
+      "source": "repair_budget/tau2_pilot/probe_tools.py",
+      "sha256": "4e2c26aed9a61f5d867a39c80a4b86c91478c879a2ed256b093e5606765cd06e",
+      "bytes": 3852
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/regrade_maxsteps.py",
+      "source": "repair_budget/tau2_pilot/regrade_maxsteps.py",
+      "sha256": "04ba98589bf98602628c82eb05b17d32777e80f45ab7bb0b87bc3179a1bbc36f",
+      "bytes": 1510
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/run_first_p4.sh",
+      "source": "repair_budget/tau2_pilot/run_first_p4.sh",
+      "sha256": "24e235bf156ca005b5801d161420bba4b02f6d6780005be2bac93a2117549422",
+      "bytes": 2506
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/run_main.sh",
+      "source": "repair_budget/tau2_pilot/run_main.sh",
+      "sha256": "86aa997d2b3cdbfa698beae43128db09cfeab48f3a3dadda5a453252ad8b476b",
+      "bytes": 14271
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/run_probe.sh",
+      "source": "repair_budget/tau2_pilot/run_probe.sh",
+      "sha256": "e01b629f5910e0f151b7d16861786a1a54fd2cf4ea7423e5f28a7d3226d7405c",
+      "bytes": 13478
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/run_tau2.sh",
+      "source": "repair_budget/tau2_pilot/run_tau2.sh",
+      "sha256": "95fbf81c5e4ab572414da8ea87ab74d041e7e8e66be206b0be1d50a86a3f1b83",
+      "bytes": 6104
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/run_tk5.sh",
+      "source": "repair_budget/tau2_pilot/run_tk5.sh",
+      "sha256": "d5805569991994884ab9b5cf69526a25b74f6f05cf63eceb8e83b55eef2be913",
+      "bytes": 2271
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/serve_lora.sh",
+      "source": "repair_budget/tau2_pilot/serve_lora.sh",
+      "sha256": "0d3533e4c79870b616d7138aab749b193a6e9f6842ae441c29383ce154de3603",
+      "bytes": 3562
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/serve_tau.sh",
+      "source": "repair_budget/tau2_pilot/serve_tau.sh",
+      "sha256": "68732ece2f33ebb47d5edbb4fad1b8cb4ea9b7d56c5482814147b1b7afe8c1aa",
+      "bytes": 4480
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/setup_check_tau.sh",
+      "source": "repair_budget/tau2_pilot/setup_check_tau.sh",
+      "sha256": "47934630a1d53e194d7f28e7d6d5c447f18333826c6754e43a5490c01f72c940",
+      "bytes": 1387
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/split_tasks.py",
+      "source": "repair_budget/tau2_pilot/split_tasks.py",
+      "sha256": "ff185c00db193742a03674e0b333d8bc71ec8590e3d290791eb42473cce53bc0",
+      "bytes": 1434
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/ssr_tau2.py",
+      "source": "repair_budget/tau2_pilot/ssr_tau2.py",
+      "sha256": "21ed19596fead66f91823ec7ed21d922dc0cbfc0da599733c077b54c7ea6ad4c",
+      "bytes": 5430
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/synth_main.py",
+      "source": "repair_budget/tau2_pilot/synth_main.py",
+      "sha256": "f75b1cecd3804824b9040d3c985ac4184afaabf70869052249af2658f8eba01c",
+      "bytes": 2865
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/tau2_ext.py",
+      "source": "repair_budget/tau2_pilot/tau2_ext.py",
+      "sha256": "f1530544966fe2bc480eb362885a1eb1cdbc7b747c14d93376d239037bd09bb4",
+      "bytes": 2866
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/train_tau2.py",
+      "source": "repair_budget/tau2_pilot/train_tau2.py",
+      "sha256": "c5a81908722529f22d296a68745f6d1f12020126ac9723bc9a12cd8629f27d92",
+      "bytes": 49828
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/先导2结果_tau2.md",
+      "source": "repair_budget/tau2_pilot/先导2结果_tau2.md",
+      "sha256": "842992ef268c029e5e5f357537f67492a4c67cf2e13ec78bca081dd4c7ee6be7",
+      "bytes": 3564
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/先导3-4结果_tau2.md",
+      "source": "repair_budget/tau2_pilot/先导3-4结果_tau2.md",
+      "sha256": "0461a78f81d2e34a7258f0348a10828b72e77206ff7e96e0c29902c360801230",
+      "bytes": 7616
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/先导5结果_tau2.md",
+      "source": "repair_budget/tau2_pilot/先导5结果_tau2.md",
+      "sha256": "55fee1f1f3236d4585a0831b8072d46abec68d1a1780785fe08c5ae080667e4f",
+      "bytes": 5021
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/先导结果_tau2.md",
+      "source": "repair_budget/tau2_pilot/先导结果_tau2.md",
+      "sha256": "585536b68b5d6ab21fb50130d4dcf273338e0a52652c3e34b8c2befadb5edf64",
+      "bytes": 4155
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/步骤_tau2先导.md",
+      "source": "repair_budget/tau2_pilot/步骤_tau2先导.md",
+      "sha256": "d09175bf85d1398671a6ed274c38501f04f4364db32ae3b2af9287d132f7558a",
+      "bytes": 26610
+    },
+    {
+      "path": "followup/repair_budget/tau2_pilot/补充_先导1再分析.md",
+      "source": "repair_budget/tau2_pilot/补充_先导1再分析.md",
+      "sha256": "d11cdff010a28d8fc998f20d804406bb57acdbf5a729a436f6edf11ed0064aae",
+      "bytes": 4423
+    },
+    {
+      "path": "followup/repair_budget/tools/label_reliability.py",
+      "source": "repair_budget/tools/label_reliability.py",
+      "sha256": "f595dba8d24342265f15a840b7839383c17e594c8fd08a85f6697d675a99931f",
+      "bytes": 7446
+    },
+    {
+      "path": "followup/repair_budget/τ²主实验结果_20261110.md",
+      "source": "repair_budget/τ²主实验结果_20261110.md",
+      "sha256": "5c3a4d21c2b0d11266958462438009f8b802fcc713a30b01b4669fd65d7178de",
+      "bytes": 10760
+    },
+    {
+      "path": "followup/repair_budget/事后分析_A与B_定义_20261110.md",
+      "source": "repair_budget/事后分析_A与B_定义_20261110.md",
+      "sha256": "f2b81e00d12e6c875bb1eea0c5712a113c0564aab4b031f431ca005fce191a5d",
+      "bytes": 5339
+    },
+    {
+      "path": "followup/repair_budget/事后分析_A与B_结果_20261110.md",
+      "source": "repair_budget/事后分析_A与B_结果_20261110.md",
+      "sha256": "2c902e845e03b50c82afe74df1843f63e536dcd470208f2d1ef0064e275866d3",
+      "bytes": 4805
+    },
+    {
+      "path": "followup/repair_budget/定义_训练前的自己当评估者_20261110.md",
+      "source": "repair_budget/定义_训练前的自己当评估者_20261110.md",
+      "sha256": "dcee337077b028ea014f06299b123f549f6c9306ac995816466746088cc4a0c9",
+      "bytes": 4260
+    },
+    {
+      "path": "followup/repair_budget/实验B结果_20261112.md",
+      "source": "repair_budget/实验B结果_20261112.md",
+      "sha256": "50f372797448f7c4b6e7b710701462fdbe1df4790efeddf25a2467b165b21570",
+      "bytes": 3231
+    },
+    {
+      "path": "followup/repair_budget/敏感性分析_可执行候选_20261105.md",
+      "source": "repair_budget/敏感性分析_可执行候选_20261105.md",
+      "sha256": "52621b2f1c5a3234e921a59ab918e99771ea253d695fd2cf5d206df7b13d64d3",
+      "bytes": 9641
+    },
+    {
+      "path": "followup/repair_budget/登记_ALFWorld无规划器后继_20261110.md",
+      "source": "repair_budget/登记_ALFWorld无规划器后继_20261110.md",
+      "sha256": "16ad16b1b458cc08b0ea2c9a07e3dbd41581a912dcf5e8f884193d79dcdc6b26",
+      "bytes": 11673
+    },
+    {
+      "path": "followup/repair_budget/登记_ALFWorld过期_20261030.md",
+      "source": "repair_budget/登记_ALFWorld过期_20261030.md",
+      "sha256": "8c8f008931e37ff64bc86863d72d5e7d4eff8e5a37a04fc28782ac8b36b1d7aa",
+      "bytes": 21968
+    },
+    {
+      "path": "followup/repair_budget/登记_τ²主实验_20261105.md",
+      "source": "repair_budget/登记_τ²主实验_20261105.md",
+      "sha256": "b81e6c133ef24b9a9e39457f14305bc33418cd1a700a37c4bfd184dfb6e9c319",
+      "bytes": 47650
+    },
+    {
+      "path": "followup/repair_budget/登记_τ²探针_20261031.md",
+      "source": "repair_budget/登记_τ²探针_20261031.md",
+      "sha256": "19b1998bf06053f58869e0df8fc12cd491f60ac8b3c4109eda3ff487c91eb861",
+      "bytes": 44769
+    },
+    {
+      "path": "followup/repair_training/MANIFEST.json",
+      "source": "repair_training/MANIFEST.json",
+      "sha256": "488d656c86f3897f97c6aa374968c0b629901d23f83494fceec0114727bfd0db",
+      "bytes": 1729
+    },
+    {
+      "path": "followup/repair_training/alfw/__init__.py",
+      "source": "repair_training/alfw/__init__.py",
+      "sha256": "66429db6482e2bafde9291ad4a64bcfb0518a95aa6027f222150b2e2f69df45d",
+      "bytes": 606
+    },
+    {
+      "path": "followup/repair_training/alfw/acfg.py",
+      "source": "repair_training/alfw/acfg.py",
+      "sha256": "10d17f4f8f2f3e43883dfcac019457a63b91a0fb2de344f59ea0a206224594b1",
+      "bytes": 5197
+    },
+    {
+      "path": "followup/repair_training/alfw/agent.py",
+      "source": "repair_training/alfw/agent.py",
+      "sha256": "654351300312c0e96d06a8c71d44f34cfd39c6ac5808864027c031773c238fc7",
+      "bytes": 12494
+    },
+    {
+      "path": "followup/repair_training/alfw/games.py",
+      "source": "repair_training/alfw/games.py",
+      "sha256": "3de5da518a1e60ae4bf80af512e251bfe1358ddf9050fff16e38528ab997e7b6",
+      "bytes": 3418
+    },
+    {
+      "path": "followup/repair_training/alfw/mockenv.py",
+      "source": "repair_training/alfw/mockenv.py",
+      "sha256": "3c16342edd6f922549ed211a567116c500759ba2952a2793761da5107a3ba622",
+      "bytes": 7751
+    },
+    {
+      "path": "followup/repair_training/alfw/pool.py",
+      "source": "repair_training/alfw/pool.py",
+      "sha256": "b0b39383d491a26f3f5a1e5a7e19da02e2d79138d0c777e28c008e41f2d45eb6",
+      "bytes": 16357
+    },
+    {
+      "path": "followup/repair_training/alfw/rollout.py",
+      "source": "repair_training/alfw/rollout.py",
+      "sha256": "e58d0d6e4021e0940fe8b9b02fc209022410a791f84ed7e6e3274316a0befdb6",
+      "bytes": 11045
+    },
+    {
+      "path": "followup/repair_training/alfw/twenv.py",
+      "source": "repair_training/alfw/twenv.py",
+      "sha256": "1bdd1581a8b75257b48a7449f88d9441d080a0cf6f3c51eebe1f8c00f5233f30",
+      "bytes": 8477
+    },
+    {
+      "path": "followup/repair_training/data_records/games.json",
+      "source": "repair_training/logs/games.json",
+      "sha256": "e17d48700b48f52f1b727a0e859691a60e0ff48d96c901db58118f4eb025085e",
+      "bytes": 302304
+    },
+    {
+      "path": "followup/repair_training/data_records/trainsets.json",
+      "source": "repair_training/logs/trainsets.json",
+      "sha256": "0c8eea6b830d3a6c89ce597039b187403e3d014a249ce26c5a0abb88dc4aa36f",
+      "bytes": 200707
+    },
+    {
+      "path": "followup/repair_training/judge_backends.py",
+      "source": "repair_training/judge_backends.py",
+      "sha256": "4fa42489dd72529d2b4f2186505be60541f855b64b187dda463ebc3ec67958a9",
+      "bytes": 17473
+    },
+    {
+      "path": "followup/repair_training/out_rt/analysis.json",
+      "source": "repair_training/out_rt/analysis.json",
+      "sha256": "417b90b9e8eefd3acba9d6789018d9cc6ef3119df9476a5618069c0f3a586f2a",
+      "bytes": 9315
+    },
+    {
+      "path": "followup/repair_training/out_rt/eval_rollouts.jsonl",
+      "source": "repair_training/out_rt/eval_rollouts.jsonl",
+      "sha256": "3b58a092a41e8f668336258a8fa255fbaed53ca9265a8769cca851550254cb90",
+      "bytes": 17861276
+    },
+    {
+      "path": "followup/repair_training/out_rt/formatcheck.json",
+      "source": "repair_training/out_rt/formatcheck.json",
+      "sha256": "a63254e39d4e30363bc699579122734e79316bc3e768007dcc3f06baa31fb353",
+      "bytes": 663
+    },
+    {
+      "path": "followup/repair_training/out_rt/report.md",
+      "source": "repair_training/out_rt/report.md",
+      "sha256": "ea38c5308495ccb90daa2290f5fcbce70c696b8295b8b286f29d2dd4e3285dd4",
+      "bytes": 4599
+    },
+    {
+      "path": "followup/repair_training/out_rt/timing.json",
+      "source": "repair_training/out_rt/timing.json",
+      "sha256": "872eb775936269bc11b06a72e3eecb11eca4b6912cc239bbacba2ff737de0201",
+      "bytes": 8523
+    },
+    {
+      "path": "followup/repair_training/prelim/cells_2x2.py",
+      "source": "repair_training/prelim/cells_2x2.py",
+      "sha256": "ff8af0a05b3d552b59c33f3a52e5d9802256d211d0fcf8bdd5456676f841f62b",
+      "bytes": 3058
+    },
+    {
+      "path": "followup/repair_training/prelim/cells_2x2_out.md",
+      "source": "repair_training/prelim/cells_2x2_out.md",
+      "sha256": "326bebf5cb4db4f389c7019645eed4bfc577ae7e0b5e6eee8ff900d05cbbfd96",
+      "bytes": 1228
+    },
+    {
+      "path": "followup/repair_training/prelim/label_targets.py",
+      "source": "repair_training/prelim/label_targets.py",
+      "sha256": "83ea3b199bbebd45b95ddc5c4e2a617b2ab59b26a68fda6d1217c8d5b821a300",
+      "bytes": 7157
+    },
+    {
+      "path": "followup/repair_training/prelim/label_targets_out.md",
+      "source": "repair_training/prelim/label_targets_out.md",
+      "sha256": "d6584966919f448888ca84a3cb8764c1d69fa32ec3d40162dc2d81120f65893c",
+      "bytes": 4749
+    },
+    {
+      "path": "followup/repair_training/prelim/power_calc.py",
+      "source": "repair_training/prelim/power_calc.py",
+      "sha256": "a07e95e25b76bda595cc9b05cef075a77d5204ca254ee2fbb5b75bc89f0a10e1",
+      "bytes": 2248
+    },
+    {
+      "path": "followup/repair_training/prelim/power_note.md",
+      "source": "repair_training/prelim/power_note.md",
+      "sha256": "c7aeeb3edf5f97fee4cda10e7db4f7db8c588660525fc2c6dcf06a91d6354bd8",
+      "bytes": 3600
+    },
+    {
+      "path": "followup/repair_training/prelim/select_points.py",
+      "source": "repair_training/prelim/select_points.py",
+      "sha256": "67f920e8bd98d85a4c094e7986f2f98b4d069b884446a169e7ed20b2e08601e8",
+      "bytes": 6903
+    },
+    {
+      "path": "followup/repair_training/prelim/select_points_out.md",
+      "source": "repair_training/prelim/select_points_out.md",
+      "sha256": "e7ed76ce386fc9717e4c3d8028f2823bad245a6e053882d6293f93e1c1055372",
+      "bytes": 3392
+    },
+    {
+      "path": "followup/repair_training/rt.py",
+      "source": "repair_training/rt.py",
+      "sha256": "47cf0fcb63634d46c608397b683d0c4656d0faa680da0c82554286313e704736",
+      "bytes": 5793
+    },
+    {
+      "path": "followup/repair_training/rt_analyze.py",
+      "source": "repair_training/rt_analyze.py",
+      "sha256": "48e64a1a7643afd86e87ee8d88e928377210da072313de629c02646d20f56366",
+      "bytes": 18804
+    },
+    {
+      "path": "followup/repair_training/rt_common.py",
+      "source": "repair_training/rt_common.py",
+      "sha256": "c60e485c5ac631b51703efd82b37e9b67625a4834c72ebe7cd31cf96c5a26353",
+      "bytes": 14004
+    },
+    {
+      "path": "followup/repair_training/rt_data.py",
+      "source": "repair_training/rt_data.py",
+      "sha256": "1dd6d6497d790540c06c687f5517ea06b9aaf15f8faa5ab72858ce7498bdbea4",
+      "bytes": 44340
+    },
+    {
+      "path": "followup/repair_training/rt_eval.py",
+      "source": "repair_training/rt_eval.py",
+      "sha256": "24abb62491c2b995c376b90c362aaabb4af5c033849889ff0aaf3ce5f62d03c0",
+      "bytes": 9198
+    },
+    {
+      "path": "followup/repair_training/rt_train.py",
+      "source": "repair_training/rt_train.py",
+      "sha256": "a426761ddaba4fbaa502fbc151ead5143844dc7c65841000c78fbed49944b39d",
+      "bytes": 21351
+    },
+    {
+      "path": "followup/repair_training/run_bg.sh",
+      "source": "repair_training/run_bg.sh",
+      "sha256": "59d59127dd65f84f2ada860da7df57b12cbad7ab1b5613cadd5de254892190c8",
+      "bytes": 4575
+    },
+    {
+      "path": "followup/repair_training/selftest.py",
+      "source": "repair_training/selftest.py",
+      "sha256": "487145a005c1105a740e878fb04f47f0106268ef8107c67fd2c1f0f957211d98",
+      "bytes": 20679
+    },
+    {
+      "path": "followup/repair_training/setup_check.sh",
+      "source": "repair_training/setup_check.sh",
+      "sha256": "6b67602cc55bb2f5b2b5cf4b93c3dfe4b7f9a2c8408e5f8d2cbe22fae04cbb42",
+      "bytes": 2492
+    },
+    {
+      "path": "followup/repair_training/论文方案.md",
+      "source": "repair_training/论文方案.md",
+      "sha256": "ad0a68f1de7d468aa84c726c003398340c8227a669ad8d78052ac2cc2591c250",
+      "bytes": 51478
     }
   ],
   "exclusions": [

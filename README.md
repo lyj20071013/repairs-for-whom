@@ -6,7 +6,9 @@
 
 A repair can be valuable for one executor and ineffective for another. This repository contains the experiment code, failed trajectories, fixed candidate repairs, individual continuation outcomes, analysis records, and a reusable evaluation framework for studying that mismatch.
 
-**Snapshot: 2026-10-28.** Includes the completed WebShop 14B evaluation (P2w), its individual continuation outcomes, and updated analyses. At five rollouts per candidate, selecting with 14B instead of the deployed 7B agent loses **0.073** in net reward (90% CI **[0.046, 0.101]**). The arXiv identifier will be added after the first preprint release.
+**Snapshot: 2026-11-13 (final manuscript).** This update adds the studies merged into the final paper: the agent's own fine-tuned successor as an evaluator (ALFWorld), a τ²-bench shared pool with Qwen3.5-2B/4B executors, the τ²-bench label-training study, and new post hoc analyses (loss as a share of selection value, headroom, label reliability). Their code and records are in [`followup/`](followup/README.md), `experiments/tau2r/`, `experiments/out_tau_pool/` and `experiments/posthoc/`; their registrations are in [`analysis_plan/`](analysis_plan/README.md). See [release status](docs/RELEASE_STATUS.md) for what was and was not re-verified.
+
+The 2026-10-28 snapshot added the completed WebShop 14B evaluation (P2w): at five rollouts per candidate, selecting with 14B instead of the deployed 7B agent loses **0.073** in net reward (90% CI **[0.046, 0.101]**). The arXiv identifier will be added after the first preprint release.
 
 ## Start here — reproduce without a GPU
 
@@ -53,6 +55,7 @@ Implement `select(task, context)` following [the selector examples](framework/ex
 
 ```text
 experiments/       Original experimental code and raw out_* records
+followup/          Successor-training, staleness and τ²-bench studies (added 2026-11-13)
 framework/         Reusable CPU evaluation and optional replay adapters
 analysis_plan/     Original cumulative analysis plan, with dated amendments
 paper_figs/        Scripts for regenerating the paper figures
@@ -68,13 +71,13 @@ tools/             Release integrity checker
 - Cross-fitting separates selection from evaluation. Trajectories are the bootstrap unit. See [PROTOCOL.md](framework/docs/PROTOCOL.md) for random streams, tie handling, budgets and Holm families.
 - Historical H1 is approximately 0.07447; the recovered/rerun record used by the framework is approximately 0.07122. Both versions are retained and identified rather than silently merged.
 - The [analysis plan](analysis_plan/论文方案.md) is a cumulative working record containing pre-specified designs, subsequent amendments and exploratory results. Its recorded dates are not a claim of an independently timestamped public preregistration.
-- `provenance/source_map.json` records the original source and SHA256 of copied files. `provenance/release_manifest.json` verifies the packaged bytes. English localization and source-hash changes are recorded in `provenance/english_localization.json`.
+- `provenance/source_map.json` records the original source and SHA256 of copied files. `provenance/release_manifest.json` verifies the packaged bytes. English localization and source-hash changes are recorded in `provenance/english_localization.json`; the 2026-11-13 additions and replaced files are recorded in `provenance/update_20261113.json`.
 
 ## Run new continuations or regenerate figures
 
 See [REPRODUCING.md](docs/REPRODUCING.md) and [the replay guide](framework/docs/REPLAY.md). Live continuations require the external environment data, model weights and a suitable Linux/GPU environment. No inference is launched by the CPU quickstart.
 
-Model weights, the WebShop product corpus/index, ALFWorld installation data, API keys, SSH transfer settings and process logs are not included. The environment setup code and data fingerprints are retained. The previous snapshot remains in Git history; `provenance/p2w_update.json` records the new source hashes and version change.
+Model weights, the WebShop product corpus/index, ALFWorld installation data, API keys, SSH transfer settings and process logs are not included. The environment setup code and data fingerprints are retained. Earlier snapshots remain in Git history; `provenance/p2w_update.json` and `provenance/update_20261113.json` record the source hashes and version changes.
 
 ## Tests
 
@@ -87,7 +90,7 @@ See [release status](docs/RELEASE_STATUS.md) for the checks actually run on this
 
 ## Language and source identity
 
-Documentation, source comments and runtime messages are in English. Original research plans, archived reports and raw experimental records retain their original language and bytes. Localization changes source hashes; start a fresh output directory for new live runs rather than bypassing historical resume checks. See [release status](docs/RELEASE_STATUS.md).
+Documentation, and the source comments and runtime messages of the 2026-10-28 code, are in English. Code added on 2026-11-13 (`followup/`, `experiments/tau2r/`, new `experiments/posthoc/` scripts) is released byte-identical to what was run, with its original Chinese comments, so that it matches the hashes cited in the registrations. Original research plans, archived reports and raw experimental records retain their original language and bytes. Localization changes source hashes; start a fresh output directory for new live runs rather than bypassing historical resume checks. See [release status](docs/RELEASE_STATUS.md).
 
 ## License and citation
 

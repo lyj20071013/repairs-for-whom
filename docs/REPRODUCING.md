@@ -41,6 +41,19 @@ Raw outcomes and timings are in `experiments/out_ws_A/evals_q14.jsonl` and `timi
 
 For future additions, import into a fresh output directory, validate complete branch coverage, then update references, documentation and release hashes together. Do not represent a new replay batch as the original registered experiment.
 
+## Follow-up studies (2026-11-13)
+
+The τ²-bench and successor studies need GPUs and their original environments (vLLM, τ²-bench at upstream commit `122e243`, ALFWorld); see `followup/README.md` and the comments at the top of each script for the commands that were run. Several analyses can be rerun on CPU from the released records, for example:
+
+```bash
+# τ²-bench 2B ← 4B shared pool (primary analysis, amendment 5); run in a disposable copy because it writes reports
+cd experiments/tau2r && python pool_analyze.py --help
+# ALFWorld Experiment B analysis
+cd followup/repair_budget/alfw_stale && python np_analyze.py --help
+```
+
+Check each script's argument defaults before running: several default to historical server paths. No reruns of these analyses were performed as part of packaging; the archived reports are those produced on the original machines.
+
 ## Manuscript
 
-`manuscript/example_paper.tex` and `.bib` are the current source snapshot. The manuscript includes completed P2w results and the named-author arXiv source. Use a compatible TeX installation to build it; this packaging run does not claim a successful LaTeX build. Existing figure PDFs are included. The arXiv identifier will be added after publication.
+`manuscript/example_paper.tex` and `.bib` are the final source (2026-11-13), with named authors and the repository footnote; the content is identical to the anonymous submission version apart from the author block, the preprint style option and that footnote. It was built with `latexmk -pdf` (TeX Live) during packaging without errors or undefined references (22 pages). Existing figure PDFs are included. The arXiv identifier will be added after publication.

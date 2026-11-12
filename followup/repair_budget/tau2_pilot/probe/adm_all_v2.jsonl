@@ -1,0 +1,750 @@
+{"pos_id": "9b7fdba4-c32_4", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["find_user_id_by_email"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9b7fdba4-c32_4", "cand_id": "c1", "kinds": ["gold"], "tools": ["modify_pending_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["#W2466703", "9385662952", "8733974883", "paypal_7529813"]}
+{"pos_id": "9b7fdba4-c32_4", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85177a6a-30d_6", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85177a6a-30d_6", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_6", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_6", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9b7fdba4-c32_12", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9b7fdba4-c32_12", "cand_id": "c1", "kinds": ["gold"], "tools": ["modify_pending_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["9385662952", "8733974883"]}
+{"pos_id": "9b7fdba4-c32_12", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85177a6a-30d_8", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85177a6a-30d_8", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85177a6a-30d_8", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85177a6a-30d_8", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85177a6a-30d_8", "cand_id": "c4", "kinds": ["gold"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85177a6a-30d_8", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9b7fdba4-c32_28", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9b7fdba4-c32_28", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9b7fdba4-c32_28", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9b7fdba4-c32_28", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9b7fdba4-c32_28", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "9b7fdba4-c32_28", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_14", "cand_id": "c0", "kinds": ["orig", "gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_14", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_14", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_14", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_14", "cand_id": "c4", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "eff76fa0-93e_10", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "eff76fa0-93e_10", "cand_id": "c1", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["5996159312", "8363011723"]}
+{"pos_id": "eff76fa0-93e_10", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_20", "cand_id": "c0", "kinds": ["orig"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_20", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_20", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_20", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5258f9c8-a7b_20", "cand_id": "c4", "kinds": ["gold"], "tools": ["return_delivered_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "5258f9c8-a7b_20", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85177a6a-30d_16", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85177a6a-30d_16", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85177a6a-30d_16", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "311452aa-e07_16", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "311452aa-e07_16", "cand_id": "c1", "kinds": ["gold"], "tools": ["modify_user_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["NY"]}
+{"pos_id": "311452aa-e07_16", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "311452aa-e07_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "311452aa-e07_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "311452aa-e07_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "311452aa-e07_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "311452aa-e07_2", "cand_id": "c4", "kinds": ["gold"], "tools": ["find_user_id_by_name_zip"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["Ethan", "Garcia", "80280"]}
+{"pos_id": "311452aa-e07_2", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9a2c6aa8-134_10", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9a2c6aa8-134_10", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "311452aa-e07_18", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "311452aa-e07_18", "cand_id": "c1", "kinds": ["gold"], "tools": ["modify_user_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["NY"]}
+{"pos_id": "311452aa-e07_18", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9a2c6aa8-134_20", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9a2c6aa8-134_20", "cand_id": "c1", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "eff76fa0-93e_18", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "eff76fa0-93e_18", "cand_id": "c1", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["8363011723"]}
+{"pos_id": "eff76fa0-93e_18", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9a2c6aa8-134_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9a2c6aa8-134_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9a2c6aa8-134_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9a2c6aa8-134_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9a2c6aa8-134_2", "cand_id": "c4", "kinds": ["gold"], "tools": ["find_user_id_by_name_zip"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["James", "Sanchez", "60623"]}
+{"pos_id": "9a2c6aa8-134_2", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "eff76fa0-93e_28", "cand_id": "c0", "kinds": ["orig"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "eff76fa0-93e_28", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "eff76fa0-93e_28", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "eff76fa0-93e_28", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "eff76fa0-93e_28", "cand_id": "c4", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "eff76fa0-93e_28", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_10", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_10", "cand_id": "c1", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["476 Maple Drive", "Suite 432", "New York", "NY", "10093"]}
+{"pos_id": "f9b13561-033_10", "cand_id": "c2", "kinds": ["rand"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_6", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_6", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_2", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["#W6750959", "476 Maple Drive", "Suite 432", "New York", "NY", "10093"]}
+{"pos_id": "f9b13561-033_2", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_2", "cand_id": "c1", "kinds": ["llm", "gold"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_2", "cand_id": "c3", "kinds": ["llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_2", "cand_id": "c4", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_14", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_14", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_14", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_14", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_14", "cand_id": "c4", "kinds": ["gold"], "tools": ["calculate"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f6bfede4-24d_14", "cand_id": "c5", "kinds": ["rand"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f5f2a4d2-189_10", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f5f2a4d2-189_10", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f5f2a4d2-189_10", "cand_id": "c2", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["8363011723"]}
+{"pos_id": "f5f2a4d2-189_10", "cand_id": "c3", "kinds": ["rand"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_8", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_8", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f5f2a4d2-189_14", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f5f2a4d2-189_14", "cand_id": "c1", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "f5f2a4d2-189_14", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_2", "cand_id": "c1", "kinds": ["llm", "gold"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_2", "cand_id": "c2", "kinds": ["llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_2", "cand_id": "c4", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9ce85361-d6a_14", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9ce85361-d6a_14", "cand_id": "c1", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f5f2a4d2-189_28", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["cancel_pending_order"], "ok": true, "why": null, "rule": "v2", "judged_by": "cache", "judge": "YES"}
+{"pos_id": "f5f2a4d2-189_28", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f5f2a4d2-189_28", "cand_id": "c2", "kinds": ["llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f5f2a4d2-189_28", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f5f2a4d2-189_28", "cand_id": "c4", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "f5f2a4d2-189_28", "cand_id": "c5", "kinds": ["rand"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9ce85361-d6a_4", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9ce85361-d6a_4", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9ce85361-d6a_4", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9ce85361-d6a_4", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9ce85361-d6a_4", "cand_id": "c4", "kinds": ["gold"], "tools": ["find_user_id_by_name_zip"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["Aarav", "Anderson", "19031"]}
+{"pos_id": "9ce85361-d6a_4", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9ce85361-d6a_18", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "9ce85361-d6a_18", "cand_id": "c1", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_12", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_12", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_12", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_12", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_12", "cand_id": "c4", "kinds": ["gold"], "tools": ["calculate"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d26be878-eae_12", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_8", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_8", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_8", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_8", "cand_id": "c3", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_16", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_16", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_16", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_16", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "f9b13561-033_16", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "f9b13561-033_16", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_24", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_24", "cand_id": "c1", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2efa3c4a-cd8_4", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2efa3c4a-cd8_4", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_16", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_16", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_16", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_16", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_16", "cand_id": "c4", "kinds": ["gold"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e36c3e95-e65_16", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2efa3c4a-cd8_12", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2efa3c4a-cd8_12", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2efa3c4a-cd8_12", "cand_id": "c2", "kinds": ["gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2efa3c4a-cd8_12", "cand_id": "c3", "kinds": ["rand"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_4", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_4", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_4", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_4", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_4", "cand_id": "c4", "kinds": ["gold"], "tools": ["return_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["#W9571698", "5952720925", "9973034634", "7381052709", "6065192424", "gift_card_7250692"]}
+{"pos_id": "c589545b-ba0_4", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_6", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_6", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_6", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_6", "cand_id": "c1", "kinds": ["gold"], "tools": ["return_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["#W9571698", "5952720925", "9973034634", "7381052709", "6065192424", "gift_card_7250692"]}
+{"pos_id": "c589545b-ba0_6", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2efa3c4a-cd8_20", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2efa3c4a-cd8_20", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2efa3c4a-cd8_20", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2efa3c4a-cd8_20", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2efa3c4a-cd8_20", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "2efa3c4a-cd8_20", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_2", "cand_id": "c4", "kinds": ["gold"], "tools": ["find_user_id_by_name_zip"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["Ethan", "Garcia", "80280"]}
+{"pos_id": "7253a06e-11f_2", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_14", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_14", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_14", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_14", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c589545b-ba0_14", "cand_id": "c4", "kinds": ["gold"], "tools": ["return_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["5952720925", "9973034634", "7381052709", "6065192424"]}
+{"pos_id": "c589545b-ba0_14", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "67baad18-035_14", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "67baad18-035_14", "cand_id": "c1", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "67baad18-035_18", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "67baad18-035_18", "cand_id": "c1", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "67baad18-035_6", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "67baad18-035_6", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "67baad18-035_6", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "67baad18-035_6", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "67baad18-035_6", "cand_id": "c4", "kinds": ["gold"], "tools": ["find_user_id_by_name_zip"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["76171"]}
+{"pos_id": "67baad18-035_6", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_8", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_8", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_8", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_8", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7253a06e-11f_8", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_user_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["101 Highway", "New York", "NY", "10001"]}
+{"pos_id": "7253a06e-11f_8", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_4", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_4", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_4", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_4", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_4", "cand_id": "c4", "kinds": ["gold"], "tools": ["find_user_id_by_name_zip"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["James", "Sanchez", "60623"]}
+{"pos_id": "b29c70a6-ecb_4", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ff240530-862_6", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ff240530-862_6", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_8", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_8", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_8", "cand_id": "c2", "kinds": ["llm", "gold"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_8", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_8", "cand_id": "c4", "kinds": ["rand"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_16", "cand_id": "c0", "kinds": ["orig"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_16", "cand_id": "c1", "kinds": ["llm", "gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_16", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b29c70a6-ecb_16", "cand_id": "c3", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ff240530-862_16", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ff240530-862_16", "cand_id": "c1", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["445 Maple Drive"]}
+{"pos_id": "ff240530-862_16", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_8", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_8", "cand_id": "c1", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["380 Maple Drive", "Suite 960", "San Diego", "92101"]}
+{"pos_id": "2aa13bf7-d1b_8", "cand_id": "c2", "kinds": ["rand"], "tools": ["find_user_id_by_email"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_2", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["380 Maple Drive", "Suite 960", "San Diego", "92101"]}
+{"pos_id": "2aa13bf7-d1b_2", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "24e0f510-393_4", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["find_user_id_by_email"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "24e0f510-393_4", "cand_id": "c1", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["380 Maple Drive", "Suite 960", "San Diego", "92101"]}
+{"pos_id": "24e0f510-393_4", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ff240530-862_26", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ff240530-862_26", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ff240530-862_26", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ff240530-862_26", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ff240530-862_26", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "ff240530-862_26", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "24e0f510-393_6", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "24e0f510-393_6", "cand_id": "c1", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["380 Maple Drive", "Suite 960", "San Diego", "92101"]}
+{"pos_id": "24e0f510-393_6", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_14", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_14", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_14", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_14", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2aa13bf7-d1b_14", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "2aa13bf7-d1b_14", "cand_id": "c5", "kinds": ["rand"], "tools": ["find_user_id_by_email"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "05de40f3-504_14", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "05de40f3-504_14", "cand_id": "c1", "kinds": ["gold"], "tools": ["return_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["5952720925", "9973034634", "7381052709", "6065192424"]}
+{"pos_id": "05de40f3-504_14", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "05de40f3-504_16", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "05de40f3-504_16", "cand_id": "c1", "kinds": ["gold"], "tools": ["return_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["5952720925", "9973034634", "7381052709", "6065192424"]}
+{"pos_id": "05de40f3-504_16", "cand_id": "c2", "kinds": ["rand"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5cf8990b-44b_6", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5cf8990b-44b_6", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "05de40f3-504_4", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "05de40f3-504_4", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "05de40f3-504_4", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "05de40f3-504_4", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "05de40f3-504_4", "cand_id": "c4", "kinds": ["gold"], "tools": ["return_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["#W9571698", "5952720925", "9973034634", "7381052709", "6065192424", "gift_card_7250692"]}
+{"pos_id": "05de40f3-504_4", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "24e0f510-393_14", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "24e0f510-393_14", "cand_id": "c1", "kinds": ["llm"], "tools": ["transfer_to_human_agents"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "24e0f510-393_14", "cand_id": "c2", "kinds": ["llm"], "tools": ["transfer_to_human_agents"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "24e0f510-393_14", "cand_id": "c3", "kinds": ["llm"], "tools": ["transfer_to_human_agents"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "24e0f510-393_14", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "24e0f510-393_14", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5cf8990b-44b_14", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5cf8990b-44b_14", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5cf8990b-44b_14", "cand_id": "c2", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["445 Maple Drive"]}
+{"pos_id": "5cf8990b-44b_14", "cand_id": "c3", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d530d733-d8a_14", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d530d733-d8a_14", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d530d733-d8a_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d530d733-d8a_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d530d733-d8a_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d530d733-d8a_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d530d733-d8a_2", "cand_id": "c4", "kinds": ["gold"], "tools": ["find_user_id_by_email"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["mia.garcia2723@example.com"]}
+{"pos_id": "d530d733-d8a_2", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "d530d733-d8a_20", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["return_delivered_order_items"], "ok": true, "why": null, "rule": "v2", "judged_by": "cache", "judge": "YES"}
+{"pos_id": "d530d733-d8a_20", "cand_id": "c1", "kinds": ["gold"], "tools": ["return_delivered_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "d530d733-d8a_20", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_2", "cand_id": "c4", "kinds": ["gold"], "tools": ["find_user_id_by_name_zip"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["Ethan", "Garcia", "80280"]}
+{"pos_id": "cb546fc9-fad_2", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_12", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_12", "cand_id": "c1", "kinds": ["llm", "gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_12", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_12", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_12", "cand_id": "c4", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5cf8990b-44b_18", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5cf8990b-44b_18", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5cf8990b-44b_18", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5cf8990b-44b_18", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5cf8990b-44b_18", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "5cf8990b-44b_18", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_32", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_32", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_32", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_32", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "cb546fc9-fad_32", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "cb546fc9-fad_32", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c1a6fe51-0c5_6", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c1a6fe51-0c5_6", "cand_id": "c1", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "3baab9c9-545_4", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "3baab9c9-545_4", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c1a6fe51-0c5_26", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["cancel_reservation"], "ok": true, "why": null, "rule": "v2", "judged_by": "cache", "judge": "YES"}
+{"pos_id": "c1a6fe51-0c5_26", "cand_id": "c1", "kinds": ["rand"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "186b5836-dbf_4", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "186b5836-dbf_4", "cand_id": "c1", "kinds": ["gold"], "tools": ["update_reservation_flights"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["HAT056", "2024-05-25", "HAT138", "2024-05-25"]}
+{"pos_id": "186b5836-dbf_4", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c1a6fe51-0c5_10", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "c1a6fe51-0c5_10", "cand_id": "c1", "kinds": ["gold"], "tools": ["update_reservation_flights"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "c1a6fe51-0c5_10", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "3baab9c9-545_6", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "3baab9c9-545_6", "cand_id": "c1", "kinds": ["gold"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "3baab9c9-545_6", "cand_id": "c2", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "3baab9c9-545_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "3baab9c9-545_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "3baab9c9-545_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "3baab9c9-545_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "3baab9c9-545_2", "cand_id": "c4", "kinds": ["gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "3baab9c9-545_2", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ee8357c8-240_18", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ee8357c8-240_18", "cand_id": "c1", "kinds": ["gold"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "ee8357c8-240_18", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "186b5836-dbf_12", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "186b5836-dbf_12", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "186b5836-dbf_12", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "186b5836-dbf_12", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "186b5836-dbf_12", "cand_id": "c4", "kinds": ["gold"], "tools": ["update_reservation_flights"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "186b5836-dbf_12", "cand_id": "c5", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "6baa86ac-b66_8", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "6baa86ac-b66_8", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "6baa86ac-b66_12", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "6baa86ac-b66_12", "cand_id": "c1", "kinds": ["rand"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "6baa86ac-b66_24", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "6baa86ac-b66_24", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ee8357c8-240_10", "cand_id": "c0", "kinds": ["orig"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ee8357c8-240_10", "cand_id": "c1", "kinds": ["llm"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ee8357c8-240_10", "cand_id": "c2", "kinds": ["gold"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "ee8357c8-240_10", "cand_id": "c3", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "186b5836-dbf_14", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "186b5836-dbf_14", "cand_id": "c1", "kinds": ["llm"], "tools": ["update_reservation_passengers"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "186b5836-dbf_14", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "186b5836-dbf_14", "cand_id": "c3", "kinds": ["llm"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "186b5836-dbf_14", "cand_id": "c4", "kinds": ["gold"], "tools": ["update_reservation_flights"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "186b5836-dbf_14", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ee8357c8-240_30", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["book_reservation"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["312"]}
+{"pos_id": "ee8357c8-240_30", "cand_id": "c1", "kinds": ["gold"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "ee8357c8-240_30", "cand_id": "c2", "kinds": ["rand"], "tools": ["update_reservation_passengers"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "ffca04b8-2af_8", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ffca04b8-2af_8", "cand_id": "c1", "kinds": ["gold"], "tools": ["book_reservation"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["SEA", "HAT069", "2024-05-20", "HAT276", "1965-06-09", "39", "gift_card_7773485", "67"]}
+{"pos_id": "ffca04b8-2af_8", "cand_id": "c2", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "e74f6c71-e93_4", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e74f6c71-e93_4", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e74f6c71-e93_4", "cand_id": "c2", "kinds": ["gold"], "tools": ["get_reservation_details"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["1N99U6"]}
+{"pos_id": "e74f6c71-e93_4", "cand_id": "c3", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ad5640aa-3c6_4", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ad5640aa-3c6_4", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ffca04b8-2af_22", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ffca04b8-2af_22", "cand_id": "c1", "kinds": ["llm"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ffca04b8-2af_22", "cand_id": "c2", "kinds": ["llm"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ffca04b8-2af_22", "cand_id": "c3", "kinds": ["gold"], "tools": ["book_reservation"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["SEA", "HAT069", "HAT276", "67"]}
+{"pos_id": "ffca04b8-2af_22", "cand_id": "c4", "kinds": ["rand"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ad5640aa-3c6_16", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "ad5640aa-3c6_16", "cand_id": "c1", "kinds": ["rand"], "tools": ["update_reservation_flights"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "e74f6c71-e93_12", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e74f6c71-e93_12", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e74f6c71-e93_12", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e74f6c71-e93_12", "cand_id": "c3", "kinds": ["llm", "gold"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e74f6c71-e93_12", "cand_id": "c4", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ad5640aa-3c6_22", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ad5640aa-3c6_22", "cand_id": "c1", "kinds": ["rand"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_4", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_4", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_4", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ffca04b8-2af_38", "cand_id": "c0", "kinds": ["orig"], "tools": ["book_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "ffca04b8-2af_38", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ffca04b8-2af_38", "cand_id": "c2", "kinds": ["llm"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ffca04b8-2af_38", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "ffca04b8-2af_38", "cand_id": "c4", "kinds": ["gold"], "tools": ["book_reservation"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["SEA", "HAT069", "HAT276", "67"]}
+{"pos_id": "ffca04b8-2af_38", "cand_id": "c5", "kinds": ["rand"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "21ac3a16-487_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "21ac3a16-487_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "21ac3a16-487_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "21ac3a16-487_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "21ac3a16-487_2", "cand_id": "c4", "kinds": ["gold"], "tools": ["get_reservation_details"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["3RK2T9"]}
+{"pos_id": "21ac3a16-487_2", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "21ac3a16-487_8", "cand_id": "c0", "kinds": ["orig"], "tools": ["update_reservation_passengers"], "ok": true, "why": null, "rule": "v2", "judged_by": "cache", "judge": "YES"}
+{"pos_id": "21ac3a16-487_8", "cand_id": "c1", "kinds": ["llm", "gold"], "tools": ["update_reservation_passengers"], "ok": true, "why": null, "rule": "v2", "judged_by": "cache", "judge": "YES"}
+{"pos_id": "21ac3a16-487_8", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "21ac3a16-487_8", "cand_id": "c3", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e74f6c71-e93_18", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e74f6c71-e93_18", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e74f6c71-e93_18", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e74f6c71-e93_18", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e74f6c71-e93_18", "cand_id": "c4", "kinds": ["gold"], "tools": ["update_reservation_flights"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "e74f6c71-e93_18", "cand_id": "c5", "kinds": ["rand"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_12", "cand_id": "c0", "kinds": ["orig"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_12", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_12", "cand_id": "c2", "kinds": ["llm"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_12", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_12", "cand_id": "c4", "kinds": ["gold"], "tools": ["book_reservation"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["HAT169", "HAT033", "282"]}
+{"pos_id": "06e0fb8a-d0d_12", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "21ac3a16-487_12", "cand_id": "c0", "kinds": ["orig"], "tools": ["update_reservation_passengers"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "21ac3a16-487_12", "cand_id": "c1", "kinds": ["llm", "gold"], "tools": ["update_reservation_passengers"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "21ac3a16-487_12", "cand_id": "c2", "kinds": ["llm"], "tools": ["update_reservation_passengers"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["1989-11-12"]}
+{"pos_id": "21ac3a16-487_12", "cand_id": "c3", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "1971efdf-53a_2", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_2", "cand_id": "c4", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_4", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_4", "cand_id": "c1", "kinds": ["gold"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_4", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_18", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_18", "cand_id": "c1", "kinds": ["llm"], "tools": ["search_direct_flight"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["2024-05-18"]}
+{"pos_id": "06e0fb8a-d0d_18", "cand_id": "c2", "kinds": ["llm"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_18", "cand_id": "c3", "kinds": ["llm"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "06e0fb8a-d0d_18", "cand_id": "c4", "kinds": ["gold"], "tools": ["book_reservation"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["282"]}
+{"pos_id": "06e0fb8a-d0d_18", "cand_id": "c5", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "1971efdf-53a_6", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_6", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_6", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_6", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_6", "cand_id": "c4", "kinds": ["gold"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1971efdf-53a_6", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_8", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_8", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_8", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_8", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_8", "cand_id": "c4", "kinds": ["gold"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "0af858ce-75a_8", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_6", "cand_id": "c0", "kinds": ["orig"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_6", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_6", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_6", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_6", "cand_id": "c4", "kinds": ["gold"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "0af858ce-75a_6", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_2", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_2", "cand_id": "c4", "kinds": ["gold"], "tools": ["get_reservation_details"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["1N99U6"]}
+{"pos_id": "0e4a5f40-0cb_2", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_4", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_4", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_4", "cand_id": "c2", "kinds": ["gold"], "tools": ["get_reservation_details"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["1N99U6"]}
+{"pos_id": "0e4a5f40-0cb_4", "cand_id": "c3", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_4", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_4", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_4", "cand_id": "c2", "kinds": ["llm"], "tools": ["get_flight_status"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_4", "cand_id": "c3", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_18", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_18", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_18", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_18", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0af858ce-75a_18", "cand_id": "c4", "kinds": ["gold"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "0af858ce-75a_18", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_10", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_10", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_10", "cand_id": "c2", "kinds": ["llm", "gold"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_10", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0e4a5f40-0cb_10", "cand_id": "c4", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "b31853e6-994_4", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b31853e6-994_4", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b31853e6-994_2", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b31853e6-994_2", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b31853e6-994_2", "cand_id": "c2", "kinds": ["llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b31853e6-994_2", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b31853e6-994_2", "cand_id": "c4", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_6", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_flight_status"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_6", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_6", "cand_id": "c2", "kinds": ["llm"], "tools": ["transfer_to_human_agents"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_6", "cand_id": "c3", "kinds": ["llm"], "tools": ["transfer_to_human_agents"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_6", "cand_id": "c4", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "b31853e6-994_10", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["cancel_reservation"], "ok": true, "why": null, "rule": "v2", "judged_by": "cache", "judge": "YES"}
+{"pos_id": "b31853e6-994_10", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_flight_status"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b31853e6-994_10", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b31853e6-994_10", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b31853e6-994_10", "cand_id": "c4", "kinds": ["rand"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_10", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_10", "cand_id": "c1", "kinds": ["llm"], "tools": ["transfer_to_human_agents"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_10", "cand_id": "c2", "kinds": ["llm"], "tools": ["transfer_to_human_agents"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_10", "cand_id": "c3", "kinds": ["llm"], "tools": ["transfer_to_human_agents"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0703aac5-60e_10", "cand_id": "c4", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "990deb5a-9d2_6", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_6", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_6", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_6", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_6", "cand_id": "c4", "kinds": ["gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_6", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_16", "cand_id": "c0", "kinds": ["orig"], "tools": ["get_flight_status"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_16", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_16", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_16", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_16", "cand_id": "c4", "kinds": ["rand"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_24", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_24", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_flight_status"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_24", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_24", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "990deb5a-9d2_24", "cand_id": "c4", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "85a1dcb4-659_8", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_8", "cand_id": "c1", "kinds": ["rand"], "tools": ["find_user_id_by_email"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "4fa64058-051_6", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "4fa64058-051_6", "cand_id": "c1", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["#W4073673", "2216662955", "9844888101", "credit_card_3677959"]}
+{"pos_id": "4fa64058-051_6", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "4fa64058-051_14", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "4fa64058-051_14", "cand_id": "c1", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["2216662955", "9844888101"]}
+{"pos_id": "4fa64058-051_14", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_6", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_6", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_6", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_6", "cand_id": "c3", "kinds": ["llm", "gold"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_6", "cand_id": "c4", "kinds": ["rand"], "tools": ["find_user_id_by_email"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_12", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_12", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_12", "cand_id": "c2", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["144 Lakeview Drive", "Suite 925", "NY", "10228"]}
+{"pos_id": "b7ee973c-2b3_12", "cand_id": "c3", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "4fa64058-051_20", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "4fa64058-051_20", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "4fa64058-051_20", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "4fa64058-051_20", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "4fa64058-051_20", "cand_id": "c4", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "4fa64058-051_20", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_20", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_20", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_20", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_20", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_20", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "b7ee973c-2b3_20", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_16", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_16", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_16", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_16", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_16", "cand_id": "c4", "kinds": ["gold"], "tools": ["transfer_to_human_agents"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "85a1dcb4-659_16", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2296593d-897_4", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2296593d-897_4", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2296593d-897_8", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2296593d-897_8", "cand_id": "c1", "kinds": ["rand"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "a9239050-6bf_32", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["cancel_pending_order"], "ok": true, "why": null, "rule": "v2", "judged_by": "cache", "judge": "YES"}
+{"pos_id": "a9239050-6bf_32", "cand_id": "c1", "kinds": ["rand"], "tools": ["find_user_id_by_email"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "a9239050-6bf_6", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "a9239050-6bf_6", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "a9239050-6bf_6", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "a9239050-6bf_6", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "a9239050-6bf_6", "cand_id": "c4", "kinds": ["gold"], "tools": ["cancel_pending_order"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["#W3289292"]}
+{"pos_id": "a9239050-6bf_6", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_34", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_34", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_34", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_34", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b7ee973c-2b3_34", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_address"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "b7ee973c-2b3_34", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_4", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_4", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_4", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_4", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_4", "cand_id": "c4", "kinds": ["gold"], "tools": ["find_user_id_by_name_zip"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["76165"]}
+{"pos_id": "5130a302-38b_4", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "a9239050-6bf_16", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "a9239050-6bf_16", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "a9239050-6bf_16", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "a9239050-6bf_16", "cand_id": "c3", "kinds": ["gold"], "tools": ["cancel_pending_order"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "a9239050-6bf_16", "cand_id": "c4", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_24", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_24", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_24", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_24", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_24", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_user_address"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "5130a302-38b_24", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "62c55c08-1de_4", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "62c55c08-1de_4", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_44", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["modify_pending_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "5130a302-38b_44", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_44", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_44", "cand_id": "c3", "kinds": ["gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "5130a302-38b_44", "cand_id": "c4", "kinds": ["rand"], "tools": ["get_item_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "62c55c08-1de_10", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "62c55c08-1de_10", "cand_id": "c1", "kinds": ["gold"], "tools": ["cancel_pending_order"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "62c55c08-1de_10", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2296593d-897_16", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2296593d-897_16", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2296593d-897_16", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2296593d-897_16", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "2296593d-897_16", "cand_id": "c4", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "2296593d-897_16", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1212d8c7-674_10", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1212d8c7-674_10", "cand_id": "c1", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["8363011723"]}
+{"pos_id": "1212d8c7-674_10", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "62c55c08-1de_18", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "62c55c08-1de_18", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "62c55c08-1de_18", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "62c55c08-1de_18", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "62c55c08-1de_18", "cand_id": "c4", "kinds": ["gold"], "tools": ["cancel_pending_order"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "62c55c08-1de_18", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1212d8c7-674_18", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1212d8c7-674_18", "cand_id": "c1", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["8363011723"]}
+{"pos_id": "1212d8c7-674_18", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1212d8c7-674_30", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["exchange_delivered_order_items"], "ok": true, "why": null, "rule": "v2", "judged_by": "cache", "judge": "YES"}
+{"pos_id": "1212d8c7-674_30", "cand_id": "c1", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": true, "why": null, "rule": "v2", "judged_by": "cache", "judge": "YES"}
+{"pos_id": "1212d8c7-674_30", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8df215b8-6da_12", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8df215b8-6da_12", "cand_id": "c1", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8df215b8-6da_6", "cand_id": "c0", "kinds": ["orig", "gold"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8df215b8-6da_6", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8df215b8-6da_6", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8df215b8-6da_6", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8df215b8-6da_6", "cand_id": "c4", "kinds": ["rand"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8df215b8-6da_16", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8df215b8-6da_16", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8df215b8-6da_16", "cand_id": "c2", "kinds": ["gold"], "tools": ["return_delivered_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "8df215b8-6da_16", "cand_id": "c3", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "bac057e3-c22_4", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "bac057e3-c22_4", "cand_id": "c1", "kinds": ["gold"], "tools": ["cancel_pending_order"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["#W3189752"]}
+{"pos_id": "bac057e3-c22_4", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "bac057e3-c22_26", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["cancel_pending_order"], "ok": true, "why": null, "rule": "v2", "judged_by": "cache", "judge": "YES"}
+{"pos_id": "bac057e3-c22_26", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "bac057e3-c22_26", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "bac057e3-c22_26", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "bac057e3-c22_26", "cand_id": "c4", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "bac057e3-c22_12", "cand_id": "c0", "kinds": ["orig"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "bac057e3-c22_12", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "bac057e3-c22_12", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "bac057e3-c22_12", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "bac057e3-c22_12", "cand_id": "c4", "kinds": ["gold"], "tools": ["cancel_pending_order"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "bac057e3-c22_12", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_6", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_6", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_6", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_6", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_6", "cand_id": "c4", "kinds": ["gold"], "tools": ["get_order_details"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["#W2378156"]}
+{"pos_id": "7e646c53-3c0_6", "cand_id": "c5", "kinds": ["rand"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b34020b8-915_4", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b34020b8-915_4", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b34020b8-915_4", "cand_id": "c2", "kinds": ["gold"], "tools": ["modify_pending_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["#W3295833", "8926329222", "5312063289", "7160999700", "6956751343", "credit_card_3261838"]}
+{"pos_id": "b34020b8-915_4", "cand_id": "c3", "kinds": ["rand"], "tools": ["find_user_id_by_name_zip"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b34020b8-915_10", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b34020b8-915_10", "cand_id": "c1", "kinds": ["gold"], "tools": ["modify_pending_order_items"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["8926329222", "5312063289", "7160999700", "6956751343"]}
+{"pos_id": "b34020b8-915_10", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_10", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_10", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_10", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_10", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_10", "cand_id": "c4", "kinds": ["gold"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_10", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_product_types"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_16", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_16", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_16", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "7e646c53-3c0_16", "cand_id": "c3", "kinds": ["gold"], "tools": ["exchange_delivered_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "7e646c53-3c0_16", "cand_id": "c4", "kinds": ["rand"], "tools": ["get_order_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b34020b8-915_22", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b34020b8-915_22", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b34020b8-915_22", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b34020b8-915_22", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "b34020b8-915_22", "cand_id": "c4", "kinds": ["gold"], "tools": ["modify_pending_order_items"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "b34020b8-915_22", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_product_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e3d18de5-1ba_12", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e3d18de5-1ba_12", "cand_id": "c1", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "fe5fb08f-b29_12", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "fe5fb08f-b29_12", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "fe5fb08f-b29_10", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "fe5fb08f-b29_10", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "fe5fb08f-b29_4", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "fe5fb08f-b29_4", "cand_id": "c1", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e3d18de5-1ba_4", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e3d18de5-1ba_4", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e3d18de5-1ba_4", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8db6232d-728_4", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8db6232d-728_4", "cand_id": "c1", "kinds": ["gold"], "tools": ["update_reservation_flights"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["FQ8APE", "HAT056", "2024-05-25", "HAT138", "2024-05-25", "gift_card_8190333"]}
+{"pos_id": "8db6232d-728_4", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8db6232d-728_8", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8db6232d-728_8", "cand_id": "c1", "kinds": ["gold"], "tools": ["update_reservation_flights"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["HAT056", "2024-05-25", "HAT138", "2024-05-25"]}
+{"pos_id": "8db6232d-728_8", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8db6232d-728_14", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "8db6232d-728_14", "cand_id": "c1", "kinds": ["gold"], "tools": ["update_reservation_flights"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "8db6232d-728_14", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1b491482-6f0_10", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1b491482-6f0_10", "cand_id": "c1", "kinds": ["gold"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "1b491482-6f0_10", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_6", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_6", "cand_id": "c1", "kinds": ["llm", "gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_6", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_6", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_6", "cand_id": "c4", "kinds": ["rand"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_24", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_24", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_24", "cand_id": "c2", "kinds": ["rand"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1b491482-6f0_40", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["book_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "1b491482-6f0_40", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1b491482-6f0_40", "cand_id": "c2", "kinds": ["llm"], "tools": ["book_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "1b491482-6f0_40", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1b491482-6f0_40", "cand_id": "c4", "kinds": ["rand"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e3d18de5-1ba_20", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e3d18de5-1ba_20", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e3d18de5-1ba_20", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e3d18de5-1ba_20", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "e3d18de5-1ba_20", "cand_id": "c4", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1b491482-6f0_22", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1b491482-6f0_22", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1b491482-6f0_22", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1b491482-6f0_22", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "1b491482-6f0_22", "cand_id": "c4", "kinds": ["gold"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "1b491482-6f0_22", "cand_id": "c5", "kinds": ["rand"], "tools": ["search_onestop_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_16", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_16", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_16", "cand_id": "c2", "kinds": ["llm"], "tools": ["get_flight_status"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_16", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_16", "cand_id": "c4", "kinds": ["gold"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "89e1be42-145_16", "cand_id": "c5", "kinds": ["rand"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "803b588f-3a3_12", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "803b588f-3a3_12", "cand_id": "c1", "kinds": ["gold"], "tools": ["update_reservation_flights"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "803b588f-3a3_12", "cand_id": "c2", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "803b588f-3a3_4", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "803b588f-3a3_4", "cand_id": "c1", "kinds": ["gold"], "tools": ["update_reservation_flights"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["JG7FMM", "HAT028", "2024-05-21", "HAT277", "2024-05-21", "credit_card_2929732"]}
+{"pos_id": "803b588f-3a3_4", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_34", "cand_id": "c0", "kinds": ["orig", "llm", "gold"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_34", "cand_id": "c1", "kinds": ["rand"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_14", "cand_id": "c0", "kinds": ["orig"], "tools": ["get_flight_status"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_14", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_14", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_14", "cand_id": "c3", "kinds": ["llm"], "tools": ["get_flight_status"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_14", "cand_id": "c4", "kinds": ["gold"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_14", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_16", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_16", "cand_id": "c1", "kinds": ["llm"], "tools": ["get_flight_status"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_16", "cand_id": "c2", "kinds": ["llm"], "tools": ["get_flight_status"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_16", "cand_id": "c3", "kinds": ["gold"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "0b96cc57-971_16", "cand_id": "c4", "kinds": ["rand"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "803b588f-3a3_20", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "803b588f-3a3_20", "cand_id": "c1", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "803b588f-3a3_20", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "803b588f-3a3_20", "cand_id": "c3", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "803b588f-3a3_20", "cand_id": "c4", "kinds": ["gold"], "tools": ["update_reservation_flights"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "803b588f-3a3_20", "cand_id": "c5", "kinds": ["rand"], "tools": ["cancel_reservation"], "ok": false, "why": "not_confirmed", "rule": "v2", "judged_by": "cache", "judge": "NO"}
+{"pos_id": "45c64d9d-3aa_4", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_user_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "45c64d9d-3aa_4", "cand_id": "c1", "kinds": ["gold"], "tools": ["book_reservation"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["DTW", "SEA", "HAT097", "2024-05-17", "HAT251", "2024-05-17", "1986-03-14", "gift_card_8516878"]}
+{"pos_id": "45c64d9d-3aa_4", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "45c64d9d-3aa_6", "cand_id": "c0", "kinds": ["orig", "llm"], "tools": ["get_reservation_details"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "45c64d9d-3aa_6", "cand_id": "c1", "kinds": ["gold"], "tools": ["book_reservation"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["DTW", "SEA", "HAT097", "2024-05-17", "HAT251", "2024-05-17", "247"]}
+{"pos_id": "45c64d9d-3aa_6", "cand_id": "c2", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "45c64d9d-3aa_10", "cand_id": "c0", "kinds": ["orig"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "45c64d9d-3aa_10", "cand_id": "c1", "kinds": ["llm"], "tools": ["search_direct_flight"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "45c64d9d-3aa_10", "cand_id": "c2", "kinds": ["llm"], "tools": [], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "45c64d9d-3aa_10", "cand_id": "c3", "kinds": ["llm"], "tools": ["get_flight_status"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}
+{"pos_id": "45c64d9d-3aa_10", "cand_id": "c4", "kinds": ["gold"], "tools": ["book_reservation"], "ok": false, "why": "args_missing", "rule": "v2", "judged_by": "none", "missing": ["247"]}
+{"pos_id": "45c64d9d-3aa_10", "cand_id": "c5", "kinds": ["rand"], "tools": ["list_all_airports"], "ok": true, "why": null, "rule": "v2", "judged_by": "none"}

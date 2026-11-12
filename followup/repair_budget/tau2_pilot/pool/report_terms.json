@@ -1,0 +1,233 @@
+{
+ "4B（全部，全部领域）": {
+  "n": 17874,
+  "USER_STOP": 17792,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 68,
+  "MAX_STEPS": 12,
+  "出错": 2,
+  "其他": 0,
+  "retried": 69,
+  "attempts_gt1": 63
+ },
+ "4B（全部，retail）": {
+  "n": 10956,
+  "USER_STOP": 10955,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 0,
+  "MAX_STEPS": 0,
+  "出错": 1,
+  "其他": 0,
+  "retried": 9,
+  "attempts_gt1": 8
+ },
+ "4B（全部，airline）": {
+  "n": 6918,
+  "USER_STOP": 6837,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 68,
+  "MAX_STEPS": 12,
+  "出错": 1,
+  "其他": 0,
+  "retried": 60,
+  "attempts_gt1": 55
+ },
+ "4B-A（全部，全部领域）": {
+  "n": 5196,
+  "USER_STOP": 5184,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 9,
+  "MAX_STEPS": 1,
+  "出错": 2,
+  "其他": 0,
+  "retried": 23,
+  "attempts_gt1": 20
+ },
+ "4B-A（全部，retail）": {
+  "n": 3024,
+  "USER_STOP": 3022,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 0,
+  "MAX_STEPS": 0,
+  "出错": 2,
+  "其他": 0,
+  "retried": 10,
+  "attempts_gt1": 8
+ },
+ "4B-A（全部，airline）": {
+  "n": 2172,
+  "USER_STOP": 2162,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 9,
+  "MAX_STEPS": 1,
+  "出错": 0,
+  "其他": 0,
+  "retried": 13,
+  "attempts_gt1": 12
+ },
+ "4B-B（全部，全部领域）": {
+  "n": 5460,
+  "USER_STOP": 5409,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 37,
+  "MAX_STEPS": 9,
+  "出错": 5,
+  "其他": 0,
+  "retried": 45,
+  "attempts_gt1": 44
+ },
+ "4B-B（全部，retail）": {
+  "n": 3420,
+  "USER_STOP": 3420,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 0,
+  "MAX_STEPS": 0,
+  "出错": 0,
+  "其他": 0,
+  "retried": 3,
+  "attempts_gt1": 3
+ },
+ "4B-B（全部，airline）": {
+  "n": 2040,
+  "USER_STOP": 1989,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 37,
+  "MAX_STEPS": 9,
+  "出错": 5,
+  "其他": 0,
+  "retried": 42,
+  "attempts_gt1": 41
+ },
+ "4B-A2（全部，全部领域）": {
+  "n": 564,
+  "USER_STOP": 561,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 3,
+  "MAX_STEPS": 0,
+  "出错": 0,
+  "其他": 0,
+  "retried": 0,
+  "attempts_gt1": 0
+ },
+ "4B-A2（全部，retail）": {
+  "n": 264,
+  "USER_STOP": 264,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 0,
+  "MAX_STEPS": 0,
+  "出错": 0,
+  "其他": 0,
+  "retried": 0,
+  "attempts_gt1": 0
+ },
+ "4B-A2（全部，airline）": {
+  "n": 300,
+  "USER_STOP": 297,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 3,
+  "MAX_STEPS": 0,
+  "出错": 0,
+  "其他": 0,
+  "retried": 0,
+  "attempts_gt1": 0
+ },
+ "4B（同一批 = 4B-A 跑过的，全部领域）": {
+  "n": 5196,
+  "USER_STOP": 5181,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 14,
+  "MAX_STEPS": 1,
+  "出错": 0,
+  "其他": 0,
+  "retried": 12,
+  "attempts_gt1": 11
+ },
+ "4B（同一批 = 4B-A 跑过的，retail）": {
+  "n": 3024,
+  "USER_STOP": 3024,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 0,
+  "MAX_STEPS": 0,
+  "出错": 0,
+  "其他": 0,
+  "retried": 5,
+  "attempts_gt1": 4
+ },
+ "4B（同一批 = 4B-A 跑过的，airline）": {
+  "n": 2172,
+  "USER_STOP": 2157,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 14,
+  "MAX_STEPS": 1,
+  "出错": 0,
+  "其他": 0,
+  "retried": 7,
+  "attempts_gt1": 7
+ },
+ "4B（同一批 = 4B-B 跑过的，全部领域）": {
+  "n": 5460,
+  "USER_STOP": 5421,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 32,
+  "MAX_STEPS": 6,
+  "出错": 1,
+  "其他": 0,
+  "retried": 35,
+  "attempts_gt1": 32
+ },
+ "4B（同一批 = 4B-B 跑过的，retail）": {
+  "n": 3420,
+  "USER_STOP": 3420,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 0,
+  "MAX_STEPS": 0,
+  "出错": 0,
+  "其他": 0,
+  "retried": 2,
+  "attempts_gt1": 2
+ },
+ "4B（同一批 = 4B-B 跑过的，airline）": {
+  "n": 2040,
+  "USER_STOP": 2001,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 32,
+  "MAX_STEPS": 6,
+  "出错": 1,
+  "其他": 0,
+  "retried": 33,
+  "attempts_gt1": 30
+ },
+ "4B（同一批 = 4B-A2 跑过的，全部领域）": {
+  "n": 564,
+  "USER_STOP": 558,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 6,
+  "MAX_STEPS": 0,
+  "出错": 0,
+  "其他": 0,
+  "retried": 1,
+  "attempts_gt1": 1
+ },
+ "4B（同一批 = 4B-A2 跑过的，retail）": {
+  "n": 264,
+  "USER_STOP": 264,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 0,
+  "MAX_STEPS": 0,
+  "出错": 0,
+  "其他": 0,
+  "retried": 0,
+  "attempts_gt1": 0
+ },
+ "4B（同一批 = 4B-A2 跑过的，airline）": {
+  "n": 300,
+  "USER_STOP": 294,
+  "AGENT_STOP": 0,
+  "TOO_MANY_ERRORS": 6,
+  "MAX_STEPS": 0,
+  "出错": 0,
+  "其他": 0,
+  "retried": 1,
+  "attempts_gt1": 1
+ }
+}

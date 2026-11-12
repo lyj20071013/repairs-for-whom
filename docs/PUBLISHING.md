@@ -6,4 +6,4 @@ Alternatively, use the existing local `paper` directory with Git, respecting `.g
 
 Run `python tools/verify_release.py` before the first commit. `README.md` is the English landing page. The Apache-2.0 license and third-party notices are already included, so do not generate a conflicting license when creating the repository.
 
-P2w is included in the 2026-10-28 snapshot. For future updates, follow `REPRODUCING.md` and update the result version, status and checksums together. Named authors are included in the arXiv manuscript; add its public link and formal citation after arXiv v1 is available. Use Git to retain dotfiles and the version history.
+The 2026-11-13 update follows the same procedure: replace the working tree with the update folder (keeping `.git`), run `python tools/verify_release.py`, review `git status`, then commit and push. P2w is included since the 2026-10-28 snapshot. For future updates, follow `REPRODUCING.md` and update the result version, status and checksums together. Named authors are included in the arXiv manuscript; add its public link and formal citation after arXiv v1 is available. Use Git to retain dotfiles and the version history.
