@@ -69,7 +69,6 @@ experiments/     Original experiment code and raw out_* records (ALFWorld, WebSh
 followup/        Successor training, label staleness and τ²-bench training studies
 framework/       Reusable CPU evaluation framework and optional replay adapters
 analysis_plan/   Cumulative dated analysis plan and later amendments (Chinese)
-manuscript/      LaTeX source of the arXiv version, bibliography and figures
 paper_figs/      Scripts that regenerate the paper figures
 docs/            Data index, reproduction guide, release status
 provenance/      SHA256 inventory, source mapping and update records
@@ -79,7 +78,7 @@ tools/           Release integrity checker
 ## Protocol and provenance
 
 - The primary quantity is a repair's net gain: the change in success probability (reward in WebShop) relative to keeping the original action at the same position, under the deployed executor. See [PROTOCOL.md](framework/docs/PROTOCOL.md) for cross-fitting, random streams, tie handling, budgets and Holm families.
-- The [analysis plan](analysis_plan/论文方案.md) is a cumulative working record of pre-specified designs, amendments and exploratory results, kept by the authors. Its dates are not an independently timestamped public preregistration. The manuscript's status table (Appendix A) states which analyses were pre-specified, which used fresh data, and which are exploratory.
+- The [analysis plan](analysis_plan/论文方案.md) is a cumulative working record of pre-specified designs, amendments and exploratory results, kept by the authors. Its dates are not an independently timestamped public preregistration. The paper's status table (Appendix A of the arXiv version) states which analyses were pre-specified, which used fresh data, and which are exploratory.
 - Historical H1 (about 0.0745) and its recovered rerun (about 0.0712) are both retained and labelled rather than merged.
 - `provenance/` records the source and SHA256 of every copied file and every change between releases (`p2w_update.json`, `update_20261113.json`).
 
