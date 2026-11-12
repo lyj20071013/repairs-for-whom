@@ -94,11 +94,12 @@ Documentation and the code released on 2026-10-28 are in English. Code added on 
 
 ```bibtex
 @misc{liao2026repairs,
-  title         = {Repairs for Whom? Evaluator--Executor Mismatch in Selecting Repairs for Failed {LLM} Agents},
-  author        = {Liao, Yijun and Liang, Fanwei},
-  year          = {2026},
-  eprint        = {2610.38610},
-  archivePrefix = {arXiv}
+      title={Repairs for Whom? Evaluator-Executor Mismatch in Selecting Repairs for Failed LLM Agents}, 
+      author={Yijun Liao and Fanwei Liang},
+      year={2026},
+      eprint={2610.38610},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2610.38610}, 
 }
 ```
 
