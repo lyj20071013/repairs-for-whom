@@ -2373,12 +2373,6 @@
       "bytes": 389
     },
     {
-      "path": "framework/README.en.md",
-      "source": "repair_eval/README.en.md",
-      "sha256": "d3c6d9c126de5ed4eb2fb6922b45c05613149db953b3da2ac69df14d50edd5c5",
-      "bytes": 3781
-    },
-    {
       "path": "framework/README.md",
       "source": "repair_eval/README.md",
       "sha256": "009c6d90d40a07694658ba105c0ce7434561d0aa0ba7512cadbc88e78145008a",
@@ -2821,78 +2815,6 @@
       "source": "paper_figs/style.py",
       "sha256": "8a74fe716e398a45fc3ecb2e41f38ba9c24588af0b5af976ecc0c326c6b6fb62",
       "bytes": 1425
-    },
-    {
-      "path": "manuscript/algorithm.sty",
-      "source": "overleaf/algorithm.sty",
-      "sha256": "93fd0eb31c112eb405833db8f1d7f5d238c7e691b1c05680d7276e68f36d564a",
-      "bytes": 2223
-    },
-    {
-      "path": "manuscript/algorithmic.sty",
-      "source": "overleaf/algorithmic.sty",
-      "sha256": "48d18794a5d97c0479a588cc2eac0917992feb9da83acc4631b8f55757d80f9b",
-      "bytes": 7414
-    },
-    {
-      "path": "manuscript/example_paper.bib",
-      "source": "overleaf/example_paper_merged.bib",
-      "sha256": "c59c8caa1fb0d651f1942c68dd3c1321127a541c85addb30383d0eaab9ea1e45",
-      "bytes": 26622
-    },
-    {
-      "path": "manuscript/example_paper.tex",
-      "source": "overleaf/example_paper_merged.tex",
-      "sha256": "26acd1d606ba61127adee688a389506caa55965dc95ad82bc3be3c87e830bfc0",
-      "bytes": 119958
-    },
-    {
-      "path": "manuscript/fancyhdr.sty",
-      "source": "overleaf/fancyhdr.sty",
-      "sha256": "9130c52f91087abc6d223164ffa587e207e3257fcbcd069ef09ecb5391043f14",
-      "bytes": 31715
-    },
-    {
-      "path": "manuscript/figures/fig1_example.pdf",
-      "source": "overleaf/figures/fig1_example.pdf",
-      "sha256": "b3325fe44116a2b5f511c0ae725d8230367e52303ebd555d98f79465d9e5ab7a",
-      "bytes": 14810
-    },
-    {
-      "path": "manuscript/figures/fig2_forest.pdf",
-      "source": "overleaf_arxiv/figures/fig2_forest.pdf",
-      "sha256": "ecb7f97b5f1568872d5372fdae5d2c1b4faf102cc94aab993841fd80be408799",
-      "bytes": 31493
-    },
-    {
-      "path": "manuscript/figures/fig2_ladder.pdf",
-      "source": "overleaf/figures/fig2_ladder.pdf",
-      "sha256": "9a81ab80abba0b18761855dee678eb872386bdcb2e20a8b73e90244d33e8b7fd",
-      "bytes": 15527
-    },
-    {
-      "path": "manuscript/figures/fig3_budget.pdf",
-      "source": "overleaf/figures/fig3_budget.pdf",
-      "sha256": "deab86348e3c99ded5aad683c2ea16e586870e03149833d609ea07ba4787ac2e",
-      "bytes": 20112
-    },
-    {
-      "path": "manuscript/figures/fig3_curves.pdf",
-      "source": "overleaf/figures/fig3_curves.pdf",
-      "sha256": "14013530a8a4457a04cc4e3c8454eae3ef3ee71a8e263fc419a7f9c5dac2edd4",
-      "bytes": 24969
-    },
-    {
-      "path": "manuscript/icml2026.bst",
-      "source": "overleaf/icml2026.bst",
-      "sha256": "0ec3d5eb9b02efb7e0b44a32f3775882f42a743d0bdc618f34e6936309b98764",
-      "bytes": 27147
-    },
-    {
-      "path": "manuscript/icml2026.sty",
-      "source": "overleaf_arxiv/icml2026.sty",
-      "sha256": "96d2d9e488506ea4b771e81c2f0309fea1395be64e903f2e982a3ee7d764210e",
-      "bytes": 27455
     },
     {
       "path": "provenance/webshop_data_100k_manifest.json",

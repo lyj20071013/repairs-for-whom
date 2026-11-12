@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
   "previous_commit": "d563564",
-  "description": "Final-manuscript update: successor-training, staleness and tau2-bench studies merged into the paper; tau2-bench 2B<-4B shared pool; post hoc analyses; November registrations; final manuscript. No new inference during packaging.",
+  "description": "Final-manuscript update: successor-training, staleness and tau2-bench studies merged into the paper; tau2-bench 2B<-4B shared pool; post hoc analyses; November registrations; README rewritten. The manuscript/ LaTeX source was removed from the repository (paper: arXiv:2610.38610). No new inference during packaging.",
   "source_root_note": "'source' paths are relative to the authors' local project folder; on the servers the same projects live under /root/paper.",
   "excluded": [
     "*.msgs.jsonl.gz conversation transcripts (~120 MB)",
@@ -21,7 +21,6 @@
     "cd experiments/posthoc && python headroom.py .. ../../followup/repair_budget TMP/hr   # == headroom.md, headroom.json",
     "cd COPY_OF/followup/repair_budget/alfw_stale && python np_analyze.py   # out_np/report_np.md and .json unchanged"
   ],
-  "latex_build": "latexmk -pdf example_paper.tex in manuscript/: no errors, no undefined references, 22 pages",
   "source_files": [
     {
       "path": "analysis_plan/amendments_202611/6.14修订5_缺失续跑_20261111.md",
@@ -1865,33 +1864,22 @@
       "sha256": "ad0a68f1de7d468aa84c726c003398340c8227a669ad8d78052ac2cc2591c250",
       "bytes": 51478,
       "previous_sha256": null
-    },
-    {
-      "path": "manuscript/example_paper.bib",
-      "source": "overleaf/example_paper_merged.bib",
-      "sha256": "c59c8caa1fb0d651f1942c68dd3c1321127a541c85addb30383d0eaab9ea1e45",
-      "bytes": 26622,
-      "previous_sha256": "932deba08d0ccf4d1f3f4ddb42283ce9b08ca905941f3fb95e20cf48ff381419"
-    },
-    {
-      "path": "manuscript/example_paper.tex",
-      "source": "overleaf/example_paper_merged.tex",
-      "sha256": "9802eea7beab87b34894395db2c9616463aac9bad18fb23d2b498810d9099a5a",
-      "bytes": 119674,
-      "previous_sha256": "bd7ba457f7e9b4dde8b20cc236ef0feb8c32aa581daad0a020c7a706ac5195e1",
-      "source_sha256": "26acd1d606ba61127adee688a389506caa55965dc95ad82bc3be3c87e830bfc0",
-      "note": "Derived from the anonymous final source: preprint style option and named author block taken from the previous release, repository footnote added, bibliography renamed."
     }
   ],
   "documentation_files": [
     {
+      "path": ".gitignore",
+      "sha256": "c04af26298834409ce9977956203da3bb32a47c42f5fc790da7165f0beb41d0b",
+      "previous_sha256": "e34256bc6ed8ca411366a63178e1e0836dbf18efd6f2c7714d4d5de9166063bf"
+    },
+    {
       "path": "README.md",
-      "sha256": "725181053bf187978bf0c8627a72a4332e24282863175757b3e81b50888cae9d",
+      "sha256": "96128748171824074779c9b144b22a77a9a0cc19fdb7e408b54ac75afc03c517",
       "previous_sha256": "3c49a357d1483ee5b6f48e84b0799845f2955fb719c6dd940edaa2f10b0115e0"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "1ed6ee9245e3ae02d2a416b08c02a1fcd809b3e0208e4898517207bb20a0c307",
+      "sha256": "916d72a06b131e72a843c83e488802445c4473907ae78f327b8b5024d6dbbf4c",
       "previous_sha256": "2334ad411d6d96e3d0dcf66225467339045b4e0b6b8011b6f5c09a0d8bad94cd"
     },
     {
@@ -1906,23 +1894,78 @@
     },
     {
       "path": "docs/PUBLISHING.md",
-      "sha256": "57ec0ea21b7b93332e6430451cee17b2fc9b170772312c8e1673f0d9013fa55a",
+      "sha256": "41a4831fad72ade7749040c6c64cbae3ffa965c59324618fe00c5562351ccbc3",
       "previous_sha256": "ff01917e0bdc4d9d5f0795775cf609af7ecc65017d262061d8d1d5f4a7dfb052"
     },
     {
       "path": "docs/RELEASE_STATUS.md",
-      "sha256": "4f3ef8fd4318c5c68f7037677d89575373ccacaada39b38e6a58f3156636d54d",
+      "sha256": "16e621802e20e8eaaddf5638bd483f19686f7299fd2d80ff66cab4402cefdc62",
       "previous_sha256": "1727ae6cb4558c337df54238bdbe9379ede10db82c47374925a3fb5c6ebc943e"
     },
     {
       "path": "docs/REPRODUCING.md",
-      "sha256": "cf0209af7db5a7303662b33771f89771c702acffb752aeb7a3f267fc8510ba9d",
+      "sha256": "80e123a1b41d0a0a675273c809b47241469fce46c1a4f08c21696b1e4c5509c0",
       "previous_sha256": "2ac6127a75a29856d9157417f9a55a02da2e83dbec53b4a6570d27d365a45a27"
     },
     {
-      "path": "followup/README.md",
-      "sha256": "a6dbbd43e739fd292f198fd6d2244aeeb4a41095f7a2e09d5b587a48eda22cd4",
+      "path": "docs/assets/fig1_example.png",
+      "sha256": "2c45ca6aafd8e79fb778aef21a89ded21dc33e99a1c0315fda892906b00f8530",
       "previous_sha256": null
+    },
+    {
+      "path": "followup/README.md",
+      "sha256": "15ecdfc9188884d9e41e7d4cbc15116623cc5def48b0d9a25a9071e0dc8229c1",
+      "previous_sha256": null
+    }
+  ],
+  "removed_files": [
+    {
+      "path": "manuscript/algorithm.sty",
+      "previous_sha256": "93fd0eb31c112eb405833db8f1d7f5d238c7e691b1c05680d7276e68f36d564a"
+    },
+    {
+      "path": "manuscript/algorithmic.sty",
+      "previous_sha256": "48d18794a5d97c0479a588cc2eac0917992feb9da83acc4631b8f55757d80f9b"
+    },
+    {
+      "path": "manuscript/example_paper.bib",
+      "previous_sha256": "932deba08d0ccf4d1f3f4ddb42283ce9b08ca905941f3fb95e20cf48ff381419"
+    },
+    {
+      "path": "manuscript/example_paper.tex",
+      "previous_sha256": "bd7ba457f7e9b4dde8b20cc236ef0feb8c32aa581daad0a020c7a706ac5195e1"
+    },
+    {
+      "path": "manuscript/fancyhdr.sty",
+      "previous_sha256": "9130c52f91087abc6d223164ffa587e207e3257fcbcd069ef09ecb5391043f14"
+    },
+    {
+      "path": "manuscript/figures/fig1_example.pdf",
+      "previous_sha256": "b3325fe44116a2b5f511c0ae725d8230367e52303ebd555d98f79465d9e5ab7a"
+    },
+    {
+      "path": "manuscript/figures/fig2_forest.pdf",
+      "previous_sha256": "ecb7f97b5f1568872d5372fdae5d2c1b4faf102cc94aab993841fd80be408799"
+    },
+    {
+      "path": "manuscript/figures/fig2_ladder.pdf",
+      "previous_sha256": "9a81ab80abba0b18761855dee678eb872386bdcb2e20a8b73e90244d33e8b7fd"
+    },
+    {
+      "path": "manuscript/figures/fig3_budget.pdf",
+      "previous_sha256": "deab86348e3c99ded5aad683c2ea16e586870e03149833d609ea07ba4787ac2e"
+    },
+    {
+      "path": "manuscript/figures/fig3_curves.pdf",
+      "previous_sha256": "14013530a8a4457a04cc4e3c8454eae3ef3ee71a8e263fc419a7f9c5dac2edd4"
+    },
+    {
+      "path": "manuscript/icml2026.bst",
+      "previous_sha256": "0ec3d5eb9b02efb7e0b44a32f3775882f42a743d0bdc618f34e6936309b98764"
+    },
+    {
+      "path": "manuscript/icml2026.sty",
+      "previous_sha256": "96d2d9e488506ea4b771e81c2f0309fea1395be64e903f2e982a3ee7d764210e"
     }
   ]
 }
