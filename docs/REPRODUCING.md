@@ -54,6 +54,6 @@ cd followup/repair_budget/alfw_stale && python np_analyze.py --help
 
 Check each script's argument defaults before running: several default to historical server paths. No reruns of these analyses were performed as part of packaging; the archived reports are those produced on the original machines.
 
-## Manuscript
+## Paper
 
-`manuscript/example_paper.tex` and `.bib` are the final source (2026-11-13), with named authors and the repository footnote; the content is identical to the anonymous submission version apart from the author block, the preprint style option and that footnote. It was built with `latexmk -pdf` (TeX Live) during packaging without errors or undefined references (22 pages). Existing figure PDFs are included. The arXiv identifier will be added after publication.
+The paper is available at [arXiv:2610.38610](https://arxiv.org/abs/2610.38610). Its LaTeX source is not part of this repository (it was removed on 2026-11-13; earlier snapshots in Git history contain an older version). The scripts in `paper_figs/` regenerate the paper's figures from the released records, as described above.
