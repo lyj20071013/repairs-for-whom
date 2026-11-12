@@ -4,7 +4,6 @@ Original project code in `experiments/`, `framework/`, `paper_figs/`, and `tools
 
 - The WebShop subset in `experiments/webshop/vendor/` and `framework/runtime/webshop/vendor/` originates from [princeton-nlp/WebShop](https://github.com/princeton-nlp/WebShop), commit prefix `64fa2a5`. Its original MIT `LICENSE.md` remains inside each archive. It is a subset, not the full upstream distribution.
 - ALFWorld/TextWorld, vLLM, NumPy, model weights and external datasets retain their own licenses. We do not redistribute their installed environments or model weights.
-- LaTeX style files in `manuscript/` retain their original notices and terms; the root code license does not relicense these files.
 - Trajectories include observations and instructions from ALFWorld and WebShop, including product descriptions. Publishing research records does not transfer ownership of third-party text or put that text under Apache-2.0. See the upstream environment/data terms when reusing those contents. No separate blanket license for the research datasets or manuscript is asserted by this release.
 - τ²-bench (sierra-research) is not redistributed. Records under `followup/repair_budget/tau2_pilot/` and `experiments/out_tau_pool/` contain task identifiers, tool calls and conversation fragments derived from its airline and retail domains; they retain the upstream terms. Qwen3.5 models were used as agents, simulated users and classifiers; weights are not included.
 - API model access is not included. Users supply their own credentials through environment variables.
